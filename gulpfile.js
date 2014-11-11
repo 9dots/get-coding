@@ -35,6 +35,8 @@ var options = {
   entries: ['index.js', 'index.css']
 }
 
+console.log('options dev', options.dev);
+
 gulp.task('unlink-lib', unlink);
 
 gulp.task('public', makePublic);
