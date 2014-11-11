@@ -51,7 +51,7 @@ gulp.task('app', function(fn) {
 });
 
 
-gulp.task('build', ['public', 'assets', 'link-lib'], function() {
+gulp.task('build', ['public', 'assets'], function() {
   build(options.entries);
 });
 
