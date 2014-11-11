@@ -15,7 +15,8 @@
     "ejs": "^1.0.0",
     "express": "~3.3.8",
     "gulp": "^3.8.10",
-    "gulp-symlink": "~0.1.7"
+    "gulp-symlink": "~0.1.7",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "duo-watch": "~0.1.1",
