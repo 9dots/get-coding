@@ -1,0 +1,15 @@
+@import '/lib/angular';
+@import '/apps/space-man';
+
+#main .logo {
+  font-size: 100px;
+}
+
+#main md-content {
+  max-width: 864px;
+  margin: 0 auto;
+}
+
+#main md-card {
+  width: 800px;
+}

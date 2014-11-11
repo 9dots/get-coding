@@ -1,0 +1,15 @@
+@import 'logo/logo';
+@import '/lib/playspace-spaceman';
+
+/**
+ * Space man logo.
+ */
+
+.logo[data-logo="space-man"] {
+  width: 3.1285714285714286em;
+}
+
+.logo[data-logo="space-man"] > * {
+  background-image: url(/apps/space-man/astronaut_air.png);
+  margin: 0 0 0 0;
+}

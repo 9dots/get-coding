@@ -1,0 +1,26 @@
+<div id='main' layout="vertical" layout-fill>
+  <md-toolbar>
+
+    <div class="md-toolbar-tools">
+      <span>Get Coding</span>
+
+      <!-- fill up the space between left and right area -->
+      <span flex></span>
+
+      9 Dots
+    </div>
+
+  </md-toolbar>
+  <md-content layout-padding>
+    <md-card ng-repeat='app in Main.apps' layout='horizontal'>
+      <div class="logo" data-logo="space-man">
+        <span>Space man</span>
+      </div>
+      <div class='info' layout='vertical'>
+        <h2>{{app.title}}</h2>
+        <p>{{app.description}}</p>
+        <a ng-href='{{app.name}}'>Go</a>
+      </div>
+    </md-card>
+  </md-content>
+</div>

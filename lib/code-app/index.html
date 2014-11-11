@@ -1,0 +1,17 @@
+<div layout="vertical" layout-fill>
+  <md-toolbar>
+
+    <div class="md-toolbar-tools">
+      <a href='/'>Back</a>
+
+      <!-- fill up the space between left and right area -->
+      <span flex><md-button class="md-raised md-warn" ng-click='App.run()'>Run</md-button></span>
+
+    </div>
+
+  </md-toolbar>
+  <md-content layout-padding layout='horizontal' layout-align='center' flex>
+    <div ui-view='workspace' flex layout='vertical' class='workspace'></div>
+    <div ui-view='playspace' flex class='playspace'></div>
+  </md-content>
+</div>

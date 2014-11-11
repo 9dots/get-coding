@@ -17,14 +17,22 @@ var Watcher = require('duo-watch');
 var lr = require('tiny-lr');
 
 var build = write();
-var buildAndRestart = write(reload);
+var buildAndRestart = write(function(entries) {
+  setTimeout(function() {
+    reload(entries);
+  }, 100);
+});
+
+
+var outRelative = 'public';
 
 var options = {
   watch: false,
   dev: true,
-  out: join(__dirname, 'public'),
+  outRelative: outRelative,
+  out: join(__dirname, outRelative),
   root: __dirname,
-  entries: ['./lib/boot/index.js', './lib/main/index.css']
+  entries: ['index.js', 'index.css']
 }
 
 gulp.task('unlink-lib', unlink);
@@ -63,7 +71,7 @@ function create(entry, cb) {
   return Duo(options.root)
     .entry(entry)
     .development(options.dev)
-    .buildTo(options.out);
+    .buildTo(options.outRelative);
 }
 
 function write(onWrite) {

@@ -1,0 +1,31 @@
+<div class="header">
+  <div class="speed section single">
+    <div class="title">SPEED</div>
+    <div class="value" id="speed">{{Spaceman.speed}}</div>
+  </div>
+  <div class="step section single">
+    <div class="title">STEP</div>
+    <div class="value" id="step">{{Spaceman.step}}</div>
+  </div>
+  <div class="level section single">
+    <div class="title">LEVEL</div>
+    <div class="value" id="level">{{Spaceman.level}}</div>
+  </div>
+  <div class="section double restart" id="restart" ng-click='Spaceman.restart()'>START OVER</div>
+  <div class="section double practice" id="practice" ng-click='Spaceman.practice()'>
+    <span ng-hide='Spaceman.level == 0'>PRACTICE</span>
+    <span ng-show='Spaceman.level == 0'>BACK TO LEVEL</span>
+  </div>
+</div>
+<div class="message" ng-show='Spaceman.message'>{{Spaceman.message}}</div>
+<div class="background">  
+  <div class="grid-holder" id="grid-holder">
+
+    <div class="row" ng-repeat="row in Spaceman.field.grid">
+      <div class="square" id="{{square.id}}" ng-class='[square.type, square.option]' ng-repeat='square in row'></div>
+    </div>
+
+
+    <div class="astronaut" ng-class='{still: !Spaceman.moving && ! Spaceman.celebrating, thrust: Spaceman.moving, celebrate: Spaceman.celebrating}'></div>
+  </div>
+</div>

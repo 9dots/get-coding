@@ -1,0 +1,6 @@
+@import 'angular/bower-material:/angular-material.css';
+@import 'angular/bower-material:/themes/indigo-theme.css';
+@import 'angular/bower-material:/themes/blue-grey-theme.css';
+@import 'angular/bower-material:/themes/light-blue-dark-theme.css';
+
+@import '/apps/space-man/index.css';
