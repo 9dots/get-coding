@@ -51,15 +51,23 @@ gulp.task('app', function(fn) {
 });
 
 
-gulp.task('build', ['public'], function() {
+gulp.task('build', ['public', 'assets'], function() {
   build(options.entries);
 });
 
-gulp.task('dev', ['public', 'link-lib'], function() {
+gulp.task('dev', ['public', 'assets', 'link-lib'], function() {
   startApp();
   startReloadServer();
   options.watch = true;
   buildAndRestart(options.entries);
+});
+
+/**
+ * bower: assets
+ */
+gulp.task('assets', ['public'], function() {
+  return gulp.src(['assets/**'])
+    .pipe(gulp.dest('public'));
 });
 
 /////////

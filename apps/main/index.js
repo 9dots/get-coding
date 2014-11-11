@@ -7,7 +7,8 @@ var _ = require('lodash/lodash');
 angular.module(name, [
   'ui.router',
   'ngMaterial',
-  require('/apps/space-man')
+  require('/apps/space-man'),
+  require('/apps/space-man-blockly')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;
@@ -23,7 +24,8 @@ angular.module(name, [
 }])
 .controller('MainCtrl', function() {
   this.apps = [
-    require('/apps/space-man/package.json')
+    require('/apps/space-man/package.json'),
+    require('/apps/space-man-blockly/package.json')
   ];
 });
 
