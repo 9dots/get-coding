@@ -1,5 +1,6 @@
 @import '/lib/angular';
 @import '/apps/space-man';
+@import '/apps/space-man-blockly';
 
 #main .logo {
   font-size: 100px;

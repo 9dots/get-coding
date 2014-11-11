@@ -13,7 +13,7 @@
   </md-toolbar>
   <md-content layout-padding>
     <md-card ng-repeat='app in Main.apps' layout='horizontal'>
-      <div class="logo" data-logo="space-man">
+      <div class="logo" data-logo="{{app.name}}">
         <span>Space man</span>
       </div>
       <div class='info' layout='vertical'>

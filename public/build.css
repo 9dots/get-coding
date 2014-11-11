@@ -4229,6 +4229,22 @@ md-tooltip.md-light-blue-dark-theme {
 
 
 
+
+
+/**
+ * Space man logo.
+ */
+
+.logo[data-logo="space-man-blockly"] {
+  width: 3.1285714285714286em;
+}
+
+.logo[data-logo="space-man-blockly"] > * {
+  background-image: url(apps/space-man-blockly/astronaut_air.png);
+  margin: 0 0 0 0;
+}
+
+
 #main .logo {
   font-size: 100px;
 }
