@@ -4,7 +4,8 @@
   "description": "coding apps",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp build"
   },
   "author": "",
   "license": "BSD-2-Clause",
@@ -13,9 +14,12 @@
     "duo": "~0.8.9",
     "ejs": "^1.0.0",
     "express": "~3.3.8",
+    "gulp": "^3.8.10",
     "gulp-symlink": "~0.1.7"
   },
   "devDependencies": {
-    "duo-watch": "~0.1.1"
-  }
+    "duo-watch": "~0.1.1",
+    "tiny-lr": "^0.1.4"
+  },
+  "repository": "git@github.com:9dots/get-coding.git"
 }
