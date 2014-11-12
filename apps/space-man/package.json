@@ -2,5 +2,7 @@
   "name": "space-man",
   "title": "Space Man",
   "description": "Introduction to coding by navigating the space man",
+  "language": "javascript",
+  "author": "Ryan Baber",
   "keywords": ["javascript", "sequences"],
 }

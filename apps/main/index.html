@@ -2,7 +2,7 @@
   <md-toolbar>
 
     <div class="md-toolbar-tools">
-      <span>Get Coding</span>
+      <span id='logo'></span>
 
       <!-- fill up the space between left and right area -->
       <span flex></span>
@@ -11,16 +11,17 @@
     </div>
 
   </md-toolbar>
-  <md-content layout-padding>
-    <md-card ng-repeat='app in Main.apps' layout='horizontal'>
-      <div class="logo" data-logo="space-man">
-        <span>Space man</span>
+  <div class='apps' layout-padding>
+    <md-card ng-repeat='app in Main.apps' layout='horizontal' id='{{app.name}}'>
+      <div class="title-left">
       </div>
       <div class='info' layout='vertical'>
         <h2>{{app.title}}</h2>
+        <p class='author'>Created by {{app.author}}</p>
+        <md-divider></md-divider>
         <p>{{app.description}}</p>
         <a ng-href='{{app.name}}'>Go</a>
       </div>
     </md-card>
-  </md-content>
+  </div>
 </div>

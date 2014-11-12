@@ -1,15 +1,52 @@
 @import '/lib/angular';
 @import '/apps/space-man';
 
+body {
+  background-color: #e3e3e3;
+}
+
+#main #logo {
+  background-image: url('./getCoding.png');
+  background-size: 150px 32px;
+  width: 150px;
+  height: 32px;
+}
+
 #main .logo {
   font-size: 100px;
 }
 
-#main md-content {
+#main .apps {
   max-width: 864px;
   margin: 0 auto;
 }
 
 #main md-card {
   width: 800px;
+  background-color: white;
+  margin: 18px;
+  padding: 0;
+}
+
+#main md-toolbar.md-default-theme {
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+#main .info {
+  margin-left: 2.5em;
+}
+
+#main h2 {
+  margin-top: 2.0em;
+  margin-bottom: 0;
+  font-size: 2.0em;
+}
+
+#main .author {
+  line-height: .5;
+}
+
+#main md-card md-divider {
+  margin-top: 1.0em;
 }
