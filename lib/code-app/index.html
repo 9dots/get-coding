@@ -1,17 +1,44 @@
 <div layout="vertical" layout-fill>
-  <md-toolbar>
+  <md-toolbar class="gc-color md-whiteframe-z1">
 
     <div class="md-toolbar-tools">
-      <a href='/'>Back</a>
+      <a href='/'>
+        <i class='mdi-arrow-back mdi-1p5x mdi'></i><span class='mdi-1p5x app-title'>{{App.title}}</span>
+      </a>
 
       <!-- fill up the space between left and right area -->
-      <span flex><md-button class="md-raised md-warn" ng-click='App.run()'>Run</md-button></span>
+      <span flex></span>
 
+      <span class='level-selector'>
+        <span ng-repeat='level in App.levels' >
+          <span class='dash' ng-show="!$first" ><i class='mdi-remove mdi'></i></span>
+          <button class='level' ng-disabled='$index > App.highLevel' ng-click='App.setLevel($index)'>{{$index + 1}}</button>
+        </span>
+
+      </span>
+    </div>
+  </md-toolbar>
+  <div class='app-area' layout='horizontal' layout-align='center' flex>
+    <div class='line' layout='vertical'>
+      <div flex></div>
+    </div>
+    <div  ui-view='workspace' flex layout='vertical' class='workspace'></div>
+    
+    <div class='run-abs'>
+      <div class='run-abs-pos'>
+      <div layout='vertical' class='run-wrap'>
+        <md-button class="md-raised md-warn run-button" ng-click='App.Runner.run()'><i class='mdi-play-arrow mdi-2x'></i></md-button>
+            
+        <md-button ng-click='App.Runner.step()'><i class='mdi-skip-next mdi-1p5x'></i></md-button>
+        <md-button ng-click='App.Runner.reset()'><i class='mdi-refresh mdi-1p5x'></i></md-button>
+        <span class='mdi-1p5x run-steps'>{{App.Runner.steps}}</span>
+      </div>
+      </div>
     </div>
 
-  </md-toolbar>
-  <md-content layout-padding layout='horizontal' layout-align='center' flex>
-    <div ui-view='workspace' flex layout='vertical' class='workspace'></div>
     <div ui-view='playspace' flex class='playspace'></div>
-  </md-content>
+    
+  </div>
+ 
+
 </div>

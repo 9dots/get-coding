@@ -19,10 +19,12 @@ var lr = require('tiny-lr');
 var build = write();
 var buildAndRestart = write(function(entries) {
   setTimeout(function() {
+    console.log('reload');
     reload(entries);
-  }, 100);
+  }, 500);
 });
 
+Error.stackTraceLimit = Infinity;
 
 var outRelative = 'public';
 
@@ -103,7 +105,10 @@ function write(onWrite) {
     function multiple(entry) {
       return function(done) {
         create(entry).run(function(err, src) {
-          if (err) throw err;
+          if (err) {
+            console.log('build error', err);
+            return done();
+          }
           var out = join(options.out, 'build' + extname(entry));
           fs.writeFileSync(out, src);
           var len = Buffer.byteLength(src);

@@ -7,7 +7,7 @@
       <!-- fill up the space between left and right area -->
       <span flex></span>
 
-      9 Dots
+      by <a id='logo-9dots' href='http://9dots.org'></a>
     </div>
 
   </md-toolbar>
@@ -15,12 +15,18 @@
     <md-card ng-repeat='app in Main.apps' layout='horizontal' id='{{app.name}}'>
       <div class="title-left">
       </div>
-      <div class='info' layout='vertical'>
+      <div class='info' layout='vertical' flex>
+        <div layout='horizontal'>
+          <span flex></span>
+          <a class='play-button' ng-href='{{app.name}}'>
+            <span class='play mdi'>Play</span><i class='mdi play mdi-arrow-forward'></i>
+          </a>
+        </div>
         <h2>{{app.title}}</h2>
         <p class='author'>Created by {{app.author}}</p>
         <md-divider></md-divider>
         <p>{{app.description}}</p>
-        <a ng-href='{{app.name}}'>Go</a>
+        
       </div>
     </md-card>
   </div>

@@ -22,12 +22,9 @@ angular.module(name, [
     controllerAs: 'Main'
   });
 }])
-.controller('MainCtrl', function() {
-  this.apps = [
-    require('/apps/space-man/package.json'),
-    require('/apps/space-man-blockly/package.json')
-  ];
-});
+.controller('MainCtrl', ['apps', function(apps) {
+  this.apps = apps;
+}]);
 
 
 angular.element(document).ready(function() {

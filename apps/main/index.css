@@ -1,14 +1,27 @@
 @import '/lib/angular';
 @import '/apps/space-man';
+@import '/apps/space-man-blockly';
+@import '/lib/md-iconic-font/css/material-design-iconic-font.css';
 
 body {
   background-color: #e3e3e3;
+}
+
+a {
+  text-decoration: none;
 }
 
 #main #logo {
   background-image: url('./getCoding.png');
   background-size: 150px 32px;
   width: 150px;
+  height: 32px;
+}
+
+#main #logo-9dots {
+  background-image: url('./9DotsHorizontal.png');
+  background-size: 119px 32px;
+  width: 119px;
   height: 32px;
 }
 
@@ -35,10 +48,11 @@ body {
 
 #main .info {
   margin-left: 2.5em;
+  margin-right: 2.5em;
 }
 
 #main h2 {
-  margin-top: 2.0em;
+  margin-top: 1.3em;
   margin-bottom: 0;
   font-size: 2.0em;
 }
@@ -49,4 +63,119 @@ body {
 
 #main md-card md-divider {
   margin-top: 1.0em;
+}
+
+.play {
+  color: #6ab8e5;
+}
+
+i.play {
+  margin-left: 3px;
+}
+
+.play-button {
+  margin-top: 1.0em;
+}
+
+md-toolbar.gc-color {
+  background-color: #6ab8e5;
+}
+
+.mdi-1p5x {
+  font-size: 1.5em;
+}
+
+.app-title {
+  margin-left: .7em;
+}
+
+
+.app-area {
+  background-color: white;
+}
+
+#workspace-ace {
+  margin-top: 5px;
+}
+
+#workspace-ace .ace_scrollbar-v {
+  overflow-y: hidden; 
+}
+
+.workspace {
+  background-color: white;
+  padding-left: 2em;
+}
+
+#workspace-ace .ace_gutter {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.3);
+  border-right: 1px solid;
+  border-right-color: rgba(0, 0, 0, 0.12);
+}
+
+#workspace-ace .ace_scroller {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#workspace-blockly .blocklyFlyoutBackground {
+  fill: #e3e3e3;
+}
+
+#workspace-blockly .blocklySvg {
+  border: none;
+}
+
+.run-abs {
+  position: absolute;
+}
+
+.run-abs-pos {
+  margin-left: -50px;
+}
+
+.run-wrap {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.run-wrap md-button.md-default-theme.md-raised.md-warn {
+  fill: #EC5762;
+}
+
+
+.run-steps {
+  padding: 6px;
+  padding-top: 1px;
+  vertical-align: baseline;
+  width: 44px;
+  text-align: center;
+}
+
+.level-selector {
+
+}
+
+
+.level-selector .dash {
+  color: #e3e3e3;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.level-selector .level {
+  display: inline-block;
+  border-radius: 100%;
+  background: #F6B328;
+  width: 24px;
+  text-align: center;
+  color: #e3e3e3;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  border: none;
+}
+
+.level-selector .level:disabled {
+  background-color: rgba(0, 0, 0, .2);
 }
