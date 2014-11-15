@@ -30,12 +30,14 @@ var outRelative = 'public';
 
 var options = {
   watch: false,
-  dev: true,
+  dev: process.env.NODE_ENV === 'production' ? false : true,
   outRelative: outRelative,
   out: join(__dirname, outRelative),
   root: __dirname,
   entries: ['index.js', 'index.css']
 }
+
+console.log('options dev', options.dev);
 
 gulp.task('unlink-lib', unlink);
 
@@ -81,7 +83,8 @@ function create(entry, cb) {
   return Duo(options.root)
     .entry(entry)
     .development(options.dev)
-    .buildTo(options.outRelative);
+    .copy(!options.dev)
+    .buildTo(options.outRelative)
 }
 
 function write(onWrite) {

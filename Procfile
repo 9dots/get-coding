@@ -1,0 +1,1 @@
+web: ln -s `pwd`/lib node_modules/lib; node app.js
