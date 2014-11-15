@@ -1,6 +1,7 @@
 @import '/lib/angular';
 @import '/apps/space-man';
 @import '/apps/space-man-blockly';
+@import '/apps/space-man-sandbox';
 @import '/lib/md-iconic-font/css/material-design-iconic-font.css';
 
 body {
@@ -9,6 +10,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+#main {
+  background-color: #e3e3e3;
 }
 
 #main #logo {

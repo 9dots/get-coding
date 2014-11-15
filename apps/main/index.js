@@ -8,7 +8,8 @@ angular.module(name, [
   'ui.router',
   'ngMaterial',
   require('/apps/space-man'),
-  require('/apps/space-man-blockly')
+  require('/apps/space-man-blockly'),
+  require('/apps/space-man-sandbox')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;

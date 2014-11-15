@@ -4210,6 +4210,19 @@ md-tooltip.md-light-blue-dark-theme {
   height: 240px;
 }
 
+
+
+/**
+ * Space man logo.
+ */
+
+
+#space-man-sandbox .title-left {
+  background-image: url(apps/space-man-sandbox/space-man-sandbox-title.png);
+  background-size: 300px 240px;
+  width: 300px;
+  height: 240px;
+}
 /*!
  *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
  *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
@@ -6600,6 +6613,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+#main {
+  background-color: #e3e3e3;
 }
 
 #main #logo {
