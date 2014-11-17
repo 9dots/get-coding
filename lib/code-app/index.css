@@ -1,0 +1,57 @@
+.app-area {
+  background-color: white;
+}
+
+.workspace {
+  background-color: white;
+  padding-left: 2em;
+}
+
+.run-abs {
+  position: absolute;
+}
+
+.run-abs-pos {
+  margin-left: -50px;
+}
+
+.run-wrap {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.run-wrap md-button.md-default-theme.md-raised.md-warn {
+  fill: #EC5762;
+}
+
+.run-steps {
+  padding: 6px;
+  padding-top: 1px;
+  vertical-align: baseline;
+  width: 44px;
+  text-align: center;
+}
+
+
+.level-selector .dash {
+  color: #e3e3e3;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.level-selector .level {
+  display: inline-block;
+  border-radius: 100%;
+  background: #F6B328;
+  width: 24px;
+  text-align: center;
+  color: #e3e3e3;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  border: none;
+}
+
+.level-selector .level:disabled {
+  background-color: rgba(0, 0, 0, .2);
+}

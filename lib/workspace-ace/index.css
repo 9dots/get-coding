@@ -1,0 +1,20 @@
+#workspace-ace {
+  margin-top: 5px;
+}
+
+#workspace-ace .ace_scrollbar-v {
+  overflow-y: hidden; 
+}
+
+
+
+#workspace-ace .ace_gutter {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.3);
+  border-right: 1px solid;
+  border-right-color: rgba(0, 0, 0, 0.12);
+}
+
+#workspace-ace .ace_scroller {
+  color: rgba(0, 0, 0, 0.8);
+}

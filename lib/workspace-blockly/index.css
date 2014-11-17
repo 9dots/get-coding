@@ -1,0 +1,7 @@
+#workspace-blockly .blocklyFlyoutBackground {
+  fill: #e3e3e3;
+}
+
+#workspace-blockly .blocklySvg {
+  border: none;
+}
