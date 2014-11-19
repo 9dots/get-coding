@@ -1,3 +1,5 @@
+@import 'sindresorhus/github-markdown-css:/github-markdown.css';
+
 .app-area {
   background-color: white;
 }
@@ -76,4 +78,13 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.app-help {
+  font-size: 30px;
+}
+
+md-dialog.help {
+  max-width: 790px;
+  padding: 30px;
 }

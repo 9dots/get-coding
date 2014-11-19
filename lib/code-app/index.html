@@ -14,10 +14,11 @@
           <span class='dash' ng-show="!$first" ><i class='mdi-remove mdi'></i></span>
           <button class='level' ng-disabled='$index > App.highLevel' ng-click='App.setLevel($index)' ng-class='{current: App.level == $index}'>{{$index + 1}}</button>
         </span>
-
       </span>
+      <md-button><i class='mdi mdi-help app-help' ng-click='App.showReadme()' ng-show='App.hasReadme()'></i></md-button>
     </div>
   </md-toolbar>
+  
   <div class='app-area' layout='horizontal' layout-align='center' flex>
     <div  ui-view='workspace' flex layout='vertical' class='workspace'></div>
     
