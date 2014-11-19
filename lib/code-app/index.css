@@ -37,23 +37,29 @@
   color: #e3e3e3;
   margin-left: -5px;
   margin-right: -5px;
+  line-height: 28px
 }
 
 .level-selector .level {
   display: inline-block;
   border-radius: 100%;
   background: #F6B328;
-  width: 24px;
+  width: 28px;
   text-align: center;
   color: #e3e3e3;
   font-size: 16px;
-  height: 24px;
-  line-height: 24px;
-  border: none;
+  height: 28px;
+  line-height: 26px;
+  border: 2px transparent;
 }
 
 .level-selector .level:disabled {
   background-color: rgba(0, 0, 0, .2);
+}
+
+.level.current {
+  border: 2px solid #e3e3e3;
+  line-height: 22px;
 }
 
 .handle {

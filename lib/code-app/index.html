@@ -10,9 +10,9 @@
       <span flex></span>
 
       <span class='level-selector'>
-        <span ng-repeat='level in App.levels' >
+        <span ng-repeat='level in App.levels'>
           <span class='dash' ng-show="!$first" ><i class='mdi-remove mdi'></i></span>
-          <button class='level' ng-disabled='$index > App.highLevel' ng-click='App.setLevel($index)'>{{$index + 1}}</button>
+          <button class='level' ng-disabled='$index > App.highLevel' ng-click='App.setLevel($index)' ng-class='{current: App.level == $index}'>{{$index + 1}}</button>
         </span>
 
       </span>
