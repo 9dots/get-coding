@@ -55,3 +55,19 @@
 .level-selector .level:disabled {
   background-color: rgba(0, 0, 0, .2);
 }
+
+.handle {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: ew-resize;
+
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

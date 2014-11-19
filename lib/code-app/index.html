@@ -23,7 +23,7 @@
     
     <div class='run-abs'>
       <div class='run-abs-pos'>
-      <div layout='vertical' class='run-wrap'>
+      <div layout='vertical' class='run-wrap noselect'>
         <md-button class="md-raised md-warn run-button" ng-click='App.Runner.run()'><i class='mdi-play-arrow mdi-2x'></i></md-button>
             
         <md-button ng-click='App.Runner.step()'><i class='mdi-skip-next mdi-1p5x'></i></md-button>
@@ -32,8 +32,8 @@
       </div>
       </div>
     </div>
-
-    <div ui-view='playspace' flex class='playspace'></div>
+    <div class='handle' layout='vertical' div-resize><div flex></div></div>
+    <div ui-view='playspace' flex class='playspace noselect'></div>
     
   </div>
  
