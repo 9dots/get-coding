@@ -18,11 +18,13 @@ getCoding is a platform that makes it easy to create mini learning environments 
 ## Installation
 
 ```
-$ git clone git@github.com:9dots/get-coding.git
+$ git clone https://github.com/9dots/get-coding.git
 $ cd get-coding
 $ npm install
 $ gulp dev
 ```
+
+Note: gulp dev requires node v0.11
 
 ## Getting Started
 
@@ -32,20 +34,29 @@ You can contribute to getCoding by creating new apps, playspaces or workspaces.
 
 Check out `apps/space-man` for an example of an app.
 
-1. Add a directory to `apps` with your app name.
-2. Add a package.json to the app directory that defines a `name`, `title`, `description`, and `author` field.
-3. Create an angular module in index.js that registers your app with the appsProvider. The appsProvider expects the metadata for the app, the template for the workspace, the template for the playspace and the list of levels.
-4. Add your app to the list of dependenceis in `main/index.js`.
+Run:
+
+```
+gulp create-app
+```
 
 ### Making a new playspace
 
 Check out `lib/playspace-spaceman` for an example of a playspace.
 
-1. Add a directory to `lib` with your playspace name prefixied by `playspace-`.
-2. Define an angular directive in `index.js` of your new directory with the same name as the directory.
-3. The controller for the directive must define the playspace interface and must be registered with the `App` controller, which can be found on the scope. Register the playspace ctrl by calling: `App.add(Playspace)`.
-4. The playspace interface is composed of an activate method, which intitialises the space given the parameters `level`, and `speed`. Level is the data that defines a level and speed is the step speed. The interface must also define an `api` method which returns an object of student callable functions, and a finished and failed bool.
-5. Incorporate the directive in the playspace template of any app and your good to go.
+
+```
+gulp create-playspace
+```
+
+### Making a new workspace
+
+Check out `lib/workspace-ace` for an example of a workspace.
+
+Run:
+```
+gulp create-workspace
+```
 
 
 
