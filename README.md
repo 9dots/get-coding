@@ -36,7 +36,7 @@ You can contribute to getCoding by creating new apps, playspaces or workspaces.
 gulp create-app
 ```
 
-### Sample Answers
+#### Sample Answers
 
 ```
 name: space-man
