@@ -32,31 +32,32 @@ You can contribute to getCoding by creating new apps, playspaces or workspaces.
 
 ### Making a new app
 
-Check out `apps/space-man` for an example of an app.
-
-Run:
-
 ```
 gulp create-app
 ```
 
+Check out `apps/space-man` for an example of an app.
+
+
 ### Making a new playspace
-
-Check out `lib/playspace-spaceman` for an example of a playspace.
-
 
 ```
 gulp create-playspace
 ```
 
+Check out `lib/playspace-spaceman` for an example of a playspace.
+
+
 ### Making a new workspace
 
-Check out `lib/workspace-ace` for an example of a workspace.
-
-Run:
 ```
 gulp create-workspace
 ```
+
+Check out `lib/workspace-ace` for an example of a workspace.
+
+
+
 
 
 
