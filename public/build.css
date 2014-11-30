@@ -4204,6 +4204,10 @@ md-tooltip.md-light-blue-dark-theme {
   color: rgba(0, 0, 0, 0.8);
 }
 
+#workspace-ace.ace-tm .ace_marker-layer .ace_step {
+  background: rgba(236, 87, 98, .5);
+}
+
 /**
  * Space man logo.
  */
@@ -7495,16 +7499,54 @@ md-tooltip.md-light-blue-dark-theme {
 }
 
 .run-abs-pos {
-  margin-left: -50px;
+  margin-left: -84px;
+}
+
+.run-abs md-button{
+  z-index: 5;
 }
 
 .run-wrap {
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: 15px;
 }
 
-.run-wrap md-button.md-default-theme.md-raised.md-warn {
-  fill: #EC5762;
+
+.run-wrap md-button.md-default-theme.md-warn {
+  background-color: rgba(236, 87, 98, .9);
+  fill: rgba(236, 87, 98, .9);
+  color: #FAFAFA;
+}
+
+.run-wrap md-button.md-default-theme.md-warn:hover {
+  background-color: rgba(236, 87, 98, 1);
+  fill: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-warn.focus {
+  background-color: rgba(236, 87, 98, 1);
+  fill: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary:hover {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary.focus {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme {
+  border-radius: 0px;
 }
 
 .run-steps {
@@ -7512,6 +7554,17 @@ md-tooltip.md-light-blue-dark-theme {
   padding-top: 1px;
   vertical-align: baseline;
   width: 44px;
+  text-align: center;
+}
+
+.run-speed-wrap {
+  background: rgba(236, 87, 98, .9);
+  color: #FAFAFA;
+}
+
+.run-speed {
+  padding-top: 5px;
+  width: 28px;
   text-align: center;
 }
 

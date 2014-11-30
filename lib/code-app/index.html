@@ -18,18 +18,29 @@
       <md-button><i class='mdi mdi-help app-help' ng-click='App.showReadme()' ng-show='App.hasReadme()'></i></md-button>
     </div>
   </md-toolbar>
-  
+
   <div class='app-area' layout='horizontal' layout-align='center' flex>
     <div  ui-view='workspace' flex layout='vertical' class='workspace'></div>
     
     <div class='run-abs'>
       <div class='run-abs-pos'>
       <div layout='vertical' class='run-wrap noselect'>
-        <md-button class="md-raised md-warn run-button" ng-click='App.Runner.run()'><i class='mdi-play-arrow mdi-2x'></i></md-button>
-            
-        <md-button ng-click='App.Runner.step()'><i class='mdi-skip-next mdi-1p5x'></i></md-button>
-        <md-button ng-click='App.Runner.reset()'><i class='mdi-refresh mdi-1p5x'></i></md-button>
-        <span class='mdi-1p5x run-steps'>{{App.Runner.steps}}</span>
+        <md-whiteframe class='md-whiteframe-z1' layout='vertical'>
+          <md-button class="run-button" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()'>
+            <i class='mdi-play-arrow mdi-2x' ng-hide='App.Runner.running'></i>
+            <i class='mdi-pause mdi-2x' ng-show='App.Runner.running'></i>
+          </md-button>
+          <span layout='horizonal' class='run-speed-wrap'>
+            <span layout='vertical'><div class='run-steps mdi-1p5x'>{{App.Runner.steps}}</div><div>steps</div></span>
+          </span>
+          <span layout='horizonal' class='run-speed-wrap'>
+            <md-button ng-click='App.Runner.reset()'><i class='mdi-refresh'></i></md-button><md-button ng-click='App.Runner.step()'><i class='mdi-skip-next'></i></md-button>
+          </span>
+          <span layout='horizonal' class='run-speed-wrap'>
+            <md-button><i class='mdi mdi-remove'></i></md-button><div class='run-speed'>1x</div><md-button><i class='mdi mdi-add'></i></md-button>
+          </span>
+          
+        </md-whiteframe>
       </div>
       </div>
     </div>
