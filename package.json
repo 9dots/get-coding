@@ -11,6 +11,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "batch": "~0.5.1",
+    "colors": "^1.0.3",
     "duo": "~0.8.9",
     "ejs": "^1.0.0",
     "express": "~3.3.8",

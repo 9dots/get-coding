@@ -15,7 +15,7 @@
           <button class='level' ng-disabled='$index > App.highLevel' ng-click='App.setLevel($index)' ng-class='{current: App.level == $index}'>{{$index + 1}}</button>
         </span>
       </span>
-      <md-button><i class='mdi mdi-help app-help' ng-click='App.showReadme()' ng-show='App.hasReadme()'></i></md-button>
+      <md-button ng-click='App.showReadme()' ng-show='App.hasReadme()' aria-label="show readme"><i class='mdi mdi-help app-help' ></i></md-button>
     </div>
   </md-toolbar>
 
@@ -26,19 +26,29 @@
       <div class='run-abs-pos'>
       <div layout='vertical' class='run-wrap noselect'>
         <md-whiteframe class='md-whiteframe-z1' layout='vertical'>
-          <md-button class="run-button" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()'>
+          <md-button class="run-button" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()' aria-label="run program">
             <i class='mdi-play-arrow mdi-2x' ng-hide='App.Runner.running'></i>
             <i class='mdi-pause mdi-2x' ng-show='App.Runner.running'></i>
           </md-button>
-          <span layout='horizonal' class='run-speed-wrap'>
-            <span layout='vertical'><div class='run-steps mdi-1p5x'>{{App.Runner.steps}}</div><div>steps</div></span>
+
+          <span layout='vertical' layout-align='start center'>
+            <div class='run-title'>Steps</div>
+            <div class='run-info mdi-1p5x'>{{App.Runner.steps}}</div>
+            
+            <span layout='horizonal' class='run-mini-buttons run-steps-buttons'>
+              <md-button ng-click='App.Runner.reset()' aria-label="reset steps"><i class='mdi-refresh'></i></md-button><md-button ng-click='App.Runner.step()' aria-label="step once"><i class='mdi-skip-next'></i></md-button>
+            </span>
           </span>
-          <span layout='horizonal' class='run-speed-wrap'>
-            <md-button ng-click='App.Runner.reset()'><i class='mdi-refresh'></i></md-button><md-button ng-click='App.Runner.step()'><i class='mdi-skip-next'></i></md-button>
+          <md-divider></md-divider>
+          <span layout='vertical' layout-align='start center'>
+            <div class='run-title'>Speed</div>
+            <div class='run-info mdi-1p5x'>{{App.speed()}}x</div>
+
+            <span layout='horizonal' class='run-mini-buttons'>
+              <md-button ng-click='App.decreaseSpeed()' aria-label="decrease speed"><i class='mdi mdi-remove'></i></md-button><md-button ng-click='App.increaseSpeed()' aria-label="increase speed"><i class='mdi mdi-add'></i></md-button>
+            </span>
           </span>
-          <span layout='horizonal' class='run-speed-wrap'>
-            <md-button><i class='mdi mdi-remove'></i></md-button><div class='run-speed'>1x</div><md-button><i class='mdi mdi-add'></i></md-button>
-          </span>
+          
           
         </md-whiteframe>
       </div>

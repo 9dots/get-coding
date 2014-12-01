@@ -64,12 +64,30 @@
   border-radius: 0px;
 }
 
-.run-steps {
-  padding: 6px;
-  padding-top: 1px;
-  vertical-align: baseline;
-  width: 44px;
+.run-wrap md-whiteframe {
+  z-index: 1;
+  background: white;
+}
+
+.run-title {
+  font-size: .8em;
+  padding-top: 5px
+}
+
+.run-info {
+  padding-top: 15px;
+  padding-bottom: 0px;
   text-align: center;
+}
+
+.run-mini-buttons {
+  padding-top: 2px;
+  line-height: 16px;
+  color: #333;
+}
+
+.run-mini-buttons.run-steps-buttons {
+  line-height: 12px;
 }
 
 .run-speed-wrap {
