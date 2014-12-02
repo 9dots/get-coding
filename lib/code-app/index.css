@@ -1,3 +1,5 @@
+@import 'sindresorhus/github-markdown-css:/github-markdown.css';
+
 .app-area {
   background-color: white;
 }
@@ -12,23 +14,90 @@
 }
 
 .run-abs-pos {
-  margin-left: -50px;
+  margin-left: -84px;
+}
+
+.run-abs md-button{
+  z-index: 5;
 }
 
 .run-wrap {
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: 15px;
 }
 
-.run-wrap md-button.md-default-theme.md-raised.md-warn {
-  fill: #EC5762;
+
+.run-wrap md-button.md-default-theme.md-warn {
+  background-color: rgba(236, 87, 98, .9);
+  fill: rgba(236, 87, 98, .9);
+  color: #FAFAFA;
 }
 
-.run-steps {
-  padding: 6px;
-  padding-top: 1px;
-  vertical-align: baseline;
-  width: 44px;
+.run-wrap md-button.md-default-theme.md-warn:hover {
+  background-color: rgba(236, 87, 98, 1);
+  fill: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-warn.focus {
+  background-color: rgba(236, 87, 98, 1);
+  fill: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary:hover {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme.md-primary.focus {
+  background-color: #FAFAFA;
+  fill: #FAFAFA;
+  color: rgba(236, 87, 98, 1);
+}
+
+.run-wrap md-button.md-default-theme {
+  border-radius: 0px;
+}
+
+.run-wrap md-whiteframe {
+  z-index: 1;
+  background: white;
+}
+
+.run-title {
+  font-size: .8em;
+  padding-top: 5px
+}
+
+.run-info {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.run-mini-buttons {
+  padding-top: 2px;
+  line-height: 16px;
+  color: #333;
+}
+
+.run-mini-buttons.run-steps-buttons {
+  line-height: 12px;
+}
+
+.run-speed-wrap {
+  background: rgba(236, 87, 98, .9);
+  color: #FAFAFA;
+}
+
+.run-speed {
+  padding-top: 5px;
+  width: 28px;
   text-align: center;
 }
 
@@ -76,4 +145,12 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.app-help {
+  font-size: 30px;
+}
+
+md-dialog.help {
+  max-width: 790px;
 }

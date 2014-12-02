@@ -11,6 +11,7 @@ angular.module(name, [
     data: require('./package.json'),
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
-    levels: require('/lib/space-man-levels').practice
+    levels: require('/lib/space-man-levels').practice,
+    help: require('./README.md')
   });
 }]);

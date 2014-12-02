@@ -7,6 +7,9 @@ var _ = require('lodash/lodash');
 angular.module(name, [
   'ui.router',
   'ngMaterial',
+  'ngSanitize',
+
+  // Apps
   require('/apps/space-man'),
   require('/apps/space-man-blockly'),
   require('/apps/space-man-sandbox')

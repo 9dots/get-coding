@@ -10,6 +10,12 @@ var Batch = require('batch');
 
 var gulp = require('gulp');
 var symlink = require('gulp-symlink');
+var conflict = require('gulp-conflict');
+var template = require('gulp-template');
+var inquirer = require('inquirer');
+var _ = require('lodash');
+var colors = require('colors');
+_.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
 
 var Duo = require('duo');
 var Watcher = require('duo-watch');
@@ -66,12 +72,71 @@ gulp.task('dev', ['public', 'assets', 'link-lib'], function() {
   buildAndRestart(options.entries);
 });
 
-/**
- * bower: assets
- */
 gulp.task('assets', ['public'], function() {
   return gulp.src(['assets/**'])
     .pipe(gulp.dest('public'));
+});
+
+/////////////////
+// Generators  //
+/////////////////
+
+gulp.task('create-app', function(done) {
+  inquirer.prompt([
+    {type: 'input', name: 'name', message: 'name:'}, // Get app name from arguments by default
+    {type: 'input', name: 'playspace', message: 'playspace:'},
+    {type: 'input', name: 'workspace', message: 'workspace:'},
+    {type: 'input', name: 'title', message: 'title:'},
+    {type: 'input', name: 'description', message: 'description:'},
+    {type: 'input', name: 'author', message: 'author:'}
+
+  ],
+  function (answers) {
+    gulp.src(__dirname + '/.templates/app/**')  // Note use of __dirname to be relative to generator
+      .pipe(template(answers))                 // Lodash template support
+      .pipe(conflict('./apps/'  + answers.name))                    // Confirms overwrites on file conflicts
+      .pipe(gulp.dest('./apps/' + answers.name))                   // Without __dirname here = relative to cwd
+      .on('finish', function () {
+        console.log('[' + 'getCoding'.green + ']', 'Add `require(\'apps/' + answers.name + '\')` to apps/main/index.js and you are good to go.')
+        done();                                // Finished!
+      });
+  });
+});
+
+gulp.task('create-playspace', function(done) {
+  inquirer.prompt([
+    {type: 'input', name: 'name', message: 'name:'}
+  ],
+  function (answers) {
+    answers.upperName = answers.name[0].toUpperCase() + answers.name.slice(1);
+    var dest = './lib/playspace-' + answers.name
+    gulp.src(__dirname + '/.templates/playspace/**')  // Note use of __dirname to be relative to generator
+      .pipe(template(answers))                 // Lodash template support
+      .pipe(conflict(dest))                    // Confirms overwrites on file conflicts
+      .pipe(gulp.dest(dest))                   // Without __dirname here = relative to cwd
+      .on('finish', function () {
+        console.log('[' + 'getCoding'.green + ']', 'Your new playspace can be found at', dest);
+        done();                                // Finished!
+      });
+  });
+});
+
+gulp.task('create-workspace', function(done) {
+  inquirer.prompt([
+    {type: 'input', name: 'name', message: 'name:'}
+  ],
+  function (answers) {
+    answers.upperName = answers.name[0].toUpperCase() + answers.name.slice(1);
+    var dest = './lib/workspace-' + answers.name
+    gulp.src(__dirname + '/.templates/workspace/**')  // Note use of __dirname to be relative to generator
+      .pipe(template(answers))                 // Lodash template support
+      .pipe(conflict(dest))                    // Confirms overwrites on file conflicts
+      .pipe(gulp.dest(dest))                   // Without __dirname here = relative to cwd
+      .on('finish', function () {
+        console.log('[' + 'getCoding'.green + ']', 'Your new workspacespace can be found at', dest);
+        done();                                // Finished!
+      });
+  });
 });
 
 /////////

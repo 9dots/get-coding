@@ -19,11 +19,12 @@
  * http://jqueryui.com
  *
  * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.	
+ * Released under the MIT license.
  * http://jquery.org/license
  *
  * http://api.jqueryui.com/category/ui-core/
  */
+
 
 // $.ui might exist from components with no dependencies, e.g., $.ui.position
 $.ui = $.ui || {};

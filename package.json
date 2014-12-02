@@ -11,6 +11,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "batch": "~0.5.1",
+    "colors": "^1.0.3",
     "duo": "~0.8.9",
     "ejs": "^1.0.0",
     "express": "~3.3.8",
@@ -20,7 +21,10 @@
   },
   "devDependencies": {
     "duo-watch": "~0.1.1",
-    "tiny-lr": "^0.1.4"
+    "tiny-lr": "^0.1.4",
+    "gulp-template": "~1.1.1",
+    "gulp-conflict": "~0.3.0",
+    "inquirer": "~0.8.0"
   },
   "repository": "git@github.com:9dots/get-coding.git"
 }

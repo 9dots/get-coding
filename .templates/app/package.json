@@ -1,0 +1,6 @@
+{
+  "name": "{{name}}",
+  "title": "{{title}}",
+  "description": "{{description}}",
+  "author": "{{author}}"
+}
