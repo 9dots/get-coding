@@ -8,10 +8,13 @@ angular.module(name, [
   'ui.router',
   'ngMaterial',
   'ngSanitize',
+
+  // Apps
   require('/apps/space-man'),
   require('/apps/space-man-blockly'),
   require('/apps/space-man-sandbox'),
-  require('/apps/ryan-man')
+  require('/apps/ryan-man'),
+  require('/apps/spaceman2')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;

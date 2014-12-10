@@ -18,3 +18,7 @@
 #workspace-ace .ace_scroller {
   color: rgba(0, 0, 0, 0.8);
 }
+
+#workspace-ace.ace-tm .ace_marker-layer .ace_step {
+  background: rgba(236, 87, 98, .5);
+}
