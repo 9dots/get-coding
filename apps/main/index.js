@@ -10,11 +10,10 @@ angular.module(name, [
   'ngSanitize',
 
   // Apps
-  require('/apps/space-man'),
   require('/apps/space-man-blockly'),
+  require('/apps/spaceman-blockly-repeat'),
   require('/apps/space-man-sandbox'),
-  require('/apps/ryan-man'),
-  require('/apps/spaceman2')
+  require('/apps/space-man')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;
