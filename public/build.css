@@ -4167,9 +4167,8 @@ md-tooltip.md-light-blue-dark-theme {
   position: absolute;
   top: 0px;
   bottom: 0px;
-  width: 102px;
-  height: 102px;
-  
+  width: 100px;
+  height: 100px;
 }
 
 .astronaut.still {
@@ -4222,7 +4221,13 @@ md-tooltip.md-light-blue-dark-theme {
 
 
 
-@import '/lib/worskpace-blockly';
+#workspace-blockly .blocklyFlyoutBackground {
+  fill: #e3e3e3;
+}
+
+#workspace-blockly .blocklySvg {
+  border: none;
+}
 
 /**
  * Space man logo.
@@ -4249,6 +4254,21 @@ md-tooltip.md-light-blue-dark-theme {
   width: 300px;
   height: 240px;
 }
+
+
+
+/**
+ * Space man logo.
+ */
+
+
+#spaceman-blockly-repeat .title-left {
+  background-image: url(apps/space-man-blockly/space-man-blockly-title.png);
+  background-size: 300px 240px;
+  width: 300px;
+  height: 240px;
+}
+
 /*!
  *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
  *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)

@@ -2,6 +2,7 @@
 @import '/apps/space-man';
 @import '/apps/space-man-blockly';
 @import '/apps/space-man-sandbox';
+@import '/apps/spaceman-blockly-repeat';
 @import '/lib/md-iconic-font/css/material-design-iconic-font.css';
 @import '/lib/code-app';
 

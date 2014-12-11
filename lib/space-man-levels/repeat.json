@@ -1,0 +1,76 @@
+{
+	"levels": [
+	{
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["2*", "4*"],
+        "parts": ["36"],
+      },
+      "astro": {
+        "position": "30",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["*2", "*4", "63"],
+        "parts": ["53"],
+      },
+      "astro": {
+        "position": "03",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["*2", "*4"],
+        "parts": ["03", "13", "23", "33", "43", "53"],
+      },
+      "astro": {
+        "position": "63",
+        "rotation": -90
+      }
+    },
+    {
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["2*", "4*"],
+        "parts": ["32", "34", "36"],
+      },
+      "astro": {
+        "position": "30",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["20", "21", "22", "23", "33", "40", "41", "42", "43"],
+        "parts": ["10", "14", "54"],
+      },
+      "astro": {
+        "position": "50",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 7,
+        "cols": 7,
+        "blocked": ["04", "13", "16", "22", "25", "31", "34", "40", "43", "52", "61"],
+        "parts": ["51", "42", "33", "24", "15", "06"],
+      },
+      "astro": {
+        "position": "60",
+        "rotation": 0
+      }
+    },
+	]
+}
