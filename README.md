@@ -30,7 +30,7 @@ Note: gulp dev requires node v0.11
 
 You can contribute to getCoding by creating new apps, playspaces or workspaces.
 
-### Making a new app
+### Making a new activity
 
 ```
 gulp create-app
