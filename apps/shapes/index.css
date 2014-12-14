@@ -1,0 +1,14 @@
+@import '/lib/playspace-p5-grid';
+@import '/lib/workspace-ace';
+
+/**
+ * Space man logo.
+ */
+
+
+#shapes .title-left {
+  background-image: url(/apps/shapes/title.png);
+  background-size: 300px 240px;
+  width: 300px;
+  height: 240px;
+}

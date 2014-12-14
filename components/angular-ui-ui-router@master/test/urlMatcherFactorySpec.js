@@ -402,6 +402,26 @@ describe("UrlMatcher", function () {
   });
 });
 
+describe("urlMatcherFactoryProvider", function () {
+  describe(".type()", function () {
+    var m;
+    beforeEach(module('ui.router.util', function($urlMatcherFactoryProvider) {
+      $urlMatcherFactoryProvider.type("myType", {}, function() {
+          return {
+            decode: function() { return { status: 'decoded' }; },
+            is: angular.isObject
+          };
+      });
+      m = new UrlMatcher("/test?{foo:myType}");
+    }));
+
+    it("should handle arrays properly with config-time custom type definitions", inject(function ($stateParams) {
+      expect(m.exec("/test", {foo: '1'})).toEqual({ foo: { status: 'decoded' } });
+      expect(m.exec("/test", {foo: ['1', '2']})).toEqual({ foo: [ { status: 'decoded' }, { status: 'decoded' }] });
+    }));
+  });
+});
+
 describe("urlMatcherFactory", function () {
   
   var $umf;
@@ -481,10 +501,26 @@ describe("urlMatcherFactory", function () {
     it("should encode/decode dates", function () {
       var m = new UrlMatcher("/calendar/{date:date}"),
           result = m.exec("/calendar/2014-03-26");
+      var date = new Date(2014, 2, 26);
 
       expect(result.date instanceof Date).toBe(true);
-      expect(result.date.toUTCString()).toEqual('Wed, 26 Mar 2014 00:00:00 GMT');
-      expect(m.format({ date: new Date(2014, 2, 26) })).toBe("/calendar/2014-03-26");
+      expect(result.date.toUTCString()).toEqual(date.toUTCString());
+      expect(m.format({ date: date })).toBe("/calendar/2014-03-26");
+    });
+
+    it("should encode/decode arbitrary objects to json", function () {
+      var m = new UrlMatcher("/state/{param1:json}/{param2:json}");
+
+      var params = {
+        param1: { foo: 'huh', count: 3 },
+        param2: { foo: 'wha', count: 5 }
+      };
+
+      var json1 = '{"foo":"huh","count":3}';
+      var json2 = '{"foo":"wha","count":5}';
+
+      expect(m.format(params)).toBe("/state/" + encodeURIComponent(json1) + "/" + encodeURIComponent(json2));
+      expect(m.exec("/state/" + json1 + "/" + json2)).toEqual(params);
     });
 
     it("should not match invalid typed parameter values", function() {
@@ -611,6 +647,14 @@ describe("urlMatcherFactory", function () {
         expect(m.exec('/users/bar/2')).toBeNull();
       });
 
+      it("should populate even if the regexp requires 1 or more chars", function() {
+        var m = new UrlMatcher('/record/{appId}/{recordId:[0-9a-fA-F]{10,24}}', {
+          params: { appId: null, recordId: null }
+        });
+        expect(m.exec("/record/546a3e4dd273c60780e35df3/"))
+          .toEqual({ appId: "546a3e4dd273c60780e35df3", recordId: null });
+      });
+
       it("should allow shorthand definitions", function() {
         var m = new UrlMatcher('/foo/:foo', {
           params: { foo: "bar" }
@@ -620,7 +664,7 @@ describe("urlMatcherFactory", function () {
 
       it("should populate query params", function() {
         var defaults = { order: "name", limit: 25, page: 1 };
-        var m = new UrlMatcher('/foo?order&limit&page', {
+        var m = new UrlMatcher('/foo?order&{limit:int}&{page:int}', {
           params: defaults
         });
         expect(m.exec("/foo")).toEqual(defaults);
@@ -645,7 +689,7 @@ describe("urlMatcherFactory", function () {
       });
 
       it("should allow injectable functions", inject(function($stateParams) {
-        var m = new UrlMatcher('/users/:user', {
+        var m = new UrlMatcher('/users/{user:json}', {
           params: {
             user: function($stateParams) {
               return $stateParams.user;

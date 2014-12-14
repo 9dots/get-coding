@@ -13,7 +13,9 @@ angular.module(name, [
   require('/apps/space-man-blockly'),
   require('/apps/spaceman-blockly-repeat'),
   require('/apps/space-man-sandbox'),
-  require('/apps/space-man')
+  require('/apps/space-man'),
+  require('/apps/shapes-blockly'),
+  require('/apps/shapes')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;
