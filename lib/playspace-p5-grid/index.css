@@ -1,0 +1,6 @@
+#grid {
+	width: 800px;
+	height: 800px;
+	margin: 10px auto 0 auto;
+	background-image: url('./800grid.png');
+}
