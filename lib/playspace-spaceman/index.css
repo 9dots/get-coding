@@ -123,9 +123,8 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  width: 102px;
-  height: 102px;
-  
+  width: 100px;
+  height: 100px;
 }
 
 .astronaut.still {
