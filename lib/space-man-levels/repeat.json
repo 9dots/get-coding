@@ -13,7 +13,9 @@
           "rotation": 0
         }
       },
-      "workspace":"<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"8\" x=\"212\" y=\"144\"><field name=\"TIMES\">6</field></block></xml>"
+      "workspace": {
+        "codeSpace": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"8\" x=\"212\" y=\"144\"><field name=\"TIMES\">6</field></block></xml>"
+      }
     },
     {
       "playspace": {
@@ -28,7 +30,9 @@
           "rotation": 0
         }
       },
-      "workspace":"<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"5\" x=\"212\" y=\"144\"><field name=\"TIMES\">3</field></block></xml>"
+      "workspace": {
+        "codeSpace": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"5\" x=\"212\" y=\"144\"><field name=\"TIMES\">3</field></block></xml>"
+      }
     },
     {
       "field": {
