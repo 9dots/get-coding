@@ -1,28 +1,34 @@
 {
 	"levels": [
-	{
-      "field": {
-        "rows": 7,
-        "cols": 7,
-        "blocked": ["2*", "4*"],
-        "parts": ["36"],
+  {
+  	"playspace": {
+        "field": {
+          "rows": 7,
+          "cols": 7,
+          "blocked": ["2*", "4*"],
+          "parts": ["36"],
+        },
+        "astro": {
+          "position": "30",
+          "rotation": 0
+        }
       },
-      "astro": {
-        "position": "30",
-        "rotation": 0
-      }
+      "workspace":"<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"8\" x=\"212\" y=\"144\"><field name=\"TIMES\">6</field></block></xml>"
     },
     {
-      "field": {
-        "rows": 7,
-        "cols": 7,
-        "blocked": ["*2", "*4", "63"],
-        "parts": ["53"],
+      "playspace": {
+        "field": {
+          "rows": 7,
+          "cols": 7,
+          "blocked": ["*2", "*4", "63"],
+          "parts": ["53"],
+        },
+        "astro": {
+          "position": "03",
+          "rotation": 0
+        }
       },
-      "astro": {
-        "position": "03",
-        "rotation": 0
-      }
+      "workspace":"<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"5\" x=\"212\" y=\"144\"><field name=\"TIMES\">3</field></block></xml>"
     },
     {
       "field": {
