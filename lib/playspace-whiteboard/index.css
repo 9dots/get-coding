@@ -1,0 +1,95 @@
+.holder {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	color: black;
+	background: url('./white_board.png');
+}
+
+.directions {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 725px;
+	height: 190px;
+	font-size: 30px;
+}
+
+.paragraph {
+	position: absolute;
+	left: 160px;
+	top: 260px;
+	width: 575px;
+	height: 175px;
+	text-align: center;
+	font-size: 36px;
+	font-family: "Comic Sans MS";
+	color: red;
+}
+
+.drawing {
+	position: absolute;
+	left: 160px;
+	top: 340px;
+	width: 270px;
+	height: 300px;
+}
+
+.drawn_dog{
+	background: url("drawn_dog.png");
+}
+.drawn_maria{
+	background: url("drawn_maria.png");
+}
+.drawn_henry{
+	background: url("drawn_henry.png");
+}
+.drawn_cat{
+	background: url("drawn_cat.png");
+}
+
+.variables {
+	position: absolute;
+	left: 380px;
+	top: 400px;
+	width: 365px;
+	height: 235px;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.singlevar {
+	width: 100%;
+	height: auto;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	font-size: 30px;
+	line-height: 1.1em;
+	font-family: "Comic Sans MS";
+	color: black;
+}
+
+.action {
+	position: absolute;
+	top: 696px;
+	width: 230px;
+	height: 50px;
+	text-align: center;
+	font-size: 45px;
+	color: GhostWhite;
+}
+
+.help {
+	left: 240px;
+}
+
+.hint {
+	left: 503px;
+}
+

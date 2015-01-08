@@ -1,0 +1,10 @@
+<div class= "holder">
+  <div class="text directions">{{Whiteboard.message}}</div>
+  <div class="text paragraph">{{Whiteboard.paragraph}}</div>
+  <div class="drawing {{Whiteboard.drawing}}"></div>
+  <div class="text variables" >
+  	<p class="text singlevar" ng-repeat='variable in Whiteboard.variableNames'><span class="blue">var</span> {{variable}} = <span class= "green">{{Whiteboard.variables[variable] ? '"' + Whiteboard.variables[variable] +'"' : "?"}}</span>;</p>
+  </div>
+  <div class='action help' ng-mouseover='Whiteboard.message = Whiteboard.help' ng-mouseleave= 'Whiteboard.message = Whiteboard.directions'>HELP</div>
+  <div class="action hint">HINT</div>
+</div>
