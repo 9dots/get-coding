@@ -1,3 +1,0 @@
-## Mission
-
-Complete activity.
