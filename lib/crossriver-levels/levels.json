@@ -39,9 +39,26 @@
 		 "fg": ["fox"],
 		 "bank": true,
 		 "instructions": "Now that you have both of those, head back over to get the last item - the fox.",
-		 "conditionLog": {
-		 	"crossedToBackground": {"chickenfoxgrain": 1}
+		 "conditionLog": [{
+		 	"crossedToBackground": {"foxgrain": 1}
+		 },{
+		 	"crossedToBackground": {"chickenfox": 1}
 		 }
+		 ]
+	  }
+	},
+	{
+	  "stage": {
+		 "bg": ["chicken", "fox"],
+		 "fg": ["grain"],
+		 "bank": true,
+		 "instructions": "What about if you have the chicken and the fox over there?.",
+		 "conditionLog": [{
+		 	"crossedToBackground": {"foxgrain": 1}
+		 },{
+		 	"crossedToBackground": {"chickengrain": 1}
+		 }
+		 ]
 	  }
 	},
 	{
