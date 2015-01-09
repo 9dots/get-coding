@@ -1,0 +1,60 @@
+{
+  "levels": [
+	{
+	  "stage": {
+		 "bg": [],
+		 "fg": ["chicken"],
+		 "bank": false,
+		 "instructions": "In order to aid the farmer, you will first need to know how. Begin by placing the chicken in the boat.",
+		 "conditionLog": {
+		 	"pickedUp": {"chicken": 1}
+		 }
+	  }
+	},
+	{
+	  "stage": {
+		 "bg": [],
+		 "fg": ["chicken"],
+		 "bank": false,
+		 "instructions": "Next, take the chicken across the river and drop it off on the other bank.",
+		 "conditionLog": {
+		 	"crossedToBackground": {"chicken": 1}
+		 }
+	  }
+	},
+	{
+	  "stage": {
+		 "bg": ["chicken"],
+		 "fg": ["grain"],
+		 "bank": true,
+		 "instructions": "Good work so far! Now that you have gotten the chicken across, go back and get the grain",
+		 "conditionLog": {
+		 	"crossedToBackground": {"chickengrain": 1}
+		 }
+	  }
+	},
+	{
+	  "stage": {
+		 "bg": ["chicken", "grain"],
+		 "fg": ["fox"],
+		 "bank": true,
+		 "instructions": "Now that you have both of those, head back over to get the last item - the fox.",
+		 "conditionLog": {
+		 	"crossedToBackground": {"chickenfoxgrain": 1}
+		 }
+	  }
+	},
+	{
+	  "stage": {
+		 "bg": [],
+		 "fg": ["chicken", "grain", "fox"],
+		 "bank": false,
+		 "level": 6,
+		 "instructions": "Nice job! Now it's time for you to put it all together.",
+		 "conditionLog": {
+		 	"crossedToBackground": {"chickenfoxgrain": 1}
+		 }
+	  }
+	}
+  ]
+}
