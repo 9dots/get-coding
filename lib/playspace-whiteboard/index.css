@@ -4,6 +4,7 @@
 	height: 800px;
 	color: black;
 	background: url('./white_board.png');
+	overflow: hidden;
 }
 
 .directions {
@@ -85,6 +86,30 @@
 	text-align: center;
 	font-size: 45px;
 	color: GhostWhite;
+}
+
+.hand {
+	position: absolute;
+	width: 150px;
+	height: 280px;
+}
+
+.helphand {
+	top: 800px;
+	left: 300px;
+}
+
+.hinthand {
+	top: 800px;
+	left: 550px;
+}
+
+.fisthand {
+	background: url("hand_fist.png");
+}
+
+.openhand {
+	background: url("hand_open.png");
 }
 
 .help {

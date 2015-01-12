@@ -37,8 +37,8 @@ angular.module(name, [
             "paragraph": "The dog chases the ball.",
             "variables": ["animal", "action", "toy"], 
             "values": ["dog", "chases", "ball"], 
-            "help": "", 
-            "hint": ""
+            "help": "The words you type MUST have quotation marks (\" \") on both sides! If you've done it correctly, the words will be green. If they're black, you're missing one or two quotation marks. Otherwise, make sure they're spelled correctly and there are no extra spaces.", 
+            "hint": "Which of the words in the sentence is an animal? Which is an action? Which one is a toy? Type each of those words between the quotation marks next to the variables that describe them."
           }
         },
         "workspace": {
@@ -53,8 +53,8 @@ angular.module(name, [
             "paragraph": "The cat sits.",
             "variables": ["noun", "verb"], 
             "values": ["cat", "sits"], 
-            "help": "", 
-            "hint": ""
+            "help": "The words you type MUST have quotation marks (\" \") on both sides! If you've done it correctly, the words will be green. If they're black, you're missing one or two quotation marks. Otherwise, make sure they're spelled correctly and there are no extra spaces.", 
+            "hint": "A noun is a person, place, or thing; a verb is an action. Which word in the sentence on the board is a noun? Which word is a verb? Type those words between the quotation marks next to the variables that describe them."
           }
         },
         "workspace": {
@@ -69,8 +69,8 @@ angular.module(name, [
             "paragraph": "The cat is black.",
             "variables": ["animal", "color"], 
             "values": ["cat", "black"], 
-            "help": "", 
-            "hint": ""
+            "help": "Don't forget to type quotation marks (\" \") around the values you enter. Also remember to type a semicolon (;) at the end of every line. If your values are green, correctly spelled, and followed by semicolons, your code will work.", 
+            "hint": "Which word in the sentence is an animal? Which is a color? Type those words next to the corresponding variables. Don't forget quotation marks (\" \") and semicolons (;)."
           }
         },
         "workspace": {
@@ -80,13 +80,13 @@ angular.module(name, [
       {
         "playspace": {
           "board": {
-            "directions": "OK! This one should be easy. If you forget what nouns or adjectives are, ask for help at the bottom of the screen. And don't forget those quotations marks and semicolons!",
+            "directions": "OK! This one should be easy. If you forget what nouns or adjectives are, ask for a hint at the bottom of the screen. And don't forget those quotations marks and semicolons!",
             "drawing": "drawn_dog",
             "paragraph": "The dog is fast.",
             "variables": ["noun", "adjective"], 
             "values": ["dog", "fast"], 
-            "help": "", 
-            "hint": ""
+            "help": "Don't forget to type quotation marks (\" \") around the values you enter. Also remember to type a semicolon (;) at the end of every line. If your values are green, correctly spelled, and followed by semicolons, your code will work.", 
+            "hint": "A noun is a person, place, or thing; an adjective is a describing word. Which word in the sentence on the board is a noun? Which word is an adjective? Type those words between quotation marks next to the variables that describe them."
           }
         },
         "workspace": {
@@ -101,12 +101,12 @@ angular.module(name, [
             "paragraph": "Lucy is a sweet dog.",
             "variables": ["petName", "animal", "adjective"], 
             "values": ["Lucy", "dog", "sweet"], 
-            "help": "", 
-            "hint": ""
+            "help": "Don't forget to type quotation marks (\" \") around the values you enter. Also remember to type a semicolon (;) at the end of every line. If your values are green, correctly spelled, and followed by semicolons, your code will work.", 
+            "hint": "Which word in the sentence is the name of a pet? Which word is a type of animal? Which word is an adjective? Type those words next to the corresponding variables. Don't forget quotation marks (\" \") and semicolons (;)."
           }
         },
         "workspace": {
-          "codeSpace": "var name= \nvar animal=\nvar adjective="
+          "codeSpace": "var petName= \nvar animal=\nvar adjective="
         }
       },
       {
@@ -117,8 +117,8 @@ angular.module(name, [
             "paragraph": "Mr. Wiggles is a happy cat.",
             "variables": ["properNoun", "noun", "adjective"], 
             "values": ["Mr. Wiggles", "cat", "happy"], 
-            "help": "", 
-            "hint": ""
+            "help": "Start by copying the bottom three lines from the board into the code panel on the left. Make sure to put each statement on its own line and type every word EXACTLY as it's spelled on the board. Then add the correct values based on the variable names.", 
+            "hint": "A proper noun is the name of a person, place or thing, and is always capitalized. In this sentence, the proper noun is actually TWO words. A noun is a person, place, or thing; an adjective is a describing word."
           }
         },
         "workspace": {
@@ -133,8 +133,8 @@ angular.module(name, [
             "paragraph": "Henry holds the leash.",
             "variables": ["properNoun", "noun", "verb"], 
             "values": ["Henry", "leash", "holds"], 
-            "help": "", 
-            "hint": ""
+            "help": "Start by copying the bottom three lines from the board into the code panel on the left. Make sure to put each statement on its own line and type every word EXACTLY as it's spelled on the board. Then add the correct values based on the variable names.", 
+            "hint": "A proper noun is the name of a person, place or thing, and is always capitalized; a noun is a person, place, or thing; a verb is an action. Which word is a normal noun? Which is a proper noun? Which is a verb?"
           }
         },
         "workspace": {
@@ -149,8 +149,8 @@ angular.module(name, [
             "paragraph": "Lucy chases the yellow ball.",
             "variables": ["properNoun", "noun", "adjective", "verb"], 
             "values": ["Lucy", "ball", "yellow", "chases"], 
-            "help": "", 
-            "hint": ""
+            "help": "Start by copying the bottom four lines from the board into the code panel on the left. Make sure to put each statement on its own line and type every word EXACTLY as it's spelled on the board. Then add the correct values based on the variable names.", 
+            "hint": "A proper noun is the name of a person, place or thing, and is always capitalized; a noun is a person, place, or thing; a verb is an action; an adjective is a describing word."
           }
         },
         "workspace": {
@@ -165,8 +165,8 @@ angular.module(name, [
             "paragraph": "Maria gives her cat a big present for his birthday.",
             "variables": ["properNoun", "animal", "adjective", "verb", "event"], 
             "values": ["Maria", "cat", "big", "gives", "birthday"], 
-            "help": "", 
-            "hint": ""
+            "help": "Start by copying the bottom five lines from the board into the code panel on the left. Make sure to put each statement on its own line and type every word EXACTLY as it's spelled on the board. Then add the correct values based on the variable names.", 
+            "hint": "A proper noun is the name of a person, place or thing, and is always capitalized; a verb is an action; an adjective is a describing word. We are also looking for a word that's an animal and a word that's an event."
           }
         },
         "workspace": {
