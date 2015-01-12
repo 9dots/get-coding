@@ -1,0 +1,40 @@
+{
+  "levels": [
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["0*", "2*"],
+        "parts": ["12"]
+      },
+      "astro": {
+        "position": "10",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["10","11","01","00"],
+        "parts": ["02"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["10","11"],
+        "parts": ["00"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      }
+    }
+  ]
+}
