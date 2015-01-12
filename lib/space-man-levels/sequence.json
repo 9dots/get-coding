@@ -1,0 +1,64 @@
+{
+  "levels": [
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["0*", "2*"],
+        "parts": ["12"]
+      },
+      "astro": {
+        "position": "10",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["10", "11","00","01"],
+        "parts": ["02"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      }
+    },
+    {
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["10", "11"],
+        "parts": ["00"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+     }
+    },
+    {
+      "field": {
+        "rows": 4,
+        "cols": 4,
+        "blocked": ["10", "11", "*3","20","21","30"],
+        "parts": ["31"]
+      },
+      "astro": {
+        "position": "00",
+        "rotation": 0
+     }
+    },
+    {
+      "field": {
+        "rows": 4,
+        "cols": 4,
+        "blocked": ["30", "31", "32","20","13","10","12","00"],
+        "parts": ["03"]
+      },
+      "astro": {
+        "position": "33",
+        "rotation": 180
+     }
+    }
+  ]
+}
