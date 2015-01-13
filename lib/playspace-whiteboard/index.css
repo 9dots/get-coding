@@ -4,21 +4,23 @@
 	height: 800px;
 	color: black;
 	background: url('./white_board.png');
+	overflow: hidden;
 }
 
 .directions {
 	position: absolute;
-	left: 40px;
-	top: 40px;
+	left: 35px;
+	top: 35px;
 	width: 725px;
 	height: 190px;
-	font-size: 30px;
+	font-size: 28px;
+	font-family:  Century Gothic, sans-serif;
 }
 
 .paragraph {
 	position: absolute;
 	left: 160px;
-	top: 260px;
+	top: 270px;
 	width: 575px;
 	height: 175px;
 	text-align: center;
@@ -40,6 +42,7 @@
 }
 .drawn_maria{
 	background: url("drawn_maria.png");
+	margin-left: -30px;
 }
 .drawn_henry{
 	background: url("drawn_henry.png");
@@ -69,8 +72,8 @@
 	height: auto;
 	margin: 0px auto 0px auto;
 	text-align: left;
-	font-size: 30px;
-	line-height: 1.1em;
+	font-size: 28px;
+	line-height: 1.2em;
 	font-family: "Comic Sans MS";
 	color: black;
 }
@@ -83,6 +86,30 @@
 	text-align: center;
 	font-size: 45px;
 	color: GhostWhite;
+}
+
+.hand {
+	position: absolute;
+	width: 150px;
+	height: 280px;
+}
+
+.helphand {
+	top: 800px;
+	left: 300px;
+}
+
+.hinthand {
+	top: 800px;
+	left: 550px;
+}
+
+.fisthand {
+	background: url("hand_fist.png");
+}
+
+.openhand {
+	background: url("hand_open.png");
 }
 
 .help {
