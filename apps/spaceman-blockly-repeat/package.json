@@ -1,6 +1,6 @@
 {
   "name": "spaceman-blockly-repeat",
-  "title": "Repeating Functions",
-  "description": "Introduction to the repeat block.",
+  "title": "Repeat",
+  "description": "Learn about loops in Blockly.",
   "author": "Ryan Baber"
 }

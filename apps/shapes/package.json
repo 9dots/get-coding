@@ -1,6 +1,6 @@
 {
   "name": "shapes",
-  "title": "Shapes",
-  "description": "shape fun",
+  "title": "Functions with parameters",
+  "description": "Create images by calling complex functions in Javascript.",
   "author": "Ryan Baber"
 }
