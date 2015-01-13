@@ -1,0 +1,78 @@
+[playspace-fridge] .fridge {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	background: url('./fridge.png');
+}
+
+[playspace-fridge] .landscape {
+	position: absolute;
+	width: 205px;
+	height: 150px;
+	background: white;
+}
+
+[playspace-fridge] .portrait {
+	position: absolute;
+	width: 150px;
+	height: 205px;
+	background: white;
+}
+
+[playspace-fridge] #drawing1 {
+	left: 285px;
+	top: 80px;
+}
+
+[playspace-fridge] #drawing2 {
+	left: 75px;
+	top: 280px;
+}
+
+[playspace-fridge] #drawing3 {
+	left: 530px;
+	top: 280px;
+}
+
+[playspace-fridge] .label {
+	position: absolute;
+	width: 115px;
+	height: 50px;
+	background: url('big_magnet.png');
+}
+
+[playspace-fridge] #label1 {
+	left: 335px;
+	top: 55px;
+}
+
+[playspace-fridge] #label2 {
+	left: 94px;
+	top: 255px;
+}
+
+[playspace-fridge] #label3 {
+	left: 550px;
+	top: 255px;
+}
+
+[playspace-fridge] .directions {
+	position: absolute;
+	width: 525px;
+	height: 125px;
+	left: 108px;
+	top: 537px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	color: red;
+	font-size: 15px;
+}
+
+[playspace-fridge] .magnetBox {
+	position: absolute;
+	width: 717px;
+	height: 472px;
+	top: 27px;
+	left: 42px;
+}
+
