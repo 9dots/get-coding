@@ -11,6 +11,7 @@ angular.module(name, [
 
   // Apps
   require('/apps/whiteboard-declaring-variables'),
+  require('/apps/fridge-variable-expressions'),
   require('/apps/space-man-blockly'),
   require('/apps/spaceman-blockly-repeat'),
   require('/apps/space-man-sandbox'),
