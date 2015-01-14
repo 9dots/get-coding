@@ -18,8 +18,8 @@
   background: url('http://9dots.s3.amazonaws.com/2014/10/solar_panel.png');
 }
 
-.playspace {
-  background: black;
+[playspace-spaceman] {
+  background-color: black;
 }
 
 .header {

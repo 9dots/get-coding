@@ -7,6 +7,7 @@
 @import '/apps/shapes';
 @import '/apps/shapes-blockly';
 @import '/apps/spaceman-sequencing-blockly';
+@import '/apps/whiteboard-declaring-variables';
 @import '/lib/md-iconic-font/css/material-design-iconic-font.css';
 @import '/lib/code-app';
 

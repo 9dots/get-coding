@@ -1,0 +1,122 @@
+.holder {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	color: black;
+	background: url('./white_board.png');
+	overflow: hidden;
+}
+
+.directions {
+	position: absolute;
+	left: 35px;
+	top: 35px;
+	width: 725px;
+	height: 190px;
+	font-size: 28px;
+	font-family:  Century Gothic, sans-serif;
+}
+
+.paragraph {
+	position: absolute;
+	left: 160px;
+	top: 270px;
+	width: 575px;
+	height: 175px;
+	text-align: center;
+	font-size: 36px;
+	font-family: "Comic Sans MS";
+	color: red;
+}
+
+.drawing {
+	position: absolute;
+	left: 160px;
+	top: 340px;
+	width: 270px;
+	height: 300px;
+}
+
+.drawn_dog{
+	background: url("drawn_dog.png");
+}
+.drawn_maria{
+	background: url("drawn_maria.png");
+	margin-left: -30px;
+}
+.drawn_henry{
+	background: url("drawn_henry.png");
+}
+.drawn_cat{
+	background: url("drawn_cat.png");
+}
+
+.variables {
+	position: absolute;
+	left: 380px;
+	top: 400px;
+	width: 365px;
+	height: 235px;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.singlevar {
+	width: 100%;
+	height: auto;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	font-size: 28px;
+	line-height: 1.2em;
+	font-family: "Comic Sans MS";
+	color: black;
+}
+
+.action {
+	position: absolute;
+	top: 696px;
+	width: 230px;
+	height: 50px;
+	text-align: center;
+	font-size: 45px;
+	color: GhostWhite;
+}
+
+.hand {
+	position: absolute;
+	width: 150px;
+	height: 280px;
+}
+
+.helphand {
+	top: 800px;
+	left: 300px;
+}
+
+.hinthand {
+	top: 800px;
+	left: 550px;
+}
+
+.fisthand {
+	background: url("hand_fist.png");
+}
+
+.openhand {
+	background: url("hand_open.png");
+}
+
+.help {
+	left: 240px;
+}
+
+.hint {
+	left: 503px;
+}
+

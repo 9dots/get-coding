@@ -1,7 +1,7 @@
 {
   "name": "space-man",
-  "title": "Space Man",
-  "description": "Introduction to coding by navigating the space man",
+  "title": "Calling Functions",
+  "description": "Learn how to call functions in Javascript.",
   "language": "javascript",
   "author": "Ryan Baber",
   "keywords": ["javascript", "sequences"]

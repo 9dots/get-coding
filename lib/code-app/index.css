@@ -154,3 +154,15 @@
 md-dialog.help {
   max-width: 790px;
 }
+
+.playspace {
+  width: 980px;
+}
+
+.playspace > div {
+  width: 100%;
+}
+
+md-dialog {
+  position: static;
+}
