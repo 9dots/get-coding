@@ -2,6 +2,7 @@
   "name": "app",
   "main": "index.js",
   "dependencies": {
-    "angular/bower-material": "0.5.x"
+    "angular/bower-material": "0.5.x",
+    "lodash/lodash": "2.4.1"
   }
 }

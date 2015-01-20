@@ -2,7 +2,7 @@
 var name = module.exports = 'main';
 
 require('/lib/angular');
-// var _ = require('lodash/lodash');
+var _ = require('lodash/lodash');
 
 angular.module(name, [
   'ui.router',
