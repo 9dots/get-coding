@@ -2,7 +2,7 @@
 var name = module.exports = 'main';
 
 require('/lib/angular');
-var _ = require('lodash/lodash');
+// var _ = require('lodash/lodash');
 
 angular.module(name, [
   'ui.router',
@@ -17,7 +17,8 @@ angular.module(name, [
   require('/apps/shapes-blockly'),
   require('/apps/shapes'),
   require('/apps/spaceman-sequencing'),
-  require('/apps/spaceman-sequencing-blockly')
+  require('/apps/spaceman-sequencing-blockly'),
+  require('/apps/spaceman-functions')
 ])
 .config(['$compileProvider', function($compileProvider) {
   var re = /^\s*(?:blob(?::|%3A))?(https?|ftp|file)(:|%3A)|data:image\//;
