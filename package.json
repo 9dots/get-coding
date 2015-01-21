@@ -17,7 +17,11 @@
     "express": "~3.3.8",
     "gulp": "^3.8.10",
     "gulp-symlink": "~0.1.7",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "check-types": "~2.2.0",
+    "esprima": "~1.2.3",
+    "escomplex-ast-moz": "~0.1.6",
+    "escomplex": "~1.0.0"
   },
   "devDependencies": {
     "duo-watch": "~0.1.1",
