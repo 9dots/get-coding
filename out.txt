@@ -1,0 +1,16 @@
+options dev true
+[11:00:14] Using gulpfile ~/Repositories/get-coding/gulpfile.js
+[11:00:14] Starting 'public'...
+[11:00:14] Finished 'public' after 323 μs
+[11:00:14] Starting 'assets'...
+[11:00:14] Starting 'unlink-lib'...
+[11:00:14] Finished 'unlink-lib' after 101 μs
+[11:00:14] Starting 'link-lib'...
+[11:00:14] Finished 'link-lib' after 11 ms
+[11:00:14] Finished 'assets' after 47 ms
+[11:00:14] Starting 'dev'...
+[11:00:14] Finished 'dev' after 30 ms
+Express server listening on port 3000
+wrote 9339kb to build.js
+wrote 184kb to build.css
+reload

@@ -1,10 +1,20 @@
 <div class= "fridge">
 	<div ng-repeat= "drawing in Fridge.drawings" class= "{{drawing.class}}" id="{{drawing.id}}"></div>
+
 	<div ng-repeat= "drawing in Fridge.drawings" class="label" id="{{drawing.labelid}}">
-		<p class= "magnetText">{{drawing.id}}</p>
-		<p class= "magnetText"><span style="color: green">" "</span></p>
+		{{drawing.id}}
+		<br>
+		<span style="color: green">"{{Fridge.editValue(Fridge.variables[drawing.id])}}"</span>
 	</div>
 	 
-	 <div class= "directions">DIRECTIONS: {{Fridge.directions}}</div>
-	<div class= "magnetBox"></div>
+	 <div class= "directions">{{Fridge.message}}</div>
+	<div class= "magnetBox">
+		<div class= "magnet" ng-repeat= "variable in Fridge.variableNames" id= "{{variable.name}}">
+			{{variable.name}}
+			<br>
+			<span style="color: green">"{{variable.value}}"</span>
+		</div>
+	</div>
+	<div class="button help" ng-mouseover='Fridge.getHelp()' ng-mouseleave= 'Fridge.unHelp()'></div>
+	<div class="button hint" ng-mouseover='Fridge.getHint()' ng-mouseleave= 'Fridge.unHint()'></div>
 </div>
