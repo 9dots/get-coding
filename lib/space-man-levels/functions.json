@@ -1,15 +1,20 @@
 {
   "levels": [
     {
-      "field": {
-        "rows": 2,
-        "cols": 2,
-        "blocked": ["11"],
-        "parts": ["01"]
+      "playspace": {
+        "field": {
+          "rows": 2,
+          "cols": 2,
+          "blocked": ["11"],
+          "parts": ["01"]
+        },
+        "astro": {
+          "position": "10",
+          "rotation": -90
+        }
       },
-      "astro": {
-        "position": "10",
-        "rotation": -90
+      "workspace": {
+        "loc": 5
       }
     },
     {

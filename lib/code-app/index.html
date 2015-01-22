@@ -51,7 +51,11 @@
           <md-divider></md-divider>
           <span layout='vertical' layout-align='start center'>
             <div class='run-title'>LOC</div>
-            <div class='run-info mdi-1p5x'>{{App.codeAnalysis.aggregate.sloc.logical || 0}}</div>
+            <div class='run-loc' ng-class='{warn: App.locUsed > App.locAllowed}'>
+              <span class='loc-used'>{{App.locUsed || 0}}</span>
+              <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
+              <span class='loc-allowed' ng-show='App.locAllowed'>{{App.locAllowed}}</span>
+              </div>
           </span>
           
         </md-whiteframe>

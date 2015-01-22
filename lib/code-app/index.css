@@ -81,6 +81,14 @@
   text-align: center;
 }
 
+.run-loc {
+  padding-top: 10px;
+}
+
+.warn {
+  color: #e84e40;
+}
+
 .run-mini-buttons {
   padding-top: 2px;
   line-height: 16px;
