@@ -11,17 +11,16 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "batch": "~0.5.1",
-    "colors": "^1.0.3",
-    "duo": "~0.8.9",
-    "ejs": "^1.0.0",
-    "express": "~3.3.8",
-    "gulp": "^3.8.10",
-    "gulp-symlink": "~0.1.7",
-    "lodash": "^2.4.1",
     "check-types": "~2.2.0",
-    "esprima": "~1.2.3",
+    "colors": "^1.0.3",
+    "duo": "^0.8.10",
+    "duo-watch": "^0.1.1",
+    "ejs": "^1.0.0",
+    "escomplex": "~1.0.0",
     "escomplex-ast-moz": "git://github.com/joshrtay/escomplex-ast-moz",
-    "escomplex": "~1.0.0"
+    "esprima": "~1.2.3",
+    "express": "^3.3.8",
+    "gulp": "^3.8.10"
   },
   "devDependencies": {
     "duo-watch": "~0.1.1",
