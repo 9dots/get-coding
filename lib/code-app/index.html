@@ -48,7 +48,11 @@
               <md-button ng-click='App.decreaseSpeed()' aria-label="decrease speed"><i class='mdi mdi-remove'></i></md-button><md-button ng-click='App.increaseSpeed()' aria-label="increase speed"><i class='mdi mdi-add'></i></md-button>
             </span>
           </span>
-          
+          <md-divider></md-divider>
+          <span layout='vertical' layout-align='start center'>
+            <div class='run-title'>LOC</div>
+            <div class='run-info mdi-1p5x'>{{App.codeAnalysis.aggregate.sloc.logical || 0}}</div>
+          </span>
           
         </md-whiteframe>
       </div>

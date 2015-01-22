@@ -67,6 +67,7 @@
 .run-wrap md-whiteframe {
   z-index: 1;
   background: white;
+  padding-bottom: 14px;
 }
 
 .run-title {
