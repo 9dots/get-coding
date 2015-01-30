@@ -67,6 +67,7 @@
 .run-wrap md-whiteframe {
   z-index: 1;
   background: white;
+  padding-bottom: 14px;
 }
 
 .run-title {
@@ -78,6 +79,14 @@
   padding-top: 15px;
   padding-bottom: 0px;
   text-align: center;
+}
+
+.run-loc {
+  padding-top: 10px;
+}
+
+.warn {
+  color: #e84e40;
 }
 
 .run-mini-buttons {
@@ -153,4 +162,16 @@
 
 md-dialog.help {
   max-width: 790px;
+}
+
+.playspace {
+  width: 860px;
+}
+
+.playspace > div {
+  width: 100%;
+}
+
+md-dialog {
+  position: static;
 }

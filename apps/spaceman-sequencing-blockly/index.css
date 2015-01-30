@@ -1,0 +1,14 @@
+@import '/lib/playspace-spaceman';
+@import '/lib/workspace-blockly';
+
+/**
+ * Space man logo.
+ */
+
+
+#spaceman-sequencing-blockly .title-left {
+  background-image: url(/apps/space-man-blockly/space-man-blockly-title.png);
+  background-size: 339px 271px;
+  width: 300px;
+  height: 271px;
+}

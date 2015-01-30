@@ -1,7 +1,7 @@
 {
   "name": "space-man-blockly",
   "title": "Calling Functions",
-  "description": "Introduction to coding with Blockly.",
+  "description": "Learn how to call functions in Blockly.",
   "language": "javascript",
   "author": "Ryan Baber",
   "keywords": ["javascript", "sequences"]

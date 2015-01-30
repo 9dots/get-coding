@@ -3,8 +3,12 @@
 @import '/apps/space-man-blockly';
 @import '/apps/space-man-sandbox';
 @import '/apps/spaceman-blockly-repeat';
+@import '/apps/spaceman-sequencing';
+@import '/apps/spaceman-functions';
+@import '/apps/spaceman-functions-blockly';
 @import '/apps/shapes';
 @import '/apps/shapes-blockly';
+@import '/apps/spaceman-sequencing-blockly';
 @import '/apps/whiteboard-declaring-variables';
 @import '/apps/fridge-variable-expressions';
 @import '/lib/md-iconic-font/css/material-design-iconic-font.css';

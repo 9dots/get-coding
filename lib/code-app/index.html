@@ -20,7 +20,7 @@
   </md-toolbar>
 
   <div class='app-area' layout='horizontal' layout-align='center' flex>
-    <div  ui-view='workspace' flex='45' layout='vertical' class='workspace'></div>
+    <div  ui-view='workspace' flex layout='vertical' class='workspace'></div>
     
     <div class='run-abs'>
       <div class='run-abs-pos'>
@@ -48,14 +48,24 @@
               <md-button ng-click='App.decreaseSpeed()' aria-label="decrease speed"><i class='mdi mdi-remove'></i></md-button><md-button ng-click='App.increaseSpeed()' aria-label="increase speed"><i class='mdi mdi-add'></i></md-button>
             </span>
           </span>
-          
+          <md-divider></md-divider>
+          <span layout='vertical' layout-align='start center'>
+            <div class='run-title'>LOC</div>
+            <div class='run-loc' ng-class='{warn: App.locUsed > App.locAllowed}'>
+              <span class='loc-used'>{{App.locUsed || 0}}</span>
+              <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
+              <span class='loc-allowed' ng-show='App.locAllowed'>{{App.locAllowed}}</span>
+              </div>
+          </span>
           
         </md-whiteframe>
       </div>
       </div>
     </div>
-    <div class='handle' layout='vertical' div-resize><div flex></div></div>
-    <div ui-view='playspace' flex='55' class='playspace noselect'></div>
+    <div class='handle' layout='vertical' div-resize>
+      <div flex></div>
+    </div>
+    <div ui-view='playspace' class='playspace noselect' layout='horizontal'></div>
     
   </div>
  
