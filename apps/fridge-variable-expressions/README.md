@@ -5,7 +5,7 @@ We have declared several word variables and made each one into a fridge magnet i
 For instance, if drawing1 showed a bookshelf, and you saw that word1 had a value of "book" and word2 had a value of "shelf", you could label drawing1 with the following code: 
 
 ```
-var drawing1= word1 + word2;
+var drawing1 = word1 + word2;
 ```
 
 This would retrieve the "book" value from word1 and the "shelf" value from word2 and combine them to form the value "bookshelf", which would then be stored in the drawing1 variable. 

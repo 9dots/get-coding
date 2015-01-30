@@ -26,7 +26,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var animal= \"\";"
+          "codeSpace": "var animal = \"\";"
         }
       }, 
       {
@@ -42,7 +42,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var animal= \"dog\";\nvar action= \"\";\nvar toy= \"\";"
+          "codeSpace": "var animal = \"dog\";\nvar action = \"\";\nvar toy = \"\";"
         }
       },
       {
@@ -58,7 +58,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var noun= \"\";\nvar verb= \"\";"
+          "codeSpace": "var noun = \"\";\nvar verb = \"\";"
         }
       },
       {
@@ -74,7 +74,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var animal=\nvar color= "
+          "codeSpace": "var animal =\nvar color = "
         }
       },
       {
@@ -90,7 +90,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var noun= \nvar adjective="
+          "codeSpace": "var noun = \nvar adjective ="
         }
       },
       {
@@ -106,7 +106,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var petName= \nvar animal=\nvar adjective="
+          "codeSpace": "var petName = \nvar animal =\nvar adjective ="
         }
       },
       {

@@ -16,7 +16,7 @@ angular.module(name, [
       {"playspace":{
         "directions": "DIRECTIONS: We have created four variables called word1, word2, word3 and word4. These variables each contain a different word. We have also created a variable called drawing1, but it does not contain a word yet. In the code panel, set drawing1 equal to the word variable that matches the drawing.",
         "help":"In this exercise, we don't want you to just type in the word. We want you to set drawing1 equal to the word magnet on the fridge that matches the drawing. Which magnet on the fridge has the right word in it? Type the name of that variable to the right of the equal sign in the code panel.", 
-        "hint": "You CANNOT type var drawing1= \"book\". You have to set drawing1 equal to the magnet that has the word \"book\" in it. Which of the magnets contains the word \"book\"? Type that word to the right of the equal sign in the code panel.",
+        "hint": "You CANNOT type var drawing1 = \"book\". You have to set drawing1 equal to the magnet that has the word \"book\" in it. Which of the magnets contains the word \"book\"? Type that word to the right of the equal sign in the code panel.",
         "drawings": [
           {"id": "drawing1",
             "class": "book", 
@@ -39,13 +39,13 @@ angular.module(name, [
             "value": "sea"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= word"
+        "codeSpace": "var drawing1 = word"
       }
     }, 
     {"playspace":{
         "directions": "DIRECTIONS: We have created seven variables. Each variable contains a different word. We have also created two variables called drawing1 and drawing2, but they do not contain words yet. In the code panel, set drawing1 and drawing2 equal to the word variables that match their drawings.",
         "help":"In this exercise, we don't want you to just type in the words. We want you to set drawing1 and drawing2 equal to the word magnets on the fridge that match their drawings. Which magnets on the fridge have the right words? Type the names of those variables to the right of the equal signs in the code panel.", 
-        "hint": "You CANNOT type var drawing1= \"fire\" and var drawing2= \”house\” You have to set them equal to the magnets that have the words \"fire\"  and \”book\” in them. Which of the magnets contains those words? Type them to the right of the equal signs in the code panel.",
+        "hint": "You CANNOT type var drawing1 = \"fire\" and var drawing2 = \”house\” You have to set them equal to the magnets that have the words \"fire\"  and \”book\” in them. Which of the magnets contains those words? Type them to the right of the equal signs in the code panel.",
         "drawings": [
           {"id": "drawing1",
             "class": "fire", 
@@ -82,13 +82,13 @@ angular.module(name, [
             "value": "friend"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= word\nvar drawing2= word"
+        "codeSpace": "var drawing1 = word\nvar drawing2 = word"
       }
     },
     {"playspace":{
         "directions": "DIRECTIONS: We have created ten variables in the magnets on the fridge. Each variable contains a different word. We have also created three variables called drawing1, drawing2, and drawing3, but they do not contain words yet. In the code panel, set drawing1, drawing2 and drawing3 equal to the word variables that match their drawings.",
         "help":"In this exercise, we don't want you to just type in the words. We want you to set drawing1, drawing2 and drawing3 equal to the word magnets on the fridge that match their drawings. Which magnets on the fridge have the right words? Type the names of those variables to the right of the equal signs in the code panel.", 
-        "hint": "You CANNOT type var drawing1= \"shoe\" . You have to set them equal to the magnet that has the word \"shoe\" in it. Which of the magnets contains that word? Type it to the right of the equal sign after drawing1 in the code panel. Then do the same thing for the other two drawing variables.",
+        "hint": "You CANNOT type var drawing1 = \"shoe\" . You have to set them equal to the magnet that has the word \"shoe\" in it. Which of the magnets contains that word? Type it to the right of the equal sign after drawing1 in the code panel. Then do the same thing for the other two drawing variables.",
         "drawings": [
           {"id": "drawing1",
             "class": "shoe", 
@@ -139,7 +139,7 @@ angular.module(name, [
             "value": "star"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= word\nvar drawing2= word\nvar drawing3= word"
+        "codeSpace": "var drawing1 = word\nvar drawing2 = word\nvar drawing3 = word"
       }
     },
     {"playspace":{
@@ -196,7 +196,7 @@ angular.module(name, [
             "value": "birth"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= word;\nvar drawing2= word;\nvar drawing3= word + word;"
+        "codeSpace": "var drawing1 = word;\nvar drawing2 = word;\nvar drawing3 = word + word;"
       }
     },
     {"playspace":{
@@ -253,7 +253,7 @@ angular.module(name, [
             "value": "note"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= ;\nvar drawing2= ;\nvar drawing3= ;"
+        "codeSpace": "var drawing1 = ;\nvar drawing2 = ;\nvar drawing3 = ;"
       }
     },
     {"playspace":{
@@ -310,7 +310,7 @@ angular.module(name, [
             "value": "foot"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1= ;\nvar drawing2= ;\nvar drawing3= ;"
+        "codeSpace": "var drawing1 = ;\nvar drawing2 = ;\nvar drawing3 = ;"
       }
     }, {"playspace":{
         "directions": "DIRECTIONS: Now all three drawings will require you to combine two words. In this level, all the drawings will use the same first word. Using the + sign, combine the words from TWO magnets to make a compound word for the drawing variables.",
