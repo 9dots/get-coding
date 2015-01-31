@@ -39,7 +39,7 @@ angular.module(name, [
             "value": "sea"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1 = word"
+        "codeSpace": "var drawing1 = word;"
       }
     }, 
     {"playspace":{
@@ -82,7 +82,7 @@ angular.module(name, [
             "value": "friend"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1 = word\nvar drawing2 = word"
+        "codeSpace": "var drawing1 = word;\nvar drawing2 = word;"
       }
     },
     {"playspace":{
@@ -139,7 +139,7 @@ angular.module(name, [
             "value": "star"
           }]
       }, "workspace":{
-        "codeSpace": "var drawing1 = word\nvar drawing2 = word\nvar drawing3 = word"
+        "codeSpace": "var drawing1 = word;\nvar drawing2 = word;\nvar drawing3 = word;"
       }
     },
     {"playspace":{
