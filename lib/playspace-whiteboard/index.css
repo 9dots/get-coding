@@ -1,4 +1,4 @@
-.holder {
+[playspace-whiteboard] .holder {
 	position: relative;
 	width: 800px;
 	height: 800px;
@@ -7,7 +7,7 @@
 	overflow: hidden;
 }
 
-.directions {
+[playspace-whiteboard] .directions {
 	position: absolute;
 	left: 35px;
 	top: 35px;
@@ -17,7 +17,7 @@
 	font-family:  Century Gothic, sans-serif;
 }
 
-.paragraph {
+[playspace-whiteboard] .paragraph {
 	position: absolute;
 	left: 160px;
 	top: 270px;
@@ -29,7 +29,7 @@
 	color: red;
 }
 
-.drawing {
+[playspace-whiteboard] .drawing {
 	position: absolute;
 	left: 160px;
 	top: 340px;
@@ -37,21 +37,24 @@
 	height: 300px;
 }
 
-.drawn_dog{
+[playspace-whiteboard] .drawn_dog{
 	background: url("drawn_dog.png");
 }
-.drawn_maria{
+
+[playspace-whiteboard] .drawn_maria{
 	background: url("drawn_maria.png");
 	margin-left: -30px;
 }
-.drawn_henry{
+
+[playspace-whiteboard] .drawn_henry{
 	background: url("drawn_henry.png");
 }
-.drawn_cat{
+
+[playspace-whiteboard] .drawn_cat{
 	background: url("drawn_cat.png");
 }
 
-.variables {
+[playspace-whiteboard] .variables {
 	position: absolute;
 	left: 380px;
 	top: 400px;
@@ -59,15 +62,15 @@
 	height: 235px;
 }
 
-.blue {
+[playspace-whiteboard] .blue {
 	color: blue;
 }
 
-.green {
+[playspace-whiteboard] .green {
 	color: green;
 }
 
-.singlevar {
+[playspace-whiteboard] .singlevar {
 	width: 100%;
 	height: auto;
 	margin: 0px auto 0px auto;
@@ -78,7 +81,7 @@
 	color: black;
 }
 
-.action {
+[playspace-whiteboard] .action {
 	position: absolute;
 	top: 696px;
 	width: 230px;
@@ -88,35 +91,35 @@
 	color: GhostWhite;
 }
 
-.hand {
+[playspace-whiteboard] .hand {
 	position: absolute;
 	width: 150px;
 	height: 280px;
 }
 
-.helphand {
+[playspace-whiteboard] .helphand {
 	top: 800px;
 	left: 300px;
 }
 
-.hinthand {
+[playspace-whiteboard] .hinthand {
 	top: 800px;
 	left: 550px;
 }
 
-.fisthand {
+[playspace-whiteboard] .fisthand {
 	background: url("hand_fist.png");
 }
 
-.openhand {
+[playspace-whiteboard] .openhand {
 	background: url("hand_open.png");
 }
 
-.help {
+[playspace-whiteboard] .help {
 	left: 240px;
 }
 
-.hint {
+[playspace-whiteboard] .hint {
 	left: 503px;
 }
 

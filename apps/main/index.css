@@ -11,6 +11,7 @@
 @import '/apps/spaceman-sequencing-blockly';
 @import '/apps/whiteboard-declaring-variables';
 @import '/apps/fridge-variable-expressions';
+@import '/apps/whiteboard-review';
 @import '/lib/md-iconic-font/css/material-design-iconic-font.css';
 @import '/lib/code-app';
 

@@ -1,0 +1,225 @@
+[playspace-whiteboard-review] .holder {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	color: black;
+	background: url('./whiteboard-review.png');
+	overflow: hidden;
+}
+
+[playspace-whiteboard-review] .directions {
+	position: absolute;
+	left: 35px;
+	top: 35px;
+	width: 725px;
+	height: 190px;
+	font-size: 28px;
+	font-family:  Century Gothic, sans-serif;
+}
+
+[playspace-whiteboard-review] .variables {
+	position: absolute;
+	left: 380px;
+	top: 400px;
+	width: 365px;
+	height: 235px;
+}
+
+[playspace-whiteboard-review] .blue {
+	color: blue;
+}
+
+[playspace-whiteboard-review] .green {
+	color: green;
+}
+
+[playspace-whiteboard-review] .black {
+	color: black;
+}
+
+[playspace-whiteboard-review] .singlevar {
+	width: 90px;
+	height: auto;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+[playspace-whiteboard-review] .cubby {
+	position: absolute;
+	width: 89px;
+	height: 82px;
+	font-size: 22px;
+	word-wrap: break-word;
+	overflow: hidden;
+} 
+
+[playspace-whiteboard-review] .adjective1 {
+	position: absolute;
+	left: 270px;
+	top: 284px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .adjective2 {
+	position: absolute;
+	left: 386px;
+	top: 284px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .adjective3 {
+	position: absolute;
+	left: 501px;
+	top: 284px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .onScreen {
+	position: absolute;
+	left: 616px;
+	top: 284px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .animal1 {
+	position: absolute;
+	left: 270px;
+	top: 392px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .animal2 {
+	position: absolute;
+	left: 386px;
+	top: 392px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .animal3 {
+	position: absolute;
+	left: 501px;
+	top: 392px;
+	font-size: 16px;
+}
+
+[playspace-whiteboard-review] .adjective1Value{
+	left: 271px;
+	top: 308px;
+}
+
+[playspace-whiteboard-review] .adjective2Value {
+	left: 387px;
+	top: 308px;
+}
+
+[playspace-whiteboard-review] .adjective3Value {
+	left: 502px;
+	top: 308px;
+}
+
+[playspace-whiteboard-review] .animal1Value {
+	left: 271px;
+	top: 417px;
+}
+
+[playspace-whiteboard-review] .animal2Value {
+	left: 387px;
+	top: 417px;
+}
+
+[playspace-whiteboard-review] .animal3Value {
+	left: 502px;
+	top: 417px;
+}
+
+[playspace-whiteboard-review] .onScreenValue {
+	left: 618px;
+	top: 308px;
+}
+
+[playspace-whiteboard-review] .screen {
+	position: absolute;
+	width: 122px;
+	height: 66px;
+	left: 202px;
+	top: 510px;
+}
+
+[playspace-whiteboard-review] .happycat {
+	background: url('happycat.png');
+}
+
+[playspace-whiteboard-review] .sadcat {
+	background: url('sadcat.png');
+}
+
+[playspace-whiteboard-review] .angrycat {
+	background: url('angrycat.png');
+}
+
+[playspace-whiteboard-review] .happybird {
+	background: url('happybird.png');
+}
+
+[playspace-whiteboard-review] .sadbird {
+	background: url('sadbird.png');
+}
+
+[playspace-whiteboard-review] .angrybird {
+	background: url('angrybird.png');
+}
+
+[playspace-whiteboard-review] .happybear {
+	background: url('happybear.png');
+}
+
+[playspace-whiteboard-review] .sadbear {
+	background: url('sadbear.png');
+}
+
+[playspace-whiteboard-review] .angrybear {
+	background: url('angrybear.png');
+}
+
+[playspace-whiteboard-review] .action {
+	position: absolute;
+	top: 696px;
+	width: 230px;
+	height: 50px;
+	text-align: center;
+	font-size: 45px;
+	color: GhostWhite;
+}
+
+[playspace-whiteboard-review] .hand {
+	position: absolute;
+	width: 150px;
+	height: 280px;
+}
+
+[playspace-whiteboard-review] .helphand {
+	top: 800px;
+	left: 300px;
+}
+
+[playspace-whiteboard-review] .hinthand {
+	top: 800px;
+	left: 550px;
+}
+
+[playspace-whiteboard-review] .fisthand {
+	background: url("hand_fist.png");
+}
+
+[playspace-whiteboard-review] .openhand {
+	background: url("hand_open.png");
+}
+
+[playspace-whiteboard-review] .help {
+	left: 240px;
+}
+
+[playspace-whiteboard-review] .hint {
+	left: 503px;
+}
