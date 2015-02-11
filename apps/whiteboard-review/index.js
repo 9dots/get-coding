@@ -40,7 +40,7 @@ angular.module(name, [
             "showValues":["happy", null, null],
             "answer": "",
             "help": "To make a variable, we use the keyword var. The next word will be the name of the variable which is like the label on box. Then we use the = to tell the computer what to put in the box. In this step, we need to declare TWO variables.",
-            "hint": "Starting on line 2, type: \rvar adjective2 = \"sad\";\n and on line 3, type: var adjective3 = \"angry\";"
+            "hint": "Starting on line 2, type: \nvar adjective2 = \"sad\";\n and on line 3, type: var adjective3 = \"angry\";"
           }
         },
         "workspace": {
@@ -74,7 +74,7 @@ angular.module(name, [
             "showValues":["happy", "sad", "angry", "cat", null, null],
             "answer": "",
             "help": "To make a variable, we use the keyword var. The next word will be the name of the variable which is like the label on box. Then we use the = to tell the computer what to put in the box.",
-            "hint": "Starting on line 5, type \rvar animal2 = \"bird\";\n and on line 6, type var animal3 = \"bear\";"
+            "hint": "Starting on line 5, type \nvar animal2 = \"bird\";\n and on line 6, type var animal3 = \"bear\";"
           }
         },
         "workspace": {
@@ -112,7 +112,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var adjective1 = \"happy\";\rvar adjective2 = \"sad\";\rvar adjective3 = \"angry\";\rvar animal1 = \"cat\";\rvar animal2 = \"bird\";\rvar animal3 = \"bear\";\rvar onScreen = adjective1 + animal1;"
+          "codeSpace": "var adjective1 = \"happy\";\nvar adjective2 = \"sad\";\nvar adjective3 = \"angry\";\nvar animal1 = \"cat\";\nvar animal2 = \"bird\";\nvar animal3 = \"bear\";\nvar onScreen = adjective1 + animal1;"
         }
       },
       {
@@ -129,7 +129,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var adjective1 = \"happy \";\rvar adjective2 = \"sad\";\rvar adjective3 = \"angry\";\rvar animal1 = \"cat\";\rvar animal2 = \"bird\";\rvar animal3 = \"bear\";\rvar onScreen = adjective1 + animal1;"
+          "codeSpace": "var adjective1 = \"happy \";\nvar adjective2 = \"sad\";\nvar adjective3 = \"angry\";\nvar animal1 = \"cat\";\nvar animal2 = \"bird\";\nvar animal3 = \"bear\";\nvar onScreen = adjective1 + animal1;"
         }
       },
       {
@@ -146,7 +146,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var adjective1 = \"happy \";\rvar adjective2 = \"sad \";\rvar adjective3 = \"angry \";\rvar animal1 = \"cat\";\rvar animal2 = \"bird\";\rvar animal3 = \"bear\";\rvar onScreen = adjective1 + animal1;\r"
+          "codeSpace": "var adjective1 = \"happy \";\nvar adjective2 = \"sad \";\nvar adjective3 = \"angry \";\nvar animal1 = \"cat\";\nvar animal2 = \"bird\";\nvar animal3 = \"bear\";\nvar onScreen = adjective1 + animal1;\n"
         }
       },
       {
@@ -163,7 +163,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var adjective1 = \"happy \";\rvar adjective2 = \"sad \";\rvar adjective3 = \"angry \";\rvar animal1 = \"cat\";\rvar animal2 = \"bird\";\rvar animal3 = \"bear\";\rvar onScreen = adjective2 + animal3;"
+          "codeSpace": "var adjective1 = \"happy \";\nvar adjective2 = \"sad \";\nvar adjective3 = \"angry \";\nvar animal1 = \"cat\";\nvar animal2 = \"bird\";\nvar animal3 = \"bear\";\nvar onScreen = adjective2 + animal3;"
         }
       },
       {
@@ -180,7 +180,7 @@ angular.module(name, [
           }
         },
         "workspace": {
-          "codeSpace": "var adjective1 = \"happy \";\rvar adjective2 = \"sad \";\rvar adjective3 = \"angry \";\rvar animal1 = \"cat\";\rvar animal2 = \"bird\";\rvar animal3 = \"bear\";\rvar onScreen = adjective3 + animal2;"
+          "codeSpace": "var adjective1 = \"happy \";\nvar adjective2 = \"sad \";\nvar adjective3 = \"angry \";\nvar animal1 = \"cat\";\nvar animal2 = \"bird\";\nvar animal3 = \"bear\";\nvar onScreen = adjective3 + animal2;"
         }
       }
 
