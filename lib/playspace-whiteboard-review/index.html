@@ -1,9 +1,9 @@
 <div class="holder">
-  <div class="text directions">{{WhiteboardReview.message}}</div>
+  <div class="text directions"><marked>{{WhiteboardReview.message}}</marked></div>
 
-  	<p ng-repeat='variable in WhiteboardReview.variableNames' class="black singlevar {{variable}}">{{WhiteboardReview.variables[variable] ? variable : "" }} </p>
+	<p ng-repeat='variable in WhiteboardReview.variableNames' class="black singlevar {{variable}}">{{WhiteboardReview.variables[variable] ? variable : "" }} </p>
 
-  	<p ng-repeat= 'variable in WhiteboardReview.variableNames' class= "green cubby singlevar {{variable}}Value" >{{WhiteboardReview.variables[variable] ? '"' + WhiteboardReview.editValue(WhiteboardReview.variables[variable]) +'"' : ""}}</p>
+	<p ng-repeat= 'variable in WhiteboardReview.variableNames' class= "green cubby singlevar {{variable}}Value" >{{WhiteboardReview.variables[variable] ? '"' + WhiteboardReview.editValue(WhiteboardReview.variables[variable]) +'"' : ""}}</p>
 
   	<p class="black singlevar onScreen"></p>
   	<p class= "green cubby singlevar onScreenValue"></p>

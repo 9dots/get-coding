@@ -17,13 +17,13 @@ angular.module(name, [
         "playspace": {
           "level": 1,
           "board": {
-            "directions": "Computers remember pieces of information in boxes called variables. Let's tell the computer to remember the word \"happy\". Make a variable called adjective1 and put the value \"happy\" inside.",
+            "directions": "Computers remember pieces of information in boxes called variables. Let's tell the computer to remember the word \"happy\". Make a variable called `adjective1` and put the value `\"happy\"` inside.",
             "variables": ["adjective1"],
             "values": ["happy"],
             "showValues":[null],
             "answer": "",
-            "help": "To make a variable, we use the keyword var. The next word will be the name of the variable which is like the label on box. Then we use the = to tell the computer what to put in the box. In this case, we want to put the word \"happy\" inside the variable.",
-            "hint": "In the code panel, type the following line: var adjective1 = \"happy\";"
+            "help": "To make a variable, we use the keyword `var`. The next word will be the name of the variable which is like the label on box. Then we use the `=` to tell the computer what to put in the box. In this case, we want to put the word `\"happy\"` inside the variable.",
+            "hint": "In the code panel, type the following line: `var adjective1 = \"happy\";`"
           }
         },
         "workspace": {

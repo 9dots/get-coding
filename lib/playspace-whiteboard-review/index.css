@@ -223,3 +223,7 @@
 [playspace-whiteboard-review] .hint {
 	left: 503px;
 }
+
+[playspace-whiteboard-review] .markdown-body p {
+	font-size: 22px; 
+}
