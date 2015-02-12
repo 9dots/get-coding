@@ -37,6 +37,13 @@ angular.module(name, [
   });
 }])
 .controller('MainCtrl', ['apps', function(apps) {
+  this.group = {
+    name: 'Test',
+    apps: apps
+  };
+
+  this.groups = [this.group];
+
   this.apps = apps;
 }]);
 
