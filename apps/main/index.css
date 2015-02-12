@@ -55,6 +55,7 @@ a {
   background-color: white;
   margin: 18px;
   padding: 0;
+  cursor:pointer;
 }
 
 #main md-toolbar.md-default-theme {
@@ -68,17 +69,12 @@ a {
 }
 
 #main h2 {
-  margin-top: 1.3em;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 2.0em;
 }
 
 #main .author {
   line-height: .5;
-}
-
-#main md-card md-divider {
-  margin-top: 1.0em;
 }
 
 .play {
@@ -105,8 +101,29 @@ md-toolbar.gc-color {
   margin-left: .7em;
 }
 
+.group-wrapper {
+  height:120px;
+}
 
+.more-info div {
+  margin:5px;
+}
 
+.animate-show {
+  padding:0;
+  max-height: 1200px;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
 
+.animate-show.ng-hide {
+  max-height:0;
+}
 
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  display:block!important;
+}
 
+.group {
+  color:#fff;
+}

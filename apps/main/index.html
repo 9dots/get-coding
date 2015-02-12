@@ -13,8 +13,8 @@
   </md-toolbar>
   <div class='apps' layout-padding>
     <md-card ng-repeat='group in Main.groups' layout='vertical' id='{{group.name}}'>
-      <div layout="column" ng-click="expand = !expand;">
-        <div flex="80" layout="horizontal" layout-align="start center">
+      <div class="group" layout="column" layout-fill ng-click="toggleStatus($event)" ng-style="{ 'background-color' : group.color }">
+        <div class="group-wrapper" flex="80" layout="horizontal" layout-align="start center">
           <div class="title-left">
           </div>
           <div class="info">
@@ -22,12 +22,13 @@
           </div>
         </div>
         <div flex="20" layout="vertical" layout-align="center" class="more-info">
-          <div> {{Main.apps.length}} lesson<span ng-if="Main.apps.length > 1">s</span> </div>
+          <div> {{group.apps.length}} lesson<span ng-if="group.apps.length > 1">s</span> </div>
           <div> Expand </div>
         </div>
       </div>
-      <md-list class="animate-show" ng-show="expand">
-        <md-item ng-repeat="app in Main.apps">
+      <md-list class="animate-show" ng-show="isopen">
+        <md-item ng-repeat="app in group.apps">
+          <md-divider ng-if="$first"></md-divider>
           <md-item-content>
             <div flex="10" class="md-tile-left" layout="row" layout-align="center">
               <div class="circle" alt="{{item.who}}"> {{$index + 1}} </div>

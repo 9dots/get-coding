@@ -36,17 +36,28 @@ angular.module(name, [
     controllerAs: 'Main'
   });
 }])
-.controller('MainCtrl', ['apps', function(apps) {
-  this.group = {
-    name: 'Test',
-    apps: apps
-  };
+.controller('MainCtrl', ['apps', '$scope', function(apps, $scope) {
 
-  this.groups = [this.group];
+  this.groups = [
+    {
+      name: 'Ryan Courses',
+      apps: apps,
+      color: '#69B7E3'
+    },
+    {
+      name: 'Daniel Courses',
+      apps: _.first(apps, 4),
+      color: '#EC5766'
+    }
+  ];
 
   this.apps = apps;
-}]);
 
+  $scope.toggleStatus = function(e) {
+    this.isopen = !this.isopen;   
+  }
+
+}]);
 
 angular.element(document).ready(function() {
   var modules = ['main', require('/lib/html5mode')];
