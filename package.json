@@ -10,6 +10,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "ansi-styles": "^2.0.0",
     "batch": "~0.5.1",
     "check-types": "~2.2.0",
     "colors": "^1.0.3",
@@ -19,14 +20,19 @@
     "escomplex": "^1.0.0",
     "escomplex-ast-moz": "^0.1.6",
     "esprima": "^1.2.3",
-    "express": "^3.3.8",
+    "express": "~3.3.8",
     "gulp": "^3.8.10",
+    "gulp-symlink": "~0.1.7",
+    "gulp-template": "^3.0.0",
+    "gulp-util": "^3.0.3",
+    "lodash": "^3.2.0",
     "tiny-lr": "^0.1.5"
   },
   "devDependencies": {
     "duo-watch": "~0.1.1",
+    "gulp": "^3.8.10",
     "gulp-conflict": "~0.3.0",
-    "gulp-template": "~1.1.1",
+    "gulp-install": "^0.2.0",
     "inquirer": "~0.8.0",
     "tiny-lr": "^0.1.4"
   },

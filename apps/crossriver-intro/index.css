@@ -1,0 +1,14 @@
+@import '/lib/playspace-crossriver';
+@import '/lib/workspace-ace';
+
+/**
+ * Space man logo.
+ */
+
+
+#crossriver-intro .title-left {
+  background-image: url(/apps/crossriver-intro/title.png);
+  background-size: 300px 240px;
+  width: 300px;
+  height: 240px;
+}
