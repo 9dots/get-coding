@@ -48,29 +48,50 @@ angular.module(name, [
       name: 'Daniel Courses',
       apps: _.first(apps, 4),
       color: '#EC5766'
+    },
+    {
+      name: 'Third Courses',
+      apps: _.last(apps, 7),
+      color: '#F7B33B'
     }
   ];
 
   this.apps = apps;
 
   $scope.toggleStatus = function(e) {
-    this.isopen = !this.isopen;   
-    console.log($animate);
+    this.isopen = !this.isopen; 
+    $scope.$emit('toggle', this, $animate);  
   }
 
 }])
 .directive('accordion', function(){
   return {
-    template:require('./accordion.html'),
-    link: function(scope, element) {
-      console.log(scope,element);
-    }
+    template:require('./accordion.html')
   }
 })
 .directive('accordionGroup', function(){
   return {
-    link: function(scope, element){
-      console.log(scope, element);
+    link: function(scope, element, attrs){
+      scope.$parent.$on('toggle', function(evt, targetScope, $animate){
+        console.log(evt);
+        if(scope != targetScope){
+          $animate.addClass(element, 'on', {
+            to: {
+              height : '300px'
+            }
+          });
+          scope.isopen = false;
+        }
+      });
+    }
+  }
+}).
+directive('expandable', function(){
+  return {
+    link: function(scope, element) {
+      scope.$parent.$on('toggle', function(){
+        console.log(element.height(), element[0].scrollHeight);
+      });
     }
   }
 });

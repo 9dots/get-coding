@@ -1,5 +1,5 @@
 <md-card ng-repeat='group in Main.groups track by $id(group)' layout='vertical' id='{{group.name}}'>
-  <div class="group" layout="column" layout-fill ng-click="toggleStatus($event)" ng-style="{ 'background-color' : group.color }">
+  <div accordion-group class="group" layout="column" layout-fill ng-click="toggleStatus($event)" ng-style="{ 'background-color' : group.color }">
     <div class="group-wrapper" flex="80" layout="horizontal" layout-align="start center">
       <div class="title-left">
       </div>
@@ -12,7 +12,7 @@
       <div> Expand </div>
     </div>
   </div>
-  <md-list accordion-group class="animate-show" ng-show="isopen">
+  <md-list expandable class="animate-show" ng-class="{expand: isopen}">
     <md-item ng-repeat="app in group.apps">
       <md-divider ng-if="$first"></md-divider>
       <md-item-content>
