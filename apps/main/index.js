@@ -36,7 +36,7 @@ angular.module(name, [
     controllerAs: 'Main'
   });
 }])
-.controller('MainCtrl', ['apps', '$scope', function(apps, $scope) {
+.controller('MainCtrl', ['apps', '$scope', '$animate', function(apps, $scope, $animate) {
 
   this.groups = [
     {
@@ -55,9 +55,25 @@ angular.module(name, [
 
   $scope.toggleStatus = function(e) {
     this.isopen = !this.isopen;   
+    console.log($animate);
   }
 
-}]);
+}])
+.directive('accordion', function(){
+  return {
+    template:require('./accordion.html'),
+    link: function(scope, element) {
+      console.log(scope,element);
+    }
+  }
+})
+.directive('accordionGroup', function(){
+  return {
+    link: function(scope, element){
+      console.log(scope, element);
+    }
+  }
+});
 
 angular.element(document).ready(function() {
   var modules = ['main', require('/lib/html5mode')];
