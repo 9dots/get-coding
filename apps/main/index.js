@@ -43,24 +43,23 @@ angular.module(name, [
     {
       name: 'Ryan Courses',
       apps: apps,
-      color: '#69B7E3'
+      color: '#EC5766'
     },
     {
       name: 'Daniel Courses',
       apps: _.first(apps, 4),
-      color: '#EC5766'
+      color: '#F7B33B'
     },
     {
       name: 'Third Courses',
       apps: _.last(apps, 7),
-      color: '#F7B33B'
+      color: '#69B7E3'
     }
   ];
 
   this.apps = apps;
 
   $scope.toggleStatus = function(e) {
-    this.isopen = !this.isopen; 
     $scope.$emit('toggle', this, $animate);  
   }
 
@@ -70,28 +69,39 @@ angular.module(name, [
     template:require('./accordion.html')
   }
 })
-.directive('accordionGroup', function(){
-  return {
-    link: function(scope, element, attrs){
-      scope.$parent.$on('toggle', function(evt, targetScope, $animate){
-        console.log(evt);
-        if(scope != targetScope){
-          $animate.addClass(element, 'on', {
-            to: {
-              height : '300px'
-            }
-          });
-          scope.isopen = false;
-        }
-      });
-    }
+.directive('expandable', function(){
+  function animateAdd(element, $animate) {
+    $animate.addClass(element, 'on', {
+      from: {
+        height: element.height()
+      },
+      to: {
+        height : element[0].scrollHeight
+      }
+    });
   }
-}).
-directive('expandable', function(){
+  function animateRemove(element, $animate) {
+    $animate.removeClass(element, 'on', {
+      from: {
+        height: element.height()
+      },
+      to: {
+        height : '0px'
+      }
+    });
+  }
+
   return {
-    link: function(scope, element) {
-      scope.$parent.$on('toggle', function(){
-        console.log(element.height(), element[0].scrollHeight);
+    link: function(scope, element, attrs) {
+      scope.$parent.$on('toggle', function(evt, targetScope, $animate){
+        if(scope == targetScope && !scope.active){
+          animateAdd(element,$animate);
+          scope.active = true;
+        }
+        else{
+          animateRemove(element,$animate);
+          scope.active = false;
+        }
       });
     }
   }

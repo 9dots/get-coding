@@ -106,8 +106,20 @@ md-toolbar.gc-color {
   height:120px;
 }
 
-.more-info div {
-  margin:5px;
+.expand {
+  height:auto;
+}
+
+md-item a {
+  color:rgba(0, 0, 0, 0.73);
+}
+
+md-item-content {
+  border: 1px solid transparent;
+}
+
+md-item-content:hover {
+  border:1px solid rgba(0,0,0,0.3);
 }
 
 .animate-show {
@@ -117,17 +129,90 @@ md-toolbar.gc-color {
   transition: all .5s ease-in-out;
 }
 
-.animate-show.ng-hide {
+.more-info .icons {
+  margin:0;
+  display:inline-block;
+  width:18px;
+  height:18px;
+  vertical-align: middle;
 }
 
-.expand {
-  height:auto;
+.spin, .reverse-spin {
+  position: absolute;
 }
 
-.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
-  display:block!important;
+.reverse-spin {
+  -webkit-animation:hide_sequence .5s ease-in-out;
+  animation:hide_sequence .5s ease-in-out;
+  transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+}
+
+.reverse-spin.ng-hide-add.ng-hide-add-active,
+.reverse-spin.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+}
+
+.reverse-spin.ng-hide {
+  -webkit-animation:show_sequence .5s ease-in-out;
+  animation:show_sequence .5s ease-in-out;
+  transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.spin {
+  -webkit-animation:hide_sequence .5s ease-in-out;
+  animation:hide_sequence .5s ease-in-out;
+  transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.spin.ng-hide-add.ng-hide-add-active,
+.spin.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+}
+
+.spin.ng-hide {
+  -webkit-animation:show_sequence .5s ease-in-out;
+  animation:show_sequence .5s ease-in-out;
+  transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+}
+
+@-webkit-keyframes hide_sequence {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes show_sequence {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+
+.more-info {
+  font-size:18px;
+}
+
+.more-info span {
+  vertical-align: middle;
+  margin:0 2px;
+}
+
+.more-info span.plural {
+  vertical-align: text-bottom;
+  margin:0;
+}
+
+.more-info div {
+  margin:10px;
 }
 
 .group {
   color:#fff;
+}
+
+.on {
+  transition: all .5s ease-in-out;
 }
