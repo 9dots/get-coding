@@ -39,25 +39,48 @@ angular.module(name, [
 }])
 .controller('MainCtrl', ['apps', '$scope', '$animate', function(apps, $scope, $animate) {
 
-  this.groups = [
+  var appObject = {};
+  _.each(apps, function(elem) {
+    appObject[elem.name] = elem;
+  });
+
+  this.courses = [
     {
-      name: 'Ryan Courses',
-      apps: apps,
-      color: '#EC5766'
+      name: 'Introduction to Variables',
+      apps: [
+        appObject['whiteboard-declaring-variables'],
+        appObject['whiteboard-review'],
+        appObject['fridge-variable-expressions']
+      ],
+      color: 'rgba(247,179,59,0.9)'
     },
     {
-      name: 'Daniel Courses',
-      apps: _.first(apps, 4),
-      color: '#F7B33B'
+      name: 'Spaceman Introduces Algorithms',
+      apps: [
+        appObject['space-man-blockly'],
+        appObject['space-man'],
+        appObject['spaceman-blockly-repeat']
+      ],
+      color: 'rgba(236,87,102,0.9)'
     },
     {
-      name: 'Third Courses',
-      apps: _.last(apps, 7),
-      color: '#69B7E3'
+      name: 'Spaceman Advanced Algorithms',
+      apps: [
+        appObject['spaceman-sequencing-blockly'],
+        appObject['spaceman-sequencing'],
+        appObject['spaceman-functions-blockly'],
+        appObject['spaceman-functions']
+      ],
+      color: 'rgba(105,183,227,0.9)'
+    },
+    {
+      name: 'Puzzles',
+      apps: [
+        appObject['crossriver-intro']
+      ],
+      color: 'rgba(170,206,87,0.9)'
     }
   ];
-
-  this.apps = apps;
 
   $scope.toggleStatus = function(e) {
     $scope.$emit('toggle', this, $animate);  

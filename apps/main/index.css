@@ -139,6 +139,7 @@ md-item-content:hover {
 
 .spin, .reverse-spin {
   position: absolute;
+  line-height:20px;
 }
 
 .reverse-spin {
