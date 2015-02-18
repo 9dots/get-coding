@@ -24,6 +24,48 @@ a {
   text-decoration: none;
 }
 
+md-list {
+  background-color:#fff;
+}
+
+md-card {
+  background-color:#fff;
+  color:#fff;
+}
+
+md-card .info {
+  margin: 0 2.5em;
+}
+
+/*.title-left {
+  height:100%;
+  margin:0 10px;
+}
+
+.title-left img {
+  width:100px;
+}*/
+
+md-card:nth-child(4n+3) .group{
+  background-color: rgba(105,183,227,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n+2) .group{
+  background-color: rgba(247,179,59,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n+1) .group{
+  background-color: rgba(236,87,102,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n) .group{
+  background-color: rgba(170,206,87,1);
+  z-index:999;
+}
+
 #main {
   background-color: #e3e3e3;
 }
@@ -53,7 +95,6 @@ a {
 
 #main md-card {
   width: 800px;
-  background-color: white;
   margin: 18px;
   padding: 0;
   cursor:pointer;
@@ -62,11 +103,6 @@ a {
 #main md-toolbar.md-default-theme {
   background-color: #f6f6f6;
   color: #333;
-}
-
-#main .info {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
 }
 
 #main h2 {
@@ -104,6 +140,7 @@ md-toolbar.gc-color {
 
 .group-wrapper {
   height:120px;
+  width:600px;
 }
 
 .expand {
@@ -194,6 +231,7 @@ md-item-content:hover {
 
 .more-info {
   font-size:18px;
+  width:200px;
 }
 
 .more-info span {
@@ -208,10 +246,6 @@ md-item-content:hover {
 
 .more-info div {
   margin:10px;
-}
-
-.group {
-  color:#fff;
 }
 
 .on {

@@ -51,8 +51,7 @@ angular.module(name, [
         appObject['whiteboard-declaring-variables'],
         appObject['whiteboard-review'],
         appObject['fridge-variable-expressions']
-      ],
-      color: 'rgba(247,179,59,0.9)'
+      ]
     },
     {
       name: 'Spaceman Introduces Algorithms',
@@ -60,8 +59,7 @@ angular.module(name, [
         appObject['space-man-blockly'],
         appObject['space-man'],
         appObject['spaceman-blockly-repeat']
-      ],
-      color: 'rgba(236,87,102,0.9)'
+      ]
     },
     {
       name: 'Spaceman Advanced Algorithms',
@@ -70,15 +68,13 @@ angular.module(name, [
         appObject['spaceman-sequencing'],
         appObject['spaceman-functions-blockly'],
         appObject['spaceman-functions']
-      ],
-      color: 'rgba(105,183,227,0.9)'
+      ]
     },
     {
       name: 'Puzzles',
       apps: [
         appObject['crossriver-intro']
-      ],
-      color: 'rgba(170,206,87,0.9)'
+      ]
     }
   ];
 
