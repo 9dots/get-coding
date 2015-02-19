@@ -10,13 +10,14 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "ansi-styles": "^2.0.0",
     "batch": "~0.5.1",
     "castle-blockly": "^0.1.0",
     "colors": "^1.0.3",
     "component-emitter": "^1.2.0",
     "ejs": "^1.0.0",
     "express": "^3.3.8",
-    "gulp": "^3.8.10",
+    "gulp": "^3.8.11",
     "gulp-bower-css-task": "^0.1.1",
     "gulp-browserify-bundle-task": "^0.1.4",
     "gulp-browserify-task": "^0.1.0",
@@ -32,7 +33,7 @@
   "devDependencies": {
     "gulp-conflict": "~0.3.0",
     "gulp-template": "~1.1.1",
-    "inquirer": "~0.8.0"
+    "inquirer": "^0.8.0"
   },
   "repository": "git@github.com:9dots/get-coding.git",
   "desassify": {

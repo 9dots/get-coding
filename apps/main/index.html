@@ -10,23 +10,7 @@
     </div>
 
   </md-toolbar>
-  <div class='apps' layout='column' layout-padding>
-    <md-card ng-repeat='app in Main.apps' layout='row' id='{{app.name}}'>
-      <div class="title-left">
-      </div>
-      <div class='info' layout='column' flex>
-        <div layout='row'>
-          <span flex></span>
-          <a class='play-button' ng-href='{{app.name}}'>
-            <span class='play mdi'>Play</span><i class='mdi play mdi-arrow-forward'></i>
-          </a>
-        </div>
-        <h2>{{app.title}}</h2>
-        <p class='author'>Created by {{app.author}}</p>
-        <md-divider></md-divider>
-        <p>{{app.description}}</p>
-        
-      </div>
-    </md-card>
+  <div class='apps' layout-padding>
+    <accordion></accordion>
   </div>
 </div>

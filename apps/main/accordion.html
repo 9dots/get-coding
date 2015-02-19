@@ -1,0 +1,38 @@
+<md-card ng-repeat='course in Main.courses track by $id(course)' layout='column' id='{{course.name}}'>
+  <div accordion-group class="group" layout="column" layout-fill ng-click="toggleStatus($event)">
+    <div class="group-wrapper" layout='row' layout-align="start center">
+      <div flex="80" class="info">
+        <h2> {{course.name}} </h2>
+      </div>
+    </div>
+    <div layout='column' layout-align="center" class="more-info">
+      <div> <span class="mdi-view-module"> </span> {{course.apps.length}} lesson<span class="plural" ng-if="course.apps.length > 1">s</span> </div>
+      <div class="expand-info"> 
+        <div class="icons">
+          <span ng-hide="active" class="mdi-add-circle-outline spin"></span> 
+          <span ng-show="active" class="mdi-remove-circle-outline reverse-spin"></span> 
+        </div>
+        <span> Expand </span> 
+      </div>
+    </div>
+  </div>
+  <md-list expandable class="animate-show" ng-class="{expand: isopen}">
+    <md-item ng-repeat="app in course.apps">
+      <md-divider ng-if="$first"></md-divider>
+      <a ng-href="{{app.name}}">
+        <md-item-content>
+          <div flex="10" class="md-tile-left" layout="row" layout-align="center">
+            <div class="circle" alt="{{item.who}}"> {{$index + 1}} </div>
+          </div>
+          <div flex class="md-tile-content">
+            <h3>{{app.title}}</h3>
+            <p>
+              {{app.description}}
+            </p>
+          </div>
+        </md-item-content>
+      </a>
+      <md-divider ng-if="!$last"></md-divider>
+    </md-item>
+  </md-list>
+</md-card>
