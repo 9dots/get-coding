@@ -1,20 +1,3 @@
-@import '/lib/angular';
-@import '/apps/space-man';
-@import '/apps/space-man-blockly';
-@import '/apps/space-man-sandbox';
-@import '/apps/spaceman-blockly-repeat';
-@import '/apps/spaceman-sequencing';
-@import '/apps/spaceman-functions';
-@import '/apps/spaceman-functions-blockly';
-@import '/apps/shapes';
-@import '/apps/shapes-blockly';
-@import '/apps/spaceman-sequencing-blockly';
-@import '/apps/whiteboard-declaring-variables';
-@import '/apps/fridge-variable-expressions';
-@import '/apps/whiteboard-review';
-@import '/lib/md-iconic-font/css/material-design-iconic-font.css';
-@import '/lib/code-app';
-
 body {
   background-color: #e3e3e3;
 }
@@ -27,11 +10,16 @@ a {
   background-color: #e3e3e3;
 }
 
-#main #logo {
+#logo {
   background-image: url('./getCoding.png');
   background-size: 150px 32px;
   width: 150px;
   height: 32px;
+  margin-left: 8px;
+}
+
+#main #logo {
+  width: 150px;
 }
 
 #main #logo-9dots {
@@ -39,6 +27,8 @@ a {
   background-size: 119px 32px;
   width: 119px;
   height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 #main .logo {

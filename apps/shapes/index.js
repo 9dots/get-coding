@@ -1,11 +1,25 @@
+/**
+ * Exports
+ */
 var name = module.exports = 'shapes';
 
-angular.module(name, [
+
+/**
+ * Module
+ */
+var module = angular.module(name, [
   'ui.router', 
-  require('/lib/code-app'), 
-  require('/lib/workspace-ace'), 
-  require('/lib/playspace-p5-grid')
-])
+  require('lib/code-app'), 
+  require('lib/workspace-ace'), 
+  require('lib/playspace-p5-grid')
+]);
+
+/**
+ * Styles
+ */
+require('./index.css');
+
+module
 .config(['appsProvider', function(appsProvider) {
   appsProvider.register({
     data: require('./package.json'),
