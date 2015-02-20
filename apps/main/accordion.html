@@ -1,5 +1,5 @@
 <md-card ng-repeat='course in Main.courses track by $id(course)' layout='column' id='{{course.name}}'>
-  <div accordion-group class="group" layout="column" layout-fill ng-click="toggleStatus($event)">
+  <div accordion-group class="group" layout="row" layout-fill ng-click="toggleStatus($event)">
     <div class="group-wrapper" layout='row' layout-align="start center">
       <div flex="80" class="info">
         <h2> {{course.name}} </h2>
