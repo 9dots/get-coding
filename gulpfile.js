@@ -36,7 +36,7 @@ gulp.task('bower-css', ['public'], bowerCssTask({devMode: !PRODUCTION}));
 
 // Dev
 
-gulp.task('browserify', ['public', 'link'], browserifyTask({devMode: !PRODUCTION, entry: 'index.js'}));
+gulp.task('browserify', ['public', 'link'], browserifyTask({devMode: !PRODUCTION, entry: './apps/main'}));
 
 gulp.task('build', ['browserify', 'bower-css', 'assets']);
 gulp.task('dev', ['build'], serverTask('app.js'));
