@@ -23,6 +23,7 @@
     "gulp-browserify-task": "^0.1.0",
     "gulp-link-tasks": "^0.1.1",
     "gulp-server-task": "^0.1.2",
+    "gulp-util": "^3.0.3",
     "js-analyse": "^0.1.0",
     "lodash": "^3.2.0",
     "lscache": "^1.0.5",
