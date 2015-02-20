@@ -173,3 +173,12 @@ md-dialog.help {
 md-dialog {
   position: static;
 }
+
+.sidenav-close {
+  position: absolute;
+  color: white;
+  top: 14px;
+  z-index: 5000;
+  right: 14px;
+  cursor: pointer;
+}

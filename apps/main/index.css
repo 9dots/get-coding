@@ -48,6 +48,19 @@ md-card:nth-child(4n) .group{
   z-index:999;
 }
 
+.md-disable-backdrop md-backdrop {
+  position: static;
+}
+
+.md-embedded-sidenav md-sidenav {
+  width: 500px;
+  position: fixed;
+}
+
+md-tabs.black-header .md-header {
+  background-color: #444444;
+}
+
 #main {
   background-color: #e3e3e3;
 }
@@ -239,4 +252,8 @@ md-item-content:hover {
 
 .on {
   transition: all .5s ease-in-out;
+}
+
+.pad {
+  padding: 20px;
 }

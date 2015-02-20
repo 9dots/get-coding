@@ -20,6 +20,7 @@
   </md-toolbar>
 
   <div class='app-area' layout='row' layout-align='center' flex>
+    
     <div  ui-view='workspace' flex layout='column' class='workspace'></div>
     
     <div class='run-abs'>
@@ -50,7 +51,7 @@
           </span>
           <md-divider></md-divider>
           <span layout='column' layout-align='start center'>
-            <div class='run-title'>LOC</div>
+            <div class='run-title'>Lines</div>
             <div class='run-loc' ng-class='{warn: App.locUsed > App.locAllowed}'>
               <span class='loc-used'>{{App.locUsed || 0}}</span>
               <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
@@ -66,7 +67,20 @@
       <div flex></div>
     </div>
     <div ui-view='playspace' class='playspace noselect' layout='row'></div>
-    
+    <div class='md-disable-backdrop md-embedded-sidenav'>
+    <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+      <div class='sidenav-close' ng-click='App.showReadme()'>
+        <i class='mdi-clear'></i>
+      </div>
+      <md-tabs class='black-header' md-selected="App.sidebar.index" flex>
+        <md-tab ng-repeat="tab in App.sidebar.tabs" label="{{tab.title}}" >
+        <div class="demo-tab tab{{$index%4}} pad" layout="column">
+            <marked>{{tab.content}}</marked>
+          </div>
+        </md-tab>
+      </md-tabs>
+    </md-sidenav>
+    </div>
   </div>
  
 
