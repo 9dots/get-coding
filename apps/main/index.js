@@ -13,6 +13,7 @@ angular.module(name, [
   require('/apps/whiteboard-declaring-variables'),
   require('/apps/fridge-variable-expressions'),
   require('/apps/whiteboard-review'),
+  require('/apps/strings'),
   require('/apps/space-man-blockly'),
   require('/apps/spaceman-blockly-repeat'),
   require('/apps/space-man-sandbox'),
