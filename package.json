@@ -43,5 +43,8 @@
   "repository": "git@github.com:9dots/get-coding.git",
   "desassify": {
     "auto-inject": true
+  },
+  "engines": {
+    "node": "0.10.36"
   }
 }
