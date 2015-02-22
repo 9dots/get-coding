@@ -1,0 +1,12 @@
+<div class= "holder">
+
+	<div ng-repeat= "variable in Strings.variableNames" class= "name {{variable}}">{{Strings.variables[variable] ?  variable : ""}}</div>
+
+	<div ng-repeat= "variable in Strings.variableNames" class= "value {{variable}}Value">{{Strings.variables[variable] ? '"' + Strings.editValue(Strings.variables[variable]) +'"' : ""}}</div>
+
+	<div class= "computer"></div>
+	<div class= "screen screenBg"></div>
+	<div class= "screen screenAnimal"></div>
+	<div class= "screen screenFood"></div>
+</div>
+
