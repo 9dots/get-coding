@@ -35,7 +35,8 @@ var module = angular.module(name, [
   require('apps/spaceman-sequencing-blockly'),
   require('apps/spaceman-functions'),
   require('apps/spaceman-functions-blockly'),
-  require('apps/crossriver-intro')
+  require('apps/crossriver-intro'),
+  require('apps/strings')
 ]);
 
 /**
@@ -69,7 +70,8 @@ module
       apps: [
         appObject['whiteboard-declaring-variables'],
         appObject['whiteboard-review'],
-        appObject['fridge-variable-expressions']
+        appObject['fridge-variable-expressions'],
+        appObject['strings']
       ]
     },
     {

@@ -21,7 +21,7 @@
     "express": "^3.3.8",
     "gulp": "^3.8.11",
     "gulp-bower-css-task": "^0.1.1",
-    "gulp-browserify-bundle-task": "^0.1.7",
+    "gulp-browserify-bundle-task": "~0.1.7",
     "gulp-browserify-task": "^0.1.0",
     "gulp-link-tasks": "^0.1.1",
     "gulp-livereload": "^3.7.0",

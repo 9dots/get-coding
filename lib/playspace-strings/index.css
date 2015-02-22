@@ -1,0 +1,167 @@
+[playspace-strings] .holder {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	background: url('strings_background.png');
+}
+
+md-bottom-sheet.playspace-strings {
+	height: 200px;
+	background: white;
+	text-align: right;
+	font-size: 30px;
+}
+
+[playspace-strings] .computer {
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	background: url('computer.png');
+}
+
+[playspace-strings] .screen {
+	position: absolute;
+	width: 382px;
+	height: 210px;
+	left: 33px;
+	top: 469px;
+}
+
+[playspace-strings] .name {
+	position:absolute;
+	width: 120px;
+	height: 35px;
+	text-align: center;
+	font-size: 30px;
+}
+
+[playspace-strings] .value {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	background: none;
+	text-align: center;
+	color: green;
+	font-size: 22px;
+	line-height: 5.4em;
+	word-wrap: break-word;
+}
+
+[playspace-strings] .animal {
+	left: 123px;
+	top: 90px;
+}
+
+[playspace-strings] .adjective {
+	left: 282px;
+	top: 90px;
+}
+
+[playspace-strings] .place {
+	left: 440px;
+	top: 90px;
+}
+
+[playspace-strings] .food {
+	left: 599px;
+	top: 90px;
+}
+
+[playspace-strings] .story {
+	width: 596px;
+	left: 123px;
+	top: 257px;
+}
+
+[playspace-strings] .animalValue {
+	left: 123px;
+	top: 125px;
+}
+
+[playspace-strings] .adjectiveValue {
+	left: 282px;
+	top: 125px;
+}
+
+[playspace-strings] .placeValue {
+	left: 440px;
+	top: 125px;
+}
+
+[playspace-strings] .foodValue {
+	left: 599px;
+	top: 125px;
+}
+
+[playspace-strings] .storyValue {
+	margin: 8px 12px 0px 12px;
+	width: 572px;
+	height: 186px;
+	left: 123px;
+	top: 293px;
+	font-size: 30px;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+[playspace-strings] .happycat {
+	background: url('happycat.png');
+}
+
+[playspace-strings] .happybird {
+	background: url('happybird.png');
+}
+
+[playspace-strings] .happybear {
+	background: url('happybear.png');
+}
+
+[playspace-strings] .sadcat {
+	background: url('sadcat.png');
+}
+
+[playspace-strings] .sadbird {
+	background: url('sadbird.png');
+}
+
+[playspace-strings] .sadbear {
+	background: url('sadbear.png');
+}
+
+[playspace-strings] .angrycat {
+	background: url('angrycat.png');
+}
+
+[playspace-strings] .angrybird {
+	background: url('angrybird.png');
+}
+
+[playspace-strings] .angrybear {
+	background: url('angrybear.png');
+}
+
+[playspace-strings] .ahouse {
+	background: white url('house.png');
+}
+
+[playspace-strings] .NewYork {
+	background: white url('city.png');
+}
+
+[playspace-strings] .space {
+	background: white url('space.png');
+}
+
+[playspace-strings] .cake {
+	background: url('cake.png');
+}
+
+[playspace-strings] .hotdogs {
+	background: url('hotdogs.png');
+}
+
+[playspace-strings] .catfood {
+	background: url('catfood.png');
+}
+
+
