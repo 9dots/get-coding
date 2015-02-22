@@ -1,1 +1,1 @@
-web: node app.js
+web: rm node_modules/lib; ln -s `pwd`/lib node_modules/lib; node app.js
