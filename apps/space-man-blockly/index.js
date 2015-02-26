@@ -2,7 +2,7 @@
  * Modules
  */
 
-require('lib/spaceman-blocks')
+require('lib/spaceman-blocks');
 
 /**
  * Exports

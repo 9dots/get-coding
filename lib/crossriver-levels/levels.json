@@ -5,10 +5,13 @@
 		 "bg": [],
 		 "fg": ["chicken"],
 		 "bank": false,
-		 "instructions": "In order to aid the farmer, you will first need to know how. Begin by placing the chicken in the boat.",
 		 "conditionLog": {
 		 	"pickedUp": {"chicken": 1}
 		 }
+	  },
+	  "help": {
+		 "Directions":"##Step One\n Get the chicken in to the boat.",
+		 "Hint":"##Hint\n The pickUp('item') gets puts whichever item you select into the boat."
 	  }
 	},
 	{
