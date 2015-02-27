@@ -1,0 +1,6 @@
+{
+  "name": "crossriver-blockly",
+  "title": "Cross River Puzzle Blockly",
+  "description": "Create an algorithm to solve the cross river puzzle using blockly.",
+  "author": "Daniel Leavitt"
+}
