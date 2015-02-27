@@ -19,10 +19,12 @@
 		 "bg": [],
 		 "fg": ["chicken"],
 		 "bank": false,
-		 "instructions": "Next, take the chicken across the river and drop it off on the other bank.",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chicken": 1}
 		 }
+	  },
+	  "help": {
+			"Directions":"##Step Two\n 1. Get the chicken in to the boat.\n 2. Cross the river.\n 3. Drop it off on the other side of the river.",
 	  }
 	},
 	{
@@ -30,10 +32,12 @@
 		 "bg": ["chicken"],
 		 "fg": ["grain"],
 		 "bank": true,
-		 "instructions": "Good work so far! Now that you have gotten the chicken across, go back and get the grain",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chickengrain": 1}
 		 }
+	  },
+	  "help": {
+			"Directions":"##Step Three\n Go back to the first side of the river, pick up the grain, and drop it off with the chicken.",
 	  }
 	},
 	{
@@ -41,13 +45,16 @@
 		 "bg": ["chicken", "grain"],
 		 "fg": ["fox"],
 		 "bank": true,
-		 "instructions": "Now that you have both of those, head back over to get the last item - the fox.",
 		 "conditionLog": [{
 		 	"crossedToBackground": {"foxgrain": 1}
 		 },{
 		 	"crossedToBackground": {"chickenfox": 1}
 		 }
 		 ]
+	  },
+	  "help": {
+			"Directions":"##Step Four\n Head back across the river to get the fox to get it to the other side.",
+			"Hint":"##Hint\n The chicken will eat the grain if they are left together."
 	  }
 	},
 	{
@@ -55,13 +62,16 @@
 		 "bg": ["chicken", "fox"],
 		 "fg": ["grain"],
 		 "bank": true,
-		 "instructions": "What about if you have the chicken and the fox over there?.",
 		 "conditionLog": [{
 		 	"crossedToBackground": {"foxgrain": 1}
 		 },{
 		 	"crossedToBackground": {"chickengrain": 1}
 		 }
 		 ]
+	  },
+	  "help": {
+			"Directions":"##Step Five\n What if we change where the items are? Get the grain and bring it to the other side of the river.",
+			"Hint":"##Hint\n The fox will eat the chicken if they are left together."
 	  }
 	},
 	{
@@ -70,10 +80,12 @@
 		 "fg": ["chicken", "grain", "fox"],
 		 "bank": false,
 		 "level": 6,
-		 "instructions": "Nice job! Now it's time for you to put it all together.",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chickenfoxgrain": 1}
 		 }
+	  },
+	  "help": {
+			"Directions":"##Step Six\n Time to solve the entire problem. Help the farmer get all of his items across the river.\n\n Remember that the fox will eat the chicken and the the chicken will eat the grain if they are left alone.",
 	  }
 	}
   ]
