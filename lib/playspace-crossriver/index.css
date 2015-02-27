@@ -11,7 +11,7 @@
 
 .frame {
   position: absolute;
-  width: 350px;
+  width: 300px;
   height: 250px;
 }
 
@@ -113,16 +113,6 @@
   background: url(http://www.ryanbaber.com/river_cross/deadgrain.png);
 }
 
-.message {
-  position: absolute;
-  width: 350px;
-  height: 150px;
-  top: 650px;
-  left: 331px;
-  text-align: center;
-  font-size: 36px;
-}
-
 .run {
   position: absolute;
   left: 50px;
@@ -136,14 +126,4 @@
   line-height: 1.4em;
   border-radius: 10px;
   background: #33aa33;
-}
-
-.instructionText {
-  width: 700px;
-  height: auto;
-  margin: 0 auto 0 auto;
-  padding-top: 10px;
-  color: #336699;
-  font-family: Helvetica;
-  font-size: 20px;
 }
