@@ -24,7 +24,7 @@
 		 }
 	  },
 	  "help": {
-			"Directions":"##Step Two\n 1. Get the chicken in to the boat.\n 2. Cross the river.\n 3. Drop it off on the other side of the river.",
+			"Directions":"##Step Two\n Get the chicken to the other side of the river and drop it off.",
 	  }
 	},
 	{
@@ -53,7 +53,7 @@
 		 ]
 	  },
 	  "help": {
-			"Directions":"##Step Four\n Head back across the river to get the fox to get it to the other side.",
+			"Directions":"##Step Four\n Head back across the river to get the fox and drop it off on the other side of the river.",
 			"Hint":"##Hint\n The chicken will eat the grain if they are left together."
 	  }
 	},
