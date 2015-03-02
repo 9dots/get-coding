@@ -1,0 +1,13 @@
+<div class="header">
+</div>
+<div class="background">  
+  <div class="grid-holder" id="grid-holder">
+
+    <div class="row" layout="row" layout-align="center center">
+      <div class="stone" id="{{square.id}}" ng-class='[stone.type, stone.option]' ng-repeat='stone in Frogjump.field.grid'></div>
+    </div>
+
+    <div class="frog" id="frog.position" ng-repeat="frog in Frogjump.field.frogs"></div>
+
+  </div>
+</div>
