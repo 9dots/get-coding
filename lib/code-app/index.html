@@ -1,4 +1,4 @@
-<div layout="vertical" layout-fill>
+<div layout='column' layout-fill>
   <md-toolbar class="gc-color md-whiteframe-z1">
 
     <div class="md-toolbar-tools">
@@ -19,19 +19,20 @@
     </div>
   </md-toolbar>
 
-  <div class='app-area' layout='horizontal' layout-align='center' flex>
-    <div  ui-view='workspace' flex layout='vertical' class='workspace'></div>
+  <div class='app-area' layout='row' layout-align='center' flex>
+    
+    <div  ui-view='workspace' flex layout='column' class='workspace'></div>
     
     <div class='run-abs'>
       <div class='run-abs-pos'>
-      <div layout='vertical' class='run-wrap noselect'>
-        <md-whiteframe class='md-whiteframe-z1' layout='vertical'>
+      <div layout='column' class='run-wrap noselect'>
+        <md-whiteframe class='md-whiteframe-z1' layout='column'>
           <md-button class="run-button" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()' aria-label="run program">
             <i class='mdi-play-arrow mdi-2x' ng-hide='App.Runner.running'></i>
             <i class='mdi-pause mdi-2x' ng-show='App.Runner.running'></i>
           </md-button>
 
-          <span layout='vertical' layout-align='start center'>
+          <span layout='column' layout-align='start center'>
             <div class='run-title'>Steps</div>
             <div class='run-info mdi-1p5x'>{{App.Runner.steps}}</div>
             
@@ -40,7 +41,7 @@
             </span>
           </span>
           <md-divider></md-divider>
-          <span layout='vertical' layout-align='start center'>
+          <span layout='column' layout-align='start center'>
             <div class='run-title'>Speed</div>
             <div class='run-info mdi-1p5x'>{{App.speed()}}x</div>
 
@@ -49,8 +50,8 @@
             </span>
           </span>
           <md-divider></md-divider>
-          <span layout='vertical' layout-align='start center'>
-            <div class='run-title'>LOC</div>
+          <span layout='column' layout-align='start center'>
+            <div class='run-title'>Lines</div>
             <div class='run-loc' ng-class='{warn: App.locUsed > App.locAllowed}'>
               <span class='loc-used'>{{App.locUsed || 0}}</span>
               <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
@@ -62,11 +63,24 @@
       </div>
       </div>
     </div>
-    <div class='handle' layout='vertical' div-resize>
+    <div class='handle' layout='column' div-resize>
       <div flex></div>
     </div>
-    <div ui-view='playspace' class='playspace noselect' layout='horizontal'></div>
-    
+    <div ui-view='playspace' class='playspace noselect' layout='row'></div>
+    <div class='md-disable-backdrop md-embedded-sidenav'>
+    <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+      <div class='sidenav-close' ng-click='App.showReadme()'>
+        <i class='mdi-clear'></i>
+      </div>
+      <md-tabs class='black-header' md-selected="App.sidebar.index" flex>
+        <md-tab ng-repeat="tab in App.sidebar.tabs" label="{{tab.title}}" >
+        <div class="demo-tab tab{{$index%4}} pad" layout="column">
+            <marked>{{tab.content}}</marked>
+          </div>
+        </md-tab>
+      </md-tabs>
+    </md-sidenav>
+    </div>
   </div>
  
 

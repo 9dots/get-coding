@@ -1,35 +1,80 @@
-@import '/lib/angular';
-@import '/apps/space-man';
-@import '/apps/space-man-blockly';
-@import '/apps/space-man-sandbox';
-@import '/apps/spaceman-blockly-repeat';
-@import '/apps/spaceman-sequencing';
-@import '/apps/spaceman-functions';
-@import '/apps/spaceman-functions-blockly';
-@import '/apps/shapes';
-@import '/apps/shapes-blockly';
-@import '/apps/spaceman-sequencing-blockly';
-@import '/apps/whiteboard-declaring-variables';
-@import '/lib/md-iconic-font/css/material-design-iconic-font.css';
-@import '/lib/code-app';
-
 body {
-  background-color: #e3e3e3;
+  background-color: #e3e3e3;  
 }
 
 a {
   text-decoration: none;
 }
 
+md-list {
+  background-color:#fff;
+}
+
+md-card {
+  background-color:#fff;
+  color:#fff;
+}
+
+md-card .info {
+  margin: 0 2.5em;
+}
+
+/*.title-left {
+  height:100%;
+  margin:0 10px;
+}
+
+.title-left img {
+  width:100px;
+}*/
+
+md-card:nth-child(4n+3) .group{
+  background-color: rgba(105,183,227,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n+2) .group{
+  background-color: rgba(247,179,59,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n+1) .group{
+  background-color: rgba(236,87,102,1);
+  z-index:999;
+}
+
+md-card:nth-child(4n) .group{
+  background-color: rgba(170,206,87,1);
+  z-index:999;
+}
+
+.md-disable-backdrop md-backdrop {
+  position: static;
+}
+
+.md-embedded-sidenav md-sidenav {
+  width: 500px;
+  position: fixed;
+}
+
+md-tabs.black-header .md-header {
+  background-color: #444444;
+}
+
 #main {
   background-color: #e3e3e3;
 }
 
-#main #logo {
+#logo {
   background-image: url('./getCoding.png');
   background-size: 150px 32px;
   width: 150px;
   height: 32px;
+  margin-left: 8px;
+}
+
+#main #logo {
+  width: 150px;
 }
 
 #main #logo-9dots {
@@ -37,6 +82,8 @@ a {
   background-size: 119px 32px;
   width: 119px;
   height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 #main .logo {
@@ -50,9 +97,9 @@ a {
 
 #main md-card {
   width: 800px;
-  background-color: white;
   margin: 18px;
   padding: 0;
+  cursor:pointer;
 }
 
 #main md-toolbar.md-default-theme {
@@ -60,23 +107,13 @@ a {
   color: #333;
 }
 
-#main .info {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
-}
-
 #main h2 {
-  margin-top: 1.3em;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 2.0em;
 }
 
 #main .author {
   line-height: .5;
-}
-
-#main md-card md-divider {
-  margin-top: 1.0em;
 }
 
 .play {
@@ -103,8 +140,120 @@ md-toolbar.gc-color {
   margin-left: .7em;
 }
 
+.group-wrapper {
+  height:120px;
+  width:600px;
+}
 
+.expand {
+  height:auto;
+}
 
+md-item a {
+  color:rgba(0, 0, 0, 0.73);
+}
 
+md-item-content {
+  border: 1px solid transparent;
+}
 
+md-item-content:hover {
+  border:1px solid rgba(0,0,0,0.3);
+}
 
+.animate-show {
+  padding:0;
+  overflow: hidden;
+  height:0;
+  transition: all .5s ease-in-out;
+}
+
+.more-info .icons {
+  margin:0;
+  display:inline-block;
+  width:18px;
+  height:18px;
+  vertical-align: middle;
+}
+
+.spin, .reverse-spin {
+  position: absolute;
+  line-height:20px;
+}
+
+.reverse-spin {
+  -webkit-animation:hide_sequence .5s ease-in-out;
+  animation:hide_sequence .5s ease-in-out;
+  transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+}
+
+.reverse-spin.ng-hide-add.ng-hide-add-active,
+.reverse-spin.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+}
+
+.reverse-spin.ng-hide {
+  -webkit-animation:show_sequence .5s ease-in-out;
+  animation:show_sequence .5s ease-in-out;
+  transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.spin {
+  -webkit-animation:hide_sequence .5s ease-in-out;
+  animation:hide_sequence .5s ease-in-out;
+  transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.spin.ng-hide-add.ng-hide-add-active,
+.spin.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+}
+
+.spin.ng-hide {
+  -webkit-animation:show_sequence .5s ease-in-out;
+  animation:show_sequence .5s ease-in-out;
+  transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+}
+
+@-webkit-keyframes hide_sequence {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes show_sequence {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+
+.more-info {
+  font-size:18px;
+  width:200px;
+}
+
+.more-info span {
+  vertical-align: middle;
+  margin:0 2px;
+}
+
+.more-info span.plural {
+  vertical-align: text-bottom;
+  margin:0;
+}
+
+.more-info div {
+  margin:10px;
+}
+
+.on {
+  transition: all .5s ease-in-out;
+}
+
+.pad {
+  padding: 20px;
+}

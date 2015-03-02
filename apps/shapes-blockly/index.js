@@ -1,13 +1,30 @@
+/**
+ * Modules
+ */
+require('lib/shapes-blocks')
+
+/**
+ * Exports
+ */
 var name = module.exports = 'shapes-blockly';
 
-require('/lib/shapes-blocks')
 
-angular.module(name, [
+/**
+ * Angular Module
+ */
+var module = angular.module(name, [
   'ui.router', 
-  require('/lib/code-app'), 
-  require('/lib/workspace-blockly'), 
-  require('/lib/playspace-p5-grid')
-])
+  require('lib/code-app'), 
+  require('lib/workspace-blockly'), 
+  require('lib/playspace-p5-grid')
+]);
+
+/**
+ * Styles
+ */
+require('./index.css');
+
+module
 .config(['appsProvider', function(appsProvider) {
   appsProvider.register({
     data: require('./package.json'),

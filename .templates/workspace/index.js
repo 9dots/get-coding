@@ -1,6 +1,19 @@
+/**
+ * Modules
+ * @type {[type]}
+ */
+var $ = require('jquery');
+
+/**
+ * Exports
+ */
 var name = module.exports = 'workspace-{{name}}';
 
-var $ = require('components/jquery@1.11');
+/**
+ * Styles
+ */
+require('./index.css');
+
 
 angular.module(name, [])
 .directive('workspace{{upperName}}', workspace{{upperName}});

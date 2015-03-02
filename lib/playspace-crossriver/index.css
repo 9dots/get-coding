@@ -1,0 +1,129 @@
+[playspace-crossriver] .background {
+  width: 800px;
+  height: 650px;
+  background: url(http://www.ryanbaber.com/river_cross/background1.png);
+}
+
+.crossRiver{
+  position: relative;
+
+}
+
+.frame {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+}
+
+.back {
+  top: 150px;
+}
+
+.middle {
+  left: 450px;
+  top: 250px;
+}
+
+.front {
+  left: 550px;
+  top: 350px;
+}
+
+.farmer {
+  position: absolute;
+  width: 72px;
+  height: 165px;
+  background: url(http://www.ryanbaber.com/river_cross/farmer1.png);
+}
+
+.item {
+  position: absolute; 
+  width: 72px;
+  height: 70px;
+}
+
+.fox {
+   background: url(http://www.ryanbaber.com/river_cross/fox.png);
+}
+
+.chicken {
+   background: url(http://www.ryanbaber.com/river_cross/chicken.png);
+}
+
+.grain {
+   background: url(http://www.ryanbaber.com/river_cross/grain.png);
+}
+
+.left {
+  left: 0px;
+  top: 180px;
+}
+
+.center {
+  left: 72px;
+  top: 180px;
+}
+
+.right {
+  left: 144px;
+  top: 180px;
+}
+
+.farRight {
+  left: 216px;
+  top: 65px;
+}
+
+.boat {
+  width: 225px;
+  height: 54px;
+  left: 125px;
+  top: 175px;
+}
+
+.rear {
+  position: absolute;
+     background: url(http://www.ryanbaber.com/river_cross/boatback.png);
+}
+
+.fore {
+  position: absolute;
+     background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
+}
+
+.passenger {
+  position: absolute;
+  left: 240px;
+  top: 130px;
+  width: 72px;
+  height: 90px;
+  background: url(http://www.ryanbaber.com/river_cross/farmer1.png);
+}
+
+.cargo {
+  left: 170px;
+  top: 160px;
+}
+
+.deadchicken {
+  background: url(http://www.ryanbaber.com/river_cross/deadchicken.png);
+}
+
+.deadgrain {
+  background: url(http://www.ryanbaber.com/river_cross/deadgrain.png);
+}
+
+.run {
+  position: absolute;
+  left: 50px;
+  top: 575px;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 35px;
+  line-height: 1.4em;
+  border-radius: 10px;
+  background: #33aa33;
+}

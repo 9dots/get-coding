@@ -1,9 +1,8 @@
-<div id='main' layout="vertical" layout-fill>
+<div id='main' layout='column' layout-fill>
   <md-toolbar>
 
     <div class="md-toolbar-tools">
       <span id='logo'></span>
-
       <!-- fill up the space between left and right area -->
       <span flex></span>
 
@@ -12,22 +11,6 @@
 
   </md-toolbar>
   <div class='apps' layout-padding>
-    <md-card ng-repeat='app in Main.apps' layout='horizontal' id='{{app.name}}'>
-      <div class="title-left">
-      </div>
-      <div class='info' layout='vertical' flex>
-        <div layout='horizontal'>
-          <span flex></span>
-          <a class='play-button' ng-href='{{app.name}}'>
-            <span class='play mdi'>Play</span><i class='mdi play mdi-arrow-forward'></i>
-          </a>
-        </div>
-        <h2>{{app.title}}</h2>
-        <p class='author'>Created by {{app.author}}</p>
-        <md-divider></md-divider>
-        <p>{{app.description}}</p>
-        
-      </div>
-    </md-card>
+    <accordion></accordion>
   </div>
 </div>

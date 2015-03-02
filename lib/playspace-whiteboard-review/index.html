@@ -1,0 +1,16 @@
+<div class="holder">
+  <div class="text directions"><marked>{{WhiteboardReview.message}}</marked></div>
+
+	<p ng-repeat='variable in WhiteboardReview.variableNames' class="black singlevar {{variable}}">{{WhiteboardReview.variables[variable] ? variable : "" }} </p>
+
+	<p ng-repeat= 'variable in WhiteboardReview.variableNames' class= "green cubby singlevar {{variable}}Value" >{{WhiteboardReview.variables[variable] ? '"' + WhiteboardReview.editValue(WhiteboardReview.variables[variable]) +'"' : ""}}</p>
+
+  	<p class="black singlevar onScreen"></p>
+  	<p class= "green cubby singlevar onScreenValue"></p>
+ 
+ 	<div class= "screen"></div>
+  <div class= "hand helphand fisthand"></div>
+  <div class= "hand hinthand fisthand"></div>
+  <div class='action help' ng-mouseover='WhiteboardReview.getHelp()' ng-mouseleave= 'WhiteboardReview.unHelp()'>HELP</div>
+  <div class="action hint" ng-mouseover='WhiteboardReview.getHint()' ng-mouseleave= 'WhiteboardReview.unHint()'>HINT</div>
+</div>
