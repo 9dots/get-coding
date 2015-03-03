@@ -13,6 +13,14 @@
 			"frogs":"4"
 		},
 		{
+			"stones":"6",
+			"frogs":"5"
+		},
+		{
+			"frogs":"8",
+			"stones":"9"
+		},
+		{
 			"stones": "7",
 			"frogs": "6"
 		}
