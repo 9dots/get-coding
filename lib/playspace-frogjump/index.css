@@ -79,9 +79,13 @@
 }
 
 .frog {
+  position: relative;
   background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
   background-size:cover;
-  height:60px;
+  height:75px;
+  width:85px;
+  left:0;
+  top:-40px;
 }
 
 .left {
@@ -97,11 +101,30 @@
   -ms-filter:hue-rotate(180deg);
 }
 
+.left .numbers {
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+
+.numbers {
+  position: relative;
+  text-align: center;
+  bottom: 40px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
 .stone {
   display: inline-block;
-  height: 44px;
+  position: relative;
+  height: 50px;
   width: 82px;
-  margin: 8px;
+  margin:0 8px;
+  top:0;
   background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeaT;
   background-size: cover;
 }
