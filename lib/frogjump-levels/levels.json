@@ -1,28 +1,70 @@
 {
 	"levels": [
 		{
-			"stones":"3",
-			"frogs":"1"
+			"stage":
+			{
+				"stones":"3",
+				"frogs":"1"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		},
 		{
-			"stones":"5",
-			"frogs":"2"
+			"stage":
+			{
+				"stones":"5",
+				"frogs":"2"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		},
 		{
-			"stones":"5",
-			"frogs":"4"
+			"stage":
+			{
+				"stones":"5",
+				"frogs":"4"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		},
 		{
-			"stones":"6",
-			"frogs":"5"
+			"stage":
+			{
+				"stones":"6",
+				"frogs":"5"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		},
 		{
-			"frogs":"8",
-			"stones":"9"
+			"stage":
+			{
+				"frogs":"8",
+				"stones":"9"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		},
 		{
-			"stones": "7",
-			"frogs": "6"
+			"stage":
+			{
+				"stones": "7",
+				"frogs": "6"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		}
 	]
 }
