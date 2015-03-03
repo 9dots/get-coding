@@ -78,6 +78,16 @@
   height: 102px;
 }
 
+.frog {
+  background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
+  background-size:cover;
+  height:60px;
+}
+
+.left {
+  transform:rotateY(180deg);
+}
+
 .stone {
   display: inline-block;
   height: 44px;
