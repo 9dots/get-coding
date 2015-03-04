@@ -3,7 +3,7 @@
 	{
 	  "stage": {
 		 "bg": [],
-		 "fg": ["chicken"],
+		 "fg": ["chicken", "farmer"],
 		 "bank": false,
 		 "conditionLog": {
 		 	"pickedUp": {"chicken": 1}
