@@ -1,30 +1,119 @@
 {
   "levels": [
     {
+      "level": 1,
       "field": {
         "rows": 5,
         "cols": 5,
-        "blocked": ["1*", "3*", "23", "24"],
-        "parts": ["22"],
+        "blocked": [],
+        "parts": ["23"],
       },
       "astro": {
-        "position": "20",
+        "position": "22",
         "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
       }
     },
     {
+      "level": 2,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["21", "23", "31", "32", "33"],
+        "parts": ["12"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    },
+    {
+      "level": 3,
       "field": {
         "rows": 5,
         "cols": 5,
         "blocked": ["1*", "3*"],
-        "parts": ["20"],
+        "parts": ["21"],
       },
       "astro": {
-        "position": "24",
-        "rotation": -180
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
       }
     },
     {
+      "level": 4,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["*1", "*3"],
+        "parts": ["32"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    },
+    {
+      "level": 5,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["22"],
+        "parts": ["12"],
+      },
+      "astro": {
+        "position": "32",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    },
+    {
+      "level": 6,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["22", "32", "42"],
+        "parts": ["21"],
+      },
+      "astro": {
+        "position": "23",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    },
+    {
+      "level": 7,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["30", "31", "32", "03", "13", "23"],
+        "parts": ["42", "24"],
+      },
+      "astro": {
+        "position": "40",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    },
+    {
+      "level": 8,
       "field": {
         "rows": 5,
         "cols": 5,
@@ -33,44 +122,43 @@
       },
       "astro": {
         "position": "42",
-        "rotation": 0
-      }
-    },
-    {
-      "field": {
-        "rows": 5,
-        "cols": 5,
-        "blocked": ["0*", "1*", "*3", "*4", "20", "21", "30", "31"],
-        "parts": ["22"],
-      },
-      "astro": {
-        "position": "40",
         "rotation": -180
-      }
-    },
-    {
-      "field": {
-        "rows": 5,
-        "cols": 5,
-        "blocked": ["0*", "*4", "30", "31", "32"],
-        "parts": ["10"],
       },
-      "astro": {
-        "position": "40",
-        "rotation": 0
+      "workspace": {
+        "codeSpace": ""
       }
     },
     {
+      "level": 9,
       "field": {
         "rows": 5,
         "cols": 5,
-        "blocked": ["10", "12", "13", "14", "30", "31", "32", "34"],
-        "parts": ["02", "22"],
+        "blocked": ["11", "12", "13", "21", "23", "31", "32", "33"],
+        "parts": ["02", "20", "24"],
       },
       "astro": {
         "position": "42",
-        "rotation": 0
+        "rotation": -90
+      },
+      "workspace": {
+        "codeSpace": ""
       }
     },
+    {
+      "level": 10,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["00", "10", "20", "30", "31", "32", "33", "23", "13", "12"],
+        "parts": ["42", "44", "24", "04", "02", "11", "22"],
+      },
+      "astro": {
+        "position": "40",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace": ""
+      }
+    }
   ]
 }

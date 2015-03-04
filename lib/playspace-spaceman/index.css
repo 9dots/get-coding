@@ -22,11 +22,11 @@
   background-color: black;
 }
 
-.header {
+[playspace-spaceman] .header {
   height: 30px;
 }
 
-.message {
+[playspace-spaceman] .message {
   position: relative;
   left: 0px;
   top: 8px;
@@ -41,21 +41,21 @@
   text-align: center;
 }
 
-.section {
+[playspace-spaceman] .section {
   float: left;
   height: 59px;
   border: 1px solid RoyalBlue;
 }
 
-.double {
+[playspace-spaceman] .double {
   width: 202px;
 }
 
-.single {
+[playspace-spaceman] .single {
   width: 100px;
 }
 
-.restart {
+[playspace-spaceman] .restart {
   font-size: 20px;
   line-height: 3em;
   text-align: center;
@@ -64,7 +64,7 @@
   color: RoyalBlue;
 }
 
-.practice {
+[playspace-spaceman] .practice {
   font-size: 20px;
   line-height: 3em;
   text-align: center;
@@ -73,7 +73,7 @@
   color: RoyalBlue;
 }
 
-.title {
+[playspace-spaceman] .title {
   width: 100%;
   height: 30px;
   background: DeepSkyBlue;
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-.value {
+[playspace-spaceman] .value {
   width: 100%;
   height: 30px;
   background: DeepSkyBlue;
@@ -98,28 +98,29 @@
   margin: 0px auto 0px auto;
   width: auto;
   height: auto;
+  border: 1px solid RoyalBlue;
   background: url("http://9dots.s3.amazonaws.com/2014/10/space-background_0.png") no-repeat;
   overflow: hidden;
 }
 
-.grid-holder {
+[playspace-spaceman] .grid-holder {
   position: relative;
 }
 
-.row {
+[playspace-spaceman] .row {
   position: relative;
   width: auto;
-  height: 102px;
+  height: 100px;
 }
 
-.square {
+[playspace-spaceman] .square {
   display: inline-block;
   width: 100px;
   height: 100px;
   border: 1px solid DeepSkyBlue;
 }
 
-.astronaut {
+[playspace-spaceman] .astronaut {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -127,14 +128,14 @@
   height: 100px;
 }
 
-.astronaut.still {
+[playspace-spaceman] .astronaut.still {
   background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_1.png');
 }
 
-.astronaut.thrust {
+[playspace-spaceman] .astronaut.thrust {
   background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_air.png');
 }
 
-.astronaut.celebrate {
+[playspace-spaceman] .astronaut.celebrate {
   background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_win.png');
 }

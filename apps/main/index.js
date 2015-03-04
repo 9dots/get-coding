@@ -75,11 +75,9 @@ module
       ]
     },
     {
-      name: 'Spaceman Introduces Algorithms',
+      name: 'Using Functions',
       apps: [
-        appObject['space-man-blockly'],
-        appObject['space-man'],
-        appObject['spaceman-blockly-repeat']
+        appObject['space-man']
       ]
     },
     {
