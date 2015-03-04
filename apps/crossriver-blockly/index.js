@@ -1,23 +1,18 @@
-/**
- * Modules
- */
-
-require('lib/spaceman-blocks');
-
+require('lib/crossriver-blocks');
 /**
  * Exports
  */
-var name = module.exports = 'space-man-blockly';
-
+var name = module.exports = 'crossriver-blockly';
 
 /**
  * Angular Module
  */
-var module = angular.module(name, ['ui.router', 
+var module = angular.module(name, [
+  'ui.router', 
   require('lib/code-app'), 
   require('lib/workspace-blockly'), 
-  require('lib/playspace-spaceman')
-])
+  require('lib/playspace-crossriver')
+]);
 
 /**
  * Styles
@@ -30,7 +25,7 @@ module
     data: require('./package.json'),
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
-    levels: require('lib/space-man-levels').first,
-    help: require('./README.md')
+    help: require('./README.md'),
+    levels: require('lib/crossriver-levels').levels
   });
 }]);

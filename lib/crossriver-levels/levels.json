@@ -5,10 +5,13 @@
 		 "bg": [],
 		 "fg": ["chicken"],
 		 "bank": false,
-		 "instructions": "In order to aid the farmer, you will first need to know how. Begin by placing the chicken in the boat.",
 		 "conditionLog": {
 		 	"pickedUp": {"chicken": 1}
 		 }
+	  },
+	  "help": {
+		 "Directions":"##Level One Goal\n Get the chicken in to the boat.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
+		 "Hint":"##Hint\n The pickUp('item') gets puts whichever item you select into the boat."
 	  }
 	},
 	{
@@ -16,10 +19,13 @@
 		 "bg": [],
 		 "fg": ["chicken"],
 		 "bank": false,
-		 "instructions": "Next, take the chicken across the river and drop it off on the other bank.",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chicken": 1}
 		 }
+	  },
+	  "help": {
+	  	"Directions":"##Level Two Goal\n Get the chicken in the boat, take it to the other side of the river, and drop it off.\n## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
+			"Hint":"##Hint\n You need to use all three commands to complete this level."
 	  }
 	},
 	{
@@ -27,10 +33,12 @@
 		 "bg": ["chicken"],
 		 "fg": ["grain"],
 		 "bank": true,
-		 "instructions": "Good work so far! Now that you have gotten the chicken across, go back and get the grain",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chickengrain": 1}
 		 }
+	  },
+	  "help": {
+	  	"Directions":"##Level Three Goal\n Go back to the first side of the river, pick up the grain, and drop it off with the chicken.\n## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
 	  }
 	},
 	{
@@ -38,13 +46,16 @@
 		 "bg": ["chicken", "grain"],
 		 "fg": ["fox"],
 		 "bank": true,
-		 "instructions": "Now that you have both of those, head back over to get the last item - the fox.",
 		 "conditionLog": [{
 		 	"crossedToBackground": {"foxgrain": 1}
 		 },{
 		 	"crossedToBackground": {"chickenfox": 1}
 		 }
 		 ]
+	  },
+	  "help": {
+	  	"Directions":"##Level Four Goal\n Head back across the river to get the fox and drop it off on the other side of the river.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
+			"Hint":"##Hint\n The chicken will eat the grain if they are left together."
 	  }
 	},
 	{
@@ -52,13 +63,16 @@
 		 "bg": ["chicken", "fox"],
 		 "fg": ["grain"],
 		 "bank": true,
-		 "instructions": "What about if you have the chicken and the fox over there?.",
 		 "conditionLog": [{
 		 	"crossedToBackground": {"foxgrain": 1}
 		 },{
 		 	"crossedToBackground": {"chickengrain": 1}
 		 }
 		 ]
+	  },
+	  "help": {
+	  	"Directions":"##Level Five Goal\n What if we change where the items are? Get the grain and bring it to the other side of the river.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
+			"Hint":"##Hint\n The fox will eat the chicken if they are left together."
 	  }
 	},
 	{
@@ -67,10 +81,12 @@
 		 "fg": ["chicken", "grain", "fox"],
 		 "bank": false,
 		 "level": 6,
-		 "instructions": "Nice job! Now it's time for you to put it all together.",
 		 "conditionLog": {
 		 	"crossedToBackground": {"chickenfoxgrain": 1}
 		 }
+	  },
+	  "help": {
+	  	"Directions":"##Level Six Goal\n Time to solve the entire problem from the beginning. Help the farmer get all of his items across the river.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
 	  }
 	}
   ]
