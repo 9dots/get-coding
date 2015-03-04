@@ -125,6 +125,6 @@
   width: 82px;
   margin:0 8px;
   top:0;
-  background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeaT;
+  background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeat;
   background-size: cover;
 }
