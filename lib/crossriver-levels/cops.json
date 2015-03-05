@@ -1,0 +1,87 @@
+{
+  "levels": [
+	{
+	  "stage": {
+	  	"boat":{
+	  		"position":"foreground"
+	  	},
+	  	"bg": [],
+		 	"fg": [
+			 	{
+			 		"type":"cop",
+			 		"rules" : {
+			 			"greaterThan":"robber"
+			 		}
+			 	}, 
+			 	{
+			 		"type":"robber"
+			 	}
+			],
+			"conditionLog": {
+			 	"boat": [
+		 			{ "type":"cop" }
+			 	]
+			}
+	  },
+	},
+	{
+	  "stage": {
+	  	"boat":{
+	  		"position":"foreground"
+	  	},
+	  	"bg": [],
+		 	"fg": [
+			 	{
+			 		"type":"cop",
+
+			 	}, 
+			 	{
+			 		"type":"robber"
+			 	}
+			],
+			"conditionLog": {
+			 	"background": [
+		 			{ "type":"cop" },
+		 			{ "type":"robber" }
+			 	]
+			}
+	  },
+	},
+	{
+	  "stage": {
+	  	"boat":{
+	  		"position":"foreground"
+	  	},
+	  	"bg": [],
+		 	"fg": [
+			 	{
+			 		"type":"cop",
+			 		"rules" : {
+			 			"greaterThan":"robber"
+			 		}
+			 	}, 
+			 	{
+			 		"type":"cop",
+			 		"rules" : {
+			 			"greaterThan":"robber"
+			 		}
+			 	}, 
+			 	{
+			 		"type":"robber"
+			 	},
+			 	{
+			 		"type":"robber"
+			 	}
+			],
+			"conditionLog": {
+			 	"background": [
+		 			{ "type":"cop" },
+		 			{ "type":"cop" },
+		 			{ "type":"robber" },
+		 			{ "type":"robber" }
+			 	]
+			}
+	  },
+	},
+  ]
+}

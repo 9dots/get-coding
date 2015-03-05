@@ -11,7 +11,9 @@
 	  <div class="frame middle" ng-class="'to-' + [Crossriver.boat.position]">
 	    <div class="boat rear"></div>
 	    <div class="boat fore"></div>
-	    <div class="passenger" ng-class="[passenger.type, passenger.option]" ng-repeat="passenger in Crossriver.boat.characters"></div>
+	    <div class="character-row boat" layout="row" layout-align="center">
+	    	<div class="passenger" ng-class="[passenger.type, passenger.option]" ng-repeat="passenger in Crossriver.boat.characters"></div>
+    	</div>
 	  </div>
 	  
 	  <div class="frame front" layout="row" layout-align="center">

@@ -39,12 +39,17 @@
 
 .farmer {
   background: url(http://www.ryanbaber.com/river_cross/farmer1.png) no-repeat;
+  background-size:contain;
 }
 
 .character-row{
   position:relative;
   width:500px;
   bottom:20px;
+}
+
+.character {
+  z-index:2;
 }
 
 .character div {
@@ -55,14 +60,27 @@
 
 .fox {
    background: url(http://www.ryanbaber.com/river_cross/fox.png) no-repeat;
+   background-size:contain;
 }
 
 .chicken {
    background: url(http://www.ryanbaber.com/river_cross/chicken.png) no-repeat;
+   background-size:contain;
 }
 
 .grain {
    background: url(http://www.ryanbaber.com/river_cross/grain.png) no-repeat;
+   background-size:contain;
+}
+
+.cop {
+  background: url(http://www.clipartbest.com/cliparts/xig/K9E/xigK9EyKT.png) no-repeat;
+  background-size:contain;
+}
+
+.robber {
+  background: url(http://st-takla.org/Pix/People-General/St-Takla-org___Prisoner-03-Theif.gif) no-repeat;
+  background-size:contain;
 }
 
 .left {
@@ -94,20 +112,22 @@
 
 .rear {
   position: absolute;
-     background: url(http://www.ryanbaber.com/river_cross/boatback.png);
+  background: url(http://www.ryanbaber.com/river_cross/boatback.png);
 }
 
 .fore {
   position: absolute;
-     background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
+  background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
+  z-index:1;
 }
 
 .passenger {
-  position: absolute;
-  left: 240px;
-  top: 130px;
+  position: relative;
+  bottom:40px;
   width: 72px;
   height: 90px;
+  background-size:cover;
+  z-index:0;
 }
 
 .cargo {
