@@ -1,21 +1,12 @@
 ## Mission
-Hello space cadet. Your mission is to help the space dude restore his ship to working order. Space dude’s ship collided with an asteroid and now pieces of his ship are scattered across space. Today you will help space man collect all the parts of his spaceship.
+Greetings Space Cadet. Space Dude’s ship collided with an asteroid and the solar panels that power it are scattered across space. Your mission is to help the Space Dude fix his ship by gathering the solar panels.
 
 ## Commands
 
  * `move();` - move forward one space
- * `rotate();` - turn counterclockwise 90 degrees
+ * `rotate();` - rotate backwards (counterclockwise 90 degrees)
  * `getPart();` - pick up the space part
 
-
- ## Example
-
- ```
- move();
- rotate();
- move();
- getPart();
- ```
 
 ## Tips
 * You must collect all the parts to move on to the next area.
@@ -24,4 +15,4 @@ Hello space cadet. Your mission is to help the space dude restore his ship to wo
 * Only one command per line.
 
 
-Good luck space cadet!
+Good luck Space Cadet!
