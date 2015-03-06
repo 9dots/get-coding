@@ -54,6 +54,17 @@
 			{
 				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
+		},
+		{
+			"stage":
+			{
+				"stones": "9",
+				"frogs": "8"
+			},
+			"help":
+			{
+				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
 		}
 	]
 }

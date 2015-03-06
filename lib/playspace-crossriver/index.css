@@ -6,7 +6,6 @@
 
 .crossRiver{
   position: relative;
-
 }
 
 .back {
@@ -21,6 +20,30 @@
   left: -50px;
 }
 
+.speed-125 {
+  transition: all 0.125s ease-in-out;
+}
+
+.speed-250 {
+  transition: all 0.25s ease-in-out;
+}
+
+.speed-500 {
+  transition: all 0.5s ease-in-out;
+}
+
+.speed-1000 {
+  transition: all 1s ease-in-out;
+}
+
+.speed-2000 {
+  transition: all 2s ease-in-out;
+}
+
+.speed-4000 {
+  transition: all 4s ease-in-out;
+}
+
 .frame {
   position: absolute;
   width: 300px;
@@ -29,11 +52,10 @@
 
 .middle {
   top: 250px;
-  transition: all 1s ease-in-out;
 }
 
 .front {
-  left: 530px;
+  left: 490px;
   bottom:0;
 }
 
@@ -44,7 +66,7 @@
 
 .character-row{
   position:relative;
-  width:500px;
+  width:300px;
   bottom:20px;
 }
 

@@ -65,20 +65,33 @@
 			 		"rules" : {
 			 			"greaterThan":"robber"
 			 		}
+			 	},
+		 		{
+			 		"type":"cop",
+			 		"rules" : {
+			 			"greaterThan":"robber"
+			 		}
 			 	}, 
 			 	{
-			 		"type":"robber"
+			 		"type":"robber",
 			 	},
 			 	{
-			 		"type":"robber"
+			 		"type":"robber",
+			 	},
+			 	{
+			 		"type":"robber",
 			 	}
 			],
 			"conditionLog": {
 			 	"background": [
-		 			{ "type":"cop" },
-		 			{ "type":"cop" },
-		 			{ "type":"robber" },
-		 			{ "type":"robber" }
+		 			{ 
+		 				"type":"cop",
+		 				"quantity":3
+		 			},
+		 			{ 
+		 				"type":"robber",
+		 				"quantity":3
+		 			}
 			 	]
 			}
 	  },

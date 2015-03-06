@@ -81,9 +81,9 @@
 .frog {
   position: relative;
   background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
-  background-size:cover;
+  background-size:contain;
+  background-position: 0%;
   height:75px;
-  width:85px;
   left:0;
   top:-40px;
 }
@@ -126,5 +126,5 @@
   margin:0 8px;
   top:0;
   background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
