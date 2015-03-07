@@ -8,7 +8,7 @@
 			},
 			"help":
 			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+				"Directions":"##Directions\n Help the frog get to the last stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
@@ -19,7 +19,7 @@
 			},
 			"help":
 			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+				"Directions":"##Directions\n Help the two frogs each get to the last stone in the direction they are facing.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
@@ -30,7 +30,7 @@
 			},
 			"help":
 			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 			},
 			"help":
 			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
@@ -52,18 +52,7 @@
 			},
 			"help":
 			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
-			}
-		},
-		{
-			"stage":
-			{
-				"stones": "9",
-				"frogs": "8"
-			},
-			"help":
-			{
-				"Directions":"##Directions\n Help the frogs cross the stones.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		}
 	]
