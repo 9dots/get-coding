@@ -40,7 +40,8 @@ var module = angular.module(name, [
   require('apps/strings'),
   require('apps/frogjump-puzzle'),
   require('apps/crossriver-cops'),
-  require('apps/crossriver-cops-blockly')
+  require('apps/crossriver-cops-blockly'),
+  require('apps/frogjump-blockly')
 ]);
 
 /**
@@ -102,6 +103,7 @@ module
         appObject['crossriver-intro'],
         appObject['crossriver-cops-blockly'],
         appObject['crossriver-cops'],
+        appObject['frogjump-blockly'],
         appObject['frogjump-puzzle']
       ]
     }
