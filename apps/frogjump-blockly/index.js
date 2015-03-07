@@ -1,8 +1,8 @@
-require('lib/crossriver-blocks');
+require('lib/frogjump-blocks');
 /**
  * Exports
  */
-var name = module.exports = 'crossriver-blockly';
+var name = module.exports = 'frogjump-blockly';
 
 /**
  * Angular Module
@@ -11,7 +11,7 @@ var module = angular.module(name, [
   'ui.router', 
   require('lib/code-app'), 
   require('lib/workspace-blockly'), 
-  require('lib/playspace-crossriver')
+  require('lib/playspace-frogjump')
 ]);
 
 /**
@@ -26,6 +26,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: require('lib/crossriver-levels').farmer
+    levels: require('lib/frogjump-levels').levels
   });
 }]);

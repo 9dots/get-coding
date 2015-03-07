@@ -2,7 +2,7 @@ require('lib/crossriver-blocks');
 /**
  * Exports
  */
-var name = module.exports = 'crossriver-blockly';
+var name = module.exports = 'crossriver-cops-blockly';
 
 /**
  * Angular Module
@@ -26,6 +26,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: require('lib/crossriver-levels').farmer
+    levels: require('lib/crossriver-levels').cops
   });
 }]);

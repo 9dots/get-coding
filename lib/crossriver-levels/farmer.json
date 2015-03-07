@@ -2,12 +2,27 @@
   "levels": [
 	{
 	  "stage": {
-		 "bg": [],
-		 "fg": ["chicken"],
-		 "bank": false,
-		 "conditionLog": {
-		 	"pickedUp": {"chicken": 1}
-		 }
+	  	"boat":{
+	  		"position":"foreground",
+	  		"forceCaptain":"farmer"
+	  	},
+	  	"bg": [],
+		 	"fg": [
+			 	{
+			 		"type":"chicken",
+			 		"rules":{
+			 			"prey":"grain"
+			 		}
+			 	}, 
+			 	{
+			 		"type":"farmer"
+			 	}
+			],
+			"conditionLog": {
+			 	"boat": [
+		 			{"type":"chicken"}
+			 	]
+			}
 	  },
 	  "help": {
 		 "Directions":"##Level One Goal\n Get the chicken in to the boat.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
@@ -15,14 +30,31 @@
 	  }
 	},
 	{
-	  "stage": {
-		 "bg": [],
-		 "fg": ["chicken"],
-		 "bank": false,
-		 "conditionLog": {
-		 	"crossedToBackground": {"chicken": 1}
-		 }
-	  },
+	 	"stage": {
+	  	"boat":{
+	  		"position":"foreground",
+	  		"forceCaptain":"farmer"
+	  	},
+			"bg": [],
+			"fg": 
+			[
+		 		{
+		 			"type":"chicken",
+		 			"rules":{
+		 				"prey":"grain"
+		 			}
+		 		},
+		 		{
+		 			"type":"farmer"
+		 		}
+		 	],
+		  "conditionLog": {
+		 		"background": 
+		 		[
+		 			{"type":"chicken"},
+		 		],
+		 	}
+		},
 	  "help": {
 	  	"Directions":"##Level Two Goal\n Get the chicken in the boat, take it to the other side of the river, and drop it off.\n## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
 			"Hint":"##Hint\n You need to use all three commands to complete this level."
@@ -30,12 +62,35 @@
 	},
 	{
 	  "stage": {
-		 "bg": ["chicken"],
-		 "fg": ["grain"],
-		 "bank": true,
-		 "conditionLog": {
-		 	"crossedToBackground": {"chickengrain": 1}
-		 }
+	  	"boat":{
+	  		"position":"background",
+	  		"forceCaptain":"farmer"
+	  	},
+			"bg": 
+		 	[
+		 		{
+		 			"type":"chicken",
+		 			"rules":{
+		 				"prey":"grain"
+		 			}		 		
+		 		},
+				{
+					"type":"farmer"
+				}
+		 	],
+		 "fg": 
+			[
+				{
+					"type":"grain",
+				}
+		 	],
+		 	"conditionLog": {
+		 		"background": 
+		 		[
+		 			{"type":"chicken"},
+		 			{"type":"grain"},
+		 		],
+		 	}
 	  },
 	  "help": {
 	  	"Directions":"##Level Three Goal\n Go back to the first side of the river, pick up the grain, and drop it off with the chicken.\n## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
@@ -43,15 +98,43 @@
 	},
 	{
 	  "stage": {
-		 "bg": ["chicken", "grain"],
-		 "fg": ["fox"],
-		 "bank": true,
-		 "conditionLog": [{
-		 	"crossedToBackground": {"foxgrain": 1}
-		 },{
-		 	"crossedToBackground": {"chickenfox": 1}
-		 }
-		 ]
+
+  	 "boat":{
+	  		"position":"background",
+	  		"forceCaptain":"farmer"
+	  	},
+		 "bg": 
+		 [
+		 	{ 
+		 		"type":"chicken",
+		 		"rules":{
+		 			"prey":"grain"
+		 		}
+	 		}, 
+		 	{
+		 		"type":"grain"
+		 	},
+		 	{
+		 		"type":"farmer"
+		 	}
+		 ],
+		 "fg": 
+		 [
+		 	{
+		 		"type":"fox",
+		 		"rules": {
+		 			"prey":"chicken"
+		 		}
+		 	}
+		 ],
+	 	 "conditionLog": {
+		 		"background": 
+		 		[
+		 			{"type":"chicken"},
+		 			{"type":"grain"},
+		 			{"type":"fox"}
+		 		],
+		 	}
 	  },
 	  "help": {
 	  	"Directions":"##Level Four Goal\n Head back across the river to get the fox and drop it off on the other side of the river.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
@@ -60,15 +143,41 @@
 	},
 	{
 	  "stage": {
-		 "bg": ["chicken", "fox"],
-		 "fg": ["grain"],
-		 "bank": true,
-		 "conditionLog": [{
-		 	"crossedToBackground": {"foxgrain": 1}
-		 },{
-		 	"crossedToBackground": {"chickengrain": 1}
+	  	"boat":{
+	  		"position":"background",
+	  		"forceCaptain":"farmer"
+	  	},
+		  "bg": 
+		 [
+		 	{ 
+		 		"type":"chicken",
+		 		"rules":{
+		 			"prey":"grain"
+		 		}
+	 		}, 
+		 	{
+		 		"type":"fox",
+		 		"rules": {
+		 			"prey":"chicken"
+		 		}
+		 	},
+		 	{
+		 		"type":"farmer"
+		 	}
+		 ],
+		 		 "fg": 
+		 [
+		 	{
+		 		"type":"grain",
+		 	}
+		 ],
+		 "conditionLog": {
+			"background" : [
+				{"type":"chicken"},
+	 			{"type":"grain"},
+	 			{"type":"fox"}
+		 	]
 		 }
-		 ]
 	  },
 	  "help": {
 	  	"Directions":"##Level Five Goal\n What if we change where the items are? Get the grain and bring it to the other side of the river.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
@@ -76,13 +185,39 @@
 	  }
 	},
 	{
-	  "stage": {
-		 "bg": [],
-		 "fg": ["chicken", "grain", "fox"],
-		 "bank": false,
-		 "level": 6,
+		"stage": {
+	  	"boat":{
+	  		"position":"foreground",
+	  		"forceCaptain":"farmer"
+	  	},
+		  "bg": [],
+		 	"fg": 
+		 	[
+		 		{
+		 			"type":"grain"
+		 		},
+  			{ 
+		 			"type":"chicken",
+		 			"rules":{
+		 				"prey":"grain"
+		 			}
+	 			}, 
+		 		{
+		 			"type":"fox",
+		 			"rules": {
+		 				"prey":"chicken"
+		 			}
+		 		},
+		 		{
+		 			"type":"farmer"
+		 		}
+		 	],
 		 "conditionLog": {
-		 	"crossedToBackground": {"chickenfoxgrain": 1}
+			"background" : [
+				{"type":"chicken"},
+	 			{"type":"grain"},
+	 			{"type":"fox"}
+		 	]
 		 }
 	  },
 	  "help": {
