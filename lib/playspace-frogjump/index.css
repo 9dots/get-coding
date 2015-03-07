@@ -1,0 +1,130 @@
+[playspace-frogjump] {
+  background-color: white;
+}
+
+.header {
+  height: 30px;
+}
+
+.section {
+  float: left;
+  height: 59px;
+  border: 1px solid RoyalBlue;
+}
+
+.double {
+  width: 202px;
+}
+
+.single {
+  width: 100px;
+}
+
+.restart {
+  font-size: 20px;
+  line-height: 3em;
+  text-align: center;
+  font-family: ‘Lucida Console’, Monaco, monospace;
+  background: MidnightBlue;
+  color: RoyalBlue;
+}
+
+.practice {
+  font-size: 20px;
+  line-height: 3em;
+  text-align: center;
+  font-family: ‘Lucida Console’, Monaco, monospace;
+  background: MidnightBlue;
+  color: RoyalBlue;
+}
+
+.title {
+  width: 100%;
+  height: 30px;
+  background: DeepSkyBlue;
+  font-family: ‘Lucida Console’, Monaco, monospace;
+  color: MidnightBlue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.value {
+  width: 100%;
+  height: 30px;
+  background: DeepSkyBlue;
+  font-family: Century Gothic, sans-serif;
+  color: MidnightBlue;
+  font-size: 20px;
+  text-align: center;
+}
+
+[playspace-frogjump] .background {
+  margin: 0px auto 0px auto;
+  width: 620px;
+  height: 600px;
+  background: url("http://s22.postimg.org/l4zgchtfl/frogback.jpg") no-repeat;
+  overflow: hidden;
+}
+
+.grid-holder {
+  position: relative;
+  top:200px;
+}
+
+.row {
+  position: relative;
+  width: auto;
+  height: 102px;
+}
+
+.frog {
+  position: relative;
+  background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
+  background-size:contain;
+  background-position: 0%;
+  height:75px;
+  left:0;
+  top:-40px;
+}
+
+.left {
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  filter:hue-rotate(180deg);
+  -webkit-filter:hue-rotate(180deg);
+  -moz-filter:hue-rotate(180deg);
+  -o-filter:hue-rotate(180deg);
+  -ms-filter:hue-rotate(180deg);
+}
+
+.left .numbers {
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+
+.numbers {
+  position: relative;
+  text-align: center;
+  bottom: 40px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+.stone {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  width: 82px;
+  margin:0 8px;
+  top:0;
+  background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeat;
+  background-size: contain;
+}
