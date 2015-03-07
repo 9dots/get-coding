@@ -100,8 +100,8 @@ module
       apps: [
         appObject['crossriver-blockly'],
         appObject['crossriver-intro'],
-        appObject['crossriver-cops'],
         appObject['crossriver-cops-blockly'],
+        appObject['crossriver-cops'],
         appObject['frogjump-puzzle']
       ]
     }
