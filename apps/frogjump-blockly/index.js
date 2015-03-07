@@ -10,8 +10,8 @@ var name = module.exports = 'frogjump-blockly';
 var module = angular.module(name, [
   'ui.router', 
   require('lib/code-app'), 
-  require('lib/workspace-{{workspace}}'), 
-  require('lib/playspace-{{playspace}}')
+  require('lib/workspace-blockly'), 
+  require('lib/playspace-frogjump')
 ]);
 
 /**
@@ -27,4 +27,5 @@ module
     playspace: require('./playspace.html'),
     help: require('./README.md'),
     levels: require('lib/frogjump-levels').levels
+  });
 }]);

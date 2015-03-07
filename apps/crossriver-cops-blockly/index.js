@@ -1,3 +1,4 @@
+require('lib/crossriver-blocks');
 /**
  * Exports
  */
