@@ -66,12 +66,13 @@ gulp.task('create-app', function(done) {
 
   ],
   function (answers) {
+    console.log(template(answers));
     gulp.src(__dirname + '/.templates/app/**')  // Note use of __dirname to be relative to generator
       .pipe(template(answers))                 // Lodash template support
       .pipe(conflict('./apps/'  + answers.name))                    // Confirms overwrites on file conflicts
       .pipe(gulp.dest('./apps/' + answers.name))                   // Without __dirname here = relative to cwd
       .on('finish', function () {
-        console.log('[' + 'getCoding'.green + ']', 'Add `require(\'/apps/' + answers.name + '\')` to apps/main/index.js and you are good to go.')
+        console.log('[' + 'getCoding'.green + ']', 'Add `require(\'apps/' + answers.name + '\')` to apps/main/index.js and you are good to go.')
         done();                                // Finished!
       });
   });
