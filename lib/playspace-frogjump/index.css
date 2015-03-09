@@ -2,25 +2,25 @@
   background-color: white;
 }
 
-.header {
+[playspace-frogjump] .header {
   height: 30px;
 }
 
-.section {
+[playspace-frogjump] .section {
   float: left;
   height: 59px;
   border: 1px solid RoyalBlue;
 }
 
-.double {
+[playspace-frogjump] .double {
   width: 202px;
 }
 
-.single {
+[playspace-frogjump] .single {
   width: 100px;
 }
 
-.restart {
+[playspace-frogjump] .restart {
   font-size: 20px;
   line-height: 3em;
   text-align: center;
@@ -29,7 +29,7 @@
   color: RoyalBlue;
 }
 
-.practice {
+[playspace-frogjump] .practice {
   font-size: 20px;
   line-height: 3em;
   text-align: center;
@@ -38,7 +38,7 @@
   color: RoyalBlue;
 }
 
-.title {
+[playspace-frogjump] .title {
   width: 100%;
   height: 30px;
   background: DeepSkyBlue;
@@ -49,7 +49,7 @@
   text-align: center;
 }
 
-.value {
+[playspace-frogjump] .value {
   width: 100%;
   height: 30px;
   background: DeepSkyBlue;
@@ -67,18 +67,18 @@
   overflow: hidden;
 }
 
-.grid-holder {
+[playspace-frogjump] .grid-holder {
   position: relative;
   top:200px;
 }
 
-.row {
+[playspace-frogjump] .row {
   position: relative;
   width: auto;
   height: 102px;
 }
 
-.frog {
+[playspace-frogjump] .frog {
   position: relative;
   background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
   background-size:contain;
@@ -88,7 +88,7 @@
   top:-40px;
 }
 
-.left {
+[playspace-frogjump] .left {
   transform:rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg);
@@ -101,7 +101,7 @@
   -ms-filter:hue-rotate(180deg);
 }
 
-.left .numbers {
+[playspace-frogjump] .left .numbers {
   transform:rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg);
@@ -109,7 +109,7 @@
   -ms-transform:rotateY(180deg);
 }
 
-.numbers {
+[playspace-frogjump] .numbers {
   position: relative;
   text-align: center;
   bottom: 40px;
@@ -118,7 +118,7 @@
   text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 
-.stone {
+[playspace-frogjump] .stone {
   display: inline-block;
   position: relative;
   height: 50px;
