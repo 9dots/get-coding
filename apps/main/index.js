@@ -41,7 +41,8 @@ var module = angular.module(name, [
   require('apps/frogjump-puzzle'),
   require('apps/crossriver-cops'),
   require('apps/crossriver-cops-blockly'),
-  require('apps/frogjump-blockly')
+  require('apps/frogjump-blockly'),
+  require('apps/crossriver-monkeys')
 ]);
 
 /**
