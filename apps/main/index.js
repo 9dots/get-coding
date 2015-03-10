@@ -102,8 +102,9 @@ module
         appObject['crossriver-intro'],
         appObject['crossriver-cops-blockly'],
         appObject['crossriver-cops'],
+        appObject['crossriver-monkeys'],
         appObject['frogjump-blockly'],
-        appObject['frogjump-puzzle']
+        appObject['frogjump-puzzle'],
       ]
     }
   ];

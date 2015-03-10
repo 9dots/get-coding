@@ -59,7 +59,7 @@
   bottom:0;
 }
 
-.farmer {
+.farmer, .human{
   background: url(http://www.ryanbaber.com/river_cross/farmer1.png) no-repeat;
   background-size:contain;
 }
@@ -103,6 +103,16 @@
 .robber {
   background: url(http://st-takla.org/Pix/People-General/St-Takla-org___Prisoner-03-Theif.gif) no-repeat;
   background-size:77%;
+}
+
+.monkey {
+  background: url(http://cliparts.co/cliparts/kTK/nGB/kTKnGBKbc.png) no-repeat;
+  background-size:contain;
+}
+
+.bigMonkey {
+  background: url(http://www.homemade-preschool.com/image-files/chimpanzee.png) no-repeat;
+  background-size: contain;
 }
 
 .left {

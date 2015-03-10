@@ -25,6 +25,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: [] // specify levels here
+    levels: require('lib/crossriver-levels').monkeys
   });
 }]);
