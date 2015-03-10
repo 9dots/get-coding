@@ -66,6 +66,7 @@ gulp.task('create-app', function(done) {
 
   ],
   function (answers) {
+    console.log(template(answers));
     gulp.src(__dirname + '/.templates/app/**')  // Note use of __dirname to be relative to generator
       .pipe(template(answers))                 // Lodash template support
       .pipe(conflict('./apps/'  + answers.name))                    // Confirms overwrites on file conflicts

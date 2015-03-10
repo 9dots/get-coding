@@ -1,7 +1,15 @@
 {
   "levels": [
 	{
+  	"captains": [
+			"robber",
+			"cop"
+		],
 	  "stage": {
+	  	"captains": [
+				"robber",
+				"cop"
+			],
 	  	"boat":{
 	  		"position":"foreground"
 	  	},
@@ -29,6 +37,10 @@
 	  }
 	},
 	{
+	 	"captains": [
+			"robber",
+			"cop"
+		],
 	  "stage": {
 	  	"boat":{
 	  		"position":"foreground"
@@ -56,7 +68,11 @@
 	  	"Directions":"##Level Two Goal\n Get the cop and the robber in the boat and drop them off on the other side of the river.\n##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
 	},
-		{
+	{
+	 	"captains": [
+			"robber",
+			"cop"
+		],
 	  "stage": {
 	  	"boat":{
 	  		"position":"background"
@@ -98,6 +114,10 @@
 	  }
 	},
 	{
+	 	"captains": [
+			"robber",
+			"cop"
+		],
 	  "stage": {
 	  	"boat":{
 	  		"position":"foreground"
@@ -141,6 +161,10 @@
 	  }
 	},
 	{
+	 	"captains": [
+			"robber",
+			"cop"
+		],
 	  "stage": {
 	  	"boat":{
 	  		"position":"foreground"

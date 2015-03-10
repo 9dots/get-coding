@@ -2,61 +2,8 @@
   background-color: white;
 }
 
-.header {
+[playspace-frogjump] .header {
   height: 30px;
-}
-
-.section {
-  float: left;
-  height: 59px;
-  border: 1px solid RoyalBlue;
-}
-
-.double {
-  width: 202px;
-}
-
-.single {
-  width: 100px;
-}
-
-.restart {
-  font-size: 20px;
-  line-height: 3em;
-  text-align: center;
-  font-family: ‘Lucida Console’, Monaco, monospace;
-  background: MidnightBlue;
-  color: RoyalBlue;
-}
-
-.practice {
-  font-size: 20px;
-  line-height: 3em;
-  text-align: center;
-  font-family: ‘Lucida Console’, Monaco, monospace;
-  background: MidnightBlue;
-  color: RoyalBlue;
-}
-
-.title {
-  width: 100%;
-  height: 30px;
-  background: DeepSkyBlue;
-  font-family: ‘Lucida Console’, Monaco, monospace;
-  color: MidnightBlue;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.value {
-  width: 100%;
-  height: 30px;
-  background: DeepSkyBlue;
-  font-family: Century Gothic, sans-serif;
-  color: MidnightBlue;
-  font-size: 20px;
-  text-align: center;
 }
 
 [playspace-frogjump] .background {
@@ -67,18 +14,18 @@
   overflow: hidden;
 }
 
-.grid-holder {
+[playspace-frogjump] .grid-holder {
   position: relative;
   top:200px;
 }
 
-.row {
+[playspace-frogjump] .row {
   position: relative;
   width: auto;
   height: 102px;
 }
 
-.frog {
+[playspace-frogjump] .frog {
   position: relative;
   background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
   background-size:contain;
@@ -88,7 +35,7 @@
   top:-40px;
 }
 
-.left {
+[playspace-frogjump] .left {
   transform:rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg);
@@ -101,7 +48,7 @@
   -ms-filter:hue-rotate(180deg);
 }
 
-.left .numbers {
+[playspace-frogjump] .left .numbers {
   transform:rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg);
@@ -109,7 +56,7 @@
   -ms-transform:rotateY(180deg);
 }
 
-.numbers {
+[playspace-frogjump] .numbers {
   position: relative;
   text-align: center;
   bottom: 40px;
@@ -118,7 +65,7 @@
   text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 
-.stone {
+[playspace-frogjump] .stone {
   display: inline-block;
   position: relative;
   height: 50px;
