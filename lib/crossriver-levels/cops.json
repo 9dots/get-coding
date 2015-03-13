@@ -25,13 +25,13 @@
 			 		"type":"robber"
 			 	}
 			],
-			"conditionLog": {
-			 	"boat": [
-		 			{ "type":"cop" },
-		 			{ "type":"robber" }
-			 	]
-			}
 	  },
+	  "conditionLog": {
+		 	"boat": [
+	 			{ "type":"cop" },
+	 			{ "type":"robber" }
+		 	]
+		},
 	  "help": {
 	  	"Directions":"##Level One Goal\n Get the cop and the robber in the boat.\n ##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
@@ -57,13 +57,13 @@
 			 		"type":"robber"
 			 	}
 			],
-			"conditionLog": {
-			 	"background": [
-		 			{ "type":"cop" },
-		 			{ "type":"robber" }
-			 	]
-			}
 	  },
+	  "conditionLog": {
+		 	"background": [
+	 			{ "type":"cop" },
+	 			{ "type":"robber" }
+		 	]
+		},
 	  "help": {
 	  	"Directions":"##Level Two Goal\n Get the cop and the robber in the boat and drop them off on the other side of the river.\n##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
@@ -96,19 +96,19 @@
 			 		}
 		 		}
 			],
-			"conditionLog": {
-			 	"background": [
-		 			{ 
-		 				"type":"cop",
-		 				"quantity":2
-		 			},
-		 			{ 
-		 				"type":"robber",
-		 				"quantity":1
-		 			}
-			 	]
-			}
 	  },
+	  "conditionLog": {
+		 	"background": [
+	 			{ 
+	 				"type":"cop",
+	 				"quantity":2
+	 			},
+	 			{ 
+	 				"type":"robber",
+	 				"quantity":1
+	 			}
+		 	]
+		},
 	  "help": {
 	  	"Directions":"##Level Three Goal\n Go back across the river to get the cop and bring him to the left side of the river.\n##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
@@ -143,19 +143,19 @@
 			 		"type":"robber"
 			 	}
 			],
-			"conditionLog": {
-			 	"background": [
-		 			{ 
-		 				"type":"cop",
-		 				"quantity":2
-		 			},
-		 			{ 
-		 				"type":"robber",
-		 				"quantity":2
-		 			}
-			 	]
-			}
 	  },
+	  "conditionLog": {
+		 	"background": [
+	 			{ 
+	 				"type":"cop",
+	 				"quantity":2
+	 			},
+	 			{ 
+	 				"type":"robber",
+	 				"quantity":2
+	 			}
+		 	]
+		},
 	  "help": {
 	  	"Directions":"##Level Four Goal\n Get all four people to the other side of the river. Remember that only two people can fit in the boat at a time.\n##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
@@ -199,19 +199,19 @@
 			 		"type":"robber",
 			 	}
 			],
-			"conditionLog": {
-			 	"background": [
-		 			{ 
-		 				"type":"cop",
-		 				"quantity":3
-		 			},
-		 			{ 
-		 				"type":"robber",
-		 				"quantity":3
-		 			}
-			 	]
-			}
 	  },
+	  "conditionLog": {
+		 	"background": [
+	 			{ 
+	 				"type":"cop",
+	 				"quantity":3
+	 			},
+	 			{ 
+	 				"type":"robber",
+	 				"quantity":3
+	 			}
+		 	]
+		},
 	  "help": {
 	  	"Directions":"##Level Five Goal\n Get all of the cops and the robbers to the other side of the river.\n ##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 	  }
