@@ -12,6 +12,41 @@
 		  	"bg": [],
 			 	"fg": [
 				 	{
+				 		"type":"monkey"
+			 		},
+				 	{
+				 		"type":"bigMonkey"
+				 	}
+				]
+		  },
+			"conditionLog": {
+			 	"background": [
+		 			{ 
+		 				"type":"monkey", 
+		 				"quantity":1
+		 			},
+		 			{
+		 				"type":"bigMonkey",
+		 				"quantity":1
+		 			}
+			 	]
+			},
+		  "help": {
+		  	"Directions":"##Level One Goal\n Get the monkey and the big monkey to the other side of the river. Remember that the big monkey can drive the boat.\n ##Mission\n Get the humans and the monkeys across the river without the monkeys stealing anything. The boat is only big enough to hold two people at a time, and if there are more monkeys than humans on a side of the river, they steal from the humans and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
+		  }
+		},
+		{
+			"captains": [
+				"human",
+				"bigMonkey"
+			],
+		  "stage": {
+		  	"boat":{
+		  		"position":"foreground"
+		  	},
+		  	"bg": [],
+			 	"fg": [
+				 	{
 				 		"type":"human",
 				 		"rules" : {
 				 			"greaterThan":["monkey", "bigMonkey"]
@@ -38,26 +73,26 @@
 				 	{
 				 		"type":"bigMonkey"
 				 	}
-				],
-				"conditionLog": {
-				 	"background": [
-			 			{ 
-			 				"type":"human",
-			 				"quantity":3
-			 			},
-			 			{ 
-			 				"type":"monkey", 
-			 				"quantity":2
-			 			},
-			 			{
-			 				"type":"bigMonkey",
-			 				"quantity":1
-			 			}
-				 	]
-				}
+				]
 		  },
+			"conditionLog": {
+			 	"background": [
+		 			{ 
+		 				"type":"human",
+		 				"quantity":3
+		 			},
+		 			{ 
+		 				"type":"monkey", 
+		 				"quantity":2
+		 			},
+		 			{
+		 				"type":"bigMonkey",
+		 				"quantity":1
+		 			}
+			 	]
+			},
 		  "help": {
-		  	"Directions":"##Level One Goal\n Get the human and the monkey in the boat.\n ##Mission\n Get the cops and the robbers across the river without the robbers stealing anything. The boat is only big enough to hold two people at a time, and if there are more robbers than cops on a side of the river, they steal from the cops and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
+		  	"Directions":"##Level Four Goal\n Get the human and the monkey in the boat.\n ##Mission\n Get the humans and the monkeys across the river without the monkeys stealing anything. The boat is only big enough to hold two people at a time, and if there are more monkeys than humans on a side of the river, they steal from the humans and you lose!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('character')` - Pick up the specified character."
 		  }
 		},
 	]
