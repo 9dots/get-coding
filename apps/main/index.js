@@ -29,6 +29,7 @@ var module = angular.module(name, [
   require('apps/spaceman-blockly-repeat'),
   require('apps/space-man-sandbox'),
   require('apps/space-man'),
+  require('apps/create-functions'),
   require('apps/shapes-blockly'),
   require('apps/shapes'),
   require('apps/spaceman-sequencing'),
@@ -78,7 +79,8 @@ module
     {
       name: 'Using Functions',
       apps: [
-        appObject['space-man']
+        appObject['space-man'], 
+        appObject['create-functions']
       ]
     },
     {

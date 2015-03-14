@@ -1,21 +1,21 @@
 .blocked.asteroid-1 {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/asteroid_1.png');
+  background: url('./asteroid1.png');
 }
 
 .blocked.asteroid-2 {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/asteroid2.png');
+  background: url('./asteroid2.png');
 }
 
 .blocked.asteroid-3 {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/asteroid3.png');
+  background: url('./asteroid3.png');
 }
 
 .blocked.asteroid-4 {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/asteroid4.png');
+  background: url('./asteroid4.png');
 }
 
 .part.solar-panel {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/solar_panel.png');
+  background: url('./solar_panel.png');
 }
 
 [playspace-spaceman] {
@@ -99,7 +99,7 @@
   width: auto;
   height: auto;
   border: 1px solid RoyalBlue;
-  background: url("http://9dots.s3.amazonaws.com/2014/10/space-background_0.png") no-repeat;
+  background: url("./space-background.png") no-repeat;
   overflow: hidden;
 }
 
@@ -129,13 +129,13 @@
 }
 
 [playspace-spaceman] .astronaut.still {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_1.png');
+  background: url('./astronaut.png');
 }
 
 [playspace-spaceman] .astronaut.thrust {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_air.png');
+  background: url('./astronaut_air.png');
 }
 
 [playspace-spaceman] .astronaut.celebrate {
-  background: url('http://9dots.s3.amazonaws.com/2014/10/astronaut_win.png');
+  background: url('./astronaut_win.png');
 }

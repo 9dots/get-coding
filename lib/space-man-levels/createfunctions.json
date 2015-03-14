@@ -1,0 +1,174 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["21"],
+        "parts": ["10"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function jumpAsteroid(){\n}",
+        "loc":5
+      }
+    },
+    {
+      "level": 2,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["21"],
+        "parts": ["11"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    getPart()\n}\n\njumpAsteroid()",
+        "loc":9
+      }
+    },
+    {
+      "level": 3,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["21"],
+        "parts": ["22"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\njumpAsteroid()",
+        "loc":14      
+      }
+    },
+    {
+      "level": 4,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["21", "23"],
+        "parts": ["22", "24"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\njumpAsteroid()",
+        "loc":16
+      }
+    },
+    {
+      "level": 5,
+      "field": {
+        "rows": 5,
+        "cols": 9,
+        "blocked": ["21", "23", "25", "27"],
+        "parts": ["22", "24", "26", "28"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n    rotate()\n}\n\njumpAsteroid()\njumpAsteroid()",
+        "loc":18
+      }
+    },
+    {
+      "level": 6,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["21", "*2"],
+        "parts": ["11"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function upStair(){\n    \n}", 
+        "loc": 9
+      }
+    },
+    {
+      "level": 7,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["20", "21"],
+        "parts": ["22"]
+      },
+      "astro": {
+        "position": "11",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n\n}", 
+        "loc":16
+      }
+    },
+    {
+      "level": 8,
+      "field": {
+        "rows": 3,
+        "cols": 3,
+        "blocked": ["21"],
+        "parts": ["11", "22"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n",
+        "loc":17
+      }
+    },
+    {
+      "level": 9,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["4*", "3*", "21", "22", "23", "12"],
+        "parts": ["11", "02", "13", "24"]
+      },
+      "astro": {
+        "position": "20",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n",
+        "loc":20
+      }
+    },
+    {
+      "level": 10,
+      "field": {
+        "rows": 5,
+        "cols": 9,
+        "blocked": ["4*", "31", "33", "34", "35", "37", "24"],
+        "parts": ["21", "32", "23", "14", "25", "36", "27", "38"]
+      },
+      "astro": {
+        "position": "30",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n    rotate()\n}\n",
+        "loc":24
+      }
+    }
+  ]
+}
