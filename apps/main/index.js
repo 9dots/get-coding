@@ -38,7 +38,12 @@ var module = angular.module(name, [
   require('apps/spaceman-functions-blockly'),
   require('apps/crossriver-intro'),
   require('apps/crossriver-blockly'),
-  require('apps/strings')
+  require('apps/strings'),
+  require('apps/frogjump-puzzle'),
+  require('apps/crossriver-cops'),
+  require('apps/crossriver-cops-blockly'),
+  require('apps/frogjump-blockly'),
+  require('apps/crossriver-monkeys')
 ]);
 
 /**
@@ -96,7 +101,12 @@ module
       name: 'Puzzles',
       apps: [
         appObject['crossriver-blockly'],
-        appObject['crossriver-intro']
+        appObject['crossriver-intro'],
+        appObject['crossriver-cops-blockly'],
+        appObject['crossriver-cops'],
+        appObject['crossriver-monkeys'],
+        appObject['frogjump-blockly'],
+        appObject['frogjump-puzzle'],
       ]
     }
   ];

@@ -8,9 +8,9 @@ var name = module.exports = '{{name}}';
  */
 var module = angular.module(name, [
   'ui.router', 
-  require('/lib/code-app'), 
-  require('/lib/workspace-{{workspace}}'), 
-  require('/lib/playspace-{{playspace}}')
+  require('lib/code-app'), 
+  require('lib/workspace-{{workspace}}'), 
+  require('lib/playspace-{{playspace}}')
 ]);
 
 /**

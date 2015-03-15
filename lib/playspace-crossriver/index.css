@@ -6,7 +6,42 @@
 
 .crossRiver{
   position: relative;
+}
 
+.back {
+  top:150px;
+}
+
+.middle.to-foreground{
+  left: 450px;
+}
+
+.middle.to-background {
+  left: -50px;
+}
+
+.speed-125 {
+  transition: all 0.125s ease-in-out;
+}
+
+.speed-250 {
+  transition: all 0.25s ease-in-out;
+}
+
+.speed-500 {
+  transition: all 0.5s ease-in-out;
+}
+
+.speed-1000 {
+  transition: all 1s ease-in-out;
+}
+
+.speed-2000 {
+  transition: all 2s ease-in-out;
+}
+
+.speed-4000 {
+  transition: all 4s ease-in-out;
 }
 
 .frame {
@@ -15,43 +50,69 @@
   height: 250px;
 }
 
-.back {
-  top: 150px;
-}
-
 .middle {
-  left: 450px;
   top: 250px;
 }
 
 .front {
-  left: 550px;
-  top: 350px;
+  left: 490px;
+  bottom:0;
 }
 
-.farmer {
-  position: absolute;
-  width: 72px;
-  height: 165px;
-  background: url(http://www.ryanbaber.com/river_cross/farmer1.png);
+.farmer, .human{
+  background: url(http://www.ryanbaber.com/river_cross/farmer1.png) no-repeat;
+  background-size:contain;
 }
 
-.item {
-  position: absolute; 
-  width: 72px;
-  height: 70px;
+.character-row{
+  position:relative;
+  width:300px;
+  bottom:20px;
+}
+
+.character {
+  z-index:2;
+}
+
+.character div {
+  height: 230px;
+  width: 65px;
+  background-position: bottom;
 }
 
 .fox {
-   background: url(http://www.ryanbaber.com/river_cross/fox.png);
+   background: url(http://www.ryanbaber.com/river_cross/fox.png) no-repeat;
+   background-size:contain;
 }
 
 .chicken {
-   background: url(http://www.ryanbaber.com/river_cross/chicken.png);
+   background: url(http://www.ryanbaber.com/river_cross/chicken.png) no-repeat;
+   background-size:contain;
 }
 
 .grain {
-   background: url(http://www.ryanbaber.com/river_cross/grain.png);
+   background: url(http://www.ryanbaber.com/river_cross/grain.png) no-repeat;
+   background-size:contain;
+}
+
+.cop {
+  background: url(http://www.clipartbest.com/cliparts/xig/K9E/xigK9EyKT.png) no-repeat;
+  background-size:contain;
+}
+
+.robber {
+  background: url(http://st-takla.org/Pix/People-General/St-Takla-org___Prisoner-03-Theif.gif) no-repeat;
+  background-size:77%;
+}
+
+.monkey {
+  background: url(http://cliparts.co/cliparts/kTK/nGB/kTKnGBKbc.png) no-repeat;
+  background-size:contain;
+}
+
+.bigMonkey {
+  background: url(http://www.homemade-preschool.com/image-files/chimpanzee.png) no-repeat;
+  background-size: contain;
 }
 
 .left {
@@ -83,21 +144,22 @@
 
 .rear {
   position: absolute;
-     background: url(http://www.ryanbaber.com/river_cross/boatback.png);
+  background: url(http://www.ryanbaber.com/river_cross/boatback.png);
 }
 
 .fore {
   position: absolute;
-     background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
+  background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
+  z-index:1;
 }
 
 .passenger {
-  position: absolute;
-  left: 240px;
-  top: 130px;
+  position: relative;
+  bottom:40px;
   width: 72px;
   height: 90px;
-  background: url(http://www.ryanbaber.com/river_cross/farmer1.png);
+  background-size:cover;
+  z-index:0;
 }
 
 .cargo {
