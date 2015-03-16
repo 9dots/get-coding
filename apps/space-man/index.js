@@ -3,7 +3,6 @@
  */
 var name = module.exports = 'space-man';
 
-
 /**
  * Angular Module
  */
@@ -17,7 +16,6 @@ var module = angular.module(name, [
 /**
  * Styles
  */
-
 require('./index.css');
 
 module

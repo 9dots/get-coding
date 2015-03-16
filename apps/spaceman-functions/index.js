@@ -3,7 +3,6 @@
  */
 var name = module.exports = 'spaceman-functions';
 
-
 /**
  * Angular Module
  */
