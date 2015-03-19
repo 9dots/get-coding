@@ -19,7 +19,7 @@
   <md-list expandable class="animate-show">
     <md-item ng-repeat="app in course.apps">
       <md-divider ng-if="$first"></md-divider>
-      <a ng-href="{{app.name}}">
+      <a ng-href="{{app.name}}" ng-click="scrollTop()">
         <md-item-content>
           <div flex="10" class="md-tile-left" layout="row" layout-align="center">
             <div class="circle" alt="{{item.who}}"> {{$index + 1}} </div>

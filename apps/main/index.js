@@ -64,7 +64,7 @@ module
     controllerAs: 'Main'
   });
 }])
-.controller('MainCtrl', ['apps', '$scope', '$animate', function(apps, $scope, $animate) {
+.controller('MainCtrl', ['apps', '$scope', '$animate', '$anchorScroll', function(apps, $scope, $animate, $anchorScroll) {
 
   var appObject = {};
   _.each(apps, function(elem) {
@@ -113,6 +113,11 @@ module
 
   $scope.toggleStatus = function(e) {
     $scope.$emit('toggle', this, $animate);  
+  }
+
+  $scope.scrollTop = function(){
+    console.log('anchorScroll');
+    $anchorScroll();
   }
 
 }])
