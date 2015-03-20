@@ -71,7 +71,7 @@ gulp.task('create-app', function(done) {
       .pipe(conflict('./apps/'  + answers.name))                    // Confirms overwrites on file conflicts
       .pipe(gulp.dest('./apps/' + answers.name))                   // Without __dirname here = relative to cwd
       .on('finish', function () {
-        console.log('[' + 'getCoding'.green + ']', 'Add `require(\'/apps/' + answers.name + '\')` to apps/main/index.js and you are good to go.')
+        console.log('[' + 'getCoding'.green + ']', 'Add `require(\'apps/' + answers.name + '\')` to apps/main/index.js and you are good to go.')
         done();                                // Finished!
       });
   });
@@ -83,6 +83,7 @@ gulp.task('create-playspace', function(done) {
   ],
   function (answers) {
     answers.upperName = answers.name[0].toUpperCase() + answers.name.slice(1);
+    console.log('answers', answers);
     var dest = './lib/playspace-' + answers.name
     gulp.src(__dirname + '/.templates/playspace/**')  // Note use of __dirname to be relative to generator
       .pipe(template(answers))                 // Lodash template support
