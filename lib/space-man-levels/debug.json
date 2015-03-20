@@ -1,0 +1,174 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": [],
+        "parts": ["23"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"move();\ngetpart();", 
+        "loc": 2
+      }
+    },
+    {
+      "level": 2,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["21", "23", "31", "32", "33"],
+        "parts": ["12"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"rotate;\ngetPart;",
+        "loc": 3
+      }
+    },
+    {
+      "level": 3,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["1*", "3*"],
+        "parts": ["21"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function turnAround(){\n    rotate();\n    rotate();\n}\n\nmove();\ngetPart();",
+        "loc": 6
+      }
+    },
+    {
+      "level": 4,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["*1", "*3"],
+        "parts": ["32"],
+      },
+      "astro": {
+        "position": "22",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function clockwise(){\n    rotate();\n    rotate();\n    rotaet();\n}\n\nclockwise();\nmove();\ngetPart();",
+        "loc": 7
+      }
+    },
+    {
+      "level": 5,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["22"],
+        "parts": ["12", "23"],
+      },
+      "astro": {
+        "position": "32",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function corner(){\n    move();\n    rotate();\n    move();\n    getPart();\n}", 
+        "loc": 7
+      }
+    },
+    {
+      "level": 6,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["22", "32", "42"],
+        "parts": ["12", "21"],
+      },
+      "astro": {
+        "position": "23",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function backCorner(){\n    rotate();\n    move();\n    rotate();\n    move();\n    getPart();\n}\n\nbackCorner;\nbackCorner;",
+        "loc": 8
+      }
+    },
+    {
+      "level": 7,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["30", "31", "32", "03", "13", "23"],
+        "parts": ["42", "24"],
+      },
+      "astro": {
+        "position": "40",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function moveTwoGet(){\n    move();\n    move();\n    getPart();\n}\n\nfunction moveTwoRotate(){\n    move();\n    move();\n    rotate():\n}\n\nmoveTwoGet();\nmoveTwoRotate();\nmoveTwoGet();",
+        "loc": 11
+      }
+    },
+    {
+      "level": 8,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["*1", "*3"],
+        "parts": ["02", "22"],
+      },
+      "astro": {
+        "position": "42",
+        "rotation": -180
+      },
+      "workspace": {
+        "codeSpace":"function rotate3(){\n    rotate();\n    rotate();\n    rotate();\n}\n\nfunction move2(){\n    move();\n    move();\n}\n\nrotate2();\nmove2();\ngetPart();\nmove3();\ngetPart();",
+        "loc": 12
+      }
+    },
+    {
+      "level": 9,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["11", "12", "13", "21", "23", "31", "32", "33"],
+        "parts": ["02", "20", "24"],
+      },
+      "astro": {
+        "position": "42",
+        "rotation": -90
+      },
+      "workspace": {
+        "codeSpace":"function move2(){\n    move();\n    move();\n}\n\nfunction rotate3(){\n    rotate();\n    rotate();\n    rotate();\n}\n\nfunction corner(){\n    move2();\n    rotate();\n    move2();\n    getPart();\n}\n\nrotate();\ncorner();\ncorner();\ncorner();\n",
+        "loc": 16
+      }
+    },
+    {
+      "level": 10,
+      "field": {
+        "rows": 5,
+        "cols": 5,
+        "blocked": ["00", "10", "20", "30", "31", "32", "33", "23", "13", "12"],
+        "parts": ["42", "44", "24", "04", "02", "11", "22"],
+      },
+      "astro": {
+        "position": "40",
+        "rotation": 0
+      },
+      "workspace": {
+        "codeSpace":"function move2(){\n    move();\n    getPart();\n}\n\nfunction corner(){\n    move();\n    rotate():\n    move();\n    getpart();\n}\n\nmove2();\nmove2();\nrotate();\nmove2();\nmove();\nrotate();\nmove2();\nconer();",
+        "loc": 18
+      }
+    }
+  ]
+}
