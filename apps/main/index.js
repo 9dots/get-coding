@@ -118,7 +118,6 @@ module
   }
 
   $scope.scrollTop = function(){
-    console.log('anchorScroll');
     $anchorScroll();
   }
 
