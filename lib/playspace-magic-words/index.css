@@ -1,0 +1,23 @@
+[playspace-magic-words] .backdrop {
+	background: red;
+}
+
+[playspace-magic-words] .board {
+	background: blue;
+	margin: 0px auto 0px auto;
+	width: 800px;
+	height: 800px;
+}
+
+[playspace-magic-words] .gate-holder {
+	width: 100%;
+	height: 600px;
+	background: green;
+} 
+
+[playspace-magic-words] .gate {
+	position: absolute;
+	width: 100px;
+	height: 600px;
+	background: blue;
+}
