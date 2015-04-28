@@ -65,7 +65,7 @@
 }
 
 .character-row{
-  position:relative;
+  position:absolute;
   width:300px;
   bottom:20px;
 }

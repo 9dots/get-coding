@@ -1,6 +1,31 @@
+<<<<<<< HEAD
 [playspace-magic-words] .background {
 	background: red;
 	margin: 0px auto 0px auto;
 	max-width: 800px;
 	height: 800px;
+=======
+[playspace-magic-words] .backdrop {
+	background: red;
+}
+
+[playspace-magic-words] .board {
+	background: blue;
+	margin: 0px auto 0px auto;
+	width: 800px;
+	height: 800px;
+}
+
+[playspace-magic-words] .gate-holder {
+	width: 100%;
+	height: 600px;
+	background: green;
+} 
+
+[playspace-magic-words] .gate {
+	position: absolute;
+	width: 100px;
+	height: 600px;
+	background: blue;
+>>>>>>> 13f79311fe8d51540b1367b1dca8b0b4d85a0d20
 }
