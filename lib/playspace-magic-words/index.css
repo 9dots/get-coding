@@ -1,31 +1,64 @@
 
 [playspace-magic-words] .background {
-	background: red;
-	margin: 0px auto 0px auto;
-	max-width: 800px;
-	height: 800px;
-}
-
-[playspace-magic-words] .backdrop {
-	background: red;
+	width: 100%;
+	height: 100%;
 }
 
 [playspace-magic-words] .board {
-	background: blue;
 	margin: 0px auto 0px auto;
 	width: 800px;
-	height: 800px;
+	height: 600px;
+	border: 1px solid black;
 }
 
 [playspace-magic-words] .gate-holder {
-	width: 100%;
-	height: 600px;
-	background: green;
-} 
+	position: relative;
+}
 
 [playspace-magic-words] .gate {
+	background: gray;
 	position: absolute;
 	width: 100px;
 	height: 600px;
-	background: blue;
+	border: 1px solid black;
+	-webkit-transition: top .5s; /* Safari */
+    transition: top .5s;
+}
+
+[playspace-magic-words] .labelbox {
+	position: absolute;
+	top: 300px;
+	width: 100px;
+}
+
+[playspace-magic-words] .label {
+	text-align: center;
+}
+
+[playspace-magic-words] #gate0 {
+	left: 0px;
+}
+
+[playspace-magic-words] #gate1 {
+	left: 100px;
+}
+
+[playspace-magic-words] #gate2 {
+	left: 200px;
+}
+
+[playspace-magic-words] #gate3 {
+	left: 300px;
+}
+
+[playspace-magic-words] #gate4 {
+	left: 400px;
+}
+
+[playspace-magic-words] .up {
+	top: -100px;
+}
+
+[playspace-magic-words] .down {
+	top: 0px;
 }

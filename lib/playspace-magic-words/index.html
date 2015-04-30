@@ -1,18 +1,12 @@
-
-<div>
-	<div class="background"></div>
-
-<div class="backdrop">
-	<div class="board">
-		<div class="gate-holder" layout="row">
-			<div flex="25" style="background: grey"></div>
-			<div flex="75" style="background: yellow" layout="row">
-				<div class="gate">1</div>
-				<div class="gate">2</div>
-				<div class="gate">3</div>
-				<div class="gate">4</div>
-				<div class="gate">5</div>
+<div class="background">
+		<div class="board" layout="row">
+			<div flex="25"></div>
+			<div flex="75" layout="row" class="gate-holder">
+				<div ng-repeat="gate in MagicWords.gates" class="gate {{gate.words[0]}} {{gate.words[1]}} {{gate.words[2]}} {{gate.words[3]}} {{gate.position}}" id="gate{{$index}}">
+					<div class="labelbox">
+						<div ng-repeat="word in gate.words" class="label {{word}}label">{{word}}</div>
+					</div>
+				</div>
 			</div>
-		</div>
 	</div>
 </div>

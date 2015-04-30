@@ -26,76 +26,218 @@ module
     playspace: require('./playspace.html'),
     help: require('./README.md'),
     levels: [
-      {"gates": [
+      {
+        "level": 1,
+        "gates": [
           {
-            "words": [],
-            "position": ""
+            "words": ["foo"],
+            "position": "down"
+          }, 
+          {
+            "words": ["goo"],
+            "position": "up"
+          }, 
+          {
+            "words": ["loo"],
+            "position": "up"
+          }
+        ], 
+        "workspace": {
+          "codeSpace": ""
         }
-        ]
       }, 
-      {"gates": [
+      {
+        "level": 2,
+        "gates": [
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["foo"],
+            "position": "down"
+          },
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["goo"],
+            "position": "up"
+          }, 
           {
-            "words": [],
-            "position": ""
+            "words": ["loo"],
+            "position": "down"
+          }
+        ], 
+        "workspace": {
+          "codeSpace": ""
         }
-        ]
-      },
-      {"gates": [
+      }, 
+      {
+        "level": 3,
+        "gates": [
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["foo"],
+            "position": "down"
+          },
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["foo"],
+            "position": "down"
+          }, 
           {
-            "words": [],
-            "position": ""
+            "words": ["foo", "goo"],
+            "position": "up"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
         }
-        ]
       },
-      {"gates": [
+      {
+        "level": 4,
+        "gates": [
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["foo"],
+            "position": "down"
+          },
           {
-            "words": [],
-            "position": ""
-        }
-        ]
-      },
-      {"gates": [
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
           {
-            "words": [],
-            "position": ""
+            "words": ["loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
         }
-        ]
       },
+      {
+        "level": 5,
+        "gates": [
+          {
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "words": ["foo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 6,
+        "gates": [
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          },
+          {
+            "words": ["foo", "loo"],
+            "position": "down"
+          }, 
+          {
+            "words": ["goo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 7,
+        "gates": [
+          {
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "words": ["foo", "goo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 8,
+        "gates": [
+          {
+            "words": ["foo", "loo"],
+            "position": "up"
+          },
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "words": ["foo", "goo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 9,
+        "gates": [
+          {
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "words": ["goo", "loo"],
+            "position": "down"
+          }, 
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          },
+          {
+            "words": ["boo", "foo", "goo"],
+            "position": "up"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 10,
+        "gates": [
+          {
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "words": ["foo", "loo"],
+            "position": "up"
+          }, 
+          {
+            "words": ["foo", "goo"],
+            "position": "up"
+          },
+          {
+            "words": ["foo", "goo", "loo"],
+            "position": "down"
+          },
+          {
+            "words": ["boo", "foo", "loo"],
+            "position": "up"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      }
     ] // specify levels here
   });
 }]);
