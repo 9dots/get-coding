@@ -1,4 +1,3 @@
-
 [playspace-magic-words] .background {
 	width: 100%;
 	height: 100%;
@@ -21,8 +20,6 @@
 	width: 100px;
 	height: 600px;
 	border: 1px solid black;
-	-webkit-transition: top .5s; /* Safari */
-    transition: top .5s;
 }
 
 [playspace-magic-words] .labelbox {
@@ -55,10 +52,10 @@
 	left: 400px;
 }
 
-[playspace-magic-words] .up {
+[playspace-magic-words] .gate.up {
 	top: -100px;
 }
 
-[playspace-magic-words] .down {
+[playspace-magic-words] .gate.down {
 	top: 0px;
 }
