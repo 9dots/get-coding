@@ -1,12 +1,20 @@
 <div class="background">
-		<div class="board" layout="row">
-			<div flex="25"></div>
-			<div flex="75" layout="row" class="gate-holder">
-				<div ng-repeat="gate in MagicWords.gates" class="gate {{gate.words[0]}} {{gate.words[1]}} {{gate.words[2]}} {{gate.words[3]}} {{gate.position}}" id="gate{{$index}}">
-					<div class="labelbox">
-						<div ng-repeat="word in gate.words" class="label {{word}}label">{{word}}</div>
-					</div>
+	<div class="overhang">OVERHANG</div>
+	<div class="board" layout="row">
+		<div flex="25"></div>
+		<div flex="75" layout="row" class="gate-holder">
+			<div ng-repeat="gate in MagicWords.gates" class="gate {{gate.words[0]}} {{gate.words[1]}} {{gate.words[2]}} {{gate.words[3]}} {{gate.position}}" id="gate{{$index}}">
+				<div class="labelbox">
+					<div ng-repeat="word in gate.words" class="label {{word}}label">{{word}}</div>
 				</div>
 			</div>
+		</div>
+		<div class="bubble">
+			<p ng-repeat="magicWord in MagicWords.bubble track by $index">{{magicWord}}</p>
+		</div>
+		<div class="wizardtrack">
+			<div class="wizard"></div>
+		</div>
 	</div>
+	<div class="floor">FLOOR</div>
 </div>

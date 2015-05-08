@@ -42,6 +42,7 @@ module
             "position": "up"
           }
         ], 
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -62,6 +63,7 @@ module
             "position": "down"
           }
         ], 
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -82,6 +84,7 @@ module
             "position": "up"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -102,6 +105,7 @@ module
             "position": "down"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -122,6 +126,7 @@ module
             "position": "down"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -142,6 +147,7 @@ module
             "position": "down"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -162,6 +168,7 @@ module
             "position": "down"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -182,6 +189,7 @@ module
             "position": "down"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -206,6 +214,7 @@ module
             "position": "up"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
@@ -234,6 +243,7 @@ module
             "position": "up"
           }
         ],
+        "bubble": [],
         "workspace": {
           "codeSpace": ""
         }
