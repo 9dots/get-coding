@@ -3,9 +3,9 @@
 	<div class="board" layout="row">
 		<div flex="25"></div>
 		<div flex="75" layout="row" class="gate-holder">
-			<div ng-repeat="gate in MagicWords.gates" class="gate {{gate.words[0]}} {{gate.words[1]}} {{gate.words[2]}} {{gate.words[3]}} {{gate.position}}" id="gate{{$index}}">
+			<div ng-repeat="item in MagicWords.obstacles" class="{{item.type}} {{item.words[0]}} {{item.words[1]}} {{item.words[2]}} {{item.words[3]}} {{item.position}}" id="item{{$index}}">
 				<div class="labelbox">
-					<div ng-repeat="word in gate.words" class="label {{word}}label">{{word}}</div>
+					<div ng-repeat="word in item.words" class="label {{word}}label">{{word}}</div>
 				</div>
 			</div>
 		</div>

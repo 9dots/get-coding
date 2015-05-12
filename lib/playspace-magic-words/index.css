@@ -1,3 +1,10 @@
+md-bottom-sheet.playspace-magic-words {
+	height: 200px;
+	background: white;
+	text-align: right;
+	font-size: 30px;
+}
+
 [playspace-magic-words] .background {
 	width: 100%;
 	height: 100%;
@@ -72,6 +79,20 @@
 	border: 1px solid black;
 }
 
+[playspace-magic-words] .obstacle {
+	position: absolute;
+	width: 100px;
+	height: 400px;
+}
+
+[playspace-magic-words] .fire {
+	background: url('fire.png');
+}
+
+[playspace-magic-words] .ice {
+	background: url('ice.png');
+}
+
 [playspace-magic-words] .labelbox {
 	position: absolute;
 	top: 300px;
@@ -82,24 +103,36 @@
 	text-align: center;
 }
 
-[playspace-magic-words] #gate0 {
+[playspace-magic-words] .label.firelabel {
+	display: none;
+}
+
+[playspace-magic-words] .label.icelabel {
+	display: none;
+}
+
+[playspace-magic-words] #item0 {
 	left: 0px;
 }
 
-[playspace-magic-words] #gate1 {
+[playspace-magic-words] #item1 {
 	left: 100px;
 }
 
-[playspace-magic-words] #gate2 {
+[playspace-magic-words] #item2 {
 	left: 200px;
 }
 
-[playspace-magic-words] #gate3 {
+[playspace-magic-words] #item3 {
 	left: 300px;
 }
 
-[playspace-magic-words] #gate4 {
+[playspace-magic-words] #item4 {
 	left: 400px;
+}
+
+[playspace-magic-words] #item5 {
+	left: 500px;
 }
 
 [playspace-magic-words] .gate.up {
@@ -108,4 +141,12 @@
 
 [playspace-magic-words] .gate.down {
 	top: 0px;
+}
+
+[playspace-magic-words] .obstacle.up {
+	display: none;
+}
+
+[playspace-magic-words] .obstacle.down {
+	display: visible;
 }

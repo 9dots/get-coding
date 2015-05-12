@@ -1,7 +1,7 @@
 /**
  * Exports
  */
-var name = module.exports = 'magic-words';
+var name = module.exports = 'fire-and-ice';
 
 /**
  * Angular Module
@@ -33,16 +33,16 @@ module
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          },
+          }, 
           {
-            "type": "gate",
-            "words": ["goo"],
-            "position": "up"
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
           }, 
           {
             "type": "gate",
             "words": ["loo"],
-            "position": "down"
+            "position": "up"
           }
         ], 
         "workspace": {
@@ -53,25 +53,25 @@ module
         "level": 2,
         "obstacles": [
           {
-            "type": "gate",
-            "words": ["foo"],
+            "type": "obstacle",
+            "words": ["fire"],
             "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["goo"],
             "position": "down"
           }, 
           {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
           }
-        ],
+        ], 
         "workspace": {
           "codeSpace": ""
         }
-      },
+      }, 
       {
         "level": 3,
         "obstacles": [
@@ -82,13 +82,13 @@ module
           },
           {
             "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "words": ["foo"],
+            "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["loo"],
-            "position": "down"
+            "words": ["foo", "goo"],
+            "position": "up"
           }
         ],
         "workspace": {
@@ -110,7 +110,7 @@ module
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "words": ["loo"],
             "position": "down"
           }
         ],
@@ -120,29 +120,6 @@ module
       },
       {
         "level": 5,
-        "obstacles": [
-          {
-            "type": "gate",
-            "words": ["goo", "loo"],
-            "position": "down"
-          },
-          {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
-          }, 
-          {
-            "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "down"
-          }
-        ],
-        "workspace": {
-          "codeSpace": ""
-        }
-      },
-      {
-        "level": 6,
         "obstacles": [
           {
             "type": "gate",
@@ -156,12 +133,30 @@ module
           }, 
           {
             "type": "gate",
-            "words": ["boo", "loo"],
+            "words": ["foo", "goo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 6,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["foo", "goo"],
             "position": "up"
           },
           {
             "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "words": ["foo", "loo"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["goo", "loo"],
             "position": "down"
           }
         ],
@@ -174,8 +169,8 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "up"
+            "words": ["foo"],
+            "position": "down"
           },
           {
             "type": "gate",
@@ -197,6 +192,29 @@ module
         "obstacles": [
           {
             "type": "gate",
+            "words": ["foo", "loo"],
+            "position": "up"
+          },
+          {
+            "type": "gate",
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo", "goo", "loo"],
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 9,
+        "obstacles": [
+          {
+            "type": "gate",
             "words": ["foo"],
             "position": "down"
           },
@@ -214,34 +232,6 @@ module
             "type": "gate",
             "words": ["boo", "foo", "goo"],
             "position": "up"
-          }
-        ],
-        "workspace": {
-          "codeSpace": ""
-        }
-      },
-      {
-        "level": 9,
-        "obstacles": [
-          {
-            "type": "gate",
-            "words": ["boo", "goo"],
-            "position": "down"
-          },
-          {
-            "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "down"
-          }, 
-          {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
-          },
-          {
-            "type": "gate",
-            "words": ["boo", "foo", "goo", "loo"],
-            "position": "down"
           }
         ],
         "workspace": {

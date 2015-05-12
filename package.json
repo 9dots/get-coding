@@ -40,7 +40,6 @@
   },
   "devDependencies": {
     "gulp-conflict": "~0.3.0",
-    "gulp-template": "~1.1.1",
     "inquirer": "^0.8.0"
   },
   "repository": "git@github.com:9dots/get-coding.git",

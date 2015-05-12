@@ -32,6 +32,7 @@ var module = angular.module(name, [
   require('apps/create-functions'),
   require('apps/functions-debug'),
   require('apps/magic-words'),
+  require('apps/fire-and-ice'),
   require('apps/shapes-blockly'),
   require('apps/shapes'),
   require('apps/spaceman-sequencing'),
@@ -87,6 +88,7 @@ module
       name: 'Using Functions',
       apps: [
         appObject['magic-words'],
+        appObject['fire-and-ice'],
         appObject['space-man'], 
         appObject['create-functions'], 
         appObject['functions-debug']
