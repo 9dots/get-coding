@@ -41,8 +41,8 @@ module
           }, 
           {
             "type": "gate",
-            "words": ["loo"],
-            "position": "up"
+            "words": ["goo"],
+            "position": "down"
           }
         ], 
         "workspace": {
@@ -81,14 +81,19 @@ module
             "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["foo"],
+            "type": "obstacle",
+            "words": ["fire"],
             "position": "down"
           }, 
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
           }
         ],
         "workspace": {
@@ -100,17 +105,22 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["boo", "foo"],
             "position": "down"
           },
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          }, 
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
           }, 
           {
-            "type": "gate",
-            "words": ["loo"],
+            "type":"obstacle", 
+            "words": ["fire"], 
             "position": "down"
           }
         ],
@@ -123,18 +133,28 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["foo", "loo"],
             "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
           }, 
           {
-            "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "type": "obstacle",
+            "words": ["ice"],
             "position": "down"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["foo", "goo", "loo"], 
+            "position": "up"
           }
         ],
         "workspace": {
@@ -145,18 +165,28 @@ module
         "level": 6,
         "obstacles": [
           {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo", "loo"],
+            "words": ["foo"],
             "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["goo", "loo"],
+            "words": ["foo", "goo", "loo"],
+            "position": "up"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["loo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
             "position": "down"
           }
         ],
@@ -169,18 +199,28 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["boo", "foo"],
             "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "words": ["boo", "goo"],
             "position": "down"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["boo", "foo", "goo"], 
+            "position": "up"
           }
         ],
         "workspace": {
@@ -192,17 +232,32 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "up"
+            "words": ["foo"],
+            "position": "down"
           },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          }, 
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
           }, 
           {
-            "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["foo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
             "position": "down"
           }
         ],
@@ -219,19 +274,29 @@ module
             "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["goo", "loo"],
+            "type": "obstacle",
+            "words": ["ice"],
             "position": "down"
           }, 
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["boo", "foo", "goo"],
+            "type":"gate", 
+            "words": ["goo", "loo"], 
             "position": "up"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
           }
         ],
         "workspace": {
@@ -242,29 +307,110 @@ module
         "level": 10,
         "obstacles": [
           {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
             "type": "gate",
             "words": ["foo"],
             "position": "down"
+          }, 
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["boo", "foo", "goo"], 
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 11,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "up"
+            "words": ["boo"],
+            "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "words": ["foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo"], 
+            "position": "down"
           },
           {
-            "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "type":"gate", 
+            "words": ["boo", "foo", "goo"], 
             "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "workspace": {
+          "codeSpace": ""
+        }
+      },
+      {
+        "level": 12,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["boo", "goo"],
+            "position": "up"
           },
           {
             "type": "gate",
             "words": ["boo", "foo", "loo"],
             "position": "up"
+          }, 
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["foo", "goo", "loo"], 
+            "position": "up"
+          },
+          {
+            "type":"gate", 
+            "words": ["boo", "foo", "goo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
           }
         ],
         "workspace": {
