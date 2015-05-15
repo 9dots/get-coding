@@ -1,0 +1,23 @@
+{
+  "levels": [
+	{
+	  "level": 1, 
+	  "field": {
+	  	"rows": 8, 
+	  	"cols": 8, 
+	  	"ground": ["7*"], 
+	  	"tree": ["07", "17", "27", "37", "47", "57", "67"],
+	  	"branch": ["14", "15", "16"],
+	  	"acorns": ["13"]
+	  }, 
+	  "squirrel": {
+	  	"position": "62",
+	  	"facing": "right",
+	  	"rotation": 0
+	  }, 
+	  "workspace": {
+	  	"codeSpace": ""
+	  }
+	}
+  ]
+}
