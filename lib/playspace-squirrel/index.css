@@ -51,6 +51,14 @@ md-bottom-sheet.playspace-squirrel {
   background: url('squirrel-left.png');
 }
 
+[playspace-squirrel] .squirrel.left.onTree {
+  background: url('squirrel-above-left.png');
+}
+
+[playspace-squirrel] .squirrel.right.onTree {
+  background: url('squirrel-above-right.png');
+}
+
 [playspace-squirrel] .ground {
   background: green;
 }
