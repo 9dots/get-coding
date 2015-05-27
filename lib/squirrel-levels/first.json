@@ -11,9 +11,13 @@
 	  	"acorns": ["21"]
 	  }, 
 	  "squirrel": {
-	  	"position": "62",
-	  	"facing": "right",
-	  	"rotation": 0
+	  	"rotation": 180, 
+	  	"facing": "left",
+	  	"axis": "hor", 
+	  	"squareOn": "63", 
+	  	"ahead": "62", 
+	  	"behind": "64",
+	  	"canMove": true  
 	  }, 
 	  "workspace": {
 	  	"codeSpace": ""
