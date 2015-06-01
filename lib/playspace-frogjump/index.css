@@ -10,7 +10,7 @@
   margin: 0px auto 0px auto;
   width: 620px;
   height: 600px;
-  background: url("http://s22.postimg.org/l4zgchtfl/frogback.jpg") no-repeat;
+  background: url("background.png") no-repeat;
   overflow: hidden;
 }
 
@@ -27,7 +27,7 @@
 
 [playspace-frogjump] .frog {
   position: relative;
-  background:url("http://cliparts.co/cliparts/qcB/AXM/qcBAXMAXi.png") no-repeat;
+  background:url("frog1.png") no-repeat;
   background-size:contain;
   background-position: 0%;
   height:75px;
@@ -72,6 +72,6 @@
   width: 82px;
   margin:0 8px;
   top:0;
-  background: url("http://abc-color.com/image/coloring/mountains/001/cliff/cliff-picture-color.png") no-repeat;
+  background: url("lillypad.png") no-repeat;
   background-size: contain;
 }

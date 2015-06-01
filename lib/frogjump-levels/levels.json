@@ -1,55 +1,304 @@
 {
 	"levels": [
 		{
-			"stage":
-			{
-				"stones":"3",
-				"frogs":"1"
-			},
+			"level": 1,
+			"stones": 3, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 2
+				}
+			],
 			"help":
 			{
 				"Directions":"##Directions\n Help the frog get to the last stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
-			"stage":
-			{
-				"stones":"5",
-				"frogs":"2"
-			},
+			"level": 2,
+			"stones": 3, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 2
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "left", 
+					"destination": 0
+				}
+			],
 			"help":
 			{
 				"Directions":"##Directions\n Help the two frogs each get to the last stone in the direction they are facing.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
-			"stage":
+			"level": 3,
+			"stones": 4, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 2
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": 3
+				}, 
+				{
+					"id": 2,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": 0
+				}
+			],
+			"help":
 			{
-				"stones":"5",
-				"frogs":"4"
-			},
+				"Directions":"##Directions\n Help the frog get to the last stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
+		},
+		{
+			"level": 4,
+			"stones": 4, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 2
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 3
+				}, 
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "left", 
+					"destination": 0
+				}
+			],
 			"help":
 			{
 				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
-			"stage":
-			{
-				"stones":"6",
-				"frogs":"5"
-			},
+			"level": 5,
+			"stones": 5, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 1,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": 0
+				}
+			],
 			"help":
 			{
 				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
 			}
 		},
 		{
-			"stage":
+			"level": 6,
+			"stones": 5, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 2
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 3
+				},
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": 0
+				}
+			],
+			"help":
 			{
-				"stones": "7",
-				"frogs": "6"
-			},
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
+		},
+		{
+			"level": 7,
+			"stones": 5, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 3
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "left", 
+					"destination": 0
+				},
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 3,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": 1
+				}
+			],
+			"help":
+			{
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
+		},
+		{
+			"level": 8,
+			"stones": 6, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": 5
+				},
+				{
+					"id": 2,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": 0
+				}, 
+				{
+					"id": 3,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": 1
+				}
+			],
+			"help":
+			{
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
+		},
+		{
+			"level": 9,
+			"stones": 6, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 5
+				},
+				{
+					"id": 2,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": 0
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": 1
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": 2
+				}
+			],
+			"help":
+			{
+				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
+			}
+		},
+		{
+			"level": 10,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": 4
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": 5
+				},
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": 6
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": 0
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": 1
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": 2
+				}
+			],
 			"help":
 			{
 				"Directions":"##Directions\n Help the two groups of frogs cross each other and get in line at the end of the stone.\n\n ##Functions\n `jump(number)` - The frog with the specified number jumps to the adjacent rock or over one frog if their is an empty space."
