@@ -86,8 +86,6 @@ module
     {
       name: 'Using Functions',
       apps: [
-        appObject['magic-words'],
-        appObject['fire-and-ice'],
         appObject['space-man'], 
         appObject['create-functions'], 
         appObject['functions-debug']
