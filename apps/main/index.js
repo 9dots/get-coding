@@ -31,8 +31,6 @@ var module = angular.module(name, [
   require('apps/space-man'),
   require('apps/create-functions'),
   require('apps/functions-debug'),
-  require('apps/magic-words'),
-  require('apps/fire-and-ice'),
   require('apps/shapes-blockly'),
   require('apps/shapes'),
   require('apps/spaceman-sequencing'),
