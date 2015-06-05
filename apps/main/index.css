@@ -1,259 +1,206 @@
-body {
-  background-color: #e3e3e3;  
-}
-
 a {
   text-decoration: none;
 }
 
-md-list {
-  background-color:#fff;
-}
-
-md-card {
-  background-color:#fff;
-  color:#fff;
-}
-
-md-card .info {
-  margin: 0 2.5em;
-}
-
-/*.title-left {
-  height:100%;
-  margin:0 10px;
-}
-
-.title-left img {
-  width:100px;
-}*/
-
-md-card:nth-child(4n+3) .group{
-  background-color: rgba(105,183,227,1);
-  z-index:999;
-}
-
-md-card:nth-child(4n+2) .group{
-  background-color: rgba(247,179,59,1);
-  z-index:999;
-}
-
-md-card:nth-child(4n+1) .group{
-  background-color: rgba(236,87,102,1);
-  z-index:999;
-}
-
-md-card:nth-child(4n) .group{
-  background-color: rgba(170,206,87,1);
-  z-index:999;
-}
-
-.md-disable-backdrop md-backdrop {
-  position: static;
-}
-
-.md-embedded-sidenav md-sidenav {
-  width: 500px;
-  position: fixed;
-}
-
-md-tabs.black-header .md-header {
-  background-color: #444444;
-}
-
 #main {
-  background-color: #e3e3e3;
-}
-
-#logo {
-  background-image: url('./getCoding.png');
-  background-size: 150px 32px;
-  width: 150px;
-  height: 32px;
-  margin-left: 8px;
-}
-
-#main #logo {
-  width: 150px;
-}
-
-#main #logo-9dots {
-  background-image: url('./9DotsHorizontal.png');
-  background-size: 119px 32px;
-  width: 119px;
-  height: 32px;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-#main .logo {
-  font-size: 100px;
-}
-
-#main .apps {
-  max-width: 864px;
-  margin: 0 auto;
-}
-
-#main md-card {
-  width: 800px;
-  margin: 18px;
-  padding: 0;
-  cursor:pointer;
+  background: url('site_background1.png');
+  width: 100%;
+  height: 1960px;
 }
 
 #main md-toolbar.md-default-theme {
   background-color: #f6f6f6;
-  color: #333;
+  width: 100%;
+  height: 120px;
+}
+
+#getCoding {
+  background: url('getcodinglogo.png') no-repeat;
+  width: 188px;
+  height: 45px;
+  margin-top: 44px;
+}
+
+#by9dots {
+  float: right;
+  background: url('by9dots.png') no-repeat;
+  background-image: 188px 45px;
+  width: 188px;
+  height: 45px;
+  margin-top: 44px;
+}
+
+.intro {
+  max-width: 1100px;
+  height: 334px;
+  margin: 0 auto 0 auto;
+}
+
+.letsgetcoding {
+  background: url('letsgetcoding.png');
+  margin: 180px auto 0px auto;
+  width: 662px;
+  height: 115px;
+}
+
+.tab-holder {
+  margin: 0 auto 0 auto;
+  max-width: 1100px;
+  height: auto;
+}
+
+.unit {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.tab {
+  width: 100%;
+  height: 130px;
+  color: white;
+  margin-top: 25px;
+}
+
+.unit-title {
+  background: white;
+  font-size: 42px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 3em;
+  padding-left: 40px;
+}
+
+
+.unit:nth-child(n) .unit-title{
+  color: rgba(153, 204, 102, 1);
+}
+
+.unit:nth-child(2n) .unit-title{
+  color: rgba(255, 204, 51, 1);
+}
+
+.unit:nth-child(3n) .unit-title{
+  color: rgba(102, 153, 204, 1);
+}
+
+.unit:nth-child(4n) .unit-title{
+  color: rgba(255, 102, 51, 1);
+}
+
+
+.unit:nth-child(n) .number{
+  background: rgba(170, 206, 89, 1);
+}
+
+.unit:nth-child(2n) .number{
+  background: rgba(247, 179, 59, 1);
+}
+
+.unit:nth-child(3n) .number{
+  background: rgba(94, 175, 202, 1);
+}
+
+.unit:nth-child(4n) .number{
+  background: rgba(242, 100, 70, 1);
+}
+
+
+.unit:nth-child(n) .expand{
+  background: rgba(160, 194, 84, 1);
+}
+
+.unit:nth-child(2n) .expand{
+  background: rgba(231, 166, 55, 1);
+}
+
+.unit:nth-child(3n) .expand{
+  background: rgba(90, 167, 192, 1);
+}
+
+.unit:nth-child(4n) .expand{
+  background: rgba(218, 90, 63, 1);
+}
+
+
+.info-box > div {
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 2.25em;
+  width: 100%;
+  height: 65px;
+}
+
+.expand div span {
+  text-align: center;
+}
+
+.lesson-holder {
+  height: 0;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.lesson {
+  width: 100%;
+  height: 100px;
+  background: white;
+  color: black;
+}
+
+.lesson-wrapper {
+  border: 1px solid transparent;
+}
+
+.lesson-wrapper:hover {
+  border:1px solid rgba(0,0,0,0.3);
+}
+
+.lesson-wrapper {
+  width: 100%;
+  height: 98px;
+}
+
+.last-lesson {
+  height: 100px;
+}
+
+.lesson-title {
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 3.5em;
+  color: #666666;
+  margin-left: 40px;
+}
+
+.lesson-description {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 5.4em;
+  font-style: italic;
+  color: #999999;
+  margin-left: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background: #f6f6f6;
 }
 
 #main h2 {
   margin: 0;
   font-size: 2.0em;
-}
-
-#main .author {
-  line-height: .5;
-}
-
-.play {
-  color: #6ab8e5;
-}
-
-i.play {
-  margin-left: 3px;
-}
-
-.play-button {
-  margin-top: 1.0em;
-}
-
-md-toolbar.gc-color {
-  background-color: #6ab8e5;
-}
-
-.mdi-1p5x {
-  font-size: 1.5em;
-}
-
-.app-title {
-  margin-left: .7em;
-}
-
-.group-wrapper {
-  height:120px;
-  width:600px;
-}
-
-.expand {
-  height:auto;
-}
-
-md-item a {
-  color:rgba(0, 0, 0, 0.73);
-}
-
-md-item-content {
-  border: 1px solid transparent;
-}
-
-md-item-content:hover {
-  border:1px solid rgba(0,0,0,0.3);
-}
-
-.animate-show {
-  padding:0;
-  overflow: hidden;
-  height:0;
-  transition: all .5s ease-in-out;
-}
-
-.more-info .icons {
-  margin:0;
-  display:inline-block;
-  width:18px;
-  height:18px;
-  vertical-align: middle;
-}
-
-.spin, .reverse-spin {
-  position: absolute;
-  line-height:20px;
-}
-
-.reverse-spin {
-  -webkit-animation:hide_sequence .5s ease-in-out;
-  animation:hide_sequence .5s ease-in-out;
-  transform:rotate(0deg);
-  -webkit-transform:rotate(0deg);
-}
-
-.reverse-spin.ng-hide-add.ng-hide-add-active,
-.reverse-spin.ng-hide-remove.ng-hide-remove-active {
-  -webkit-transition: transform ease-in-out 0.5s;
-  transition: transform ease-in-out 0.5s;
-}
-
-.reverse-spin.ng-hide {
-  -webkit-animation:show_sequence .5s ease-in-out;
-  animation:show_sequence .5s ease-in-out;
-  transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-}
-
-.spin {
-  -webkit-animation:hide_sequence .5s ease-in-out;
-  animation:hide_sequence .5s ease-in-out;
-  transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-}
-
-.spin.ng-hide-add.ng-hide-add-active,
-.spin.ng-hide-remove.ng-hide-remove-active {
-  -webkit-transition: transform ease-in-out 0.5s;
-  transition: transform ease-in-out 0.5s;
-}
-
-.spin.ng-hide {
-  -webkit-animation:show_sequence .5s ease-in-out;
-  animation:show_sequence .5s ease-in-out;
-  transform:rotate(0deg);
-  -webkit-transform:rotate(0deg);
-}
-
-@-webkit-keyframes hide_sequence {
-  0% { opacity:0; }
-  100% { opacity:1; }
-}
-
-@-webkit-keyframes show_sequence {
-  0% { opacity:1; }
-  100% { opacity:0; }
-}
-
-.more-info {
-  font-size:18px;
-  width:200px;
-}
-
-.more-info span {
-  vertical-align: middle;
-  margin:0 2px;
-}
-
-.more-info span.plural {
-  vertical-align: text-bottom;
-  margin:0;
-}
-
-.more-info div {
-  margin:10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 .on {
   transition: all .5s ease-in-out;
 }
 
-.pad {
-  padding: 20px;
-}
+
+

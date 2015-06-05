@@ -1,16 +1,20 @@
 <div id='main' layout='column' layout-fill>
-  <md-toolbar>
-
-    <div class="md-toolbar-tools">
-      <span id='logo'></span>
-      <!-- fill up the space between left and right area -->
-      <span flex></span>
-
-      by <a id='logo-9dots' href='http://9dots.org'></a>
-    </div>
+  <md-toolbar layout="row">
+      <div flex='10'></div>
+      <div flex="20">
+        <div id="getCoding"></div>
+      </div>
+      <div flex='40'></div>
+      <div flex="20">
+        <div id="by9dots"></div>
+      </div>
+      <div flex='10'></div>
 
   </md-toolbar>
-  <div class='apps' layout-padding>
+  <div class="intro">
+    <div class="letsgetcoding"></div>
+  </div>
+  <div class='apps'>
     <accordion></accordion>
   </div>
 </div>

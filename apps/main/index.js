@@ -76,6 +76,7 @@ module
   this.courses = [
     {
       name: 'Introduction to Variables',
+      open: 'closed',
       apps: [
         appObject['whiteboard-declaring-variables'],
         appObject['whiteboard-review'],
@@ -85,6 +86,7 @@ module
     },
     {
       name: 'Using Functions',
+      open: 'closed',
       apps: [
         appObject['space-man'], 
         appObject['create-functions'], 
@@ -93,6 +95,7 @@ module
     },
     {
       name: 'Spaceman Advanced Algorithms',
+      open: 'closed',
       apps: [
         appObject['spaceman-sequencing-blockly'],
         appObject['spaceman-sequencing'],
@@ -102,6 +105,7 @@ module
     },
     {
       name: 'Puzzles',
+      open: 'closed',
       apps: [
         appObject['crossriver-blockly'],
         appObject['crossriver-intro'],
@@ -124,11 +128,14 @@ module
   }
 
 }])
+
+
 .directive('accordion', function(){
   return {
     template: require('./accordion.html')
   }
 })
+
 .directive('expandable', function(){
   function animateAdd(element, $animate) {
     $animate.addClass(element, 'on', {
@@ -139,7 +146,7 @@ module
         height : element[0].scrollHeight
       }
     });
-  }
+  } 
   function animateRemove(element, $animate) {
     $animate.removeClass(element, 'on', {
       from: {
@@ -166,6 +173,7 @@ module
     }
   }
 });
+
 
 angular.element(document).ready(function() {
   var modules = ['main', require('lib/html5mode')];
