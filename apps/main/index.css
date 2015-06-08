@@ -3,7 +3,8 @@ a {
 }
 
 #main {
-  background: url('site_background1.png');
+  background-image: url('site_background1.png');
+  background-position: 0px -60px;
   width: 100%;
   height: 1960px;
 }
@@ -11,14 +12,14 @@ a {
 #main md-toolbar.md-default-theme {
   background-color: #f6f6f6;
   width: 100%;
-  height: 120px;
+  height: 60px;
 }
 
 #getCoding {
   background: url('getcodinglogo.png') no-repeat;
   width: 188px;
   height: 45px;
-  margin-top: 44px;
+  margin-top: 7px;
 }
 
 #by9dots {
@@ -27,7 +28,7 @@ a {
   background-image: 188px 45px;
   width: 188px;
   height: 45px;
-  margin-top: 44px;
+  margin-top: 7px;
 }
 
 .intro {

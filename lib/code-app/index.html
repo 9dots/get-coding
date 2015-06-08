@@ -1,87 +1,123 @@
-<div layout='column' layout-fill>
-  <md-toolbar class="gc-color md-whiteframe-z1">
-
-    <div class="md-toolbar-tools">
-      <a href='/'>
-        <i class='mdi-arrow-back mdi-1p5x mdi'></i><span class='mdi-1p5x app-title'>{{App.title}}</span>
-      </a>
-
-      <!-- fill up the space between left and right area -->
-      <span flex></span>
-
-      <span class='level-selector'>
-        <span ng-repeat='level in App.levels'>
-          <span class='dash' ng-show="!$first" ><i class='mdi-remove mdi'></i></span>
-          <button class='level' ng-click='App.setLevel($index, true)' ng-class='{current: App.level == $index, completed: App.completed[$index]}'>{{$index + 1}}</button>
-        </span>
-      </span>
-      <md-button ng-click='App.showReadme()' ng-show='App.hasReadme()' aria-label="show readme"><i class='mdi mdi-help app-help' ></i></md-button>
-    </div>
-  </md-toolbar>
-
-  <div class='app-area' layout='row' layout-align='center' flex>
-    
-    <div  ui-view='workspace' flex layout='column' class='workspace'></div>
-    
-    <div class='run-abs'>
-      <div class='run-abs-pos'>
-      <div layout='column' class='run-wrap noselect'>
-        <md-whiteframe class='md-whiteframe-z1' layout='column'>
-          <md-button class="run-button" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()' aria-label="run program">
-            <i class='mdi-play-arrow mdi-2x' ng-hide='App.Runner.running'></i>
-            <i class='mdi-pause mdi-2x' ng-show='App.Runner.running'></i>
-          </md-button>
-
-          <span layout='column' layout-align='start center'>
-            <div class='run-title'>Steps</div>
-            <div class='run-info mdi-1p5x'>{{App.Runner.steps}}</div>
-            
-            <span layout='horizonal' class='run-mini-buttons run-steps-buttons'>
-              <md-button ng-click='App.Runner.reset()' aria-label="reset steps"><i class='mdi-refresh'></i></md-button><md-button ng-click='App.Runner.step()' aria-label="step once"><i class='mdi-skip-next'></i></md-button>
-            </span>
-          </span>
-          <md-divider></md-divider>
-          <span layout='column' layout-align='start center'>
-            <div class='run-title'>Speed</div>
-            <div class='run-info mdi-1p5x'>{{App.speed()}}x</div>
-
-            <span layout='horizonal' class='run-mini-buttons'>
-              <md-button ng-click='App.decreaseSpeed()' aria-label="decrease speed"><i class='mdi mdi-remove'></i></md-button><md-button ng-click='App.increaseSpeed()' aria-label="increase speed"><i class='mdi mdi-add'></i></md-button>
-            </span>
-          </span>
-          <md-divider></md-divider>
-          <span layout='column' layout-align='start center'>
-            <div class='run-title'>Lines</div>
-            <div class='run-loc' ng-class='{warn: App.locUsed > App.locAllowed}'>
-              <span class='loc-used'>{{App.locUsed || 0}}</span>
-              <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
-              <span class='loc-allowed' ng-show='App.locAllowed'>{{App.locAllowed}}</span>
-              </div>
-          </span>
-          
-        </md-whiteframe>
+<div class='main' layout='column' layout-fill>
+<!--
+  <div class='toolbar' layout="row">
+      <div flex='10'></div>
+      <div flex="20">
+        <div id="getCoding"></div>
       </div>
+      <div flex='40'></div>
+      <div flex="20">
+        <div id="by9dots"></div>
       </div>
-    </div>
-    <div class='handle' layout='column' div-resize>
-      <div flex></div>
-    </div>
-    <div ui-view='playspace' class='playspace noselect' layout='row'></div>
-    <div class='md-disable-backdrop md-embedded-sidenav'>
-    <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
-      <div class='sidenav-close' ng-click='App.showReadme()'>
-        <i class='mdi-clear'></i>
-      </div>
-      <md-tabs class='black-header' md-selected="App.sidebar.index" flex>
-        <md-tab ng-repeat="tab in App.sidebar.tabs" label="{{tab.title}}" >
-        <div class="demo-tab tab{{$index%4}} pad" layout="column">
-            <marked>{{tab.content}}</marked>
-          </div>
-        </md-tab>
-      </md-tabs>
-    </md-sidenav>
-    </div>
+      <div flex='10'></div>
   </div>
+-->
+  <div class="app-holder" layout='row'>
+  <!--title/back bar-->
+    <div flex='40' layout='column'><!--left panel-->
+      <a href='/'>
+        <div class='title bar' layout='row'>
+          <div flex='10'><i class='mdi-arrow-back'></i></div> <!-- back arrow-->
+          <div flex='90'>{{App.title}}</div><!-- title-->
+        </div>
+      </a>
+    <!--controller bar-->
+      <div class="control" layout='row'>
+      <!--play/pause button-->
+        <div flex='25' class="button-border" ng-class='{"md-warn": !App.Runner.running, "md-primary": App.Runner.running}' ng-click='App.Runner.run()' aria-label="run program" layout='row' layout-align='center center'>
+              <i class='mdi mdi-play-arrow mdi-3x' ng-hide='App.Runner.running'></i>
+              <i class='mdi mdi-pause mdi-3x' ng-show='App.Runner.running'></i>
+        </div>
+      <!--steps buttons-->
+        <div flex='25' class='button-border' layout='column' layout-align='space-around center'>
+          <div class='label'>Steps</div>
+          <div class='button-holder' layout='row'>
+            
+              <div flex='33' ng-click='App.Runner.reset()' aria-label="reset steps" layout='column' layout-align='center center'>
+                  <i class='mdi mdi-refresh mdi-2x '></i>
+              </div flex='33'>
+
+              <div flex='33' class='readout'>
+                <span class='noselect'>{{App.Runner.steps}}</span>
+              </div>
+
+              <div flex='33' ng-click='App.Runner.step()' aria-label="step once">
+                  <i class='mdi mdi-skip-next mdi-2x '></i>
+              </div flex='33'>
+            
+          </div>
+        </div>
+      <!--speed buttons-->
+        <div flex='25' class='button-border' layout='column' layout-align='space-around center'>
+          <div class='label'>Speed</div>
+          <div class='button-holder' layout='row'>
+
+              <div flex='33' ng-click='App.decreaseSpeed()' aria-label="decrease speed" layout='column' layout-align='center center'> <i class='mdi mdi-2x mdi-remove'></i>
+              </div>
+
+              <div flex='33' class='readout'>
+                <span class='noselect small'>{{App.speed()}}x</span>
+              </div>
+              
+              <div flex='33' ng-click='App.increaseSpeed()' aria-label="increase speed" layout='column' layout-align='center center'> <i class='mdi mdi-2x mdi-add'></i>
+              </div>
+            
+
+          </div>
+        </div>
+      <!--lines info-->
+        <div flex='25' layout='column' layout-align='space-around center'>
+          <div class='label'>Lines</div>
+          <div class='button-holder' layout='row'>
+
+              <div flex='33'> 
+              </div>
+
+              <div flex='33' class='readout' ng-class='{warn: App.locUsed > App.locAllowed}'>
+                <span class='loc-used'>{{App.locUsed || 0}}</span>
+                <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
+                <span class='loc-allowed' ng-show='App.locAllowed'>{{App.locAllowed}}</span>
+              </div>
+              
+              <div flex='33'> 
+              </div>
+            
+
+          </div>
+        </div>
+      </div>
+    <!--code input panel-->
+      <div  ui-view='workspace' flex layout='column' class='workspace'></div>
+    </div>
+
  
+
+
+
+    
+    <div flex='60'><!--right panel-->
+
+      <div class="bar levels" layout='row'><!--level buttons and help-->
+        <div flex layout='row' class='run-wrap noselect'>
+          <span flex></span><!--fill space if fewer than 10 levels-->
+          <div ng-repeat='level in App.levels' flex='10' layout='row'>
+            <button ng-click='App.setLevel($index, true)' ng-class='{current: App.level == $index, completed: App.completed[$index]}' flex='100'>{{$index + 1}}</button>
+          </div>
+        </div>
+
+        <div flex='10'>
+          <md-button ng-click='App.showReadme()' ng-show='App.hasReadme()' aria-label="show readme"><i class='mdi-help help-button'></i></md-button>
+        </div><!--help button-->
+      </div>
+
+       <div ui-view='playspace' class='playspace noselect' layout='row'></div>
+
+    </div>
+
+  </div>
+
+
+  
+
 
 </div>
