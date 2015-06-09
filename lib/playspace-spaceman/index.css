@@ -1,21 +1,21 @@
 .blocked.asteroid-1 {
-  background: url('./asteroid1.png');
+  background: url('./new_asteroid11.png');
 }
 
 .blocked.asteroid-2 {
-  background: url('./asteroid2.png');
+  background: url('./new_asteroid21.png');
 }
 
 .blocked.asteroid-3 {
-  background: url('./asteroid3.png');
+  background: url('./planet1.png');
 }
 
 .blocked.asteroid-4 {
-  background: url('./asteroid4.png');
+  background: url('./comet1.png');
 }
 
 .part.solar-panel {
-  background: url('./solar_panel.png');
+  background: url('./solar_panel.png') no-repeat;
 }
 
 [playspace-spaceman] {
@@ -98,8 +98,7 @@
   margin: 0px auto 0px auto;
   width: auto;
   height: auto;
-  border: 1px solid RoyalBlue;
-  background: url("./space-background.png") no-repeat;
+  background: url("./new_space_background.png") no-repeat;
   overflow: hidden;
 }
 
@@ -117,7 +116,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  border: 1px solid DeepSkyBlue;
+  border: 1px solid rgba(61, 62, 62, 1);
 }
 
 [playspace-spaceman] .astronaut {
@@ -129,7 +128,7 @@
 }
 
 [playspace-spaceman] .astronaut.still {
-  background: url('./astronaut.png');
+  background: url('./new_astronaut1.png');
 }
 
 [playspace-spaceman] .astronaut.thrust {

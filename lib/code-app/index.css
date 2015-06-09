@@ -38,11 +38,27 @@ a {
 }
  
 .app-holder {
-  width: 1400px;
-  height: 865px;
+  width: 1200px;
+  height: 665px;
   margin: 0 auto 0 auto;
   margin-top: 40px;
   background: #fff;
+}
+
+.mission {
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
+  background: white;
+  border-top: 3px solid #f6f6f6;
+}
+
+.mission-man {
+  background: url('mission_man1.png') no-repeat;
+}
+
+.mission-text {
+  background: rgba(229, 242, 246, 1);
 }
 
 .bar {
@@ -150,8 +166,8 @@ a {
 
 .playspace {
   margin: 0 auto 0 auto;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   background: #f6f6f6;
   overflow: hidden;
 }
