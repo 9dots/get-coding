@@ -8,3 +8,4 @@ Help the wizard open the gates by telling the magic words to say. Each word will
 * `goo();`
 * `loo();`
 * `boo();`
+
