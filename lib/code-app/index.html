@@ -1,17 +1,5 @@
 <div class='main' layout='column' layout-fill>
-<!--
-  <div class='toolbar' layout="row">
-      <div flex='10'></div>
-      <div flex="20">
-        <div id="getCoding"></div>
-      </div>
-      <div flex='40'></div>
-      <div flex="20">
-        <div id="by9dots"></div>
-      </div>
-      <div flex='10'></div>
-  </div>
--->
+
   <div class="app-holder" layout='row'>
   
   <!--title/back bar-->
@@ -34,7 +22,7 @@
           <div class='label'>Steps</div>
           <div class='button-holder' layout='row'>
             
-              <div flex='33' ng-click='App.Runner.reset()' aria-label="reset steps" layout='column' layout-align='center center'>
+              <div flex='33' ng-click='App.Runner.reset()' aria-label="reset steps" layout='column' layout-align='center center' class='noselect'>
                   <i class='mdi mdi-refresh mdi-2x '></i>
               </div flex='33'>
 
@@ -42,7 +30,7 @@
                 <span class='noselect'>{{App.Runner.steps}}</span>
               </div>
 
-              <div flex='33' ng-click='App.Runner.step()' aria-label="step once">
+              <div flex='33' ng-click='App.Runner.step()' aria-label="step once" class='noselect'>
                   <i class='mdi mdi-skip-next mdi-2x '></i>
               </div flex='33'>
             
@@ -53,14 +41,14 @@
           <div class='label'>Speed</div>
           <div class='button-holder' layout='row'>
 
-              <div flex='33' ng-click='App.decreaseSpeed()' aria-label="decrease speed" layout='column' layout-align='center center'> <i class='mdi mdi-2x mdi-remove'></i>
+              <div flex='33' ng-click='App.decreaseSpeed()' aria-label="decrease speed" layout='column' layout-align='center center' class='noselect'> <i class='mdi mdi-2x mdi-remove'></i>
               </div>
 
               <div flex='33' class='readout'>
                 <span class='noselect small'>{{App.speed()}}x</span>
               </div>
               
-              <div flex='33' ng-click='App.increaseSpeed()' aria-label="increase speed" layout='column' layout-align='center center'> <i class='mdi mdi-2x mdi-add'></i>
+              <div flex='33' ng-click='App.increaseSpeed()' aria-label="increase speed" layout='column' layout-align='center center' class='noselect'> <i class='mdi mdi-2x mdi-add'></i>
               </div>
             
 
@@ -70,20 +58,11 @@
         <div flex='25' layout='column' layout-align='space-around center'>
           <div class='label'>Lines</div>
           <div class='button-holder' layout='row'>
-
-              <div flex='33'> 
+              <div flex class='readout' ng-class='{warn: App.locUsed > App.locAllowed}'>
+                <span class='loc-used' ng-class='{smallText: App.locAllowed}'>{{App.locUsed || 0}}</span>
+                <span class='loc-out-of' ng-show='App.locAllowed' ng-class='{smallText: App.locAllowed}'>/</span>
+                <span class='loc-allowed' ng-show='App.locAllowed' ng-class='{smallText: App.locAllowed}'>{{App.locAllowed}}</span>
               </div>
-
-              <div flex='33' class='readout' ng-class='{warn: App.locUsed > App.locAllowed}'>
-                <span class='loc-used'>{{App.locUsed || 0}}</span>
-                <span class='loc-out-of' ng-show='App.locAllowed'>/</span>
-                <span class='loc-allowed' ng-show='App.locAllowed'>{{App.locAllowed}}</span>
-              </div>
-              
-              <div flex='33'> 
-              </div>
-            
-
           </div>
         </div>
       </div>
@@ -106,9 +85,7 @@
           </div>
         </div>
 
-        <div flex='10'>
-          <md-button ng-click='App.showReadme()' ng-show='App.hasReadme()' aria-label="show readme"><i class='mdi-help help-button'></i></md-button>
-        </div><!--help button-->
+
       </div>
 
        <div ui-view='playspace' class='playspace noselect' layout='row'></div>
@@ -119,10 +96,8 @@
 
   <div class="mission" layout='row'>
     
-    <div class="mission-text" flex='75'>
-      
-    </div>
-    <div class="mission-man" flex='25'></div>
+    <div class="mission-text" flex='50'></div>
+    <div class="mission-man" flex='50'></div>
   </div>
 
   

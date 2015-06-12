@@ -46,7 +46,8 @@ var module = angular.module(name, [
   require('apps/frogjump-blockly'),
   require('apps/crossriver-monkeys'), 
   require('apps/squirrel'), 
-  require('apps/magic-words')
+  require('apps/magic-words'), 
+  require('apps/fire-and-ice')
 ]);
 
 /**
@@ -90,6 +91,7 @@ module
       open: 'closed',
       apps: [
         appObject['magic-words'],
+        appObject['fire-and-ice'],
         appObject['squirrel'],
         appObject['space-man'], 
         appObject['create-functions'], 

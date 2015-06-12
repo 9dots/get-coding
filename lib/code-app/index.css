@@ -13,48 +13,24 @@ a {
   width: 100%;
   max-height: 1960px;
 }
-
-.toolbar {
-  background-color: #f6f6f6;
-  width: 100%;
-  height: 64px;
-  box-shadow: 0px 1px 5px #888888;
-}
-
-#getCoding {
-  background: url('/apps/main/getcodinglogo.png') no-repeat;
-  width: 188px;
-  height: 45px;
-  margin-top: 7px;
-}
-
-#by9dots {
-  float: right;
-  background: url('/apps/main/by9dots.png') no-repeat;
-  background-image: 188px 45px;
-  width: 188px;
-  height: 45px;
-  margin-top: 7px;
-}
  
 .app-holder {
-  width: 1200px;
-  height: 665px;
+  width: 1260px;
+  height: 695px;
   margin: 0 auto 0 auto;
-  margin-top: 40px;
+  margin-top: 10px;
   background: #fff;
 }
 
 .mission {
   margin: 0 auto;
-  width: 1200px;
+  width: 1260px;
   height: 200px;
   background: white;
-  border-top: 3px solid #f6f6f6;
 }
 
 .mission-man {
-  background: url('mission_man1.png') no-repeat;
+  background: url('mission_man.png') no-repeat;
 }
 
 .mission-text {
@@ -83,13 +59,26 @@ a {
 }
 
 .levels button {
-  height: 100%;
+  height: 65px;
   font-size: 30px;
   line-height: 2em;
   border: none;
   background: none;
   color: #fff;
   text-align: center;
+}
+
+button.current {
+  font-size: 40px;
+  line-height: 1.5em;
+  color: rgba(246, 179, 34, 1);
+}
+
+button.completed {
+  font-size: 30px;
+  line-height: 2em;
+  opacity: .6;
+  color: rgba(61, 111, 119, 1);
 }
 
 .button-border {
@@ -101,12 +90,8 @@ a {
   cursor: pointer;
 }
 
-
-
 .mdi-skip-next {
-
   padding-top: 3px;
- 
 }
 
 
@@ -130,14 +115,14 @@ a {
   color: rgba(94, 175, 202, 1);
 }
 
-.readout .small {
-  
+.smallText {
+  font-size: 30px;
+  line-height: 1.5em;
 }
 
 .warn {
   color: #e84e40;
 }
-
 
 .noselect {
   -webkit-touch-callout: none;
