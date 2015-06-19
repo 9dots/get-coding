@@ -3,6 +3,7 @@ md-bottom-sheet.playspace-magic-words {
 	background: white;
 	text-align: right;
 	font-size: 30px;
+	background: red;
 }
 
 [playspace-magic-words] .background {
@@ -14,7 +15,7 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .overhang {
 	margin: 0px auto 0px auto;
 	width: 800px;
-	height: 200px;
+	height: 115px;
 	background: black;
 	color: white;
 }
@@ -31,7 +32,7 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .floor {
 	margin: 0px auto 0px auto;
 	width: 800px;
-	height: 200px;
+	height: 115px;
 	background: SaddleBrown;
 }
 
@@ -75,14 +76,14 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .gate {
 	background: gray;
 	position: absolute;
-	width: 100px;
+	width: 70px;
 	height: 400px;
 	border: 1px solid black;
 }
 
 [playspace-magic-words] .obstacle {
 	position: absolute;
-	width: 100px;
+	width: 70px;
 	height: 400px;
 }
 
@@ -97,7 +98,7 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .labelbox {
 	position: absolute;
 	top: 300px;
-	width: 100px;
+	width: 100%;
 }
 
 [playspace-magic-words] .label {
@@ -117,23 +118,23 @@ md-bottom-sheet.playspace-magic-words {
 }
 
 [playspace-magic-words] #item1 {
-	left: 100px;
+	left: 70px;
 }
 
 [playspace-magic-words] #item2 {
-	left: 200px;
+	left: 140px;
 }
 
 [playspace-magic-words] #item3 {
-	left: 300px;
+	left: 210px;
 }
 
 [playspace-magic-words] #item4 {
-	left: 400px;
+	left: 280px;
 }
 
 [playspace-magic-words] #item5 {
-	left: 500px;
+	left: 350px;
 }
 
 [playspace-magic-words] .gate.up {

@@ -7,6 +7,65 @@ a {
   color: #fff;
 }
 
+.dialog-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(89, 160, 177, .5);
+  z-index: 5;
+}
+
+.dialog-box {
+  margin: 250px auto 0 auto;
+  width: 800px;
+  height: 400px;
+  background: #e5f2f6;
+  opacity: 1;
+}
+
+.dialog-img.directions {
+  background: url('directions-img.png');
+}
+
+.dialog-img.success {
+  background: url('success.png');
+}
+
+.dialog-title {
+  font-size: 40px;
+  color: rgb(135, 201, 218);
+  margin-bottom: 30px;
+}
+
+.dialog-text {
+  margin: 0px 20px 0px 20px;
+  font-size: 24px;
+  color: rgb(85, 85, 85);
+  text-align: justify;
+}
+
+.error-title {
+  font-weight: 500;
+  color: rgb(129, 167, 179);
+  margin: 0;
+}
+
+.error-text {
+  font-size: 28px;
+  margin: 0;
+}
+
+.dialog-button {
+  width: 200px;
+  height: 50px;
+  background: rgb(246, 179, 59);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.5em;
+  margin-top: 40px;
+}
+
 .main {
   background-image: url('/apps/main/site_background1.png');
   background-position: 0px -120px;
@@ -23,18 +82,122 @@ a {
 }
 
 .mission {
+  position: relative;
   margin: 0 auto;
   width: 1260px;
   height: 200px;
   background: white;
 }
 
-.mission-man {
-  background: url('mission_man.png') no-repeat;
+.absolute {
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
 
-.mission-text {
+.mission-message {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 630px;
+  height: 100%;
   background: rgba(229, 242, 246, 1);
+  overflow-y: auto;
+}
+
+.help-title {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 35px;
+  color: rgb(79, 108, 115);
+}
+
+.help-text {
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  width: 530px;
+  height: auto;
+  font-size: 22px;
+  color: rgb(79, 108, 115);
+}
+
+.mission-man {
+  left: 630px;
+  top: 0px;
+  width: 275px;
+  height: 100%;
+  background: url('mission-man.png') no-repeat;
+  background-size: 825px 200px;
+  background-color: white;
+  overflow: visible;
+}
+
+.mission-man.up {
+  background-position: 0px 0px;
+}
+
+.mission-man.out {
+  background-position: -275px 0px;
+}
+
+.mission-man.down {
+  background-position: -550px 0px;
+}
+
+.mission-menu {
+  left: 905px;
+  top: 0px;
+  width: 355px;
+  height: 100%;
+  padding-top: 10px;
+  background: url('mission-menu.png') no-repeat;
+  background-size: 355px 200px;
+}
+
+.menu-button {
+  position: static;
+  width: 275px;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+.mission-button {
+  background: url('mission-dark.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.tools-button {
+  background: url('tools-dark.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.tips-button {
+  background: url('tips-dark.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.missionOn {
+  background: url('mission-light.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.toolsOn {
+  background: url('tools-light.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.tipsOn {
+  background: url('tips-light.png') no-repeat;
+  background-size: 297px 54px;
+}
+
+.menu-button:hover {
+  cursor: pointer;
 }
 
 .bar {
@@ -151,8 +314,38 @@ button.completed {
 
 .playspace {
   margin: 0 auto 0 auto;
-  width: 600px;
-  height: 600px;
+  width: 630px;
+  height: 630px;
   background: #f6f6f6;
   overflow: hidden;
 }
+
+md-bottom-sheet.bottom-sheet {
+  padding: 0px 0px 60px 0px;
+  margin: 0 auto 0 auto;
+  width: 1260px;
+  height: 300px;
+}
+
+.error-holder {
+  position: relative;
+  width: 1260px;
+  height: 216px;
+}
+
+.error-man {
+  width: 275px;
+  height: 216px;
+  background: url('error-man.png');
+  background-size: 297px 216px;
+  overflow: visible;
+}
+
+.error-message {
+  left: 275px;
+  width: 985px;
+  height: 216px;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,44 +1,27 @@
 .blocked.asteroid-1 {
-  background: url('./new_asteroid11.png');
+  background: url('./asteroid-1.png') no-repeat;
 }
 
 .blocked.asteroid-2 {
-  background: url('./new_asteroid21.png');
+  background: url('./asteroid-2.png') no-repeat;
 }
 
 .blocked.asteroid-3 {
-  background: url('./planet1.png');
+  background: url('./asteroid-3.png') no-repeat;
 }
 
 .blocked.asteroid-4 {
-  background: url('./comet1.png');
+  background: url('./asteroid-4.png') no-repeat;
 }
 
 .part.solar-panel {
-  background: url('./solar_panel.png') no-repeat;
+  background: url('./comet.png') no-repeat;
 }
+
+/* probably cuttable
 
 [playspace-spaceman] {
   background-color: black;
-}
-
-[playspace-spaceman] .header {
-  height: 30px;
-}
-
-[playspace-spaceman] .message {
-  position: relative;
-  left: 0px;
-  top: 8px;
-  width: 100%;
-  height: 61px;
-  background: black;
-  font-family: ‘Lucida Console’, Monaco, monospace;
-  color: MidnightBlue;
-  font-size: 40px;
-  line-heigh: 1.5em;
-  font-weight: bold;
-  text-align: center;
 }
 
 [playspace-spaceman] .section {
@@ -93,12 +76,13 @@
   font-size: 20px;
   text-align: center;
 }
+*/
 
 [playspace-spaceman] .background {
   margin: 0px auto 0px auto;
   width: auto;
   height: auto;
-  background: url("./new_space_background.png") no-repeat;
+  background: url("./space_background1.png") no-repeat;
   overflow: hidden;
 }
 
@@ -109,13 +93,13 @@
 [playspace-spaceman] .row {
   position: relative;
   width: auto;
-  height: 100px;
+  height: 90px;
 }
 
 [playspace-spaceman] .square {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border: 1px solid rgba(61, 62, 62, 1);
 }
 
@@ -123,18 +107,18 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 [playspace-spaceman] .astronaut.still {
-  background: url('./new_astronaut1.png');
+  background: url('./astronaut1.png') no-repeat;
 }
 
 [playspace-spaceman] .astronaut.thrust {
-  background: url('./astronaut_air.png');
+  background: url('./astronaut1.png') no-repeat;
 }
 
 [playspace-spaceman] .astronaut.celebrate {
-  background: url('./astronaut_win.png');
+  background: url('./astronaut1.png')no-repeat;
 }

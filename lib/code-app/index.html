@@ -1,3 +1,16 @@
+<!--dialog container and box...could be moved to separate view-->
+<div class="dialog-screen" ng-show="App.dialogOn">
+  <div class="dialog-box" layout='row'>
+    <div class="dialog-img {{App.dialogType}}" flex='40'></div>
+    <div flex='60' layout='column' layout-align="center center">
+      <div class="dialog-title">{{App.dialogTitle}}</div>
+      <div class="dialog-text">{{App.dialogText}}</div>
+      <div class="dialog-button" ng-click='App.dialogBtnFn()'>{{App.dialogButton}}</div>
+    </div>
+  </div>
+</div>
+
+
 <div class='main' layout='column' layout-fill>
 
   <div class="app-holder" layout='row'>
@@ -94,10 +107,20 @@
 
   </div>
 
-  <div class="mission" layout='row'>
-    
-    <div class="mission-text" flex='50'></div>
-    <div class="mission-man" flex='50'></div>
+  <div class="mission">
+    <div class="absolute mission-message">
+      <div class="help-title">{{App.helpTitle}}</div>
+      <div class="help-text">{{App.helpText}}</div>
+    </div>
+    <div class="absolute mission-man {{App.missionMan}}"></div>
+    <div class="absolute mission-menu">
+      <div class="menu-button mission-button" ng-click="App.setHelp('Mission')" 
+        ng-class='{"missionOn": App.missionOn}'></div>
+      <div class="menu-button tools-button" ng-click="App.setHelp('Tools')" 
+        ng-class='{"toolsOn": App.toolsOn}'></div>
+      <div class="menu-button tips-button" ng-click="App.setHelp('Tips')" 
+        ng-class='{"tipsOn": App.tipsOn}'></div>
+    </div>
   </div>
 
   

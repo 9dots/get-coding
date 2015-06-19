@@ -25,13 +25,13 @@ md-bottom-sheet.playspace-squirrel {
 [playspace-squirrel] .row {
   position: relative;
   width: auto;
-  height: 100px;
+  height: 90px;
 }
 
 [playspace-squirrel] .square {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border: 1px solid DeepSkyBlue;
 }
 
@@ -39,20 +39,23 @@ md-bottom-sheet.playspace-squirrel {
   position: absolute;
   top: 0px;
   bottom: 0px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 [playspace-squirrel] .squirrel.right {
-  background: url('squirrel-right.png');
+  background: url('squirrel-right.png') no-repeat;
+  background-size: 90px 90px;
 }
 
 [playspace-squirrel] .squirrel.left {
-  background: url('squirrel-left.png');
+  background: url('squirrel-left.png') no-repeat;
+  background-size: 90px 90px;
 }
 
 [playspace-squirrel] .squirrel.onTree {
-  background: url('squirrel-above-right.png');
+  background: url('squirrel-above-right.png') no-repeat;
+  background-size: 90px 90px;
 }
 
 [playspace-squirrel] .ground {

@@ -5,18 +5,18 @@
 	  "field": {
 	  	"rows": 8, 
 	  	"cols": 8, 
-	  	"ground": ["7*"], 
-	  	"tree": ["04", "14", "24", "34", "44", "54", "64"],
+	  	"ground": ["6*"], 
+	  	"tree": ["04", "14", "24", "34", "44", "54"],
 	  	"branch": ["22", "23", "25", "26"],
-	  	"acorns": ["21"]
+	  	"acorns": ["12"]
 	  }, 
 	  "squirrel": {
 	  	"rotation": 180, 
 	  	"facing": "left",
 	  	"axis": "hor", 
-	  	"squareOn": "63", 
-	  	"ahead": "62", 
-	  	"behind": "64",
+	  	"squareOn": "53", 
+	  	"ahead": "52", 
+	  	"behind": "54",
 	  	"canMove": true  
 	  }, 
 	  "workspace": {
