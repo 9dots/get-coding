@@ -43,12 +43,12 @@ md-bottom-sheet.playspace-squirrel {
 }
 
 [playspace-squirrel] .squirrel.right {
-  background: url('squirrel-right.png') no-repeat;
+  background: url('squirrel-right1.png') no-repeat;
   background-size: 90px 90px;
 }
 
 [playspace-squirrel] .squirrel.left {
-  background: url('squirrel-left.png') no-repeat;
+  background: url('squirrel-left1.png') no-repeat;
   background-size: 90px 90px;
 }
 
