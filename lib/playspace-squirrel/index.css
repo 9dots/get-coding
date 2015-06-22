@@ -11,10 +11,9 @@ md-bottom-sheet.playspace-squirrel {
 
 [playspace-squirrel] .background {
   margin: 0px auto 0px auto;
-  width: auto;
-  height: auto;
-  border: 1px solid RoyalBlue;
-  background: blue;
+  width: 630px;
+  height: 630px;
+  background: url('squirrel-background1.png');
   overflow: hidden;
 }
 
@@ -32,7 +31,7 @@ md-bottom-sheet.playspace-squirrel {
   display: inline-block;
   width: 90px;
   height: 90px;
-  border: 1px solid DeepSkyBlue;
+  border: 1px solid rgba(128, 128, 128, 1);
 }
 
 [playspace-squirrel] .squirrel {
@@ -54,22 +53,10 @@ md-bottom-sheet.playspace-squirrel {
 }
 
 [playspace-squirrel] .squirrel.onTree {
-  background: url('squirrel-above-right.png') no-repeat;
+  background: url('squirrel-onTree.png') no-repeat;
   background-size: 90px 90px;
 }
 
-[playspace-squirrel] .ground {
-  background: green;
-}
-
-[playspace-squirrel] .tree {
-  background: SaddleBrown;
-}
-
-[playspace-squirrel] .branch {
-  background: SaddleBrown;
-}
-
 [playspace-squirrel] .acorn {
-  background: yellow;
+  background: url('acorn.png');
 }

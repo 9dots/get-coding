@@ -244,6 +244,10 @@ button.completed {
   color: rgba(61, 111, 119, 1);
 }
 
+button.current.completed {
+  color: rgba(246, 179, 34, 1);
+}
+
 .button-border {
   border-right: 3px solid #f6f6f6;
 }
