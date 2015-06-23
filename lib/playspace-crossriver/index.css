@@ -1,11 +1,28 @@
 [playspace-crossriver] .background {
-  width: 800px;
-  height: 650px;
-  background: url(http://www.ryanbaber.com/river_cross/background1.png);
+  margin: 0px auto 0px auto;
+  width: 630px;
+  height: 630px;
+  background: url('rivercross-background.png');
+  overflow: hidden;
 }
 
 .crossRiver{
   position: relative;
+}
+
+.frame {
+  position: absolute;
+  width: 396px;
+  height: 378px;
+}
+
+.front {
+  left: 234px;
+  bottom:0;
+}
+
+.middle {
+  top: 250px;
 }
 
 .back {
@@ -13,11 +30,11 @@
 }
 
 .middle.to-foreground{
-  left: 450px;
+  left: 234px;
 }
 
 .middle.to-background {
-  left: -50px;
+  left: -20px;
 }
 
 .speed-125 {
@@ -44,55 +61,116 @@
   transition: all 4s ease-in-out;
 }
 
-.frame {
-  position: absolute;
-  width: 300px;
-  height: 250px;
+.character-holder{
+  position:relative;
+  width:100%;
+  height: 100%;
 }
 
-.middle {
-  top: 250px;
-}
-
-.front {
-  left: 490px;
-  bottom:0;
-}
-
-.farmer, .human{
-  background: url(http://www.ryanbaber.com/river_cross/farmer1.png) no-repeat;
-  background-size:contain;
-}
-
-.character-row{
-  position:absolute;
-  width:300px;
-  bottom:20px;
-}
-
-.character {
+.front-character {
   z-index:2;
 }
 
-.character div {
-  height: 230px;
-  width: 65px;
-  background-position: bottom;
-}
-
 .fox {
-   background: url(http://www.ryanbaber.com/river_cross/fox.png) no-repeat;
-   background-size:contain;
+  position: absolute;
+  background: url('fox.png') no-repeat;
+  width: 127px;
+  height: 75px;
 }
 
 .chicken {
-   background: url(http://www.ryanbaber.com/river_cross/chicken.png) no-repeat;
-   background-size:contain;
+  position: absolute;
+  background: url('chicken.png') no-repeat;
+  width: 81px;
+  height: 75px;
 }
 
 .grain {
-   background: url(http://www.ryanbaber.com/river_cross/grain.png) no-repeat;
-   background-size:contain;
+  position: absolute;
+  background: url('grain.png') no-repeat;
+  width: 72px;
+  height: 78px;
+}
+
+.boat {
+  position: absolute;
+  width: 225px;
+  height: 54px;
+  top: 265px;
+}
+
+.rear {
+  background: url(boat-back.png) no-repeat;
+}
+
+.fore {
+  background: url(boat-fore.png) no-repeat;
+  z-index: 2;
+}
+
+.farmer, .human{
+  background: url('farmer.png') no-repeat;
+  width: 124px;
+  height: 182px;
+}
+
+.front-character.farmer {
+  position: absolute;
+  left: 269px;
+  top: 0px;
+}
+
+.front-character.fox {
+  left: 190px;
+  top: 182px;
+}
+
+.front-character.chicken {
+  left: 308px;
+  top: 230px;
+}
+
+.front-character.grain {
+  left: 228px;
+  top: 296px;
+}
+
+.passenger {
+  left: 24px;
+  top: 225px;
+}
+
+.passenger.fox {
+  left: 0px;
+  z-index: 1;
+}
+
+.passenger.farmer {
+  position: absolute;
+  background-size: 124px 140px;
+  left: 95px;
+  top: 170px;
+}
+
+.back-character.farmer {
+  position: absolute;
+  left: 123px;
+  top: 0px;
+}
+
+.back-character.fox {
+  left: 0px;
+  top: 119px;
+}
+
+.back-character.grain {
+  left: 17px;
+  top: 213px;
+}
+
+.back-character.chicken {
+  left: 97px;
+  top: 157px;
 }
 
 .cop {
@@ -135,44 +213,17 @@
   top: 65px;
 }
 
-.boat {
-  width: 225px;
-  height: 54px;
-  left: 125px;
-  top: 175px;
-}
-
-.rear {
-  position: absolute;
-  background: url(http://www.ryanbaber.com/river_cross/boatback.png);
-}
-
-.fore {
-  position: absolute;
-  background: url(http://www.ryanbaber.com/river_cross/boatfront.png);
-  z-index:1;
-}
-
-.passenger {
-  position: relative;
-  bottom:40px;
-  width: 72px;
-  height: 90px;
-  background-size:cover;
-  z-index:0;
-}
-
 .cargo {
   left: 170px;
   top: 160px;
 }
 
 .deadchicken {
-  background: url(http://www.ryanbaber.com/river_cross/deadchicken.png);
+  
 }
 
 .deadgrain {
-  background: url(http://www.ryanbaber.com/river_cross/deadgrain.png);
+  
 }
 
 .run {
