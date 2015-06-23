@@ -2,6 +2,7 @@
   "levels": [
 	{
 	  "level": 1, 
+	  "background": "background1",
 	  "field": {
 	  	"rows": 7, 
 	  	"cols": 7, 
@@ -31,6 +32,7 @@
 	}, 
 	{
 	  "level": 2, 
+	  "background": "background1",
 	  "field": {
 	  	"rows": 7, 
 	  	"cols": 7, 
@@ -46,6 +48,36 @@
 	  	"squareOn": "53", 
 	  	"ahead": "52", 
 	  	"behind": "54",
+	  	"canMove": true  
+	  }, 
+	  "workspace": {
+	  	"codeSpace": ""
+	  }, 
+	  "directions": {
+			"dialogText":"Now use functions to gather all the acorns."
+	  }, 
+	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
+      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
+      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	},
+	{
+	  "level": 3, 
+	  "background": "background2",
+	  "field": {
+	  	"rows": 7, 
+	  	"cols": 7, 
+	  	"ground": [], 
+	  	"tree": ["*0", "*6"],
+	  	"branch": ["61", "62", "63", "64", "65", "45", "31", "11", "12", "13", "14", "15", "16"],
+	  	"acorns": ["35", "21"]
+	  }, 
+	  "squirrel": {
+	  	"rotation": 0, 
+	  	"facing": "right",
+	  	"axis": "hor", 
+	  	"squareOn": "51", 
+	  	"ahead": "52", 
+	  	"behind": "50",
 	  	"canMove": true  
 	  }, 
 	  "workspace": {

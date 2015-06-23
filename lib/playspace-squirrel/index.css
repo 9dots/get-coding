@@ -13,9 +13,18 @@ md-bottom-sheet.playspace-squirrel {
   margin: 0px auto 0px auto;
   width: 630px;
   height: 630px;
-  background: url('squirrel-background1.png');
   overflow: hidden;
 }
+
+[playspace-squirrel] .background.background1 {
+  background: url('squirrel-background1.png');
+}
+
+[playspace-squirrel] .background.background2 {
+  background: url('squirrel-background3.png');
+}
+
+
 
 [playspace-squirrel] .grid-holder {
   position: relative;
