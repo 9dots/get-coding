@@ -1,7 +1,8 @@
 #workspace-blockly .blocklyFlyoutBackground {
-  fill: #e3e3e3;
+  fill: rgba(103, 188, 210, .2);
 }
 
 #workspace-blockly .blocklySvg {
-  border: none;
+  background: white;
 }
+

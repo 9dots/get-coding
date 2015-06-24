@@ -1,8 +1,6 @@
-<div class="header">
-</div>
-<div class="background">  
-  <div class="grid-holder" id="grid-holder">
 
+<div class="background">  
+  <div class="grid-holder" id="grid-holder" layout="row" layout-align="center center">
     <div class="row" layout="row" layout-align="center center">
       <div class="stone" id="{{stone.id}}" ng-class='[stone.option]' ng-repeat='stone in Frogjump.field.grid'>
       	<div class="frog" ng-class='[stone.direction]' ng-if="stone.type === 'frog'">
@@ -10,6 +8,5 @@
       	</div>
       </div>
     </div>
-
   </div>
 </div>

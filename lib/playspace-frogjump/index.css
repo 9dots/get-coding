@@ -1,59 +1,37 @@
-[playspace-frogjump] {
-  background-color: white;
-}
-
-[playspace-frogjump] .header {
-  height: 30px;
-}
-
 [playspace-frogjump] .background {
   margin: 0px auto 0px auto;
-  width: 620px;
-  height: 600px;
-  background: url("background.png") no-repeat;
+  width: 630px;
+  height: 630px;
+  background: url("frog-background1.png") no-repeat;
   overflow: hidden;
 }
 
 [playspace-frogjump] .grid-holder {
   position: relative;
-  top:200px;
 }
 
 [playspace-frogjump] .row {
-  position: relative;
+  margin: 380px auto;
   width: auto;
-  height: 102px;
+  height: auto;
 }
 
 [playspace-frogjump] .frog {
   position: relative;
-  background:url("frog1.png") no-repeat;
+  background:url("right-frog1.png") no-repeat;
   background-size:contain;
   background-position: 0%;
   height:75px;
   left:0;
-  top:-40px;
+  top: -5px;
 }
 
 [playspace-frogjump] .left {
-  transform:rotateY(180deg);
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
-  filter:hue-rotate(180deg);
-  -webkit-filter:hue-rotate(180deg);
-  -moz-filter:hue-rotate(180deg);
-  -o-filter:hue-rotate(180deg);
-  -ms-filter:hue-rotate(180deg);
+  background:url("left-frog1.png") no-repeat;
 }
 
 [playspace-frogjump] .left .numbers {
-  transform:rotateY(180deg);
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
+
 }
 
 [playspace-frogjump] .numbers {
@@ -68,10 +46,10 @@
 [playspace-frogjump] .stone {
   display: inline-block;
   position: relative;
-  height: 50px;
   width: 82px;
-  margin:0 8px;
-  top:0;
-  background: url("lillypad.png") no-repeat;
+  height: 72px;
+  margin-left: 8px;
+  background: url("lilypad.png") no-repeat;
   background-size: contain;
+  background-position: 0%;
 }
