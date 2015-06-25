@@ -8,8 +8,10 @@ a {
 }
 
 .main {
-  width: 100%;
   min-height: 1200px;
+  width: 1260px;
+  height: 695px;
+  margin: 0 auto 0 auto;
 }
 
 .dialog-screen {
@@ -70,23 +72,16 @@ a {
   line-height: 2.5em;
   margin-top: 40px;
 }
- 
+
 .app-holder {
-  width: 1260px;
-  height: 695px;
-  margin: 0 auto 0 auto;
   margin-top: 10px;
   background: #fff;
 }
 
 .mission {
-  position: relative;
-  margin: 0 auto;
-  width: 1260px;
-  height: 200px;
+  height: 205px;
   background: white;
-  border-top: 3px solid #f6f6f6;
-;
+  border-top: 1px solid #f6f6f6;
 }
 
 .absolute {
@@ -96,37 +91,24 @@ a {
 }
 
 .mission-message {
-  position: relative;
-  left: 384px;
-  top: 0px;
-  width: 876px;
-  height: 100%;
+  margin-left: 40px;
+  margin-right: 20px;
   overflow-y: auto;
 }
 
 .help-title {
-  position: absolute;
-  left: 30px;
-  top: 20px;
-  width: 700px;
-  height: auto;
   font-size: 35px;
   color: rgb(79, 108, 115);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .help-text {
-  position: absolute;
-  left: 30px;
-  top: 60px;
-  width: 836px;
-  height: auto;
   font-size: 22px;
   color: rgb(79, 108, 115);
 }
 
 .mission-man {
-  left: 210px;
-  top: 0px;
   width: 174px;
   height: 100%;
   background: url('mission-man.png') no-repeat;
@@ -149,54 +131,14 @@ a {
 }
 
 .mission-menu {
-  left: 0px;
-  top: 0px;
-  width: 210px;
-  height: 100%;
-  padding-top: 20px;
-  background-size: 355px 200px;
+  margin-top: 7px;
+  margin-left: 7px;
 }
 
-.menu-button {
-  position: static;
-  width: 210px;
-  height: 50px;
-}
-
-.mission-button {
-  background: url('mission-light1.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
-}
-
-.tools-button {
-  background: url('tools-light.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
-}
-
-.tips-button {
-  background: url('tips-light.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
-}
-
-.missionOn {
-  background: url('mission-dark1.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
-}
-
-.toolsOn {
-  background: url('tools-dark.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
-}
-
-.tipsOn {
-  background: url('tips-dark.png') no-repeat;
-  background-size: 225px 50px;
-  background-position: 0px 0px;
+.menu-button i{
+  color: rgb(79, 108, 115);
+  font-size: 32px;
+  margin: 3px;
 }
 
 .menu-button:hover {
@@ -355,4 +297,3 @@ md-bottom-sheet.bottom-sheet {
   margin: 0;
   padding: 0;
 }
-

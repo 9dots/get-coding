@@ -14,7 +14,7 @@
 <div class='main' layout='column' layout-fill>
 
   <div class="app-holder" layout='row'>
-  
+
   <!--title/back bar-->
     <div flex='50' layout='column'><!--left panel-->
       <a href='/'>
@@ -34,7 +34,7 @@
         <div flex='25' class='button-border' layout='column' layout-align='space-around center'>
           <div class='label'>Steps</div>
           <div class='button-holder' layout='row'>
-            
+
               <div flex='33' ng-click='App.Runner.reset()' aria-label="reset steps" layout='column' layout-align='center center' class='noselect'>
                   <i class='mdi mdi-refresh mdi-2x '></i>
               </div flex='33'>
@@ -46,7 +46,7 @@
               <div flex='33' ng-click='App.Runner.step()' aria-label="step once" class='noselect'>
                   <i class='mdi mdi-skip-next mdi-2x '></i>
               </div flex='33'>
-            
+
           </div>
         </div>
       <!--speed buttons-->
@@ -60,10 +60,10 @@
               <div flex='33' class='readout'>
                 <span class='noselect small'>{{App.speed()}}x</span>
               </div>
-              
+
               <div flex='33' ng-click='App.increaseSpeed()' aria-label="increase speed" layout='column' layout-align='center center' class='noselect'> <i class='mdi mdi-2x mdi-add'></i>
               </div>
-            
+
 
           </div>
         </div>
@@ -83,11 +83,11 @@
       <div  ui-view='workspace' flex layout='column' class='workspace'></div>
     </div>
 
- 
 
 
 
-    
+
+
     <div flex='50'><!--right panel-->
 
       <div class="bar levels" layout='row'><!--level buttons and help-->
@@ -97,8 +97,6 @@
             <button ng-click='App.setLevel($index, true)' ng-class='{current: App.level == $index, completed: App.completed[$index]}' flex='100'>{{$index + 1}}</button>
           </div>
         </div>
-
-
       </div>
 
        <div ui-view='playspace' class='playspace noselect' layout='row'></div>
@@ -107,28 +105,29 @@
 
   </div>
 
-  <div class="mission">
+  <div class="mission" layout='row'>
 
-    <div class="absolute mission-menu">
-      <div class="menu-button mission-button" ng-click="App.setHelp('Mission')" 
-        ng-class='{"missionOn": App.missionOn}'></div>
-      <div class="menu-button tools-button" ng-click="App.setHelp('Tools')" 
-        ng-class='{"toolsOn": App.toolsOn}'></div>
-      <div class="menu-button tips-button" ng-click="App.setHelp('Tips')" 
-        ng-class='{"tipsOn": App.tipsOn}'></div>
+    <div class="mission-menu" layout='column'>
+      <div class="menu-button mission-button" ng-click="App.setHelp('Mission')">
+        <i class='mdi-flag'></i>
+      </div>
+      <div class="menu-button tools-button" ng-click="App.setHelp('Tools')">
+        <i class='mdi-settings'></i>
+      </div>
+      <div class="menu-button tips-button" ng-click="App.setHelp('Tips')">
+        <i class='mdi-flash-on'></i>
+      </div>
     </div>
-    <div class="absolute mission-man {{App.missionMan}}"></div>
-    <div class="absolute mission-message">
-      
+    <div class="mission-man {{App.missionMan}}"></div>
+    <div class="mission-message" flex>
+      <h3 class='help-title'> {{App.helpTitle}}</h3>
       <div class="help-text">
-
-      {{App.helpText}}
-
+        {{App.helpText}}
       </div>
     </div>
   </div>
 
-  
+
 
 
 </div>
