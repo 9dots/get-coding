@@ -93,7 +93,7 @@
       <div class="bar levels" layout='row'><!--level buttons and help-->
         <div flex layout='row' class='run-wrap noselect'>
           <span flex></span><!--fill space if fewer than 10 levels-->
-          <div ng-repeat='level in App.levels' flex='10' layout='row'>
+          <div ng-repeat='level in App.levels' layout='row'>
             <button ng-click='App.setLevel($index, true)' ng-class='{current: App.level == $index, completed: App.completed[$index]}' flex='100'>{{$index + 1}}</button>
           </div>
         </div>
