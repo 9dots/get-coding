@@ -24,10 +24,12 @@
 			]
 		}
 	  },
-	  "help": {
-		 "Directions":"##Level One Goal\n Get the chicken in to the boat.\n ## Mission\n A farmer went to the local market to purchase a chicken, a fox, and a bag of grain. However, to get home, the farmer has to cross a river, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!\n ##Functions\n  `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
-		 "Hint":"##Hint\n The pickUp('item') gets puts whichever item you select into the boat."
-	  }
+	  "directions":{
+	  	"dialogText": "Get the chicken into the boat by calling the pickUp('item') function."
+	  },
+	  "mission": "A farmer has to cross a river with a chicken, a fox and a bag of grain, but his boat can only hold him and one other object. If left together, the fox would eat the chicken or the chicken would eat the grain. Your job is to aid the farmer in getting each item across the river without losing any of them!",
+	  "tools": " `crossRiver()` - Use the boat to cross to the other side of the river.\n\n`dropOff()` - Drop off any items that are in the boat.\n\n`pickUp('item')` - Pick up the specified item.",
+	  "tips":"The pickUp('item') gets puts whichever item you select into the boat."
 	},
 	{
 	 	"stage": {

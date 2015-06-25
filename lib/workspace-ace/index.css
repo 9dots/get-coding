@@ -22,3 +22,7 @@
 #workspace-ace.ace-tm .ace_marker-layer .ace_step {
   background: rgba(236, 87, 98, .5);
 }
+
+#workspace-ace .ace_content {
+	border-right: 3px solid #f6f6f6;
+}

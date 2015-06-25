@@ -7,6 +7,11 @@ a {
   color: #fff;
 }
 
+.main {
+  width: 100%;
+  min-height: 1200px;
+}
+
 .dialog-screen {
   position: absolute;
   width: 100%;
@@ -65,13 +70,6 @@ a {
   line-height: 2.5em;
   margin-top: 40px;
 }
-
-.main {
-  background-image: url('/apps/main/site_background1.png');
-  background-position: 0px -120px;
-  width: 100%;
-  max-height: 1960px;
-}
  
 .app-holder {
   width: 1260px;
@@ -87,6 +85,8 @@ a {
   width: 1260px;
   height: 200px;
   background: white;
+  border-top: 3px solid #f6f6f6;
+;
 }
 
 .absolute {
@@ -97,19 +97,18 @@ a {
 
 .mission-message {
   position: relative;
-  left: 0px;
+  left: 384px;
   top: 0px;
-  width: 630px;
+  width: 876px;
   height: 100%;
-  background: rgba(229, 242, 246, 1);
   overflow-y: auto;
 }
 
 .help-title {
   position: absolute;
-  left: 50px;
+  left: 30px;
   top: 20px;
-  width: 100%;
+  width: 700px;
   height: auto;
   font-size: 35px;
   color: rgb(79, 108, 115);
@@ -117,83 +116,87 @@ a {
 
 .help-text {
   position: absolute;
-  left: 50px;
-  top: 80px;
-  width: 530px;
+  left: 30px;
+  top: 60px;
+  width: 836px;
   height: auto;
   font-size: 22px;
   color: rgb(79, 108, 115);
 }
 
 .mission-man {
-  left: 630px;
+  left: 210px;
   top: 0px;
-  width: 275px;
+  width: 174px;
   height: 100%;
   background: url('mission-man.png') no-repeat;
-  background-size: 825px 200px;
+  background-position: -8px 15px;
+  background-size: 546px 200px;
   background-color: white;
   overflow: visible;
 }
 
 .mission-man.up {
-  background-position: 0px 0px;
+  background-position: -8px 0px;
 }
 
 .mission-man.out {
-  background-position: -275px 0px;
+  background-position: -190px 0px;
 }
 
 .mission-man.down {
-  background-position: -550px 0px;
+  background-position: -372px 0px;
 }
 
 .mission-menu {
-  left: 905px;
+  left: 0px;
   top: 0px;
-  width: 355px;
+  width: 210px;
   height: 100%;
-  padding-top: 10px;
-  background: url('mission-menu.png') no-repeat;
+  padding-top: 20px;
   background-size: 355px 200px;
 }
 
 .menu-button {
   position: static;
-  width: 275px;
+  width: 210px;
   height: 50px;
-  margin-left: 10px;
-  margin-bottom: 3px;
 }
 
 .mission-button {
-  background: url('mission-dark.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('mission-light1.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .tools-button {
-  background: url('tools-dark.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('tools-light.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .tips-button {
-  background: url('tips-dark.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('tips-light.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .missionOn {
-  background: url('mission-light.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('mission-dark1.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .toolsOn {
-  background: url('tools-light.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('tools-dark.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .tipsOn {
-  background: url('tips-light.png') no-repeat;
-  background-size: 297px 54px;
+  background: url('tips-dark.png') no-repeat;
+  background-size: 225px 50px;
+  background-position: 0px 0px;
 }
 
 .menu-button:hover {

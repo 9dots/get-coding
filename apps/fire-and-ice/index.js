@@ -48,7 +48,14 @@ module
         ], 
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "directions": {
+          "dialogText": "Say the magic words in the right order to get all the gates open and destroy the obstacles with fire and ice spells."
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       }, 
       {
         "level": 2,
@@ -71,7 +78,11 @@ module
         ], 
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       }, 
       {
         "level": 3,
@@ -99,7 +110,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 4,
@@ -127,7 +142,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 5,
@@ -160,7 +179,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 6,
@@ -193,7 +216,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 7,
@@ -226,7 +253,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 8,
@@ -264,7 +295,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 9,
@@ -302,7 +337,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 10,
@@ -340,7 +379,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 11,
@@ -378,7 +421,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       },
       {
         "level": 12,
@@ -416,7 +463,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+      
       }
     ] // specify levels here
   });

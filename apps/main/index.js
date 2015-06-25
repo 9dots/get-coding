@@ -77,49 +77,37 @@ module
 
   this.courses = [
     {
-      name: 'Introduction to Variables',
-      open: 'closed',
-      apps: [
-        appObject['whiteboard-declaring-variables'],
-        appObject['whiteboard-review'],
-        appObject['fridge-variable-expressions'],
-        appObject['strings']
-      ]
-    },
-    {
-      name: 'Using Functions',
+      name: 'Unit 1 - Functions',
       open: 'closed',
       apps: [
         appObject['magic-words'],
         appObject['fire-and-ice'],
         appObject['squirrel'],
         appObject['space-man'], 
+        appObject['frogjump-puzzle'],
+        appObject['crossriver-intro'],
         appObject['create-functions'], 
         appObject['functions-debug']
       ]
     },
     {
-      name: 'Spaceman Advanced Algorithms',
+      name: 'Unit 2 - Variables',
       open: 'closed',
-      apps: [
-        appObject['spaceman-sequencing-blockly'],
-        appObject['spaceman-sequencing'],
-        appObject['spaceman-functions-blockly'],
-        appObject['spaceman-functions']
-      ]
+      apps: []
     },
     {
-      name: 'Puzzles',
+      name: 'Unit 3 - Expressions',
+      open: 'closed',
+      apps: []
+    },
+    {
+      name: 'Pre-Code Activities',
       open: 'closed',
       apps: [
         appObject['crossriver-blockly'],
-        appObject['crossriver-intro'],
-        appObject['crossriver-cops-blockly'],
-        appObject['crossriver-cops'],
-        appObject['crossriver-monkeys'],
-        appObject['frogjump-blockly'],
-        appObject['frogjump-puzzle'],
-        appObject['shapes-blockly']
+        appObject['frogjump-blockly'], 
+         appObject['spaceman-sequencing-blockly'],
+        appObject['spaceman-functions-blockly']
       ]
     }
   ];

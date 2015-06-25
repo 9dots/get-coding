@@ -108,11 +108,7 @@
   </div>
 
   <div class="mission">
-    <div class="absolute mission-message">
-      <div class="help-title">{{App.helpTitle}}</div>
-      <div class="help-text">{{App.helpText}}</div>
-    </div>
-    <div class="absolute mission-man {{App.missionMan}}"></div>
+
     <div class="absolute mission-menu">
       <div class="menu-button mission-button" ng-click="App.setHelp('Mission')" 
         ng-class='{"missionOn": App.missionOn}'></div>
@@ -120,6 +116,15 @@
         ng-class='{"toolsOn": App.toolsOn}'></div>
       <div class="menu-button tips-button" ng-click="App.setHelp('Tips')" 
         ng-class='{"tipsOn": App.tipsOn}'></div>
+    </div>
+    <div class="absolute mission-man {{App.missionMan}}"></div>
+    <div class="absolute mission-message">
+      
+      <div class="help-text">
+
+      {{App.helpText}}
+
+      </div>
     </div>
   </div>
 

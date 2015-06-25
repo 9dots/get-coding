@@ -1,8 +1,10 @@
 #workspace-blockly .blocklyFlyoutBackground {
   fill: rgba(103, 188, 210, .2);
+ 
 }
 
 #workspace-blockly .blocklySvg {
+
   background: white;
 }
 

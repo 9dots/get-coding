@@ -48,7 +48,13 @@ module
         ], 
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "directions": {
+          "dialogText": "Say the magic words in the right order to get all the gates open."
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       }, 
       {
         "level": 2,
@@ -71,7 +77,10 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        }, 
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
         "level": 3,
@@ -94,7 +103,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 4,
@@ -117,7 +130,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 5,
@@ -140,7 +157,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 6,
@@ -168,7 +189,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 7,
@@ -191,7 +216,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 8,
@@ -219,7 +248,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 9,
@@ -247,7 +280,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       },
       {
         "level": 10,
@@ -280,7 +317,11 @@ module
         ],
         "workspace": {
           "codeSpace": ""
-        }
+        },
+        "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
+      
       }
     ] // specify levels here
   });

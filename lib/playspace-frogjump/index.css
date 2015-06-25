@@ -27,7 +27,7 @@
 }
 
 [playspace-frogjump] .left {
-  background:url("left-frog1.png") no-repeat;
+  background:url("left-frog.png") no-repeat;
 }
 
 [playspace-frogjump] .left .numbers {
