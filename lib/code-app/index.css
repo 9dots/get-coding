@@ -7,6 +7,15 @@ a {
   color: #fff;
 }
 
+marked p {
+  font-size: 24px;
+  color: rgb(85, 85, 85);
+}
+
+.markdown-body code {
+  margin-left: 30px;
+}
+
 .main {
   min-height: 1200px;
   width: 1260px;
@@ -112,7 +121,7 @@ a {
   width: 174px;
   height: 100%;
   background: url('mission-man.png') no-repeat;
-  background-position: -8px 15px;
+  background-position: -8px 0px;
   background-size: 546px 200px;
   background-color: white;
   overflow: visible;
@@ -127,7 +136,7 @@ a {
 }
 
 .mission-man.down {
-  background-position: -372px 0px;
+  background-position: -373px 0px;
 }
 
 .mission-menu {
@@ -137,8 +146,8 @@ a {
 
 .menu-button i{
   color: rgb(79, 108, 115);
+  height: 65px;
   font-size: 32px;
-  margin: 3px;
 }
 
 .menu-button:hover {
@@ -269,6 +278,7 @@ button.current.completed {
   height: 630px;
   background: #f6f6f6;
   overflow: hidden;
+  position: relative;
 }
 
 md-bottom-sheet.bottom-sheet {

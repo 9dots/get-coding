@@ -8,7 +8,7 @@ var $ = require('jquery');
 /**
  * Exports
  */
-var name = module.exports = 'playspsace-{{name}}';
+var name = module.exports = 'playspace-{{name}}';
 
 /**
  * Styles

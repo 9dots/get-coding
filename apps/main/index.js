@@ -47,7 +47,10 @@ var module = angular.module(name, [
   require('apps/crossriver-monkeys'), 
   require('apps/squirrel'), 
   require('apps/magic-words'), 
-  require('apps/fire-and-ice')
+  require('apps/fire-and-ice'), 
+  require('apps/variables-and-numbers'), 
+  require('apps/math-operators'), 
+  require('apps/combining-variables')
 ]);
 
 /**
@@ -98,7 +101,11 @@ module
     {
       name: 'Unit 3 - Expressions',
       open: 'closed',
-      apps: []
+      apps: [
+        appObject['variables-and-numbers'], 
+        appObject['math-operators'], 
+        appObject['combining-variables']
+      ]
     },
     {
       name: 'Pre-Code Activities',

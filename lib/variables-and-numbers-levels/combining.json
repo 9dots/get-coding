@@ -1,0 +1,151 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",//determines view
+          "place": [1, 2, 3],
+          "variables": ["num1", "num2", "product"], //all variables
+          "values": [6, 3, 18], //values for check purposes
+          "showValues": [6, 3, null],//values to show in playspace initially
+          "setVars": ["num1", "num2"],//variables that can't change
+          "setVals": [6, 3],//values for non-changing variables
+          "showItems" : [], 
+          "operation" : "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",
+          "place": [1, 2, 3],
+          "variables": ["num1", "num2", "quotient"], 
+          "values": [6, 3, 2], 
+          "showValues": [6, 3, null],
+          "setVars": ["num1", "num2"],
+          "setVals": [6, 3], 
+          "showItems": [], 
+          "operation": "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = num1 + num2;\nvar difference = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",
+          "place": [1, 2, 3],
+          "variables": ["cupcakes", "people", "cupcakesPer"], 
+          "values": [20, 10, 2], 
+          "showValues": [null, 10, 2],
+          "setVars": ["cupcakesPer", "people"],
+          "setVals": [2, 10], 
+          "showItems" : [], 
+          "operation": "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = num1 + num2;\nvar difference = num1 - num2;\nvar product = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",
+          "place": [2, 1, 3],
+          "variables": ["width", "length", "area"], 
+          "values": [5, 5, 25], 
+          "showValues": [null, 5, 25],
+          "setVars": ["area", "length"],
+          "setVals": [25, 5], 
+          "operation": "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = num1 + num2;\nvar difference = num1 - num2;\nvar product = num1 * num2;\nvar quotient = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",
+          "place": [3, 2, 1],
+          "variables": ["area", "width", "length"], 
+          "values": [25, 5, 5], 
+          "showValues": [25, 5, null],
+          "setVars": ["area", "width"],
+          "setVals": [25, 5], 
+          "operation": "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = num1 + num2;\nvar difference = num1 - num2;\nvar product = num1 * num2;\nvar quotient = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level3",
+          "place": [1, 3, 2],
+          "variables": ["cost", "costEach", "people"], 
+          "values": [50, 5, 10], 
+          "showValues": [50, 5, null],
+          "setVars": ["cost", "costEach"],
+          "setVals": [50, 5], 
+          "operation": "multiplication"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = num1 + num2;\nvar difference = num1 - num2;\nvar product = num1 * num2;\nvar quotient = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }
+  ]
+}
+
+
+
+
+
+

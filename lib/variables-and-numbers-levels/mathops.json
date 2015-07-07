@@ -1,0 +1,96 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "board": {
+          "view": "level2",//determines view
+          "variables": ["num1", "num2", "sum"], //all variables
+          "values": [6, 3, 9], //values for check purposes
+          "showValues": [6, 3, null],//values to show in playspace initially
+          "setVars": ["num1", "num2"],//variables that can't change
+          "setVals": [6, 3],//values for non-changing variables
+          "showItems": [], 
+          "operation": "addition"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level2",
+          "variables": ["num1", "num2", "difference"], 
+          "values": [6, 3, 3], 
+          "showValues": [6, 3, null],
+          "setVars": ["num1", "num2"],
+          "setVals": [6, 3], 
+          "showItems": [],
+          "operation": "addition"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var difference = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level2",
+          "variables": ["apples", "oranges", "fruit"], 
+          "values": [6, 3, 9], 
+          "showValues": [6, 3, null],
+          "setVars": ["apples", "oranges"],
+          "setVals": [6, 3],
+          "showItems": ["apple", "orange"],
+          "operation": "addition"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var fruit = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+    {
+      "playspace": {
+        "board": {
+          "view": "level2",
+          "variables": ["apples", "oranges", "fruit"], 
+          "values": [6, 3, 9], 
+          "showValues": [6, null, 9],
+          "setVars": ["apples", "fruit"],
+          "setVals": [6, 9], 
+          "showItems": ["apple", "orange"],
+          "operation": "addition"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var oranges = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }
+  ]
+}

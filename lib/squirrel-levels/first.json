@@ -27,7 +27,7 @@
 			"dialogText":"Use functions to guide the squirrel up the tree and get the acorn."
 	  }, 
 	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
+      "tools": "```right()```- face right```left()```- face left   ```up()```- face up    ```down()```- face down\n\n```move()```- move forward one square", 
       "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
 	}, 
 	{

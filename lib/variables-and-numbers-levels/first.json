@@ -1,0 +1,70 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "board": {
+          "view": "level1",
+          "variables": ["apples"], 
+          "values": [12], 
+          "showItems": ["apple"], 
+          "showValues": [null], 
+          "setVars": [], 
+          "setVals": []
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called apples and give it the correct number value."
+      }, 
+      "mission": "Declare a variable called apples and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of apples you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level1",
+          "variables": ["apples", "oranges"], 
+          "values": [12, 12], 
+          "showItems": ["apple", "orange"], 
+          "showValues": [12, null],
+          "setVars": [], 
+          "setVals": []
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = 12;\nvar oranges = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a new variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a new variable called oranges and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of oranges you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "level1",
+          "variables": ["apples", "oranges", "limes"], 
+          "values": [12, 12, 12], 
+          "showItems": ["apple", "orange", "lime"], 
+          "showValues": [12, 12, null],
+          "setVars": [], 
+          "setVals": []
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = 12;\nvar oranges = 12;\nvar limes = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a third variable called limes and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }
+  ]
+}

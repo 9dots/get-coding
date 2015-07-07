@@ -1,0 +1,91 @@
+[playspace-variables-and-numbers] .background {
+	width: 630px;
+	height: 630px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+[playspace-variables-and-numbers] .hide {
+	display: none;
+}
+
+[playspace-variables-and-numbers] .level3 .variableBox {
+	position: relative;
+}
+
+[playspace-variables-and-numbers] .variable {
+	width: 210px;
+	height: 315px;
+	background: url('var-man.png') no-repeat;
+	background-position: 18px 0px;
+	position: relative;
+}
+
+[playspace-variables-and-numbers] .variable.first {
+	position: absolute;
+}
+
+[playspace-variables-and-numbers] .variable.middle {
+	position: absolute;
+}
+
+[playspace-variables-and-numbers] .variable.last {
+	position: absolute;
+}
+
+[playspace-variables-and-numbers] .varName {
+	width: 118px;
+	height: 21px;
+	color: white;
+	font: 17.5px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: 40px;
+	top:114px;
+}
+
+[playspace-variables-and-numbers] .varValue {
+	width: 99px;
+	height: 86px;
+	color: rgb(79, 108, 116);
+	background: white;
+	font-size: 82px;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	left: 50px;
+	top:147px;
+	overflow: hidden;
+}
+
+[playspace-variables-and-numbers] .items {
+	width: auto;
+	height: auto;
+}
+
+[playspace-variables-and-numbers] .item {
+	width: 65px;
+	height: 74px;
+	display: inline-block;
+}
+
+[playspace-variables-and-numbers] .apple {
+	background: url('apple.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+[playspace-variables-and-numbers] .orange {
+	background: url('orange1.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+[playspace-variables-and-numbers] .lime {
+	background: url('lime.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+

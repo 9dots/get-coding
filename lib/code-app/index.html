@@ -108,13 +108,13 @@
   <div class="mission" layout='row'>
 
     <div class="mission-menu" layout='column'>
-      <div class="menu-button mission-button" ng-click="App.setHelp('Mission')">
+      <div class="menu-button mission-button" ng-click="App.setHelp('Mission', 'up')">
         <i class='mdi-flag'></i>
       </div>
-      <div class="menu-button tools-button" ng-click="App.setHelp('Tools')">
+      <div class="menu-button tools-button" ng-click="App.setHelp('Tools', 'out')">
         <i class='mdi-settings'></i>
       </div>
-      <div class="menu-button tips-button" ng-click="App.setHelp('Tips')">
+      <div class="menu-button tips-button" ng-click="App.setHelp('Tips', 'down')">
         <i class='mdi-flash-on'></i>
       </div>
     </div>
@@ -122,7 +122,7 @@
     <div class="mission-message" flex>
       <h3 class='help-title'> {{App.helpTitle}}</h3>
       <div class="help-text">
-        {{App.helpText}}
+        <marked>{{App.helpText}}</marked>
       </div>
     </div>
   </div>
