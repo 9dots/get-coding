@@ -1,0 +1,77 @@
+[playspace-cash-register] .background {
+	width: 630px;
+	height: 630px;
+	background: url('register-background.png') no-repeat;
+	position: relative;
+}
+
+[playspace-cash-register] .receipt {
+	width: 200px;
+	height: 435px;
+	position: absolute;
+	left: 93px;
+	top: 90px;
+}
+
+[playspace-cash-register] .lineItem div {
+	width: 100%;
+	font-size: 24px;
+	font-weight: 500;
+	color: rgb(79, 108, 116);
+}
+
+[playspace-cash-register] .itemName {
+	text-align: left;
+}
+
+[playspace-cash-register] .itemPrice {
+	text-align: right;
+}
+
+[playspace-cash-register] .total {
+	width: 196px;
+	height: 134px;
+	color: rgb(79, 108, 116);
+	font-size: 60px;
+	line-height: 2em;
+	text-align: center;
+	position: absolute;
+	left: 385px;
+	top: 370px;
+}
+
+[playspace-cash-register] .items {
+	width: 630px;
+	height: 74px;
+	position: absolute;
+	top: 500px;
+}
+
+[playspace-cash-register] .apple {
+	width: 65px;
+	height: 74px;
+	background: url('apple.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+[playspace-cash-register] .orange {
+	width: 65px;
+	height: 74px;
+	background: url('orange.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+[playspace-cash-register] .lime {
+	width: 65px;
+	height: 74px;
+	background: url('lime.png') no-repeat;
+	background-size: 65px 74px;
+}
+
+[playspace-cash-register] .hide {
+	display: none;
+}
+
+
+
+

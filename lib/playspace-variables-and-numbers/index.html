@@ -1,6 +1,6 @@
 <!--first view, for first level...add class to background from model-->
 
-<div class='background level1' ng-class="{hide: VariablesAndNumbers.view !== 'level1'}">
+<div class='background varsandnums' ng-class="{hide: VariablesAndNumbers.view !== 'varsandnums'}">
 
 	<div class="variableBox" layout='row'>
 		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames" flex='33'>
@@ -24,45 +24,45 @@
 </div>
 
 <!--second view, for second level-->
-<div class="background level2"  ng-class="{hide: VariablesAndNumbers.view !== 'level2'}">
+<div class="background mathops"  ng-class="{hide: VariablesAndNumbers.view !== 'mathops'}">
 	
 	<div class="variableBox" layout='row'>
 		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames">
 			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
-			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable]/2 : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable] : ""}}</div>
+		</div>
+	</div>
+
+	<div class="itemBox" layout='row'>
+		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[0].length}}" flex>
+			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[0] track by $index" class="item {{item}}"></div>
+		</div>
+		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[1].length}}" flex>
+			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[1] track by $index" class="item {{item}}"></div>
+		</div>
+		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[2].length}}" flex>
+			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[2] track by $index" class="item {{item}}"></div>
 		</div>
 	</div>
 
 </div>
 
-
-
-
-
-
-
-
-
 <!--third view, for third level currently not being used-->
-<div class="background level3"  ng-class="{hide: VariablesAndNumbers.view !== 'level3'}">
+<div class="background combining"  ng-class="{hide: VariablesAndNumbers.view !== 'combining'}">
 	
 	<div class="variableBox" layout='row'>
-		<div class="variable" flex-order= "{{VariablesAndNumbers.place[0]}}">
+		<div class="variable">
 			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variableNames[0] : ""}}</div>
-			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]]/2 : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] : ""}}</div>
 		</div>
-		<div class="variable" flex-order= "{{VariablesAndNumbers.place[1]}}">
+		<div class="variable">
 			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variableNames[1] : ""}}</div>
 			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] }}</div>
 		</div>
-		<div class="variable" flex-order= "{{VariablesAndNumbers.place[2]}}">
+		<div class="variable">
 			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variableNames[2] : ""}}</div>
-			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]]/2 : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] : ""}}</div>
 		</div>
-
-
-
-
 
 	</div>
 
@@ -79,4 +79,104 @@
 
 	</div>
 
+</div>
+
+
+<!--first view, for fourth level...add class to background from model-->
+
+<div class='background findrule' ng-class="{hide: VariablesAndNumbers.view !== 'findrule'}">
+
+	<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variableNames[0] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variableNames[1] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variableNames[2] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] : ""}}</div>
+		</div>
+	</div>
+
+		<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variableNames[3] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] ? VariablesAndNumbers.variableNames[4] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] ? VariablesAndNumbers.variableNames[5] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] : ""}}</div>
+		</div>
+	</div>
+</div>
+
+<!--first view, for fifth level...add class to background from model-->
+
+<div class='background copyrule' ng-class="{hide: VariablesAndNumbers.view !== 'copyrule'}">
+
+	<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variableNames[0] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variableNames[1] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variableNames[2] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] : ""}}</div>
+		</div>
+	</div>
+
+		<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variableNames[3] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] ? VariablesAndNumbers.variableNames[4] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[4]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] ? VariablesAndNumbers.variableNames[5] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[5]] : ""}}</div>
+		</div>
+	</div>
+</div>
+
+<!--first view, for 3 to 1 level...add class to background from model-->
+
+<div class='background threetoone' ng-class="{hide: VariablesAndNumbers.view !== 'threetoone'}">
+
+	<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variableNames[0] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[0]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variableNames[1] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[1]] : ""}}</div>
+		</div>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variableNames[2] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[2]] : ""}}</div>
+		</div>
+	</div>
+
+		<div class="variableBox" layout='row'>
+		<div class="variable">
+			<div class="varName">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variableNames[3] : ""}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] ? VariablesAndNumbers.variables[VariablesAndNumbers.variableNames[3]] : ""}}</div>
+		</div>
+
+		</div>
+	</div>
 </div>

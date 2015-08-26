@@ -1,6 +1,6 @@
 {
   "name": "squirrel",
-  "title": "Squirrel",
-  "description": "Call functions to get the squirrel to the acorn.",
+  "title": "Calling Functions",
+  "description": "Call functions to help the squirrel gather acorns.",
   "author": "Ryan Baber"
 }

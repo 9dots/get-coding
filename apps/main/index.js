@@ -50,7 +50,12 @@ var module = angular.module(name, [
   require('apps/fire-and-ice'), 
   require('apps/variables-and-numbers'), 
   require('apps/math-operators'), 
-  require('apps/combining-variables')
+  require('apps/combining-variables'), 
+  require('apps/cash-register'), 
+  require('apps/find-the-rule'), 
+  require('apps/copy-rule'), 
+  require('apps/three-to-one'), 
+  require('apps/test')
 ]);
 
 /**
@@ -83,28 +88,21 @@ module
       name: 'Unit 1 - Functions',
       open: 'closed',
       apps: [
-        appObject['magic-words'],
-        appObject['fire-and-ice'],
-        appObject['squirrel'],
-        appObject['space-man'], 
-        appObject['frogjump-puzzle'],
-        appObject['crossriver-intro'],
-        appObject['create-functions'], 
-        appObject['functions-debug']
+        appObject['squirrel']
       ]
     },
     {
       name: 'Unit 2 - Variables',
       open: 'closed',
-      apps: []
+      apps: [
+        appObject['variables-and-numbers']
+      ]
     },
     {
       name: 'Unit 3 - Expressions',
       open: 'closed',
       apps: [
-        appObject['variables-and-numbers'], 
-        appObject['math-operators'], 
-        appObject['combining-variables']
+
       ]
     },
     {
@@ -113,8 +111,15 @@ module
       apps: [
         appObject['crossriver-blockly'],
         appObject['frogjump-blockly'], 
-         appObject['spaceman-sequencing-blockly'],
+        appObject['spaceman-sequencing-blockly'],
         appObject['spaceman-functions-blockly']
+      ]
+    }, 
+    {
+      name: 'Tests',
+      open: 'closed',
+      apps: [
+        appObject['test']
       ]
     }
   ];

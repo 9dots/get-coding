@@ -3,13 +3,11 @@
     {
       "playspace": {
         "board": {
-          "view": "level1",
+          "view": "varsandnums",
           "variables": ["apples"], 
           "values": [12], 
           "showItems": ["apple"], 
-          "showValues": [null], 
-          "setVars": [], 
-          "setVals": []
+          "showValues": [null]
         }
       },
       "workspace": {
@@ -20,18 +18,41 @@
       }, 
       "mission": "Declare a variable called apples and give it the correct number value based on the picture above.", 
       "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
-      "tips": "After the equals sign above, type the number of apples you count in the picture above."
+      "tips": "After the equals sign above, type the number of apples you count in the picture above.", 
+      "quiz": [
+        {
+          "database": "https://getcoding.firebaseio.com/",
+          "questionId": "pt1",
+          "text": "Which one of the following choices is the only one that could be used as a variable name?", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
+        },{
+          "questionId": "pt2",
+          "text": "question 2!", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
+        },{
+          "questionId": "pt3",
+          "text": " qeustion 3?", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
+        } 
+      ]
     }, 
     {
       "playspace": {
         "board": {
-          "view": "level1",
+          "view": "varsandnums",
           "variables": ["apples", "oranges"], 
           "values": [12, 12], 
           "showItems": ["apple", "orange"], 
-          "showValues": [12, null],
-          "setVars": [], 
-          "setVals": []
+          "showValues": [12, null]
         }
       },
       "workspace": {
@@ -47,13 +68,11 @@
     {
       "playspace": {
         "board": {
-          "view": "level1",
+          "view": "varsandnums",
           "variables": ["apples", "oranges", "limes"], 
           "values": [12, 12, 12], 
           "showItems": ["apple", "orange", "lime"], 
-          "showValues": [12, 12, null],
-          "setVars": [], 
-          "setVals": []
+          "showValues": [12, 12, null]
         }
       },
       "workspace": {

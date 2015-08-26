@@ -1,0 +1,31 @@
+{
+  "levels": [
+    {
+	"quiz": [
+        {
+       	  "database": "https://getcodingpretest.firebaseio.com/",
+          "questionId": "pt1",
+          "text": "Which one of the following choices is the only one that could be used as a variable name and also what do you think of free verse poetry? Good? No good?", 
+          "a": "number1 and some other stuff", 
+          "b": "1number and some other stuff", 
+          "c": "number 1 and some other stuff", 
+          "d": "1 number and some other stuff"
+        },{
+          "questionId": "pt2",
+          "text": "question 2!", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
+        },{
+          "questionId": "pt3",
+          "text": " qeustion 3?", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
+        } 
+      ]
+    }
+  ]
+}

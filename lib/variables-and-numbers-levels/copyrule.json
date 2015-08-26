@@ -1,0 +1,158 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "board": {
+          "view": "copyrule",//determines view
+          "variables": ["a", "b", "c", "x", "y", "z"], //all variables
+          "values": [1, 2, 3, null, null, null], //values for check purposes
+          "showItems" : [],
+          "showValues": [1, 2, 3, null, null, null],//values to show in playspace initially
+          "setVars": ["a", "b", "c"],//variables that can't change
+          "setVals": [1, 2, 3],//values for non-changing variables
+          "requiredCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 0,
+            "y": 0
+          }, 
+          "numberCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 1.5,
+            "y": 1
+          }, 
+          "rule": "y+1"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "view": "copyrule",//determines view
+          "variables": ["a", "b", "c", "x", "y", "z"], //all variables
+          "values": [10, 9, 8, null, null, null], //values for check purposes
+          "showItems" : [],
+          "showValues": [10, 9, 8, null, null, null],//values to show in playspace initially
+          "setVars": ["a", "b", "c"],//variables that can't change
+          "setVals": [10, 9, 8],//values for non-changing variables
+          "requiredCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 0,
+            "y": 0
+          }, 
+          "numberCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 1.5,
+            "y": 1
+          }, 
+          "rule": "y-1"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+    {
+      "playspace": {
+        "board": {
+          "view": "copyrule",//determines view
+          "variables": ["a", "b", "c", "x", "y", "z"], //all variables
+          "values": [1, 2, 4, null, null, null], //values for check purposes
+          "showItems" : [],
+          "showValues": [1, 2, 4, null, null, null],//values to show in playspace initially
+          "setVars": ["a", "b", "c"],//variables that can't change
+          "setVals": [1, 2, 4],//values for non-changing variables
+          "requiredCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 0,
+            "y": 0
+          }, 
+          "numberCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 1.5,
+            "y": 1
+          }, 
+          "rule": "y*2"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+    {
+      "playspace": {
+        "board": {
+          "view": "copyrule",//determines view
+          "variables": ["a", "b", "c", "x", "y", "z"], //all variables
+          "values": [80, 40, 20, null, null, null], //values for check purposes
+          "showItems" : [],
+          "showValues": [80, 40, 20, null, null, null],//values to show in playspace initially
+          "setVars": ["a", "b", "c"],//variables that can't change
+          "setVals": [80, 40, 20],//values for non-changing variables
+          "requiredCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 0,
+            "y": 0
+          }, 
+          "numberCalls": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "x": 1.5,
+            "y": 1
+          }, 
+          "rule": "y/2"
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sum = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
+      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+    },
+  ]
+}
+
+
+
+
+
+

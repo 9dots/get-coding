@@ -1,6 +1,6 @@
 {
   "name": "math-operators",
   "title": "Math Operators",
-  "description": "Combine variables with number values using +, -, *, and /.",
+  "description": "Combine variables with number values using + and - .",
   "author": "Ryan Baber"
 }

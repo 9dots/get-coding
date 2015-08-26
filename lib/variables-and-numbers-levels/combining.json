@@ -3,15 +3,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",//determines view
-          "place": [1, 2, 3],
+          "view": "combining",//determines view
           "variables": ["num1", "num2", "product"], //all variables
           "values": [6, 3, 18], //values for check purposes
           "showValues": [6, 3, null],//values to show in playspace initially
+          "showItems" : [],
           "setVars": ["num1", "num2"],//variables that can't change
           "setVals": [6, 3],//values for non-changing variables
-          "showItems" : [], 
-          "operation" : "multiplication"
+          "requiredCalls": {
+            "num1": 0, 
+            "num2": 0
+          }, 
+          "numberCalls": {
+            "num1": 1,
+            "num2": 1
+          }
         }
       },
       "workspace": {
@@ -27,15 +33,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",
-          "place": [1, 2, 3],
+          "view": "combining",
           "variables": ["num1", "num2", "quotient"], 
           "values": [6, 3, 2], 
+          "showItems" : [],
           "showValues": [6, 3, null],
           "setVars": ["num1", "num2"],
           "setVals": [6, 3], 
-          "showItems": [], 
-          "operation": "multiplication"
+          "requiredCalls": {
+            "num1": 0, 
+            "num2": 0
+          }, 
+          "numberCalls": {
+            "num1": 1,
+            "num2": 1
+          }
         }
       },
       "workspace": {
@@ -51,15 +63,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",
-          "place": [1, 2, 3],
+          "view": "combining",
           "variables": ["cupcakes", "people", "cupcakesPer"], 
           "values": [20, 10, 2], 
+          "showItems" : [],
           "showValues": [null, 10, 2],
           "setVars": ["cupcakesPer", "people"],
           "setVals": [2, 10], 
-          "showItems" : [], 
-          "operation": "multiplication"
+          "requiredCalls": {
+            "cupcakesPer": 0, 
+            "people": 0
+          }, 
+          "numberCalls": {
+            "cupcakesPer": 1,
+            "people": 1
+          }
         }
       },
       "workspace": {
@@ -75,14 +93,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",
-          "place": [2, 1, 3],
-          "variables": ["width", "length", "area"], 
+          "view": "combining",
+          "variables": ["l", "w", "area"], 
           "values": [5, 5, 25], 
-          "showValues": [null, 5, 25],
-          "setVars": ["area", "length"],
-          "setVals": [25, 5], 
-          "operation": "multiplication"
+          "showItems" : [],
+          "showValues": [5, 5, null],
+          "setVars": ["l", "w"],
+          "setVals": [5, 5],
+          "requiredCalls": {
+            "l": 0, 
+            "w": 0
+          }, 
+          "numberCalls": {
+            "l": 1,
+            "w": 1
+          }
         }
       },
       "workspace": {
@@ -98,14 +123,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",
-          "place": [3, 2, 1],
-          "variables": ["area", "width", "length"], 
-          "values": [25, 5, 5], 
-          "showValues": [25, 5, null],
-          "setVars": ["area", "width"],
-          "setVals": [25, 5], 
-          "operation": "multiplication"
+          "view": "combining",
+          "variables": ["l", "w", "area"], 
+          "values": [5, 5, 25], 
+          "showItems" : [],
+          "showValues": [5, null, 25],
+          "setVars": ["l", "area"],
+          "setVals": [5, 25],
+          "requiredCalls": {
+            "l": 0, 
+            "area": 0
+          }, 
+          "numberCalls": {
+            "l": 1,
+            "area": 1
+          }
         }
       },
       "workspace": {
@@ -121,14 +153,21 @@
     {
       "playspace": {
         "board": {
-          "view": "level3",
-          "place": [1, 3, 2],
+          "view": "combining",
           "variables": ["cost", "costEach", "people"], 
           "values": [50, 5, 10], 
+          "showItems" : [],
           "showValues": [50, 5, null],
           "setVars": ["cost", "costEach"],
-          "setVals": [50, 5], 
-          "operation": "multiplication"
+          "setVals": [50, 5],
+          "requiredCalls": {
+            "cost": 0, 
+            "costEach": 0
+          }, 
+          "numberCalls": {
+            "cost": 1,
+            "costEach": 1
+          }
         }
       },
       "workspace": {

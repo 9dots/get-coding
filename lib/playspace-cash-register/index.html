@@ -1,0 +1,16 @@
+<div class='background'>
+
+	<div class="receipt">
+		<div class="readout" layout='column'>
+			<div class="lineItem" ng-repeat="item in CashRegister.basketItems" layout='row'>
+				<div class="itemName" flex='60'>{{item.item}}</div>
+				<div flex='10'></div>
+				<div class="itemPrice" flex='30'>{{(item.price / 100).toFixed(2)}}</div>
+			</div>
+		</div>
+	</div>
+	<div class="total">${{(CashRegister.variables['total']/100).toFixed(2)}}</div>
+	<div class="items" layout='row'>
+		<div ng-repeat="item in CashRegister.basketItems" ng-class="{hide : item.price < 0}" class="{{item.item}}" flex></div>
+	</div>
+</div>

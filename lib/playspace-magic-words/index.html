@@ -5,7 +5,7 @@
 		<div flex="75" layout="row" class="gate-holder">
 			<div ng-repeat="item in MagicWords.obstacles" class="{{item.type}} {{item.words[0]}} {{item.words[1]}} {{item.words[2]}} {{item.words[3]}} {{item.position}}" id="item{{$index}}">
 				<div class="labelbox">
-					<div ng-repeat="word in item.words" class="label {{word}}label">{{word}}</div>
+					<div ng-repeat="word in item.words" class="label {{word}}label">{{word.toUpperCase()}}</div>
 				</div>
 			</div>
 		</div>

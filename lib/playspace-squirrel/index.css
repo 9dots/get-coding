@@ -17,14 +17,24 @@ md-bottom-sheet.playspace-squirrel {
 }
 
 [playspace-squirrel] .background.background1 {
-  background: url('squirrel-background1.png');
+  background: url('sq-bg1.png');
 }
 
 [playspace-squirrel] .background.background2 {
-  background: url('squirrel-background3.png');
+  background: url('sq-bg2.png');
 }
 
+[playspace-squirrel] .background.background3 {
+  background: url('sq-bg3.png');
+}
 
+[playspace-squirrel] .background.background4 {
+  background: url('sq-bg4.png');
+}
+
+[playspace-squirrel] .background.background5 {
+  background: url('sq-bg5.png');
+}
 
 [playspace-squirrel] .grid-holder {
   position: relative;

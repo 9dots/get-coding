@@ -87,7 +87,7 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["goo", "loo"],
             "position": "down"
           },
           {
@@ -97,7 +97,7 @@ module
           }, 
           {
             "type": "gate",
-            "words": ["loo"],
+            "words": ["foo", "loo"],
             "position": "down"
           }
         ],
@@ -124,7 +124,7 @@ module
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "words": ["loo"],
             "position": "down"
           }
         ],
@@ -141,18 +141,24 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["goo", "loo"],
+            "words": ["foo"],
             "position": "down"
           },
           {
             "type": "gate",
             "words": ["foo", "goo"],
-            "position": "up"
+            "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "loo"],
+            "words": ["foo", "goo", "loo"],
             "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo", "goo", "loo", "boo"],
+            "position": "up"
+
           }
         ],
         "workspace": {
@@ -200,22 +206,28 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "up"
+            "words": ["doo", "foo", "loo"],
+            "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo", "goo"],
+            "words": ["foo", "goo", "moo"],
             "position": "up"
           }, 
           {
             "type": "gate",
             "words": ["foo", "goo", "loo"],
             "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["doo", "koo", "moo"], 
+            "position": "down"
           }
         ],
         "workspace": {
-          "codeSpace": ""
+          "codeSpace": "", 
+          "loc": 2
         },
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
@@ -227,27 +239,28 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["foo", "koo", "goo"],
             "position": "down"
           },
           {
             "type": "gate",
-            "words": ["goo", "loo"],
+            "words": ["goo", "loo", "moo"],
             "position": "down"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
+            "words": ["doo", "foo", "moo"],
+            "position": "down"
           },
           {
             "type": "gate",
             "words": ["boo", "foo", "goo"],
-            "position": "up"
+            "position": "down"
           }
         ],
         "workspace": {
-          "codeSpace": ""
+          "codeSpace": "", 
+          "loc": 2
         },
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
@@ -259,64 +272,78 @@ module
         "obstacles": [
           {
             "type": "gate",
-            "words": ["boo", "goo"],
+            "words": ["boo", "doo", "foo"],
             "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo", "loo"],
-            "position": "down"
+            "words": ["doo", "foo", "goo"],
+            "position": "up"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo"],
+            "words": ["boo", "doo", "foo", "goo", "koo", "moo"],
             "position": "up"
           },
           {
             "type": "gate",
-            "words": ["boo", "foo", "goo", "loo"],
+            "words": ["foo", "goo", "koo"],
+            "position": "up"
+          },
+          {
+            "type": "gate",
+            "words": ["goo", "koo", "moo"],
             "position": "down"
           }
         ],
         "workspace": {
-          "codeSpace": ""
+          "codeSpace": "", 
+          "loc": 2
         },
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       
       },
+
+
       {
         "level": 10,
         "obstacles": [
           {
             "type": "gate",
-            "words": ["foo"],
+            "words": ["koo", "moo", "boo"],
             "position": "down"
           },
           {
             "type": "gate",
-            "words": ["foo", "loo"],
+            "words": ["moo", "boo", "foo"],
             "position": "up"
           }, 
           {
             "type": "gate",
-            "words": ["foo", "goo"],
-            "position": "up"
-          },
-          {
-            "type": "gate",
-            "words": ["foo", "goo", "loo"],
+            "words": ["boo", "foo", "doo"],
             "position": "down"
           },
           {
             "type": "gate",
-            "words": ["boo", "foo", "loo"],
+            "words": ["foo", "doo", "goo"],
+            "position": "up"
+          },
+          {
+            "type": "gate",
+            "words": ["doo", "goo", "koo"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["goo", "koo", "moo"],
             "position": "up"
           }
         ],
         "workspace": {
-          "codeSpace": ""
+          "codeSpace": "", 
+          "loc": 3
         },
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",

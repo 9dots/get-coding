@@ -25,6 +25,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: require('lib/variables-and-numbers-levels').first // specify levels here
+    levels: require('lib/variables-and-numbers-levels').varsandnums // specify levels here
   });
 }]);
