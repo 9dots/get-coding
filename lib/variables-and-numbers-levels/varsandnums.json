@@ -3,10 +3,12 @@
     {
       "playspace": {
         "board": {
+          "background": "store",
+          "foreground": "level1",
           "view": "varsandnums",
           "variables": ["apples"], 
-          "values": [12], 
-          "showItems": ["apple"], 
+          "values": [9], 
+          "showItems": [], 
           "showValues": [null]
         }
       },
@@ -14,76 +16,199 @@
         "codeSpace": "var apples = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called apples and give it the correct number value."
+        "dialogText": "We have declared a variable called \`apples\` for you. Give it the correct number value based on the picture."
       }, 
-      "mission": "Declare a variable called apples and give it the correct number value based on the picture above.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
-      "tips": "After the equals sign above, type the number of apples you count in the picture above.", 
-      "quiz": [
-        {
-          "database": "https://getcoding.firebaseio.com/",
-          "questionId": "pt1",
-          "text": "Which one of the following choices is the only one that could be used as a variable name?", 
-          "a": "number1", 
-          "b": "1number", 
-          "c": "number 1", 
-          "d": "1 number"
-        },{
-          "questionId": "pt2",
-          "text": "question 2!", 
-          "a": "number1", 
-          "b": "1number", 
-          "c": "number 1", 
-          "d": "1 number"
-        },{
-          "questionId": "pt3",
-          "text": " qeustion 3?", 
-          "a": "number1", 
-          "b": "1number", 
-          "c": "number 1", 
-          "d": "1 number"
-        } 
-      ]
+      "mission": "Give the variable called \`apples\` the correct number value based on the picture.", 
+      "tools": "Type the number of apples after the \`=\` and before the \`;\`.", 
+      "tips": "Your code should looke like this: \`var apples = 9;\`", 
     }, 
     {
       "playspace": {
         "board": {
+          "background": "store",
+          "foreground": "level2",
           "view": "varsandnums",
           "variables": ["apples", "oranges"], 
-          "values": [12, 12], 
-          "showItems": ["apple", "orange"], 
-          "showValues": [12, null]
+          "values": [7, 5], 
+          "showItems": [], 
+          "showValues": [null, null]
         }
       },
       "workspace": {
-        "codeSpace": "var apples = 12;\nvar oranges = ;"
+        "codeSpace": "var apples = ;\rvar oranges = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a new variable called oranges and give it the correct number value."
+        "dialogText": "Great! Now let's try two variables. Give \`apples\` and \`oranges\` the correct number values based on the picture."
       }, 
-      "mission": "Declare a new variable called oranges and give it the correct number value based on the picture above.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
-      "tips": "After the equals sign above, type the number of oranges you count in the picture above."
+      "mission": "Give the variables \`apples\` and \`oranges\` the correct number values based on the picture.", 
+      "tools": "Type the correct numbers after the \`=\` signs and before the \`;\`s.", 
+      "tips": "Your code should looke like this: \`var apples = 7;\`\r\r\`var oranges = 5\`"
     }, 
     {
       "playspace": {
         "board": {
+          "background": "store",
+          "foreground": "level3",
           "view": "varsandnums",
           "variables": ["apples", "oranges", "limes"], 
-          "values": [12, 12, 12], 
-          "showItems": ["apple", "orange", "lime"], 
-          "showValues": [12, 12, null]
+          "values": [8, 4, 10], 
+          "showItems": [], 
+          "showValues": [null, null, null]
         }
       },
       "workspace": {
-        "codeSpace": "var apples = 12;\nvar oranges = 12;\nvar limes = ;"
+        "codeSpace": "var apples = ;\rvar oranges = ;\rvar limes = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a third variable called limes and give it the correct number value."
+        "dialogText": "Ok! This is the last time we'll declare all the variables for you. Give \`apples\`, \`oranges\`, and \`limes\` the correct number values based on the picture."
       }, 
-      "mission": "Declare a third variable called limes and give it the correct number value based on the picture above.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it.", 
-      "tips": "After the equals sign above, type the number of limes you count in the picture above."
+      "mission": "Give the three variables declared in the code panel the correct number values based on the picture above.", 
+      "tools": "Type the correct numbers after the \`=\` signs and before the \`;\`s.", 
+      "tips": "Your code should looke like this: \`var apples = 8;\`\r\r\`var oranges = 4\`\r\r\`var limes = 10;\`"
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "bakery",
+          "foreground": "level4",
+          "view": "varsandnums",
+          "variables": ["doughnuts", "cupcakes", "cookies"], 
+          "values": [10, 12, 14], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": "var doughnuts = ;"
+      }, 
+      "directions": {
+        "dialogText": "Now YOU have to declare some variables! We've declared \`doughnuts\`, but it's up to you to declare \`cupcakes\` and \`cookies\` and to give them number values."
+      }, 
+      "mission": "Declare variables called \`cupcakes\` and \`cookies\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tips": "Your first line should look like this: \`var doughnuts = 10;\`\r The other lines should look just like that, though with different names and values."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "bakery",
+          "foreground": "level5",
+          "view": "varsandnums",
+          "variables": ["sprinkles", "chocolate", "glazed"], 
+          "values": [7, 5, 8], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "You're on your own now! Declare the variables \`sprinkles\`, \`chocolate\`, and \`glazed\` and give them the correct values based on the picture."
+      }, 
+      "mission": "Declare variables called \`sprinkles\`, \`chocolate\` and \`glazed\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tips": "Your first line should look like this: \`var sprinkles = 7;\`\r The other lines should look just like that, though with different names and values.",
+      "quiz": [
+        {
+          "database": "https://getcoding1b1.firebaseio.com/",
+          "questionId": "1b1a",
+          "text": "Which one of the following choices could NOT be the name of a variable?", 
+          "a": "red velvet", 
+          "b": "redvelvet", 
+          "c": "redVelvet", 
+          "d": "red-velvet"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "bakery",
+          "foreground": "level6",
+          "view": "varsandnums",
+          "variables": ["chocolate", "vanilla", "redVelvet"], 
+          "values": [8, 12, 5], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Let's do cupcakes this time! Declare the variables \`chocolate\`, \`vanilla\`, and \`redVelvet\` and give them the correct values based on the picture. Watch your spelling on \`redVelvet\`!!!"
+      }, 
+      "mission": "Declare variables called \`chocolate\`, \`vanilla\` and \`redVelvet\`. Then give all three variables accurate number values based on the picture. Watch your spelling on \`redVelvet\`!", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Make sure all variable names are spelled correctly.", 
+      "tips": "Your first line should look like this: \`var chocolate = 8;\`\r The other lines should look just like that, though with different names and values."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "iceCream",
+          "foreground": "level7",
+          "view": "varsandnums",
+          "variables": ["cones", "bananaSplits", "milkshakes"], 
+          "values": [7, 1, 4], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Do you have the hang of it yet? Now declare variables \`cones\`, \`bananaSplits\`, and \`milkshakes\` and give them the correct values based on the picture. Watch your spelling on \`bananaSplits\`!!!"
+      }, 
+      "mission": "Declare variables called \`cones\`, \`bananaSplits\` and \`milkshakes\`. Then give all three variables accurate number values based on the picture. Watch spelling and capitalization!", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tips": "Your first line should look like this: \`var cones = 7;\`\r The other lines should look just like that, though with different names and values."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "iceCream",
+          "foreground": "level8",
+          "view": "varsandnums",
+          "variables": ["mintChip", "strawberry", "vanilla"], 
+          "values": [6, 5, 9], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Now declare variables \`mintChip\`, \`strawberry\`, and \`vanilla\` and give them the correct values based on the picture."
+      }, 
+      "mission": "Declare variables called \`mintChip\`, \`strawberry\` and \`vanilla\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tips": "Your first line should look like this: \`var mintChip = 6;\`\r The other lines should look just like that, though with different names and values."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "iceCream",
+          "foreground": "level9",
+          "view": "varsandnums",
+          "variables": ["scoops", "cherries", "cones"], 
+          "values": [14, 11, 5], 
+          "showItems": [], 
+          "showValues": [null, null, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Ok! This one is a little trickier! Declare variables called \`scoops\`, \`cherries\` and \`cones\` and give all three variables accurate number values based on the picture."
+      }, 
+      "mission": "Declare variables called \`scoops\`, \`cherries\` and \`cones\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tips": "Sorry! No tips for this level. :)"
     }
+
   ]
 }

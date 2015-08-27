@@ -5,26 +5,75 @@
         {
        	  "database": "https://getcodingpretest.firebaseio.com/",
           "questionId": "pt1",
-          "text": "Which one of the following choices is the only one that could be used as a variable name and also what do you think of free verse poetry? Good? No good?", 
-          "a": "number1 and some other stuff", 
-          "b": "1number and some other stuff", 
-          "c": "number 1 and some other stuff", 
-          "d": "1 number and some other stuff"
+          "text": "Which one of the following choices is the only one that could be used as a variable name?", 
+          "a": "number1", 
+          "b": "1number", 
+          "c": "number 1", 
+          "d": "1 number"
         },{
           "questionId": "pt2",
-          "text": "question 2!", 
-          "a": "number1", 
-          "b": "1number", 
-          "c": "number 1", 
-          "d": "1 number"
+          "text": "Which of the following will call the move function?", 
+          "a": "move", 
+          "b": "move()", 
+          "c": "move{}", 
+          "d": "move[]"
         },{
           "questionId": "pt3",
-          "text": " qeustion 3?", 
-          "a": "number1", 
-          "b": "1number", 
-          "c": "number 1", 
-          "d": "1 number"
-        } 
+          "text": "    function birthday(age){\r\r         age = age + 1;\r\r    };\r\r Which term above is the parameter?", 
+          "a": "function", 
+          "b": "birthday", 
+          "c": "age", 
+          "d": "1"
+        } ,{
+          "questionId": "pt4",
+          "text": "    function subtract(x, y){\r\r         return x - y;\r\r    };\r\r Using the function above, which variable below will have the right value?", 
+          "a": "var age = subtract(birthYear, yearNow);", 
+          "b": "var birthYear = subtract(age, yearNow);", 
+          "c": "var yearNow = subtract(birthYear, age);", 
+          "d": "var age = subtract(yearNow, birthYear);"
+        },{
+          "questionId": "pt5",
+          "text": "    var a = 6 + 2;\r\r    var b =  a * 2;\r\r    var c = b / 4;\r\r    var d = c * 3;\r\rWhich variable has a value of 12?", 
+          "a": "a", 
+          "b": "b", 
+          "c": "c", 
+          "d": "d"
+        },{
+          "questionId": "pt6",
+          "text": "    var apples = 15;\r\r    var greenApples = 5;\r\r    var redApples = \r\rWhich expression below should complete the last line of the code above?", 
+          "a": "greenApples + apples;", 
+          "b": "apples - greenApples;", 
+          "c": "greenApples - apples;", 
+          "d": "apples / greenApples;"
+        },{
+          "questionId": "pt7",
+          "text": "Which of the following values is a string?", 
+          "a": "8", 
+          "b": "\"Hello, world!\"", 
+          "c": "true", 
+          "d": "null"
+        },{
+          "questionId": "pt8",
+          "text": "    var firstName = 'Abby'\r\r    var lastName = 'Gomez'\r\r    var fullName = firstName + lastName\r\rWhat is the value of fullName?", 
+          "a": "Abby Gomez", 
+          "b": "AbbyGomez", 
+          "c": "Abby+Gomez", 
+          "d": "fullName"
+        },{
+          "questionId": "pt9",
+          "text": "    var age = 30;\r\r    var vote = age > 18;\r\rWhat is the value of vote?", 
+          "a": "30", 
+          "b": "12", 
+          "c": "true", 
+          "d": "false"
+        },{
+          "questionId": "pt10",
+          "text": "    var length = 5;\r\r    var width = 2;\r\r    var area = length * width;\r\r    if (area < 10) {\r\r         var price = 50;\r\r    } else {\r\r        var price = 75;\r\r    };\r\r What is the value of price?", 
+          "a": "10", 
+          "b": "true", 
+          "c": "50", 
+          "d": "75"
+        }
       ]
     }
   ]

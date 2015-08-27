@@ -88,21 +88,21 @@ module
       name: 'Unit 1 - Functions',
       open: 'closed',
       apps: [
-        appObject['squirrel']
+        appObject['squirrel'], 
+        appObject['frogjump-puzzle'],
+        appObject['crossriver-intro'], 
+        appObject['spaceman-sequencing']
       ]
     },
     {
       name: 'Unit 2 - Variables',
       open: 'closed',
       apps: [
-        appObject['variables-and-numbers']
-      ]
-    },
-    {
-      name: 'Unit 3 - Expressions',
-      open: 'closed',
-      apps: [
-
+        appObject['variables-and-numbers'], 
+        appObject['math-operators'], 
+        appObject['combining-variables'], 
+        appObject['find-the-rule'], 
+        appObject['cash-register']
       ]
     },
     {

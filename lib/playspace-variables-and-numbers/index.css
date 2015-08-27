@@ -6,19 +6,90 @@
 	top: 0px;
 }
 
+[playspace-variables-and-numbers] .background.store {
+	background: url('store-bg.png') no-repeat;
+}
+
+[playspace-variables-and-numbers] .background.bakery {
+	background: url('bakery-bg1.png') no-repeat;
+}
+
+[playspace-variables-and-numbers] .background.iceCream {
+	background: url('ice-cream-bg1.png') no-repeat;
+}
+
+[playspace-variables-and-numbers] .foreground {
+	width: 630px;
+	height: 630px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+[playspace-variables-and-numbers] .foreground.level1 {
+	background: url('level1-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level2 {
+	background: url('level2-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level3 {
+	background: url('level3-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level4 {
+	background: url('level4-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level5 {
+	background: url('level5-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level6 {
+	background: url('level6-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level7 {
+	background: url('level7-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level8 {
+	background: url('level8-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.level9 {
+	background: url('level9-fg.png');
+}
+
 [playspace-variables-and-numbers] .hide {
 	display: none;
 }
 
-[playspace-variables-and-numbers] .level3 .variableBox {
+[playspace-variables-and-numbers] .variableBox {
 	position: relative;
+	width: 564px;
+	height: 315px;
+	margin: 0px auto 0px auto;
+}
+
+[playspace-variables-and-numbers] .variableBox.store {
+	margin: 137px auto 0px auto;
+}
+
+[playspace-variables-and-numbers] .variableBox.bakery {
+	margin: 137px auto 0px auto;
+}
+
+[playspace-variables-and-numbers] .variableBox.iceCream {
+	margin: 262px auto 0px auto;
 }
 
 [playspace-variables-and-numbers] .variable {
-	width: 210px;
+	width: 188px;
 	height: 315px;
 	background: url('var-man.png') no-repeat;
-	background-position: 18px 0px;
+	background-position: 9px 0px;
 	position: relative;
 }
 
@@ -35,15 +106,14 @@
 }
 
 [playspace-variables-and-numbers] .varName {
-	width: 118px;
+	width: 120px;
 	height: 21px;
 	color: white;
-	font: 17.5px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
-
+	font: 16px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
 	font-weight: 400;
 	text-align: center;
 	position: absolute;
-	left: 40px;
+	left: 30px;
 	top:114px;
 }
 
@@ -57,7 +127,7 @@
 	font-weight: 300;
 	text-align: center;
 	position: absolute;
-	left: 50px;
+	left: 40px;
 	top:147px;
 	overflow: hidden;
 }

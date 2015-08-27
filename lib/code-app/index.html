@@ -4,7 +4,7 @@
     <div class="dialog-img {{App.dialogType}}" flex='40'></div>
     <div flex='60' layout='column' layout-align="center center">
       <div class="dialog-title">{{App.dialogTitle}}</div>
-      <div class="dialog-text">{{App.dialogText}}</div>
+      <div class="dialog-text"><marked>{{App.dialogText}}</marked></div>
       <div class="dialog-button" ng-click='App.dialogBtnFn()'>{{App.dialogButton}}</div>
     </div>
   </div>
@@ -87,6 +87,7 @@
             <div class='input' ng-required='true'>
               student: <input type='radio' ng-model='App.user.type' value='student'/>
               teacher: <input type='radio' ng-model='App.user.type' value='teacher'/>
+              visitor: <input type='radio' ng-model='App.user.type' value='visitor'/>
             </div>
             <div class='input'>
               in grade: 
@@ -106,6 +107,7 @@
               <select ng-model='App.user.school' ng-required='true'>
                 <option value='Beethoven'>Beethoven</option>
                 <option value='Selma'>Selma</option>
+                <option value='noSchool'>no school</option>
               </select>
             </div>
           </div>
@@ -125,7 +127,7 @@
   <div class="question-box" layout='column' layout-align="start center">
 
     <div class='counter'>Question {{App.nextQuestion + 1}}/{{App.quiz.length}}</div>
-    <div class='quiz-question'>{{App.currentQuestion.text}}</div>
+    <div class='quiz-question'><marked>{{App.currentQuestion.text}}</marked></div>
     <div layout='row'>
       <div layout='column'>
         <div class="dialog-button" value='a' ng-click='App.recordAnswer("a")'>A. {{App.currentQuestion.a}}</div>

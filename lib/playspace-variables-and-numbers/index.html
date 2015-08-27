@@ -1,9 +1,9 @@
 <!--first view, for first level...add class to background from model-->
 
-<div class='background varsandnums' ng-class="{hide: VariablesAndNumbers.view !== 'varsandnums'}">
+<div class='background varsandnums {{VariablesAndNumbers.background}}' ng-class="{hide: VariablesAndNumbers.view !== 'varsandnums'}">
 
-	<div class="variableBox" layout='row'>
-		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames" flex='33'>
+	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row">
+		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames">
 			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
 			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable] : ""}}</div>
 		</div>
@@ -22,6 +22,7 @@
 	</div>
 
 </div>
+<div class="foreground {{VariablesAndNumbers.foreground}}"></div>
 
 <!--second view, for second level-->
 <div class="background mathops"  ng-class="{hide: VariablesAndNumbers.view !== 'mathops'}">

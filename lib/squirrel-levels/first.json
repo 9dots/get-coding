@@ -21,14 +21,14 @@
 	  	"canMove": true  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "move();"
 	  }, 
 	  "directions": {
-			"dialogText":"Use functions to guide the squirrel up the tree and get the acorn."
+			"dialogText":"Use the functions \`move()\` and \`getAcorn()\` to direct the squirrel to get the acorn."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "```right()```- face right```left()```- face left   ```up()```- face up    ```down()```- face down\n\n```move()```- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "By calling the functions \`move()\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
+      "tools": "\`move()\`- move forward one square\n\n\`getAcorn()\`- pick up acorn", 
+      "tips": "Type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Then type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	}, 
 	{
 	  "level": 2, 
@@ -51,14 +51,14 @@
 	  	"canMove": false  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "left();"
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"Use the new function \`left()\`, along with \`move()\` and \`getAcorn()\`, to direct the squirrel to get the acorn."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "By calling the functions \`left()\`, \`move()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
+      "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn", 
+      "tips": "First, type \`left();\` in the code panel above. Then type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 3, 
@@ -81,14 +81,14 @@
 	  	"canMove": true  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "right();"
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"Now use the new function \`right()\`, along with the others, to direct the squirrel to get the acorn."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "By calling the functions \`right()\`, \`move()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
+      "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn \`right()\`- face right", 
+      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 4, 
@@ -114,11 +114,11 @@
 	  	"codeSpace": ""
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"Did you notice the squirrel grab the tree in Level 3? You can use the functions you've learned to climb the tree and get the acorn on the tree branch!"
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "By calling functions you've learned in the code panel above, move the squirrel up the tree to the acorn on the branch.",
+      "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn \`right()\`- face right", 
+      "tips": "First, type \`move();\` as many times as needed to get the squirrel next to the acorn. Then type \`right();\` to turn toward the acorn. Then use \`move();\` and \`getAcorn()\` to get the acorn."
 	},
 	{
 	  "level": 5, 
@@ -141,15 +141,25 @@
 	  	"canMove": true  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": "", 
-	  	"loc": 11
+	  	"codeSpace": "up();"
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"In Level 5, use the new function \`up()\`, along with the others, to climb the tree and get the acorn!"
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "Use the \`up()\` function, along with the others you've learned, to get the squirrel up the tree to the acorn.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "After \`up();\`, type \`move();\` until the squirrel reaches the top of the tree. Then type \`right();\` to face the acorn. Then use \`move();\` and \`getAcorn();\` to get the acorn.",
+	  "quiz": [
+	  	{
+	  	  "database": "https://getcoding1a1.firebaseio.com/",
+          "questionId": "1a1a",
+          "text": "Which one of the following choices would call a climb function?", 
+          "a": "climb", 
+          "b": "climb()", 
+          "c": "climb{}", 
+          "d": "climb[]"
+	  	}
+	  ]
 	},
 	{
 	  "level": 6, 
@@ -172,15 +182,14 @@
 	  	"canMove": false  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": "", 
-	  	"loc": 11
+	  	"codeSpace": ""
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"There's just one more new function! Use \`down()\` to get the squirrel to the acorn below."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "Use the \`down()\` function, along with the others you've learned, to get the squirrel down to the acorn below.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "First, type \`left();\` to change directions. Then use \`move();\` to get to the tree. Type \`down();\` to change directions, then use \`move();\` and \`getAcorn();\` to get the acorn."
 	},
 	{
 	  "level": 7, 
@@ -203,15 +212,14 @@
 	  	"canMove": true  
 	  }, 
 	  "workspace": {
-	  	"codeSpace": "", 
-	  	"loc": 14
+	  	"codeSpace": ""
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"Let's make it a little harder! This time, use your functions to get TWO acorns."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "By calling functions in the code panel above, direct the squirrel to gather both acorns.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "The squirrel can move up the middle of the tree or along either side, but it can only move on top of branches."
 	},
 		{
 	  "level": 8, 
@@ -235,14 +243,14 @@
 	  }, 
 	  "workspace": {
 	  	"codeSpace": "", 
-	  	"loc": 18
+	  	"loc": 20
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"Let's make it even harder! Now you have to gather both acorns, but you can't use more than 20 lines of code!."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "Use fewer than 20 lines of code to gather both acorns.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
 	},
 	{
 	  "level": 9, 
@@ -269,11 +277,11 @@
 	  	"loc": 23
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"You're doing great! Now try to get this acorn without going over 23 lines of code."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "Use fewer than 23 lines of code to gather both acorns.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
 	},
 	{
 	  "level": 10, 
@@ -300,11 +308,11 @@
 	  	"loc": 20
 	  }, 
 	  "directions": {
-			"dialogText":"Now use functions to gather all the acorns."
+			"dialogText":"This is the last and hardest leve! You have to get THREE acorns without using more than 20 lines of code. Think you can do it?."
 	  }, 
-	  "mission": "By calling functions in the code panel above, move the squirrel up the tree to the acorn.",
-      "tools": "right()- face right left()- face left up()- face up  down()- face down  move()- move forward one square", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, and it can only move on top of branches."
+	  "mission": "Use fewer than 20 lines of code to gather both acorns.",
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
 	}
   ]
 }
