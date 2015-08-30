@@ -9,16 +9,11 @@
 		</div>
 	</div>
 
-	<div class="itemBox" layout='row'>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[0].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[0] track by $index" class="item {{item}}"></div>
+	<div class="itemBox" >
+		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay.length}}" flex>
+			<div ng-repeat="item in VariablesAndNumbers.itemDisplay track by $index" class="item {{item}}"></div>
 		</div>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[1].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[1] track by $index" class="item {{item}}"></div>
-		</div>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[2].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[2] track by $index" class="item {{item}}"></div>
-		</div>
+
 	</div>
 
 </div>

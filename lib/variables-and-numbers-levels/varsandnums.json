@@ -1,4 +1,4 @@
-{
+{ 
   "levels": [
     {
       "playspace": {
@@ -85,7 +85,7 @@
         "dialogText": "Now YOU have to declare some variables! We've declared \`doughnuts\`, but it's up to you to declare \`cupcakes\` and \`cookies\` and to give them number values."
       }, 
       "mission": "Declare variables called \`cupcakes\` and \`cookies\`. Then give all three variables accurate number values based on the picture.", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
       "tips": "Your first line should look like this: \`var doughnuts = 10;\`\r The other lines should look just like that, though with different names and values."
     },
     {
@@ -107,7 +107,7 @@
         "dialogText": "You're on your own now! Declare the variables \`sprinkles\`, \`chocolate\`, and \`glazed\` and give them the correct values based on the picture."
       }, 
       "mission": "Declare variables called \`sprinkles\`, \`chocolate\` and \`glazed\`. Then give all three variables accurate number values based on the picture.", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
       "tips": "Your first line should look like this: \`var sprinkles = 7;\`\r The other lines should look just like that, though with different names and values.",
       "quiz": [
         {
@@ -140,7 +140,7 @@
         "dialogText": "Let's do cupcakes this time! Declare the variables \`chocolate\`, \`vanilla\`, and \`redVelvet\` and give them the correct values based on the picture. Watch your spelling on \`redVelvet\`!!!"
       }, 
       "mission": "Declare variables called \`chocolate\`, \`vanilla\` and \`redVelvet\`. Then give all three variables accurate number values based on the picture. Watch your spelling on \`redVelvet\`!", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Make sure all variable names are spelled correctly.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`. Make sure all variable names are spelled correctly.", 
       "tips": "Your first line should look like this: \`var chocolate = 8;\`\r The other lines should look just like that, though with different names and values."
     },
     {
@@ -162,7 +162,7 @@
         "dialogText": "Do you have the hang of it yet? Now declare variables \`cones\`, \`bananaSplits\`, and \`milkshakes\` and give them the correct values based on the picture. Watch your spelling on \`bananaSplits\`!!!"
       }, 
       "mission": "Declare variables called \`cones\`, \`bananaSplits\` and \`milkshakes\`. Then give all three variables accurate number values based on the picture. Watch spelling and capitalization!", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
       "tips": "Your first line should look like this: \`var cones = 7;\`\r The other lines should look just like that, though with different names and values."
     },
     {
@@ -184,7 +184,7 @@
         "dialogText": "Now declare variables \`mintChip\`, \`strawberry\`, and \`vanilla\` and give them the correct values based on the picture."
       }, 
       "mission": "Declare variables called \`mintChip\`, \`strawberry\` and \`vanilla\`. Then give all three variables accurate number values based on the picture.", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
       "tips": "Your first line should look like this: \`var mintChip = 6;\`\r The other lines should look just like that, though with different names and values."
     },
     {
@@ -206,7 +206,29 @@
         "dialogText": "Ok! This one is a little trickier! Declare variables called \`scoops\`, \`cherries\` and \`cones\` and give all three variables accurate number values based on the picture."
       }, 
       "mission": "Declare variables called \`scoops\`, \`cherries\` and \`cones\`. Then give all three variables accurate number values based on the picture.", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
+      "tips": "Sorry! No tips for this level. :)"
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "",
+          "foreground": "",
+          "view": "varsandnums",
+          "variables": ["apples", "oranges", "limes"], 
+          "values": [8, 15, 13], 
+          "showItems": ["apple", "orange", "lime"], 
+          "showValues": [" ", " ", " "]
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Last level! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
+      }, 
+      "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
       "tips": "Sorry! No tips for this level. :)"
     }
 
