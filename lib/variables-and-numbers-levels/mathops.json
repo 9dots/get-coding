@@ -1,75 +1,18 @@
 {
+  "database": "1b2",
   "levels": [
     {
       "playspace": {
         "board": {
+          "background" :"store",
+          "foreground" : "a2level1",
           "view": "mathops",//determines view
-          "variables": ["num1", "num2", "sum"], //all variables
-          "values": [6, 3, 9], //values for check purposes
+          "variables": ["apples", "oranges", "fruit"], //all variables
+          "values": [9, 6, 15], //values for check purposes
           "showItems": [], 
-          "showValues": [6, 3, null],//values to show in playspace initially
-          "setVars": ["num1", "num2"],//variables that can't change
-          "setVals": [6, 3],//values for non-changing variable
-          "requiredCalls": {
-            "num1": 0, 
-            "num2": 0
-          }, 
-          "numberCalls": {
-            "num1": 1,
-            "num2": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var sum = ;"
-      }, 
-      "directions": {
-        "dialogText": "Declare a variable called sum and give it the correct number value by combining num1 and num2."
-      }, 
-      "mission": "Declare a variable called sum and give it the correct number value by combining num1 and num2.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give sum its value.", 
-      "tips": "After the equals sign above, combine num1 and num2 using the + sign to add them."
-    }, 
-    {
-      "playspace": {
-        "board": {
-          "view": "mathops",
-          "variables": ["num1", "num2", "difference"], 
-          "values": [6, 3, 3], 
-          "showItems": [],
-          "showValues": [6, 3, null],
-          "setVars": ["num1", "num2"],
-          "setVals": [6, 3],
-          "requiredCalls": {
-            "num1": 0, 
-            "num2": 0
-          }, 
-          "numberCalls": {
-            "num1": 1,
-            "num2": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var difference = ;"
-      }, 
-      "directions": {
-        "dialogText": "Declare a variable called difference and give it the correct number value by combining num1 and num2."
-      }, 
-      "mission": "Declare a variable called difference and give it the correct number value by combining num1 and num2.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give difference its value.", 
-      "tips": "After the equals sign above, combine num1 and num2 using the - sign to subtract."
-    }, 
-    {
-      "playspace": {
-        "board": {
-          "view": "mathops",
-          "variables": ["apples", "oranges", "fruit"], 
-          "values": [6, 3, 9], 
-          "showItems": ["apple", "orange"],
-          "showValues": [6, 3, null],
-          "setVars": ["apples", "oranges"],
-          "setVals": [6, 3],
+          "showValues": [9, 6, null],//values to show in playspace initially
+          "setVars": ["apples", "oranges"],//variables that can't change
+          "setVals": [9, 6],//values for non-changing variable
           "requiredCalls": {
             "apples": 0, 
             "oranges": 0
@@ -84,6 +27,72 @@
         "codeSpace": "var fruit = ;"
       }, 
       "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value by combining num1 and num2."
+      }, 
+      "mission": "Declare a variable called sum and give it the correct number value by combining num1 and num2.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give sum its value.", 
+      "tips": "After the equals sign above, combine num1 and num2 using the + sign to add them."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "background" :"frogs",
+          "foreground" : "a2level2",
+          "view": "mathops",
+          "variables": ["yellow", "green", "frogs"], 
+          "values": [3, 4, 7], 
+          "showItems": [],
+          "showValues": [3, 4, null],
+          "setVars": ["yellow", "green"],
+          "setVals": [3, 4],
+          "requiredCalls": {
+            "yellow": 0, 
+            "green": 0
+          }, 
+          "numberCalls": {
+            "yellow": 1,
+            "green": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var frogs = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called difference and give it the correct number value by combining num1 and num2."
+      }, 
+      "mission": "Declare a variable called difference and give it the correct number value by combining num1 and num2.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give difference its value.", 
+      "tips": "After the equals sign above, combine num1 and num2 using the - sign to subtract."
+    }, 
+    {
+      "playspace": {
+        "board": {
+          "background" :"bakery",
+          "foreground" : "a2level3",
+          "view": "mathops",
+          "variables": ["sprinkles", "chocolate", "glazed", "doughnuts"], 
+          "values": [9, 6, 7, 22], 
+          "showItems": [],
+          "showValues": [9, 6, 7, null],
+          "setVars": ["sprinkles", "chocolate", "glazed"],
+          "setVals": [9, 6, 7],
+          "requiredCalls": {
+            "sprinkles": 0, 
+            "chocolate": 0, 
+            "glazed": 0
+          }, 
+          "numberCalls": {
+            "sprinkles": 1,
+            "chocolate": 1,
+            "glazed": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var doughnuts = ;"
+      }, 
+      "directions": {
         "dialogText": "Declare a variable called fruit and give it the correct number value."
       }, 
       "mission": "Declare a variable called fruit and give it the correct number value by combining apples and oranges.", 
@@ -93,25 +102,240 @@
     {
       "playspace": {
         "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level4",
           "view": "mathops",
-          "variables": ["apples", "oranges", "fruit"], 
-          "values": [6, 3, 9], 
-          "showItems": ["apple", "orange"],
-          "showValues": [6, null, 9],
-          "setVars": ["apples", "fruit"],
-          "setVals": [6, 9],
+          "variables": ["cones", "vanilla", "strawberry"], 
+          "values": [16, 9, 7], 
+          "showItems": [],
+          "showValues": [16, 9],
+          "setVars": ["cones", "vanilla"],
+          "setVals": [16, 9],
           "requiredCalls": {
-            "apples": 0, 
-            "fruit": 0
+            "cones": 0, 
+            "vanilla": 0
           }, 
           "numberCalls": {
-            "apples": 1,
-            "fruit": 1
+            "cones": 1,
+            "vanilla": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": "var oranges = "
+        "codeSpace": "var strawberry = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
+      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background": "farm",
+          "foreground": "a2level5",
+          "view": "mathops",//determines view
+          "variables": ["animals", "chickens", "foxes"], //all variables
+          "values": [13, 10, 3], //values for check purposes
+          "showItems": [], 
+          "showValues": [13, 10, null],//values to show in playspace initially
+          "setVars": ["animals", "chickens"],//variables that can't change
+          "setVals": [13, 10],//values for non-changing variable
+          "requiredCalls": {
+            "animals": 0, 
+            "chickens": 0
+          }, 
+          "numberCalls": {
+            "animals": 1,
+            "chickens": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var foxes = ;"
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called sum and give it the correct number value by combining num1 and num2."
+      }, 
+      "mission": "Declare a variable called sum and give it the correct number value by combining num1 and num2.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give sum its value.", 
+      "tips": "After the equals sign above, combine num1 and num2 using the + sign to add them.",
+      "quiz": [
+        {
+          "database": "https://getcoding1b2.firebaseio.com/",
+          "questionId": "1b2a",
+          "text": "Question?", 
+          "a": "red velvet", 
+          "b": "redvelvet", 
+          "c": "redVelvet", 
+          "d": "red-velvet"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"store",
+          "foreground" : "a2level6",
+          "view": "mathops",
+          "variables": ["apples", "limes", "oranges", "fruit"], 
+          "values": [8, 9, 5, 22], 
+          "showItems": [],
+          "showValues": [8, 9, 5, null],
+          "setVars": ["apples", "limes", "oranges"],
+          "setVals": [8, 9, 5],
+          "requiredCalls": {
+            "apples": 0, 
+            "limes" : 0, 
+            "oranges": 0
+          }, 
+          "numberCalls": {
+            "apples": 1,
+            "limes" : 1, 
+            "oranges": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var fruit = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
+      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"frogs",
+          "foreground" : "a2level7",
+          "view": "mathops",
+          "variables": ["lilypads", "yellow", "green", "emptyPads"], 
+          "values": [7, 3, 2, 2], 
+          "showItems": [],
+          "showValues": [7, 3, 2, null],
+          "setVars": ["lilypads", "yellow", "green"],
+          "setVals": [7, 3, 2],
+          "requiredCalls": {
+            "lilypads": 0, 
+            "yellow": 0, 
+            "green": 0
+          }, 
+          "numberCalls": {
+            "lilypads": 1,
+            "yellow": 1, 
+            "green": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var emptyPads = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
+      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"bakery",
+          "foreground" : "a2level8",
+          "view": "mathops",
+          "variables": ["doughnuts", "sprinkles", "glazed", "chocolate"], 
+          "values": [16, 6, 6, 4], 
+          "showItems": [],
+          "showValues": [16, 6, 6],
+          "setVars": ["doughnuts", "sprinkles", "glazed"],
+          "setVals": [16, 6, 6],
+          "requiredCalls": {
+            "doughnuts": 0, 
+            "sprinkles": 0, 
+            "glazed": 0
+          }, 
+          "numberCalls": {
+            "doughnuts": 1,
+            "sprinkles": 1, 
+            "glazed": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var chocolate = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
+      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level9",
+          "view": "mathops",
+          "variables": ["singles", "chocolate", "strawberry", "doubles"], 
+          "values": [8, 9, 7, 8], 
+          "showItems": [],
+          "showValues": [8, 9, 7, null],
+          "setVars": ["singles", "chocolate", "strawberry"],
+          "setVals": [8, 9, 7],
+          "requiredCalls": {
+            "singles": 0, 
+            "chocolate": 0, 
+            "strawberry": 0
+          }, 
+          "numberCalls": {
+            "singles": 1,
+            "chocolate": 1, 
+            "strawberry": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var doubles = "
+      }, 
+      "directions": {
+        "dialogText": "Declare a variable called oranges and give it the correct number value."
+      }, 
+      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
+      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
+      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"farm",
+          "foreground" : "a2level10",
+          "view": "mathops",
+          "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
+          "values": [8, 5, 6, 7], 
+          "showItems": [],
+          "showValues": [8, 5, 6, null],
+          "setVars": ["chickens", "foxes", "cowboys"],
+          "setVals": [8, 5, 6],
+          "requiredCalls": {
+            "chickens": 0, 
+            "foxes": 0, 
+            "cowboys": 0
+          }, 
+          "numberCalls": {
+            "chickens": 1,
+            "foxes": 1, 
+            "cowboys": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var ninjas = "
       }, 
       "directions": {
         "dialogText": "Declare a variable called oranges and give it the correct number value."

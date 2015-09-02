@@ -1,47 +1,21 @@
 <!--first view, for first level...add class to background from model-->
 
-<div class='background varsandnums {{VariablesAndNumbers.background}}' ng-class="{hide: VariablesAndNumbers.view !== 'varsandnums'}">
+<div class='background varsandnums {{VariablesAndNumbers.background}}' ng-class="{hide: VariablesAndNumbers.view === 'combining'}">
 
-	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row">
+	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row" layout-align="space-around center">
 		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames">
 			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
 			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable] : ""}}</div>
 		</div>
 	</div>
-
 	<div class="itemBox" >
 		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay.length}}" flex>
 			<div ng-repeat="item in VariablesAndNumbers.itemDisplay track by $index" class="item {{item}}"></div>
 		</div>
-
 	</div>
-
 </div>
 <div class="foreground {{VariablesAndNumbers.foreground}}"></div>
 
-<!--second view, for second level-->
-<div class="background mathops"  ng-class="{hide: VariablesAndNumbers.view !== 'mathops'}">
-	
-	<div class="variableBox" layout='row'>
-		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames">
-			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
-			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable] : ""}}</div>
-		</div>
-	</div>
-
-	<div class="itemBox" layout='row'>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[0].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[0] track by $index" class="item {{item}}"></div>
-		</div>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[1].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[1] track by $index" class="item {{item}}"></div>
-		</div>
-		<div class="items" ng-hide="{{VariablesAndNumbers.itemDisplay[2].length}}" flex>
-			<div ng-repeat="item in VariablesAndNumbers.itemDisplay[2] track by $index" class="item {{item}}"></div>
-		</div>
-	</div>
-
-</div>
 
 <!--third view, for third level currently not being used-->
 <div class="background combining"  ng-class="{hide: VariablesAndNumbers.view !== 'combining'}">

@@ -2,5 +2,6 @@
   "name": "three-to-one",
   "title": "3 to 1",
   "description": "Combine three variables to get the given value.",
-  "author": "Ryan Baber"
+  "author": "Ryan Baber",
+  "database": "1b4"
 }

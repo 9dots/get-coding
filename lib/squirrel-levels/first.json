@@ -312,7 +312,18 @@
 	  }, 
 	  "mission": "Use fewer than 20 lines of code to gather both acorns.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
-      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on.",
+      "quiz": [
+	  	{
+	  	  "database": "https://getcoding1a1.firebaseio.com/",
+          "questionId": "1a1b",
+          "text": "If the squirrel was standing on a branch, facing right, which choice below would result in the squirrel facing left in the same square?", 
+          "a": "move();\n\nmove();", 
+          "b": "left();\n\nmove();", 
+          "c": "right();\n\nleft();", 
+          "d": "left();\n\nright();"
+	  	}
+	  ]
 	}
   ]
 }

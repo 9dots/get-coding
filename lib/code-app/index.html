@@ -111,11 +111,9 @@
               </select>
             </div>
           </div>
-
           <div>
             <button type='submit' class="dialog-button" name='btn' ng-disabled='testSurveyForm.$invalid'>GO TO QUIZ</button>
           </div>
-
         </div>
       </form>
     </div>
@@ -130,13 +128,13 @@
     <div class='quiz-question'><marked>{{App.currentQuestion.text}}</marked></div>
     <div layout='row'>
       <div layout='column'>
-        <div class="dialog-button" value='a' ng-click='App.recordAnswer("a")'>A. {{App.currentQuestion.a}}</div>
-         <div class="dialog-button" value='b' ng-click='App.recordAnswer("b")'>B. {{App.currentQuestion.b}}</div>
+        <div class="dialog-button" value='a' ng-click='App.recordAnswer("a")'><marked>A. {{App.currentQuestion.a}}</marked></div>
+         <div class="dialog-button" value='b' ng-click='App.recordAnswer("b")'><marked>B. {{App.currentQuestion.b}}</marked></div>
       </div>
       <div flex='5'></div>
       <div layout='column'>
-        <div class="dialog-button" value='c' ng-click='App.recordAnswer("c")'>C. {{App.currentQuestion.c}}</div>
-        <div class="dialog-button" value='d' ng-click='App.recordAnswer("d")'>D. {{App.currentQuestion.d}}</div>
+        <div class="dialog-button" value='c' ng-click='App.recordAnswer("c")'><marked>C. {{App.currentQuestion.c}}</marked></div>
+        <div class="dialog-button" value='d' ng-click='App.recordAnswer("d")'><marked>D. {{App.currentQuestion.d}}</marked></div>
       </div>
     </div>
 

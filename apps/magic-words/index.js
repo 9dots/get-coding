@@ -166,8 +166,18 @@ module
         },
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();",
-        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
-      
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way.",
+        "quiz": [
+          {
+            "database": "https://getcoding1a2.firebaseio.com/",
+            "questionId": "1a2a",
+            "text": "Which answer is the correct answer?", 
+            "a": "This one!", 
+            "b": "No this one!", 
+            "c": "You know it's actually this one.", 
+            "d": "It's me!"
+          }
+        ]
       },
       {
         "level": 6,

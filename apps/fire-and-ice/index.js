@@ -182,7 +182,18 @@ module
         }, 
         "mission":"When the wizard says a word, all gates with that word written on them will open or close. The wizard can also destroy any unblocked obstacles by using fire(); and ice();", 
         "tools": "You can call any function that appears on a gate- like foo, goo, etc- but make sure to add parentheses and a semicolon- foo();  Fire can be destroyed with ice(); and ice can be destroyed with fire();",
-        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right.",
+        "quiz": [
+          {
+            "database": "https://getcoding1a2.firebaseio.com/", 
+            "questionId": "", 
+            "text": "", 
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        ]
       
       },
       {

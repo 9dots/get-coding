@@ -89,6 +89,8 @@ module
       open: 'closed',
       apps: [
         appObject['squirrel'], 
+        appObject['magic-words'],
+        appObject['fire-and-ice'],
         appObject['frogjump-puzzle'],
         appObject['crossriver-intro'], 
         appObject['spaceman-sequencing']
@@ -101,8 +103,7 @@ module
         appObject['variables-and-numbers'], 
         appObject['math-operators'], 
         appObject['combining-variables'], 
-        appObject['find-the-rule'], 
-        appObject['cash-register']
+        appObject['find-the-rule']
       ]
     },
     {

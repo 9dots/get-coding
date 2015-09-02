@@ -1,7 +1,7 @@
 {
   "levels": [
     {
-	"quiz": [
+	   "quiz": [
         {
        	  "database": "https://getcodingpretest.firebaseio.com/",
           "questionId": "pt1",

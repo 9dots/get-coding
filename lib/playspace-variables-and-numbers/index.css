@@ -7,7 +7,7 @@
 }
 
 [playspace-variables-and-numbers] .background.store {
-	background: url('store-bg.png') no-repeat;
+	background: url('store-bg1.png') no-repeat;
 }
 
 [playspace-variables-and-numbers] .background.bakery {
@@ -18,6 +18,14 @@
 	background: url('ice-cream-bg1.png') no-repeat;
 }
 
+[playspace-variables-and-numbers] .background.frogs {
+	background: url('frogs-bg.png') no-repeat;
+}
+
+[playspace-variables-and-numbers] .background.farm {
+	background: url('farm-bg.png') no-repeat;
+}
+
 [playspace-variables-and-numbers] .foreground {
 	width: 630px;
 	height: 630px;
@@ -26,40 +34,80 @@
 	top: 0px;
 }
 
-[playspace-variables-and-numbers] .foreground.level1 {
-	background: url('level1-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level1 {
+	background: url('activity1/level1-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level2 {
-	background: url('level2-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level2 {
+	background: url('activity1/level2-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level3 {
-	background: url('level3-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level3 {
+	background: url('activity1/level3-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level4 {
-	background: url('level4-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level4 {
+	background: url('activity1/level4-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level5 {
-	background: url('level5-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level5 {
+	background: url('activity1/level5-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level6 {
-	background: url('level6-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level6 {
+	background: url('activity1/level6-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level7 {
-	background: url('level7-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level7 {
+	background: url('activity1/level7-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level8 {
-	background: url('level8-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level8 {
+	background: url('activity1/level8-fg.png');
 }
 
-[playspace-variables-and-numbers] .foreground.level9 {
-	background: url('level9-fg.png');
+[playspace-variables-and-numbers] .foreground.a1level9 {
+	background: url('activity1/level9-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level1 {
+	background: url('activity2/level1-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level2 {
+	background: url('activity2/level2-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level3 {
+	background: url('activity2/level3-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level4 {
+	background: url('activity2/level4-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level5 {
+	background: url('activity2/level5-fg1.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level6 {
+	background: url('activity2/level6-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level7 {
+	background: url('activity2/level7-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level8 {
+	background: url('activity2/level8-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level9 {
+	background: url('activity2/level9-fg.png');
+}
+
+[playspace-variables-and-numbers] .foreground.a2level10 {
+	background: url('activity2/level10-fg.png');
 }
 
 [playspace-variables-and-numbers] .hide {
@@ -85,11 +133,21 @@
 	margin: 262px auto 0px auto;
 }
 
+[playspace-variables-and-numbers] .variableBox.frogs {
+	margin: 130px auto 0px auto;
+	height: 250px;
+	overflow: hidden;
+}
+
+[playspace-variables-and-numbers] .variableBox.farm {
+	margin: 125px auto 0px auto;
+}
+
 [playspace-variables-and-numbers] .variable {
-	width: 188px;
+	width: 123px;
 	height: 315px;
 	background: url('var-man.png') no-repeat;
-	background-position: 9px 0px;
+	background-position: -20px 3px;
 	position: relative;
 }
 
@@ -113,7 +171,7 @@
 	font-weight: 400;
 	text-align: center;
 	position: absolute;
-	left: 30px;
+	left: 1px;
 	top:114px;
 }
 
@@ -127,7 +185,7 @@
 	font-weight: 300;
 	text-align: center;
 	position: absolute;
-	left: 40px;
+	left: 11px;
 	top:147px;
 	overflow: hidden;
 }

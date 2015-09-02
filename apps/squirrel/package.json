@@ -2,5 +2,6 @@
   "name": "squirrel",
   "title": "Calling Functions",
   "description": "Call functions to help the squirrel gather acorns.",
-  "author": "Ryan Baber"
+  "author": "Ryan Baber", 
+  "database": "1a1"
 }

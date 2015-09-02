@@ -2,5 +2,6 @@
   "name": "test",
   "title": "Pre-Test",
   "description": "Multiple choice test.",
-  "author": "Ryan Baber"
+  "author": "Ryan Baber", 
+  "database": "pretest"
 }

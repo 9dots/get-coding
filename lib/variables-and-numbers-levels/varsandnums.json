@@ -4,7 +4,7 @@
       "playspace": {
         "board": {
           "background": "store",
-          "foreground": "level1",
+          "foreground": "a1level1",
           "view": "varsandnums",
           "variables": ["apples"], 
           "values": [9], 
@@ -26,7 +26,7 @@
       "playspace": {
         "board": {
           "background": "store",
-          "foreground": "level2",
+          "foreground": "a1level2",
           "view": "varsandnums",
           "variables": ["apples", "oranges"], 
           "values": [7, 5], 
@@ -48,7 +48,7 @@
       "playspace": {
         "board": {
           "background": "store",
-          "foreground": "level3",
+          "foreground": "a1level3",
           "view": "varsandnums",
           "variables": ["apples", "oranges", "limes"], 
           "values": [8, 4, 10], 
@@ -70,7 +70,7 @@
       "playspace": {
         "board": {
           "background": "bakery",
-          "foreground": "level4",
+          "foreground": "a1level4",
           "view": "varsandnums",
           "variables": ["doughnuts", "cupcakes", "cookies"], 
           "values": [10, 12, 14], 
@@ -92,7 +92,7 @@
       "playspace": {
         "board": {
           "background": "bakery",
-          "foreground": "level5",
+          "foreground": "a1level5",
           "view": "varsandnums",
           "variables": ["sprinkles", "chocolate", "glazed"], 
           "values": [7, 5, 8], 
@@ -125,7 +125,7 @@
       "playspace": {
         "board": {
           "background": "bakery",
-          "foreground": "level6",
+          "foreground": "a1level6",
           "view": "varsandnums",
           "variables": ["chocolate", "vanilla", "redVelvet"], 
           "values": [8, 12, 5], 
@@ -147,7 +147,7 @@
       "playspace": {
         "board": {
           "background": "iceCream",
-          "foreground": "level7",
+          "foreground": "a1level7",
           "view": "varsandnums",
           "variables": ["cones", "bananaSplits", "milkshakes"], 
           "values": [7, 1, 4], 
@@ -169,7 +169,7 @@
       "playspace": {
         "board": {
           "background": "iceCream",
-          "foreground": "level8",
+          "foreground": "a1level8",
           "view": "varsandnums",
           "variables": ["mintChip", "strawberry", "vanilla"], 
           "values": [6, 5, 9], 
@@ -191,7 +191,7 @@
       "playspace": {
         "board": {
           "background": "iceCream",
-          "foreground": "level9",
+          "foreground": "a1level9",
           "view": "varsandnums",
           "variables": ["scoops", "cherries", "cones"], 
           "values": [14, 11, 5], 
@@ -229,7 +229,18 @@
       }, 
       "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
       "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
-      "tips": "Sorry! No tips for this level. :)"
+      "tips": "Sorry! No tips for this level. :)",
+      "quiz": [
+        {
+          "database": "https://getcoding1b1.firebaseio.com/",
+          "questionId": "1b1b",
+          "text": "Which choice below would create a variable called \`fruit\`?", 
+          "a": "variable fruit;", 
+          "b": "variable = fruit;", 
+          "c": "var fruit;", 
+          "d": "var = fruit;"
+        }
+      ]
     }
 
   ]
