@@ -76,9 +76,10 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .wizard {
 	position: absolute;
 	left: 60px;
-	width: 90px;
-	height: 112px;
-	background: url('wizard1.png');
+	width: 120px;
+	height: 118px;
+	background-position: 0px 0px; 
+	background: url('wizard_sprite.png') no-repeat;
 }
 
 [playspace-magic-words] .gate-holder {

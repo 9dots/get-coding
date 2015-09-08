@@ -21,16 +21,19 @@
         <div class='input' ng-required='true'>
           student: <input type='radio' ng-model='App.user.type' value='student'/>
           teacher: <input type='radio' ng-model='App.user.type' value='teacher'/>
+          other: <input type='radio' ng-model='App.user.type' value='other'/>
         </div>
         <div class='input'>
           in grade: 
           <select ng-model='App.user.grade' ng-required='true'>
+            <option value='K'>K</option>
             <option value='1'>1</option>
             <option value='2'>2</option>
             <option value='3'>3</option>
             <option value='4'>4</option>
             <option value='5'>5</option>
             <option value='6'>6</option>
+            <option value='other'>other</option>
           </select>
         </div>
         <div class='input'>
@@ -38,6 +41,7 @@
           <select ng-model='App.user.school' ng-required='true'>
             <option value='Beethoven'>Beethoven</option>
             <option value='Selma'>Selma</option>
+            <option value='other'>other</option>
           </select>
         </div>
 

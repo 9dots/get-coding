@@ -111,13 +111,12 @@
       "tips": "Your first line should look like this: \`var sprinkles = 7;\`\r The other lines should look just like that, though with different names and values.",
       "quiz": [
         {
-          "database": "https://getcoding1b1.firebaseio.com/",
           "questionId": "1b1a",
-          "text": "Which one of the following choices could NOT be the name of a variable?", 
-          "a": "red velvet", 
-          "b": "redvelvet", 
-          "c": "redVelvet", 
-          "d": "red-velvet"
+          "text": "Which choice below would create a variable called \`fruit\`?", 
+          "a": "variable fruit;", 
+          "b": "variable = fruit;", 
+          "c": "var fruit;", 
+          "d": "var = fruit;"
         }
       ]
     },
@@ -232,13 +231,12 @@
       "tips": "Sorry! No tips for this level. :)",
       "quiz": [
         {
-          "database": "https://getcoding1b1.firebaseio.com/",
           "questionId": "1b1b",
-          "text": "Which choice below would create a variable called \`fruit\`?", 
-          "a": "variable fruit;", 
-          "b": "variable = fruit;", 
-          "c": "var fruit;", 
-          "d": "var = fruit;"
+          "text": "Which one of the following choices could NOT be the name of a variable?", 
+          "a": "red velvet", 
+          "b": "redvelvet", 
+          "c": "redVelvet", 
+          "d": "red-velvet"
         }
       ]
     }

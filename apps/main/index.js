@@ -101,9 +101,7 @@ module
       open: 'closed',
       apps: [
         appObject['variables-and-numbers'], 
-        appObject['math-operators'], 
-        appObject['combining-variables'], 
-        appObject['find-the-rule']
+        appObject['math-operators']
       ]
     },
     {
