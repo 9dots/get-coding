@@ -76,6 +76,11 @@ md-bottom-sheet.playspace-squirrel {
   background-size: 90px 90px;
 }
 
+[playspace-squirrel] .getAcornRight {
+  background: url('getAcorn1.png') no-repeat;
+  background-size: 90px 90px;
+}
+
 [playspace-squirrel] .acorn {
   background: url('acorn.png');
 }

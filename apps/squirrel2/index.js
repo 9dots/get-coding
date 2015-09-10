@@ -1,7 +1,7 @@
 /**
  * Exports
  */
-var name = module.exports = 'squirrel';
+var name = module.exports = 'squirrel2';
 
 /**
  * Angular Module
@@ -25,6 +25,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: require('lib/squirrel-levels').first  
+    levels: require('lib/squirrel-levels').second// specify levels here
   });
 }]);

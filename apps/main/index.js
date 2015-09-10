@@ -55,7 +55,8 @@ var module = angular.module(name, [
   require('apps/find-the-rule'), 
   require('apps/copy-rule'), 
   require('apps/three-to-one'), 
-  require('apps/test')
+  require('apps/test'), 
+  require('apps/squirrel2')
 ]);
 
 /**
@@ -89,6 +90,7 @@ module
       open: 'closed',
       apps: [
         appObject['squirrel'], 
+        appObject['squirrel2'],
         appObject['magic-words'],
         appObject['fire-and-ice'],
         appObject['frogjump-puzzle'],

@@ -3,6 +3,7 @@
   "levels": [
     {
       "playspace": {
+        "level": 1,
         "board": {
           "background" :"store",
           "foreground" : "a2level1",
@@ -27,14 +28,15 @@
         "codeSpace": "var fruit = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called sum and give it the correct number value by combining num1 and num2."
+        "dialogText": "Let's do some addition! We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\` and \`oranges\` using the \`+\` sign."
       }, 
-      "mission": "Declare a variable called sum and give it the correct number value by combining num1 and num2.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give sum its value.", 
-      "tips": "After the equals sign above, combine num1 and num2 using the + sign to add them."
+      "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\` and \`oranges\` using the \`+\` sign.", 
+      "tools": "\`apples\`: contains the number of apples  \`oranges\`: contains the number of oranges\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + oranges\`."
     }, 
     {
       "playspace": {
+        "level": 2,
         "board": {
           "background" :"frogs",
           "foreground" : "a2level2",
@@ -59,14 +61,15 @@
         "codeSpace": "var frogs = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called difference and give it the correct number value by combining num1 and num2."
+        "dialogText": "We have declared a variable called \`frogs\`. Give it the correct number value by adding \`green\` and \`yellow\` using the \`+\` sign."
       }, 
-      "mission": "Declare a variable called difference and give it the correct number value by combining num1 and num2.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give difference its value.", 
-      "tips": "After the equals sign above, combine num1 and num2 using the - sign to subtract."
+      "mission": "Give the variable \`frogs\` the correct number value by combining \`green\` and \`yellow\` using the \`+\` sign.", 
+      "tools": "\`green\`: contains the number of green frogs  \`yellow\`: contains the number of yellow frogs\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`green + yellow\`."
     }, 
     {
       "playspace": {
+        "level": 3,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level3",
@@ -93,14 +96,15 @@
         "codeSpace": "var doughnuts = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called fruit and give it the correct number value."
+        "dialogText": "We have declared a variable called \`doughnuts\`. Give it the correct number value by adding \`sprinkles\`, \`chocolate\`, and \`glazed\` using the \`+\` sign."
       }, 
-      "mission": "Declare a variable called fruit and give it the correct number value by combining apples and oranges.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both apples and oranges when you give difference its value.", 
-      "tips": "After the equals sign above, combine apples and oranges using the + sign."
+      "mission": "Give the variable \`doughnuts\` the correct number value by combining \`sprinkles\`, \`chocolate\`, and \`glazed\` using the \`+\` sign.", 
+      "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`chocolate\`: contains the number of chocolate doughnuts\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`sprinkles + chocolate + glazed\`."
     },
     {
       "playspace": {
+        "level": 4,
         "board": {
           "background" :"iceCream",
           "foreground" : "a2level4",
@@ -125,14 +129,15 @@
         "codeSpace": "var strawberry = "
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "Now let's try subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
+      "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - vanilla\`."
     },
     {
       "playspace": {
+        "level": 5,
         "board": {
           "background": "farm",
           "foreground": "a2level5",
@@ -157,11 +162,11 @@
         "codeSpace": "var foxes = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called sum and give it the correct number value by combining num1 and num2."
+        "dialogText": "We have declared a variable called \`foxes\`. Give it the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign."
       }, 
-      "mission": "Declare a variable called sum and give it the correct number value by combining num1 and num2.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both num1 and num2 when you give sum its value.", 
-      "tips": "After the equals sign above, combine num1 and num2 using the + sign to add them.",
+      "mission": "Give the variable \`foxes\` the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign.", 
+      "tools": "\`chickens\`: contains the number of chickens  \`animals\`: contains the number of animals\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`.",
       "quiz": [
         {
           "database": "https://getcoding1b2.firebaseio.com/",
@@ -176,6 +181,7 @@
     },
     {
       "playspace": {
+        "level": 6,
         "board": {
           "background" :"store",
           "foreground" : "a2level6",
@@ -199,17 +205,18 @@
         }
       },
       "workspace": {
-        "codeSpace": "var fruit = "
+        "codeSpace": "var fruit = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`doughnuts\` the correct number value by combining \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign.", 
+      "tools": "\`apples\`: contains the number of apples\n\n\`limes\`: contains the number of limes doughnuts\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + limes + oranges\`."
     },
     {
       "playspace": {
+        "level": 7,
         "board": {
           "background" :"frogs",
           "foreground" : "a2level7",
@@ -233,17 +240,18 @@
         }
       },
       "workspace": {
-        "codeSpace": "var emptyPads = "
+        "codeSpace": "var emptyPads = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "We have declared a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`emptyPads\` the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign.", 
+      "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lillypads\`: contains the number of lillypads\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`."
     },
     {
       "playspace": {
+        "level": 8,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level8",
@@ -267,17 +275,18 @@
         }
       },
       "workspace": {
-        "codeSpace": "var chocolate = "
+        "codeSpace": "var chocolate = ;"
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "We have declared a variable called \`chocolate\`. Give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`chocolate\` the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
+      "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`doughnuts\`: contains the total number of doughnuts\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - sprinkles - glazed\`."
     },
     {
       "playspace": {
+        "level": 9,
         "board": {
           "background" :"iceCream",
           "foreground" : "a2level9",
@@ -304,11 +313,11 @@
         "codeSpace": "var doubles = "
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "We have declared a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`doubles\` the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
+      "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
     },
     {
       "playspace": {
@@ -338,11 +347,11 @@
         "codeSpace": "var ninjas = "
       }, 
       "directions": {
-        "dialogText": "Declare a variable called oranges and give it the correct number value."
+        "dialogText": "We have declared a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
       }, 
-      "mission": "Declare a third variable called oranges and give it the correct number value by combining fruit and apples.", 
-      "tools": "To declare a variable, type var followed by the variable's name. Then to give it a value, type an equals sign (=) followed by the value you want to give it. You need to use both fruit and apples when you give oranges its value.", 
-      "tips": "After the equals sign above, combine fruit and apples using the - sign."
+      "mission": "Give the variable \`ninjas\` the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
+      "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`."
     }
   ]
 }
