@@ -10,6 +10,7 @@ md-bottom-sheet.playspace-squirrel {
 }
 
 [playspace-squirrel] .background {
+  position: relative;
   margin: 0px auto 0px auto;
   width: 630px;
   height: 630px;
@@ -84,3 +85,31 @@ md-bottom-sheet.playspace-squirrel {
 [playspace-squirrel] .acorn {
   background: url('acorn.png');
 }
+
+[playspace-squirrel] .rightLabel {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 540px;
+  top: 600px;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}
+
+[playspace-squirrel] .leftLabel {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 0px;
+  top: 600px;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+
+

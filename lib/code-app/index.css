@@ -46,8 +46,13 @@ marked p {
   margin: 175px auto 0 auto;
   width: 1000px;
   min-height: 500px;
-  background: #e5f2f6;
+  background: #e5f2f6;;
   opacity: 1;
+}
+
+.dialog-box.survey {
+  width: 500px;
+  height: 550px;
 }
 
 .question-box {
@@ -87,13 +92,28 @@ marked p {
   text-align: center;
 }
 
+form {
+  min-width: 400px;
+  max-width: 600px;
+}
+
 form.survey div {
+  width: 100%;
+  height: auto;
   margin: 0px 0px 10px 0px;
+}
+
+.rating {
+  text-align: center;
 }
 
 .prompt {
   font-size: 30px;
+  font-weight: 500;
   color: rgb(135, 201, 218);
+  width: 500px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
 }
 
 input {
@@ -101,7 +121,15 @@ input {
 }
 
 .input {
+  width: 100%;
+  height: auto;
   color: rgb(85, 85, 85);
+  background: #fff;
+  padding-top: 6px;
+}
+
+input.nameInput {
+  width: 400px;
 }
 
 .error-message {
@@ -147,8 +175,12 @@ input {
   text-align: center;
   font-size: 25px;
   line-height: 2em;
-  margin-top: 40px;
+  margin-top: 10px;
   cursor: pointer;
+}
+
+.dialog-button.directions {
+  margin-top: 20px;
 }
 
 .app-holder {

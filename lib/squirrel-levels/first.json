@@ -88,7 +88,17 @@
 	  }, 
 	  "mission": "By calling the functions \`right()\`, \`move()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move()\`- move forward one square  \`getAcorn()\`- pick up acorn \`right()\`- face right", 
-      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
+      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
+      "quiz": [
+	  	{
+          "questionId": "1a1a",
+          "text": "Which one of the following choices would call a climb function?", 
+          "a": "climb", 
+          "b": "climb()", 
+          "c": "climb{}", 
+          "d": "climb[]"
+	  	}
+	  ]
 	},
 	{
 	  "level": 4, 
@@ -148,17 +158,7 @@
 	  }, 
 	  "mission": "You only need three of the four functions you know (\`right()\`, \`left()\`, \`move()\`, and \`getAcorn()\`) to complete this level! You may use some more than once.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
-      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` twice to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-	  "quiz": [
-	  	{
-          "questionId": "1a1a",
-          "text": "Which one of the following choices would call a climb function?", 
-          "a": "climb", 
-          "b": "climb()", 
-          "c": "climb{}", 
-          "d": "climb[]"
-	  	}
-	  ]
+      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` twice to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	}
   ]
 }

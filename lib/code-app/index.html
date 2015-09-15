@@ -5,66 +5,71 @@
     <div flex='60' layout='column' layout-align="center center">
       <div class="dialog-title">{{App.dialogTitle}}</div>
       <div class="dialog-text"><marked>{{App.dialogText}}</marked></div>
-      <div class="dialog-button" ng-click='App.dialogBtnFn()'>{{App.dialogButton}}</div>
+      <div class="dialog-button directions" ng-click='App.dialogBtnFn()'>{{App.dialogButton}}</div>
     </div>
   </div>
 </div>
 
 <!--quiz survey container-->
 <div class="dialog-screen" ng-show="App.quizSurveyOn">
-  <div class="dialog-box" layout='row'>
-    <div class="dialog-img {{App.dialogType}}" flex='40'></div>
-    <div flex='60' layout='column' layout-align="center center">
+  <div class="dialog-box survey" layout='row'>
+    
+    <div flex='100' layout='column' layout-align="space-around center">
       <form class='survey' layout='column' layout-align='center center' name='quizSurveyForm' ng-submit='App.dialogBtnFn()'novalidate>
 
         <div class='prompt'>I am a:</div>
-        <div class='input' ng-required='true'>
-          student: <input type='radio' ng-model='App.user.type' value='student'/>
-          teacher: <input type='radio' ng-model='App.user.type' value='teacher'/>
-          other: <input type='radio' ng-model='App.user.type' value='other'/>
+        <div class='input' ng-required='true' flex= '100' layout='row' layout-align='center'>
+          <div flex='10'></div>
+          <div flex='25'>student  <input type='radio' ng-model='App.user.type' value='student'/></div>
+          <div flex='25'>teacher  <input type='radio' ng-model='App.user.type' value='teacher'/></div>
+          <div flex='25'>other  <input type='radio' ng-model='App.user.type' value='other'/></div>
         </div>
-        <div class='input'>
-          in grade: 
-          <select ng-model='App.user.grade' ng-required='true'>
-            <option value='K'>K</option>
-            <option value='1'>1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
-            <option value='5'>5</option>
-            <option value='6'>6</option>
-            <option value='other'>other</option>
-          </select>
+        <div class='input' layout='row' layout-align='center'>
+          <div flex='33'>
+            in grade: 
+            <select ng-model='App.user.grade' ng-required='true'>
+              <option value='K'>K</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+              <option value='4'>4</option>
+              <option value='5'>5</option>
+              <option value='6'>6</option>
+              <option value='other'>other</option>
+            </select>
+          </div>
         </div>
-        <div class='input'>
-          at: 
-          <select ng-model='App.user.school' ng-required='true'>
-            <option value='Beethoven'>Beethoven</option>
-            <option value='Selma'>Selma</option>
-            <option value='other'>other</option>
-          </select>
+        <div class='input' layout='row' layout-align='center'>
+        <div flex='33'>
+            at: 
+            <select ng-model='App.user.school' ng-required='true'>
+              <option value='Beethoven'>Beethoven</option>
+              <option value='Selma'>Selma</option>
+              <option value='other'>other</option>
+            </select>
+          </div>
         </div>
 
         <div class='prompt'>How do you like this activity? </div>
-        <div class='input' ng-required='true'>
-          Don't like it. <input type='radio' ng-model='App.user.activity' value='1'/>
-          It's ok. <input type='radio' ng-model='App.user.activity' value='2'/>
-          I like it. <input type='radio' ng-model='App.user.activity' value='3'/>
+        <div class='input' ng-required='true' layout='row' layout-align='space-around center'>
+          <div flex='30' class= "rating">Don't like it. <input type='radio' ng-model='App.user.activity' value='1'/></div>
+          <div flex='30' class= "rating">It's ok. <input type='radio' ng-model='App.user.activity' value='2'/></div>
+          <div flex='30' class= "rating">I like it. <input type='radio' ng-model='App.user.activity' value='3'/></div>
         </div>
 
         <div class='prompt'>How hard is this activity? </div>
-        <div class='input' ng-required='true'>
-          Easy <input type='radio' ng-model='App.user.difficulty' value='1'/>
-          Medium <input type='radio' ng-model='App.user.difficulty' value='2'/>
-          Hard <input type='radio' ng-model='App.user.difficulty' value='3'/>
+        <div class='input' ng-required='true' layout='row' layout-align='space-around center'>
+          <div flex='30' class= "rating">Easy <input type='radio' ng-model='App.user.difficulty' value='1'/></div>
+          <div flex='30' class= "rating">Medium <input type='radio' ng-model='App.user.difficulty' value='2'/></div>
+          <div flex='30' class= "rating">Hard <input type='radio' ng-model='App.user.difficulty' value='3'/></div>
         </div>
 
 
         <div class='prompt'>How do you like coding?</div>
-        <div class='input' ng-required='true'>
-          Don't like it. <input type='radio' ng-model='App.user.coding' value='1'/>
-          It's ok. <input type='radio' ng-model='App.user.coding' value='2'/>
-          I like it. <input type='radio' ng-model='App.user.coding' value='3'/>
+        <div class='input' ng-required='true' layout='row' layout-align='space-around center'>
+          <div flex='30' class= "rating">Don't like it. <input type='radio' ng-model='App.user.coding' value='1'/></div>
+          <div flex='30' class= "rating">It's ok. <input type='radio' ng-model='App.user.coding' value='2'/></div>
+          <div flex='30' class= "rating">I like it. <input type='radio' ng-model='App.user.coding' value='3'/></div>
         </div>
         <button type='submit' class="dialog-button" name='btn' ng-disabled='quizSurveyForm.$invalid'>GO TO QUIZ</button>
       </form>
@@ -83,40 +88,46 @@
 
           <div>
             <div class="prompt">My name is: </div>
-            <input type="text" ng-model='App.user.name' ng-required='true'></input>
+            <input class="nameInput" type="text" ng-model='App.user.name' ng-required='true'></input>
           </div>
 
-          <div>
-            <div class='prompt'>I am a:</div>
-            <div class='input' ng-required='true'>
-              student: <input type='radio' ng-model='App.user.type' value='student'/>
-              teacher: <input type='radio' ng-model='App.user.type' value='teacher'/>
-              visitor: <input type='radio' ng-model='App.user.type' value='visitor'/>
-            </div>
-            <div class='input'>
-              in grade: 
-              <select ng-model='App.user.grade' ng-required='true'>
-                <option value='K'>K</option>
-                <option value='1'>1</option>
-                <option value='2'>2</option>
-                <option value='3'>3</option>
-                <option value='4'>4</option>
-                <option value='5'>5</option>
-                <option value='6'>6</option>
-                <option value='other'>other</option>
-              </select>
-            </div>
-            <div class='input'>
-              at: 
-              <select ng-model='App.user.school' ng-required='true'>
-                <option value='Beethoven'>Beethoven</option>
-                <option value='Selma'>Selma</option>
-                <option value='noSchool'>no school</option>
-              </select>
-            </div>
+          
+          <div class='prompt'>I am a:</div>
+          <div class='input' ng-required='true' flex= '100' layout='row' layout-align='center'>
+            <div flex='10'></div>
+            <div flex='25'>student  <input type='radio' ng-model='App.user.type' value='student'/></div>
+            <div flex='25'>teacher  <input type='radio' ng-model='App.user.type' value='teacher'/></div>
+            <div flex='25'>other  <input type='radio' ng-model='App.user.type' value='other'/></div>
           </div>
-          <div>
-            <button type='submit' class="dialog-button" name='btn' ng-disabled='testSurveyForm.$invalid'>GO TO QUIZ</button>
+
+          <div class='input' layout='row' layout-align='center'>
+          <div flex='33'>
+            in grade: 
+            <select ng-model='App.user.grade' ng-required='true'>
+              <option value='K'>K</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+              <option value='4'>4</option>
+              <option value='5'>5</option>
+              <option value='6'>6</option>
+              <option value='other'>other</option>
+            </select>
+          </div>
+        </div>
+        <div class='input' layout='row' layout-align='center'>
+        <div flex='33'>
+            at: 
+            <select ng-model='App.user.school' ng-required='true'>
+              <option value='Beethoven'>Beethoven</option>
+              <option value='Selma'>Selma</option>
+              <option value='other'>other</option>
+            </select>
+          </div>
+        </div>
+          </div>
+          <div layout='row' layout-align='center'>
+            <button type='submit' class="dialog-button" name='btn' ng-disabled='testSurveyForm.$invalid'>TAKE TEST</button>
           </div>
         </div>
       </form>

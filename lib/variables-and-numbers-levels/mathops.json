@@ -169,13 +169,12 @@
       "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`.",
       "quiz": [
         {
-          "database": "https://getcoding1b2.firebaseio.com/",
           "questionId": "1b2a",
-          "text": "Question?", 
-          "a": "red velvet", 
-          "b": "redvelvet", 
-          "c": "redVelvet", 
-          "d": "red-velvet"
+          "text": "If the variable fruit contains the number of apples and oranges, which choice would give fruit the correct value?", 
+          "a": "var fruit = apples - oranges;", 
+          "b": "var oranges = fruit + apples;", 
+          "c": "var apples = fruit - oranges;", 
+          "d": "var fruit = apples + oranges;"
         }
       ]
     },
@@ -351,7 +350,17 @@
       }, 
       "mission": "Give the variable \`ninjas\` the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
       "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`."
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
+      "quiz": [
+        {
+          "questionId": "1b2b",
+          "text": "There are 6 foxes and 8 chickens. If 5 of them are cowboys and the rest are ninjas, how many ninjas are there?", 
+          "a": "6", 
+          "b": "8", 
+          "c": "9", 
+          "d": "14"
+        }
+      ]
     }
   ]
 }
