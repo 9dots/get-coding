@@ -1,7 +1,7 @@
 /**
  * Exports
  */
-var name = module.exports = 'math-operators';
+var name = module.exports = 'mathops2';
 
 /**
  * Angular Module
@@ -25,6 +25,6 @@ module
     workspace: require('./workspace.html'),
     playspace: require('./playspace.html'),
     help: require('./README.md'),
-    levels: require('lib/variables-and-numbers-levels').mathops // specify levels here
+    levels: require('lib/variables-and-numbers-levels').mathops2 // specify levels here
   });
 }]);

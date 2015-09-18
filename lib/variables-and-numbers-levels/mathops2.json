@@ -1,0 +1,230 @@
+{
+  "database": "1b2",
+  "levels": [
+    {
+      "playspace": {
+        "level": 1,
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level4",
+          "view": "mathops",
+          "variables": ["cones", "vanilla", "strawberry"], 
+          "values": [16, 9, 7], 
+          "showItems": [],
+          "showValues": [16, 9],
+          "setVars": ["cones", "vanilla"],
+          "setVals": [16, 9],
+          "requiredCalls": {
+            "cones": 0, 
+            "vanilla": 0
+          }, 
+          "numberCalls": {
+            "cones": 1,
+            "vanilla": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var strawberry = "
+      }, 
+      "directions": {
+        "dialogText": "Last time we learned about addition. Now, let's try subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
+      "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - vanilla\`."
+    },
+    {
+      "playspace": {
+        "level": 2,
+        "board": {
+          "background": "farm",
+          "foreground": "a2level5",
+          "view": "mathops",//determines view
+          "variables": ["animals", "chickens", "foxes"], //all variables
+          "values": [13, 10, 3], //values for check purposes
+          "showItems": [], 
+          "showValues": [13, 10, null],//values to show in playspace initially
+          "setVars": ["animals", "chickens"],//variables that can't change
+          "setVals": [13, 10],//values for non-changing variable
+          "requiredCalls": {
+            "animals": 0, 
+            "chickens": 0
+          }, 
+          "numberCalls": {
+            "animals": 1,
+            "chickens": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var foxes = ;"
+      }, 
+      "directions": {
+        "dialogText": "We have declared a variable called \`foxes\`. Give it the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`foxes\` the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign.", 
+      "tools": "\`chickens\`: contains the number of chickens  \`animals\`: contains the number of animals\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`.",
+      "quiz": [
+        {
+          "questionId": "1b2a",
+          "text": "If the variable fruit contains the number of apples and oranges, which choice would give fruit the correct value?", 
+          "a": "var fruit = apples - oranges;", 
+          "b": "var oranges = fruit + apples;", 
+          "c": "var apples = fruit - oranges;", 
+          "d": "var fruit = apples + oranges;"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "level": 3,
+        "board": {
+          "background" :"frogs",
+          "foreground" : "a2level7",
+          "view": "mathops",
+          "variables": ["lilypads", "yellow", "green", "emptyPads"], 
+          "values": [7, 3, 2, 2], 
+          "showItems": [],
+          "showValues": [7, 3, 2, null],
+          "setVars": ["lilypads", "yellow", "green"],
+          "setVals": [7, 3, 2],
+          "requiredCalls": {
+            "lilypads": 0, 
+            "yellow": 0, 
+            "green": 0
+          }, 
+          "numberCalls": {
+            "lilypads": 1,
+            "yellow": 1, 
+            "green": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var emptyPads = ;"
+      }, 
+      "directions": {
+        "dialogText": "We have declared a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`emptyPads\` the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign.", 
+      "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lillypads\`: contains the number of lillypads\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`."
+    },
+    {
+      "playspace": {
+        "level": 4,
+        "board": {
+          "background" :"bakery",
+          "foreground" : "a2level8",
+          "view": "mathops",
+          "variables": ["doughnuts", "sprinkles", "glazed", "chocolate"], 
+          "values": [16, 6, 6, 4], 
+          "showItems": [],
+          "showValues": [16, 6, 6],
+          "setVars": ["doughnuts", "sprinkles", "glazed"],
+          "setVals": [16, 6, 6],
+          "requiredCalls": {
+            "doughnuts": 0, 
+            "sprinkles": 0, 
+            "glazed": 0
+          }, 
+          "numberCalls": {
+            "doughnuts": 1,
+            "sprinkles": 1, 
+            "glazed": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var chocolate = ;"
+      }, 
+      "directions": {
+        "dialogText": "We have declared a variable called \`chocolate\`. Give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`chocolate\` the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
+      "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`doughnuts\`: contains the total number of doughnuts\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - sprinkles - glazed\`."
+    },
+    {
+      "playspace": {
+        "level": 5,
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level9",
+          "view": "mathops",
+          "variables": ["singles", "chocolate", "strawberry", "doubles"], 
+          "values": [8, 9, 7, 8], 
+          "showItems": [],
+          "showValues": [8, 9, 7, null],
+          "setVars": ["singles", "chocolate", "strawberry"],
+          "setVals": [8, 9, 7],
+          "requiredCalls": {
+            "singles": 0, 
+            "chocolate": 0, 
+            "strawberry": 0
+          }, 
+          "numberCalls": {
+            "singles": 1,
+            "chocolate": 1, 
+            "strawberry": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var doubles = "
+      }, 
+      "directions": {
+        "dialogText": "Now let's add AND subtract! We have declared a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
+      }, 
+      "mission": "Give the variable \`doubles\` the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
+      "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
+    },
+    {
+      "playspace": {
+        "board": {
+          "background" :"farm",
+          "foreground" : "a2level10",
+          "view": "mathops",
+          "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
+          "values": [8, 5, 6, 7], 
+          "showItems": [],
+          "showValues": [8, 5, 6, null],
+          "setVars": ["chickens", "foxes", "cowboys"],
+          "setVals": [8, 5, 6],
+          "requiredCalls": {
+            "chickens": 0, 
+            "foxes": 0, 
+            "cowboys": 0
+          }, 
+          "numberCalls": {
+            "chickens": 1,
+            "foxes": 1, 
+            "cowboys": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var ninjas = "
+      }, 
+      "directions": {
+        "dialogText": "We have declared a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
+      }, 
+      "mission": "Give the variable \`ninjas\` the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
+      "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
+      "quiz": [
+        {
+          "questionId": "1b2b",
+          "text": "There are 6 foxes and 8 chickens. If 5 of them are cowboys and the rest are ninjas, how many ninjas are there?", 
+          "a": "6", 
+          "b": "8", 
+          "c": "9", 
+          "d": "14"
+        }
+      ]
+    }
+  ]
+}

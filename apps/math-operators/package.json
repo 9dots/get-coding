@@ -1,7 +1,7 @@
 {
   "name": "math-operators",
-  "title": "+ and - Operators",
-  "description": "Combine variables with number values using + and - .",
+  "title": "+ Operator",
+  "description": "Combine variables with number values using + operator.",
   "author": "Ryan Baber", 
   "database": "1b2"
 }
