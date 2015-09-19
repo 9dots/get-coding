@@ -139,6 +139,10 @@
 	overflow: hidden;
 }
 
+[playspace-variables-and-numbers] .variableBox.blank {
+	margin: 157px auto 0px auto;
+}
+
 [playspace-variables-and-numbers] .variableBox.farm {
 	margin: 125px auto 0px auto;
 }

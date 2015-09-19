@@ -5,9 +5,9 @@
       "playspace": {
         "level": 1,
         "board": {
-          "background" :"",
+          "background" :"blank",
           "foreground" : "",
-          "view": "mathops",//determines view
+          "view": "create-vars",//determines view
           "variables": ["firstNumber", "secondNumber", "sum"], //all variables
           "values": [9, 6, 15], //values for check purposes
           "showItems": [], 
@@ -40,7 +40,7 @@
         "board": {
           "background" :"store",
           "foreground" : "a2level1",
-          "view": "mathops",//determines view
+          "view": "static-vars",//determines view
           "variables": ["apples", "oranges", "fruit"], //all variables
           "values": [9, 6, 15], //values for check purposes
           "showItems": [], 
@@ -73,7 +73,7 @@
         "board": {
           "background" :"frogs",
           "foreground" : "a2level2",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["yellow", "green", "frogs"], 
           "values": [3, 4, 7], 
           "showItems": [],
@@ -106,7 +106,7 @@
         "board": {
           "background" :"bakery",
           "foreground" : "a2level3",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["sprinkles", "chocolate", "glazed", "doughnuts"], 
           "values": [9, 6, 7, 22], 
           "showItems": [],
@@ -151,7 +151,7 @@
         "board": {
           "background" :"store",
           "foreground" : "a2level6",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["apples", "limes", "oranges", "fruit"], 
           "values": [8, 9, 5, 22], 
           "showItems": [],

@@ -1,13 +1,46 @@
 {
   "database": "1b2",
   "levels": [
-    {
+      {
       "playspace": {
         "level": 1,
         "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "create-vars",
+          "variables": ["firstNumber", "secondNumber", "difference"], 
+          "values": [16, 9, 7], 
+          "showItems": [],
+          "showValues": [16, 9],
+          "setVars": ["firstNumber", "secondNumber"],
+          "setVals": [16, 9],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var strawberry = "
+      }, 
+      "directions": {
+        "dialogText": "Last time we learned about addition. Now, let's try subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
+      "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - vanilla\`."
+    },
+    {
+      "playspace": {
+        "level": 2,
+        "board": {
           "background" :"iceCream",
           "foreground" : "a2level4",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["cones", "vanilla", "strawberry"], 
           "values": [16, 9, 7], 
           "showItems": [],
@@ -36,11 +69,11 @@
     },
     {
       "playspace": {
-        "level": 2,
+        "level": 3,
         "board": {
           "background": "farm",
           "foreground": "a2level5",
-          "view": "mathops",//determines view
+          "view": "static-vars",//determines view
           "variables": ["animals", "chickens", "foxes"], //all variables
           "values": [13, 10, 3], //values for check purposes
           "showItems": [], 
@@ -65,25 +98,15 @@
       }, 
       "mission": "Give the variable \`foxes\` the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign.", 
       "tools": "\`chickens\`: contains the number of chickens  \`animals\`: contains the number of animals\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`.",
-      "quiz": [
-        {
-          "questionId": "1b2a",
-          "text": "If the variable fruit contains the number of apples and oranges, which choice would give fruit the correct value?", 
-          "a": "var fruit = apples - oranges;", 
-          "b": "var oranges = fruit + apples;", 
-          "c": "var apples = fruit - oranges;", 
-          "d": "var fruit = apples + oranges;"
-        }
-      ]
+      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`."
     },
     {
       "playspace": {
-        "level": 3,
+        "level": 4,
         "board": {
           "background" :"frogs",
           "foreground" : "a2level7",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["lilypads", "yellow", "green", "emptyPads"], 
           "values": [7, 3, 2, 2], 
           "showItems": [],
@@ -114,11 +137,11 @@
     },
     {
       "playspace": {
-        "level": 4,
+        "level": 5,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level8",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["doughnuts", "sprinkles", "glazed", "chocolate"], 
           "values": [16, 6, 6, 4], 
           "showItems": [],
@@ -149,11 +172,11 @@
     },
     {
       "playspace": {
-        "level": 5,
+        "level": 6,
         "board": {
           "background" :"iceCream",
           "foreground" : "a2level9",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["singles", "chocolate", "strawberry", "doubles"], 
           "values": [8, 9, 7, 8], 
           "showItems": [],
@@ -184,10 +207,11 @@
     },
     {
       "playspace": {
+        "level": 7,
         "board": {
           "background" :"farm",
           "foreground" : "a2level10",
-          "view": "mathops",
+          "view": "static-vars",
           "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
           "values": [8, 5, 6, 7], 
           "showItems": [],

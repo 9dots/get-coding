@@ -5,7 +5,7 @@
         "board": {
           "background": "store",
           "foreground": "a1level1",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["apples"], 
           "values": [9], 
           "showItems": [], 
@@ -27,7 +27,7 @@
         "board": {
           "background": "store",
           "foreground": "a1level2",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["apples", "oranges"], 
           "values": [7, 5], 
           "showItems": [], 
@@ -49,7 +49,7 @@
         "board": {
           "background": "store",
           "foreground": "a1level3",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["apples", "oranges", "limes"], 
           "values": [8, 4, 10], 
           "showItems": [], 
@@ -71,7 +71,7 @@
         "board": {
           "background": "bakery",
           "foreground": "a1level4",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["doughnuts", "cupcakes", "cookies"], 
           "values": [10, 12, 14], 
           "showItems": [], 
@@ -93,7 +93,7 @@
         "board": {
           "background": "bakery",
           "foreground": "a1level5",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["sprinkles", "chocolate", "glazed"], 
           "values": [7, 5, 8], 
           "showItems": [], 
@@ -125,7 +125,7 @@
         "board": {
           "background": "bakery",
           "foreground": "a1level6",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["chocolate", "vanilla", "redVelvet"], 
           "values": [8, 12, 5], 
           "showItems": [], 
@@ -147,7 +147,7 @@
         "board": {
           "background": "iceCream",
           "foreground": "a1level7",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["cones", "bananaSplits", "milkshakes"], 
           "values": [7, 1, 4], 
           "showItems": [], 
@@ -169,7 +169,7 @@
         "board": {
           "background": "iceCream",
           "foreground": "a1level8",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["mintChip", "strawberry", "vanilla"], 
           "values": [6, 5, 9], 
           "showItems": [], 
@@ -191,7 +191,7 @@
         "board": {
           "background": "iceCream",
           "foreground": "a1level9",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["scoops", "cherries", "cones"], 
           "values": [14, 11, 5], 
           "showItems": [], 
@@ -213,7 +213,7 @@
         "board": {
           "background": "",
           "foreground": "",
-          "view": "varsandnums",
+          "view": "static-vars",
           "variables": ["apples", "oranges", "limes"], 
           "values": [8, 15, 13], 
           "showItems": ["apple", "orange", "lime"], 
