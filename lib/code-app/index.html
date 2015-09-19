@@ -140,16 +140,17 @@
   <div class="question-box" layout='column' layout-align="start center">
 
     <div class='counter'>Question {{App.nextQuestion + 1}}/{{App.quiz.length}}</div>
+    <div class='{{App.quiz[0].image}}'></div>
     <div class='quiz-question'><marked>{{App.currentQuestion.text}}</marked></div>
     <div layout='row'>
       <div layout='column'>
-        <div class="dialog-button" value='a' ng-click='App.recordAnswer("a")'><marked>A. {{App.currentQuestion.a}}</marked></div>
-         <div class="dialog-button" value='b' ng-click='App.recordAnswer("b")'><marked>B. {{App.currentQuestion.b}}</marked></div>
+        <div class="dialog-button" value='a' ng-click='App.recordAnswer("a")' layout='row'><div class="letter" flex='20'>A. </div><marked flex='80'>{{App.currentQuestion.a}}</marked></div>
+         <div class="dialog-button" value='b' ng-click='App.recordAnswer("b")' layout='row'><div class="letter" flex='20'>B. </div><marked flex='80'>{{App.currentQuestion.b}}</marked></div>
       </div>
       <div flex='5'></div>
       <div layout='column'>
-        <div class="dialog-button" value='c' ng-click='App.recordAnswer("c")'><marked>C. {{App.currentQuestion.c}}</marked></div>
-        <div class="dialog-button" value='d' ng-click='App.recordAnswer("d")'><marked>D. {{App.currentQuestion.d}}</marked></div>
+        <div class="dialog-button" value='c' ng-click='App.recordAnswer("c")' layout='row'><div class="letter" flex='20'>C. </div><marked flex='80'>{{App.currentQuestion.c}}</marked></div>
+        <div class="dialog-button" value='d' ng-click='App.recordAnswer("d")' layout='row'><div class="letter" flex='20'>D. </div><marked flex='80'>{{App.currentQuestion.d}}</marked></div>
       </div>
     </div>
 

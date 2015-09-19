@@ -410,3 +410,15 @@ md-bottom-sheet.bottom-sheet {
   margin: 0;
   padding: 0;
 }
+
+.letter {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-weight: bold;
+}
+
+.squirrel2-quiz-image {
+  width: 200px;
+  height: 200px;
+  background: url('squirrel2-quiz.png');
+}
