@@ -54,7 +54,7 @@
 	  	"codeSpace": ""
 	  }, 
 	  "directions": {
-			"dialogText":"The squirrel can also climb the SIDE of the tree. Use \`up()\` along with \`move()\` and \`getAcorn\` to climb the side of the tree and get the acorn!"
+			"dialogText":"The squirrel can also climb the SIDE of the tree. Use \`up()\` along with \`move()\` and \`getAcorn()\` to climb the side of the tree and get the acorn!"
 	  }, 
 	  "mission": "Use the new function \`up()\` along with \`move()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
@@ -90,6 +90,14 @@
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
       "tips": "First, type \`left();\` to change directions. Then use \`move();\` to get to the tree. Type \`down();\` to change directions, then use \`move();\` and \`getAcorn();\` to get the acorn.",
 	  "quiz": [
+	  	{
+          "questionId": "1a1a",
+          "text": "Which one of the following choices would call a fly function?", 
+          "a": "fly", 
+          "b": "fly()", 
+          "c": "fly{}", 
+          "d": "fly[]"
+	  	},
 	  	{
 	  	  "image": "squirrel2-quiz-image",
           "questionId": "1a1b",

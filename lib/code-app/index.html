@@ -140,7 +140,7 @@
   <div class="question-box" layout='column' layout-align="start center">
 
     <div class='counter'>Question {{App.nextQuestion + 1}}/{{App.quiz.length}}</div>
-    <div class='{{App.quiz[0].image}}'></div>
+    <div class='{{App.quiz[App.nextQuestion].image}}'></div>
     <div class='quiz-question'><marked>{{App.currentQuestion.text}}</marked></div>
     <div layout='row'>
       <div layout='column'>
