@@ -9,7 +9,7 @@
           "foreground" : "",
           "view": "create-vars",//determines view
           "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": [9, 6, 15], //values for check purposes
+          "values": [13, 15, 28], //values for check purposes
           "showItems": [], 
           "showValues": [null, null, null],//values to show in playspace initially
           "setVars": [],//variables that can't change
@@ -28,11 +28,11 @@
         "codeSpace": "var firstNumber = ;"
       }, 
       "directions": {
-        "dialogText": "Let's do some addition! We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\` and \`oranges\` using the \`+\` sign."
+        "dialogText": "Let's do some addition! Declare two variables called \`firstNumber\` and \`secondNumber\`, and give them number values. Create a third variable called \`sum\` which adds the first two together."
       }, 
-      "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\` and \`oranges\` using the \`+\` sign.", 
-      "tools": "\`apples\`: contains the number of apples  \`oranges\`: contains the number of oranges\n\n\`+\`: adds numbers together", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + oranges\`."
+      "mission": "Declare two variables called \`firstNumber\` and \`secondNumber\`, and give them number values. Create a third variable called \`sum\` which adds the first two together. Click the lightning bolt to the left to find out which values to use to pass level.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "To pass this level, give \`firstNumber\` a value of \`13\`, \`secondNumber\` a value of \`15\`, and \`sum\` a value of \`firstNumber + secondNumber\`."
     },
     {
       "playspace": {
