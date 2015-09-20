@@ -93,10 +93,10 @@
 	  	{
           "questionId": "1a1a",
           "text": "Which one of the following choices would call a fly function?", 
-          "a": "fly", 
-          "b": "fly()", 
-          "c": "fly{}", 
-          "d": "fly[]"
+          "a": "fly{}", 
+          "b": "fly", 
+          "c": "fly[]", 
+          "d": "fly()"
 	  	},
 	  	{
 	  	  "image": "squirrel2-quiz-image",
