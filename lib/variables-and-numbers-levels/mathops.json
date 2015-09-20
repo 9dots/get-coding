@@ -136,6 +136,14 @@
       "tips": "After the \`=\` sign and before the \`;\`, type \`sprinkles + chocolate + glazed\`.", 
       "quiz": [
         {
+          "questionId": "1b1a",
+          "text": "Which choice below would create a variable called \`brownies\`?", 
+          "a": "variable brownies;", 
+          "b": "variable = brownies;", 
+          "c": "var brownies;", 
+          "d": "var = brownies;"
+        },
+        {
           "questionId": "1b2a",
           "text": "If the variable fruit contains the number of apples and oranges, which choice would give fruit the correct value?", 
           "a": "var fruit = apples - oranges;", 
