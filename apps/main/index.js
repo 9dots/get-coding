@@ -113,7 +113,6 @@ module
       apps: [
         appObject['crossriver-blockly'],
         appObject['frogjump-blockly'], 
-        appObject['spaceman-sequencing-blockly'],
         appObject['spaceman-functions-blockly']
       ]
     }, 
