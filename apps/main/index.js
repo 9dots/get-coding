@@ -93,10 +93,9 @@ module
         appObject['squirrel'], 
         appObject['squirrel2'],
         appObject['magic-words'],
-        appObject['fire-and-ice'],
         appObject['frogjump-puzzle'],
         appObject['crossriver-intro'], 
-        appObject['spaceman-sequencing']
+        appObject['space-man']
       ]
     },
     {

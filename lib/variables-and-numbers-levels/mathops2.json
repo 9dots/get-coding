@@ -25,14 +25,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var strawberry = "
+        "codeSpace": "var firstNumber = ;"
       }, 
       "directions": {
-        "dialogText": "Last time we learned about addition. Now, let's try subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+        "dialogText": "Last time we learned about addition. Now, let's try subtraction! Create two variables called \`firstNumber\` and \`secondNumber\` and give them number values. Then create a variable called  \`difference\` with a value of \`firstNumber - secondNumber\`."
       }, 
-      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
-      "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - vanilla\`."
+      "mission": "Create two variables called \`firstNumber\` and \`secondNumber\` and give them number values. Then create a variable called  \`difference\` with a value of \`firstNumber - secondNumber\`. To get the numbers that will pass this level, click on the lightning bolt on the left.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference between \`firstNumber\` and \`secondNumber\`", 
+      "tips": "To pass this level, give \`firstNumber\` a value of \`21\`, \`secondNumber\` a value of \`6\`, and \`difference\` a value of \`firstNumber - secondNumber\`."
     },
     {
       "playspace": {
@@ -61,7 +61,7 @@
         "codeSpace": "var strawberry = "
       }, 
       "directions": {
-        "dialogText": "Last time we learned about addition. Now, let's try subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+        "dialogText": "We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
       }, 
       "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
       "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
@@ -126,14 +126,32 @@
         }
       },
       "workspace": {
-        "codeSpace": "var emptyPads = ;"
+        "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign."
+        "dialogText": "Declare a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign."
       }, 
-      "mission": "Give the variable \`emptyPads\` the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign.", 
+      "mission": "Create the variable \`emptyPads\` and give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign.", 
       "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lillypads\`: contains the number of lillypads\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`."
+      "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`.",
+      "quiz": [
+        {
+          "questionId": "1b2a",
+          "text": "If the variable \`doughnuts\` contains the number of \`chocolate\` and \`glazed\`, which choice would give \`doughnuts\` the correct value?", 
+          "a": "\`var doughnuts = chocolate + glazed;\`", 
+          "b": "\`var glazed = doughnuts - chocolate;\`", 
+          "c": "\`var chocolate = doughnuts + glazed;\`", 
+          "d": "\`var doughnuts = chocolate - glazed;\`"
+        },
+        {
+          "questionId": "1b3a",
+          "text": "Which choice would give the variable \`number\` a value of \`5\`", 
+          "a": "\`var number = 17 - 2;\`", 
+          "b": "\`var number = 1 + 3;\`", 
+          "c": "\`var number = 12 - 6;\`", 
+          "d": "\`var number = 3 + 3;\`"
+        }
+      ]
     },
     {
       "playspace": {
@@ -161,12 +179,12 @@
         }
       },
       "workspace": {
-        "codeSpace": "var chocolate = ;"
+        "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`chocolate\`. Give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
+        "dialogText": "Create a variable called \`chocolate\`. Give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
       }, 
-      "mission": "Give the variable \`chocolate\` the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
+      "mission": "Create the variable \`chocolate\` and give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
       "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`doughnuts\`: contains the total number of doughnuts\n\n\`-\`: subtracts one number from another", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - sprinkles - glazed\`."
     },
@@ -196,12 +214,12 @@
         }
       },
       "workspace": {
-        "codeSpace": "var doubles = "
+        "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "Now let's add AND subtract! We have declared a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
+        "dialogText": "Now let's add AND subtract! Declare a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
       }, 
-      "mission": "Give the variable \`doubles\` the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
+      "mission": "Create the variable \`doubles\` and give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
       "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
     },
@@ -231,24 +249,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var ninjas = "
+        "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
+        "dialogText": "Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
       }, 
-      "mission": "Give the variable \`ninjas\` the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
+      "mission": "Create the variable \`ninjas\` and give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
       "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
-      "quiz": [
-        {
-          "questionId": "1b2b",
-          "text": "There are 6 foxes and 8 chickens. If 5 of them are cowboys and the rest are ninjas, how many ninjas are there?", 
-          "a": "6", 
-          "b": "8", 
-          "c": "9", 
-          "d": "14"
-        }
-      ]
     }
   ]
 }

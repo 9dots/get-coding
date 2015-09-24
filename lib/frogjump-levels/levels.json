@@ -13,8 +13,11 @@
 			],
 			"directions":
 			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+				"dialogText":"Use \`jump(0)\` to get frog 0 to the farthest lilypad to the left."
+			},
+			"mission":"Use the function \`jump(0)\` to move frog 0 to the farthest lilypad to the left.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Type \`jump(0)\` twice to move the frog two lilypads over."
 		},
 		{
 			"level": 2,
@@ -35,8 +38,11 @@
 			],
 			"directions":
 			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+				"dialogText":"Use \`jump(0)\` and \`jump(1)\` to get each frog to the farthest lilypad in the direction it's facing."
+			},
+			"mission":"Use the functions \`jump(0)\` and \`jump(1)\` to move frogs 0 and 1 to the farthest lilypads in either direction.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Jump frog 0 first, then frog 1, then frog 0 again."
 		},
 		{
 			"level": 3,
@@ -63,8 +69,11 @@
 			],
 			"directions":
 			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+				"dialogText":"Use \`jump(0)\`, \`jump(1)\` and \`jump(2)\` to get each frog to the farthest lilypad in the direction it's facing."
+			},
+			"mission":"Use the functions \`jump(0)\`, \`jump(1)\` and \`jump(2)\` to move the frogs to the farthest lilypads in either direction.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "You have to start with frog 2, so type \`jump(2)\` first. Then finish with frog 1 and frog 0."
 		},
 		{
 			"level": 4,
@@ -91,8 +100,11 @@
 			],
 			"directions":
 			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+				"dialogText":"Use \`jump(0)\`, \`jump(1)\` and \`jump(2)\` to get each frog to the farthest lilypad in the direction it's facing."
+			},
+			"mission":"Use the functions \`jump(0)\`, \`jump(1)\` and \`jump(2)\` to move the frogs to the farthest lilypads in either direction.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "You have to start with frog 1, so type \`jump(1)\` first. Then jump 2, and finally jump 0."
 		},
 		{
 			"level": 5,
@@ -113,8 +125,11 @@
 			],
 			"directions":
 			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+				"dialogText":"Use \`jump(0)\` and \`jump(1)\` to get each frog to the farthest lilypad in the direction it's facing."
+			},
+			"mission":"Use the functions \`jump(0)\` and \`jump(1)\` to move frogs 0 and 1 to the farthest lilypads in either direction.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "This one's easy, so you're on your own!"
 		},
 		{
 			"level": 6,
@@ -145,10 +160,9 @@
 					"destination": 0
 				}
 			],
-			"directions":
-			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Start with frog 3, the jump 2, then 3 again. Keep going in that pattern."
 		},
 		{
 			"level": 7,
@@ -179,10 +193,9 @@
 					"destination": 1
 				}
 			],
-			"directions":
-			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Start with the green frogs first."
 		},
 		{
 			"level": 8,
@@ -213,10 +226,9 @@
 					"destination": 1
 				}
 			],
-			"directions":
-			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Try to avoid having two frogs of the same color next to each other."
 		},
 		{
 			"level": 9,
@@ -253,10 +265,9 @@
 					"destination": 2
 				}
 			],
-			"directions":
-			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Jump a green frog, then a yellow frog, and so on like that."
 		},
 		{
 			"level": 10,
@@ -299,10 +310,9 @@
 					"destination": 2
 				}
 			],
-			"directions":
-			{
-				"dialogText":"Help the two frogs each get to the last lilypad in the direction they are facing.\n\n Functions\n jump(number) - The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty space."
-			}
+			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
+			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
+			"tips": "Try to avoid having a frog land behind another frog of the same color."
 		}
 	]
 }

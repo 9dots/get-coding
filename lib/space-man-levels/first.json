@@ -6,29 +6,32 @@
         "rows": 7,
         "cols": 7,
         "blocked": [],
-        "parts": ["23"],
+        "parts": ["34"],
       },
       "astro": {
-        "position": "22",
+        "position": "33",
         "rotation": 0
       },
       "workspace": {
         "codeSpace": ""
       }, 
-      "mission": "Get the space ranger to each comet. On each square with a comet, call the function getPart().",
-      "tools": "Here are some tools.", 
-      "tips": "Here are a few tips."
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 2,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["21", "23", "31", "32", "33"],
-        "parts": ["12"],
+        "blocked": ["32", "34", "42", "43", "44"],
+        "parts": ["23"],
       },
       "astro": {
-        "position": "22",
+        "position": "33",
         "rotation": 0
       },
       "workspace": {
@@ -40,64 +43,88 @@
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["1*", "3*"],
-        "parts": ["21"],
+        "blocked": ["2*", "4*"],
+        "parts": ["32"],
       },
       "astro": {
-        "position": "22",
+        "position": "33",
         "rotation": 0
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 4,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["*1", "*3"],
-        "parts": ["32"],
+        "blocked": ["*2", "*4"],
+        "parts": ["43"],
       },
       "astro": {
-        "position": "22",
+        "position": "33",
         "rotation": 0
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 5,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["22"],
-        "parts": ["12"],
+        "blocked": ["33"],
+        "parts": ["23"],
       },
       "astro": {
-        "position": "32",
+        "position": "43",
         "rotation": 0
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 6,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["22", "32", "42"],
-        "parts": ["21"],
+        "blocked": ["23", "33", "43"],
+        "parts": ["22"],
       },
       "astro": {
-        "position": "23",
+        "position": "24",
         "rotation": 0
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 7,
@@ -113,39 +140,57 @@
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 8,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["*1", "*3"],
-        "parts": ["02", "22"],
+        "blocked": ["*2", "*4"],
+        "parts": ["03", "23"],
       },
       "astro": {
-        "position": "42",
+        "position": "43",
         "rotation": -180
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 9,
       "field": {
         "rows": 7,
         "cols": 7,
-        "blocked": ["11", "12", "13", "21", "23", "31", "32", "33"],
-        "parts": ["02", "20", "24"],
+        "blocked": ["22", "23", "24", "32", "34", "42", "43", "44"],
+        "parts": ["13", "31", "35"],
       },
       "astro": {
-        "position": "42",
+        "position": "53",
         "rotation": -90
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 10,
@@ -161,7 +206,13 @@
       },
       "workspace": {
         "codeSpace": ""
-      }
+      },
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     }
   ]
 }

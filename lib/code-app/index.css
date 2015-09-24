@@ -422,3 +422,9 @@ md-bottom-sheet.bottom-sheet {
   height: 200px;
   background: url('squirrel2-quiz.png');
 }
+
+.squirrel2-quiz2-image {
+  width: 200px;
+  height: 200px;
+  background: url('squirrel2-quiz2.png');
+}
