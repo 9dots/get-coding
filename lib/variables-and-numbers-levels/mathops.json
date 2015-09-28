@@ -184,7 +184,7 @@
       "directions": {
         "dialogText": "We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign."
       }, 
-      "mission": "Give the variable \`doughnuts\` the correct number value by combining \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign.", 
+      "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign.", 
       "tools": "\`apples\`: contains the number of apples\n\n\`limes\`: contains the number of limes doughnuts\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`+\`: adds numbers together", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`apples + limes + oranges\`."
     }
