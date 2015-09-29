@@ -129,10 +129,10 @@
         "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "Declare a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign."
+        "dialogText": "Declare a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lilypads\` using the \`-\` sign."
       }, 
-      "mission": "Create the variable \`emptyPads\` and give it the correct number value by subtracting \`yellow\` and \`green\` from \`lillypads\` using the \`-\` sign.", 
-      "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lillypads\`: contains the number of lillypads\n\n\`-\`: subtracts one number from another", 
+      "mission": "Create the variable \`emptyPads\` and give it the correct number value by subtracting \`yellow\` and \`green\` from \`lilypads\` using the \`-\` sign.", 
+      "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lilypads\`: contains the number of lilypads\n\n\`-\`: subtracts one number from another", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`.",
       "quiz": [
         {
@@ -145,7 +145,7 @@
         },
         {
           "questionId": "1b3a",
-          "text": "Which choice would give the variable \`number\` a value of \`5\`", 
+          "text": "Which choice would give the variable \`number\` a value of \`4\`?", 
           "a": "\`var number = 17 - 2;\`", 
           "b": "\`var number = 1 + 3;\`", 
           "c": "\`var number = 12 - 6;\`", 

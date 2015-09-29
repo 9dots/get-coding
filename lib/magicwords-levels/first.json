@@ -141,7 +141,7 @@
         "quiz": [
           {
           "image": "squirrel2-quiz2-image",
-          "questionId": "1a1b",
+          "questionId": "1a2b",
           "text": "Which code below will make the squirrel get the acorn?", 
           "a": "up();\n\ngetAcorn();", 
           "b": "move();\n\ngetAcorn();", 
