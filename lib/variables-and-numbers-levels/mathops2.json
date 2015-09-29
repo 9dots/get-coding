@@ -11,9 +11,9 @@
           "variables": ["firstNumber", "secondNumber", "difference"], 
           "values": [16, 9, 7], 
           "showItems": [],
-          "showValues": [16, 9],
-          "setVars": ["firstNumber", "secondNumber"],
-          "setVals": [16, 9],
+          "showValues": [null, null, null],
+          "setVars": [],
+          "setVals": [],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -32,7 +32,7 @@
       }, 
       "mission": "Create two variables called \`firstNumber\` and \`secondNumber\` and give them number values. Then create a variable called  \`difference\` with a value of \`firstNumber - secondNumber\`. To get the numbers that will pass this level, click on the lightning bolt on the left.", 
       "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference between \`firstNumber\` and \`secondNumber\`", 
-      "tips": "To pass this level, give \`firstNumber\` a value of \`21\`, \`secondNumber\` a value of \`6\`, and \`difference\` a value of \`firstNumber - secondNumber\`."
+      "tips": "To pass this level, give \`firstNumber\` a value of \`16\`, \`secondNumber\` a value of \`9\`, and \`difference\` a value of \`firstNumber - secondNumber\`."
     },
     {
       "playspace": {
