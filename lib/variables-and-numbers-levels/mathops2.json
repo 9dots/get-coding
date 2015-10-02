@@ -1,42 +1,8 @@
 {
-  "database": "1b2",
   "levels": [
-      {
-      "playspace": {
-        "level": 1,
-        "board": {
-          "background" :"blank",
-          "foreground" : "",
-          "view": "create-vars",
-          "variables": ["firstNumber", "secondNumber", "difference"], 
-          "values": [16, 9, 7], 
-          "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": [],
-          "setVals": [],
-          "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
-          }, 
-          "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var firstNumber = ;"
-      }, 
-      "directions": {
-        "dialogText": "Last time we learned about addition. Now, let's try subtraction! Create two variables called \`firstNumber\` and \`secondNumber\` and give them number values. Then create a variable called  \`difference\` with a value of \`firstNumber - secondNumber\`."
-      }, 
-      "mission": "Create two variables called \`firstNumber\` and \`secondNumber\` and give them number values. Then create a variable called  \`difference\` with a value of \`firstNumber - secondNumber\`. To get the numbers that will pass this level, click on the lightning bolt on the left.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference between \`firstNumber\` and \`secondNumber\`", 
-      "tips": "To pass this level, give \`firstNumber\` a value of \`16\`, \`secondNumber\` a value of \`9\`, and \`difference\` a value of \`firstNumber - secondNumber\`."
-    },
     {
       "playspace": {
-        "level": 2,
+        "level": 1,
         "board": {
           "background" :"iceCream",
           "foreground" : "a2level4",
@@ -58,10 +24,10 @@
         }
       },
       "workspace": {
-        "codeSpace": "var strawberry = "
+        "codeSpace": "var strawberry = ;"
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+        "dialogText": "Let's do some subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
       }, 
       "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
       "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
@@ -69,7 +35,7 @@
     },
     {
       "playspace": {
-        "level": 3,
+        "level": 2,
         "board": {
           "background": "farm",
           "foreground": "a2level5",
@@ -102,7 +68,7 @@
     },
     {
       "playspace": {
-        "level": 4,
+        "level": 3,
         "board": {
           "background" :"frogs",
           "foreground" : "a2level7",
@@ -155,7 +121,7 @@
     },
     {
       "playspace": {
-        "level": 5,
+        "level": 4,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level8",
@@ -190,73 +156,36 @@
     },
     {
       "playspace": {
-        "level": 6,
+        "level": 5,
         "board": {
-          "background" :"iceCream",
-          "foreground" : "a2level9",
-          "view": "static-vars",
-          "variables": ["singles", "chocolate", "strawberry", "doubles"], 
-          "values": [8, 9, 7, 8], 
+          "background" :"blank",
+          "foreground" : "",
+          "view": "create-vars",
+          "variables": ["firstNumber", "secondNumber", "difference"], 
+          "values": ["*", "*", 8], 
           "showItems": [],
-          "showValues": [8, 9, 7, null],
-          "setVars": ["singles", "chocolate", "strawberry"],
-          "setVals": [8, 9, 7],
+          "showValues": [null, null, null],
+          "setVars": [],
+          "setVals": [],
           "requiredCalls": {
-            "singles": 0, 
-            "chocolate": 0, 
-            "strawberry": 0
+            "firstNumber": 0, 
+            "secondNumber": 0
           }, 
           "numberCalls": {
-            "singles": 1,
-            "chocolate": 1, 
-            "strawberry": 1
+            "firstNumber": 1,
+            "secondNumber": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": ""
+        "codeSpace": "var firstNumber = ;\nvar secondNumber ;\nvar difference = firstNumber - secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Now let's add AND subtract! Declare a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`8\`."
       }, 
-      "mission": "Create the variable \`doubles\` and give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
-      "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
-    },
-    {
-      "playspace": {
-        "level": 7,
-        "board": {
-          "background" :"farm",
-          "foreground" : "a2level10",
-          "view": "static-vars",
-          "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
-          "values": [8, 5, 6, 7], 
-          "showItems": [],
-          "showValues": [8, 5, 6, null],
-          "setVars": ["chickens", "foxes", "cowboys"],
-          "setVals": [8, 5, 6],
-          "requiredCalls": {
-            "chickens": 0, 
-            "foxes": 0, 
-            "cowboys": 0
-          }, 
-          "numberCalls": {
-            "chickens": 1,
-            "foxes": 1, 
-            "cowboys": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": ""
-      }, 
-      "directions": {
-        "dialogText": "Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
-      }, 
-      "mission": "Create the variable \`ninjas\` and give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
-      "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`8\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
     }
   ]
 }

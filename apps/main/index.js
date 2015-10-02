@@ -57,7 +57,9 @@ var module = angular.module(name, [
   require('apps/three-to-one'), 
   require('apps/test'), 
   require('apps/squirrel2'), 
-  require('apps/mathops2')
+  require('apps/mathops2'), 
+  require('apps/squirrel3'), 
+  require('apps/mathops3')
 ]);
 
 /**
@@ -93,6 +95,7 @@ module
         appObject['squirrel'], 
         appObject['squirrel2'],
         appObject['magic-words'],
+        appObject['squirrel3'],
         appObject['frogjump-puzzle'],
         appObject['crossriver-intro'], 
         appObject['space-man']
@@ -104,7 +107,8 @@ module
       apps: [
         appObject['variables-and-numbers'], 
         appObject['math-operators'], 
-        appObject['mathops2']
+        appObject['mathops2'], 
+        appObject['mathops3']
       ]
     },
     {

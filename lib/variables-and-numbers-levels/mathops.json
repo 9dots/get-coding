@@ -1,39 +1,5 @@
 {
-  "database": "1b2",
   "levels": [
-      {
-      "playspace": {
-        "level": 1,
-        "board": {
-          "background" :"blank",
-          "foreground" : "",
-          "view": "create-vars",//determines view
-          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": [13, 15, 28], //values for check purposes
-          "showItems": [], 
-          "showValues": [null, null, null],//values to show in playspace initially
-          "setVars": [],//variables that can't change
-          "setVals": [],//values for non-changing variable
-          "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
-          }, 
-          "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var firstNumber = ;"
-      }, 
-      "directions": {
-        "dialogText": "Let's do some addition! Declare two variables called \`firstNumber\` and \`secondNumber\`, and give them number values. Create a third variable called \`sum\` which adds the first two together."
-      }, 
-      "mission": "Declare two variables called \`firstNumber\` and \`secondNumber\`, and give them number values. Create a third variable called \`sum\` which adds the first two together. Click the lightning bolt to the left to find out which values to use to pass level.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "To pass this level, give \`firstNumber\` a value of \`13\`, \`secondNumber\` a value of \`15\`, and \`sum\` a value of \`firstNumber + secondNumber\`."
-    },
     {
       "playspace": {
         "level": 1,
@@ -187,6 +153,39 @@
       "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign.", 
       "tools": "\`apples\`: contains the number of apples\n\n\`limes\`: contains the number of limes doughnuts\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`+\`: adds numbers together", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`apples + limes + oranges\`."
+    },
+    {
+      "playspace": {
+        "level": 5,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "create-vars",//determines view
+          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
+          "values": ["*", "*", 28], //values for check purposes
+          "showItems": [], 
+          "showValues": [],//values to show in playspace initially
+          "setVars": [],//variables that can't change
+          "setVals": [],//values for non-changing variable
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`28\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`28\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No tips on this level!"
     }
   ]
 }

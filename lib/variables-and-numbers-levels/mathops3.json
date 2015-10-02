@@ -1,0 +1,338 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "level": 1,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",//determines view
+          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
+          "values": ["*", "*", 8], //values for check purposes
+          "showItems": [], 
+          "showValues": ["", "", ""],//values to show in playspace initially
+          "setVars": [],//variables that can't change
+          "setVals": [],//values for non-changing variable
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`8\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`8\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No tips on this level!"
+    },
+    {
+      "playspace": {
+        "level": 2,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",
+          "variables": ["firstNumber", "secondNumber", "difference"], 
+          "values": ["*", "*", 5], 
+          "showItems": [],
+          "showValues": [null, null, null],
+          "setVars": [],
+          "setVals": [],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`5\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`5\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+    },
+        {
+      "playspace": {
+        "level": 3,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",//determines view
+          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
+          "values": ["*", "*", 12], //values for check purposes
+          "showItems": [], 
+          "showValues": ["", "", ""],//values to show in playspace initially
+          "setVars": [],//variables that can't change
+          "setVals": [],//values for non-changing variable
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`12\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`12\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No tips on this level!"
+    },
+    {
+      "playspace": {
+        "level": 4,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",
+          "variables": ["firstNumber", "secondNumber", "difference"], 
+          "values": ["*", "*", 9], 
+          "showItems": [],
+          "showValues": [null, null, null],
+          "setVars": [],
+          "setVals": [],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`9\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`9\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+    },
+        {
+      "playspace": {
+        "level": 5,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",//determines view
+          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
+          "values": ["*", "*", 36], //values for check purposes
+          "showItems": [], 
+          "showValues": ["", "", ""],//values to show in playspace initially
+          "setVars": [],//variables that can't change
+          "setVals": [],//values for non-changing variable
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`36\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`36\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No tips on this level!"
+    },
+    {
+      "playspace": {
+        "level": 6,
+        "board": {
+          "background" :"blank",
+          "foreground" : "",
+          "view": "static-vars",
+          "variables": ["firstNumber", "secondNumber", "difference"], 
+          "values": ["*", "*", 12], 
+          "showItems": [],
+          "showValues": [null, null, null],
+          "setVars": [],
+          "setVals": [],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 1,
+            "secondNumber": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
+      }, 
+      "directions": {
+        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`12\`."
+      }, 
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`12\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+    },
+    {
+      "playspace": {
+        "level": 7,
+        "board": {
+          "background": "",
+          "foreground": "",
+          "view": "static-vars",
+          "variables": ["apples", "oranges", "fruit"], 
+          "values": [6, 9, 15], 
+          "showItems": ["apple", "orange", "fruit"], 
+          "showValues": [6, 9, null]
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = 6;\nvar oranges = 9;\nvar fruit = ;"
+      }, 
+      "directions": {
+        "dialogText": "Last level! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
+      }, 
+      "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
+      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
+      "tips": "Sorry! No tips for this level. :)",
+      "quiz": [
+        {
+          "questionId": "1b1b",
+          "text": "Which one of the following choices could NOT be the name of a variable?", 
+          "a": "red velvet", 
+          "b": "redvelvet", 
+          "c": "redVelvet", 
+          "d": "red-velvet"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "level": 8,
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level4",
+          "view": "static-vars",
+          "variables": ["cones", "vanilla", "strawberry"], 
+          "values": [16, 9, 7], 
+          "showItems": [],
+          "showValues": [16, 7],
+          "setVars": ["cones", "strawberry"],
+          "setVals": [16, 7],
+          "requiredCalls": {
+            "cones": 0, 
+            "vanilla": 0
+          }, 
+          "numberCalls": {
+            "cones": 1,
+            "vanilla": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var strawberry = ;"
+      }, 
+      "directions": {
+        "dialogText": "Let's do some subtraction! We have declared a variable called \`vanilla\`. Give it the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign."
+      }, 
+      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign.", 
+      "tools": "\`strawberry\`: contains the number of strawberry  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - strawberry\`."
+    },
+    {
+      "playspace": {
+        "level": 9,
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level9",
+          "view": "static-vars",
+          "variables": ["singles", "chocolate", "strawberry", "doubles"], 
+          "values": [8, 9, 7, 8], 
+          "showItems": [],
+          "showValues": [8, 9, 7, null],
+          "setVars": ["singles", "chocolate", "strawberry"],
+          "setVals": [8, 9, 7],
+          "requiredCalls": {
+            "singles": 0, 
+            "chocolate": 0, 
+            "strawberry": 0
+          }, 
+          "numberCalls": {
+            "singles": 1,
+            "chocolate": 1, 
+            "strawberry": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Now let's add AND subtract! Declare a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
+      }, 
+      "mission": "Create the variable \`doubles\` and give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
+      "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
+    },
+    {
+      "playspace": {
+        "level": 10,
+        "board": {
+          "background" :"farm",
+          "foreground" : "a2level10",
+          "view": "static-vars",
+          "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
+          "values": [8, 5, 6, 7], 
+          "showItems": [],
+          "showValues": [8, 5, 6, null],
+          "setVars": ["chickens", "foxes", "cowboys"],
+          "setVals": [8, 5, 6],
+          "requiredCalls": {
+            "chickens": 0, 
+            "foxes": 0, 
+            "cowboys": 0
+          }, 
+          "numberCalls": {
+            "chickens": 1,
+            "foxes": 1, 
+            "cowboys": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": ""
+      }, 
+      "directions": {
+        "dialogText": "Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
+      }, 
+      "mission": "Create the variable \`ninjas\` and give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
+      "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
+    }
+  ]
+}
