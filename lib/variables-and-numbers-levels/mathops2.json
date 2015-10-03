@@ -103,7 +103,7 @@
       "quiz": [
         {
           "questionId": "1b2a",
-          "text": "If the variable \`doughnuts\` contains the number of \`chocolate\` and \`glazed\`, which choice would give \`doughnuts\` the correct value?", 
+          "text": "Which choice would create the variable \`doughtnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
           "a": "\`var doughnuts = chocolate + glazed;\`", 
           "b": "\`var glazed = doughnuts - chocolate;\`", 
           "c": "\`var chocolate = doughnuts + glazed;\`", 

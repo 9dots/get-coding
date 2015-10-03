@@ -10,9 +10,9 @@
           "variables": ["firstNumber", "secondNumber", "sum"], //all variables
           "values": ["*", "*", 8], //values for check purposes
           "showItems": [], 
-          "showValues": ["", "", ""],//values to show in playspace initially
-          "setVars": [],//variables that can't change
-          "setVals": [],//values for non-changing variable
+          "showValues": [null, null, 8],//values to show in playspace initially
+          "setVars": ["sum"],//variables that can't change
+          "setVals": [8],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -44,8 +44,8 @@
           "values": ["*", "*", 5], 
           "showItems": [],
           "showValues": [null, null, null],
-          "setVars": [],
-          "setVals": [],
+          "setVars": ["difference"],
+          "setVals": [5],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -77,8 +77,8 @@
           "values": ["*", "*", 12], //values for check purposes
           "showItems": [], 
           "showValues": ["", "", ""],//values to show in playspace initially
-          "setVars": [],//variables that can't change
-          "setVals": [],//values for non-changing variable
+          "setVars": ["sum"],//variables that can't change
+          "setVals": [12],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -110,8 +110,8 @@
           "values": ["*", "*", 9], 
           "showItems": [],
           "showValues": [null, null, null],
-          "setVars": [],
-          "setVals": [],
+          "setVars": ["difference"],
+          "setVals": [9],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -143,8 +143,8 @@
           "values": ["*", "*", 36], //values for check purposes
           "showItems": [], 
           "showValues": ["", "", ""],//values to show in playspace initially
-          "setVars": [],//variables that can't change
-          "setVals": [],//values for non-changing variable
+          "setVars": ["sum"],//variables that can't change
+          "setVals": [36],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -176,8 +176,8 @@
           "values": ["*", "*", 12], 
           "showItems": [],
           "showValues": [null, null, null],
-          "setVars": [],
-          "setVals": [],
+          "setVars": ["difference"],
+          "setVals": [12],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
