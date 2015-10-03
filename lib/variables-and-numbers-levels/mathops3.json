@@ -130,7 +130,33 @@
       }, 
       "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`9\`.", 
       "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`.",
+      "quiz": [
+        {
+          "questionId": "1b1a",
+          "text": "Which choice below would create a variable called \`doughnuts\` and give it a value of \`12\`?", 
+          "a": "variable doughnuts = 12;", 
+          "b": "variable = doughnuts 12;", 
+          "c": "var doughnuts = 12;", 
+          "d": "var = doughnuts 12;"
+        },
+        {
+          "questionId": "1b2a",
+          "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
+          "a": "\`var fruit = apples - oranges;\`", 
+          "b": "\`var oranges = fruit + apples;\`", 
+          "c": "\`var apples = fruit - oranges;\`", 
+          "d": "\`var fruit = apples + oranges;\`"
+        },
+        {
+          "questionId": "1b3a",
+          "text": "Which choice would give the variable \`number\` a value of \`8\`?", 
+          "a": "\`var number = 3 + 4;\`", 
+          "b": "\`var number = 12 - 2;\`", 
+          "c": "\`var number = 14 - 7;\`", 
+          "d": "\`var number = 5 + 3;\`"
+        }
+      ]
     },
         {
       "playspace": {
@@ -215,7 +241,7 @@
         "codeSpace": "var apples = 6;\nvar oranges = 9;\nvar fruit = ;"
       }, 
       "directions": {
-        "dialogText": "Last level! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
+        "dialogText": "Let's review a little! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
       }, 
       "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
       "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
@@ -258,7 +284,7 @@
         "codeSpace": "var strawberry = ;"
       }, 
       "directions": {
-        "dialogText": "Let's do some subtraction! We have declared a variable called \`vanilla\`. Give it the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign."
+        "dialogText": "Let's review subtraction! We have declared a variable called \`vanilla\`. Give it the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign."
       }, 
       "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign.", 
       "tools": "\`strawberry\`: contains the number of strawberry  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
@@ -328,7 +354,7 @@
         "codeSpace": ""
       }, 
       "directions": {
-        "dialogText": "Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
+        "dialogText": "Last level!!! Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
       }, 
       "mission": "Create the variable \`ninjas\` and give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
       "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 

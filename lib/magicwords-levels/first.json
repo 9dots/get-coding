@@ -151,10 +151,10 @@
           {
             "questionId": "1a3a",
             "text": "Which of the following could NOT be a function name?", 
-            "a": "open-gate", 
-            "b": "openGate", 
-            "c": "opengate", 
-            "d": "open gate"
+            "a": "open-gate()", 
+            "b": "openGate()", 
+            "c": "open_gate()", 
+            "d": "open gate()"
           }
         ]
       },
