@@ -7,6 +7,7 @@ md-bottom-sheet.playspace-magic-words {
 }
 
 [playspace-magic-words] .background {
+	position: relative;
 	width: 630px;
 	height: 630px;
 	background: url('mw-bg.png') no-repeat;
@@ -26,12 +27,14 @@ md-bottom-sheet.playspace-magic-words {
 	position: relative;
 	margin: 0px auto 0px auto;
 	width: 630px;
-	height: 378px;
+	height: 395px;
 	overflow: hidden;
 }
 
 [playspace-magic-words] .floor {
+	position: absolute;
 	margin: 0px auto 0px auto;
+	top: 516px;
 	width: 630px;
 	height: 114px;
 	background: url('floor.png');
@@ -68,7 +71,7 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .wizardtrack {
 	position: absolute;
 	left: 0px;
-	top: 267px;
+	top: 282px;
 	width: 630px;
 	height: 112px;
 }
@@ -89,22 +92,24 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .gate {
 	position: absolute;
 	width: 70px;
-	height: 400px;
+	height: 415px;
 	background: url('gate1.png');
+	background-position: 0px 15px;
 }
 
 [playspace-magic-words] .obstacle {
 	position: absolute;
 	width: 70px;
-	height: 400px;
+	height: 415px;
 }
 
 [playspace-magic-words] .fire {
-	background: url('fire.png');
+	background: url('fire1.gif') no-repeat;
+	background-position: 0px -3px;
 }
 
 [playspace-magic-words] .ice {
-	background: url('ice.png');
+	background: url('ice.gif') no-repeat;
 }
 
 [playspace-magic-words] .labelbox {

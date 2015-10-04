@@ -5,7 +5,7 @@
 	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row" layout-align="space-around center">
 		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames" >
 			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
-			<div class="varValue">{{VariablesAndNumbers.variables[variable] ? VariablesAndNumbers.variables[variable] : ""}}</div>
+			<div class="varValue">{{ VariablesAndNumbers.variables[variable]}}</div>
 		</div>
 	</div>
 	<div class="itemBox" >

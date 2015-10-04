@@ -231,14 +231,14 @@
           "background": "",
           "foreground": "",
           "view": "static-vars",
-          "variables": ["apples", "oranges", "fruit"], 
+          "variables": ["apples", "oranges", "limes"], 
           "values": [6, 9, 15], 
-          "showItems": ["apple", "orange", "fruit"], 
-          "showValues": [6, 9, null]
+          "showItems": ["apple", "orange", "lime"], 
+          "showValues": [null, null, null]
         }
       },
       "workspace": {
-        "codeSpace": "var apples = 6;\nvar oranges = 9;\nvar fruit = ;"
+        "codeSpace": "var apples = ;\nvar oranges = ;\nvar limes = ;"
       }, 
       "directions": {
         "dialogText": "Let's review a little! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
@@ -272,21 +272,21 @@
           "setVals": [16, 7],
           "requiredCalls": {
             "cones": 0, 
-            "vanilla": 0
+            "strawberry": 0
           }, 
           "numberCalls": {
             "cones": 1,
-            "vanilla": 1
+            "strawberry": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": "var strawberry = ;"
+        "codeSpace": "var vanilla = ;"
       }, 
       "directions": {
         "dialogText": "Let's review subtraction! We have declared a variable called \`vanilla\`. Give it the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign."
       }, 
-      "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign.", 
+      "mission": "Give the variable \`vanilla\` the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign.", 
       "tools": "\`strawberry\`: contains the number of strawberry  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`cones - strawberry\`."
     },

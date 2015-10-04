@@ -160,13 +160,13 @@
         "board": {
           "background" :"blank",
           "foreground" : "",
-          "view": "create-vars",
+          "view": "static-vars",
           "variables": ["firstNumber", "secondNumber", "difference"], 
           "values": ["*", "*", 8], 
           "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": [],
-          "setVals": [],
+          "showValues": [null, null, 8],
+          "setVars": ["difference"],
+          "setVals": [8],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0

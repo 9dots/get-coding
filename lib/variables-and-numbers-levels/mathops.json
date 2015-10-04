@@ -160,13 +160,13 @@
         "board": {
           "background" :"blank",
           "foreground" : "",
-          "view": "create-vars",//determines view
+          "view": "static-vars",//determines view
           "variables": ["firstNumber", "secondNumber", "sum"], //all variables
           "values": ["*", "*", 28], //values for check purposes
           "showItems": [], 
-          "showValues": [],//values to show in playspace initially
-          "setVars": [],//variables that can't change
-          "setVals": [],//values for non-changing variable
+          "showValues": [null, null, 28],//values to show in playspace initially
+          "setVars": ["sum"],//variables that can't change
+          "setVals": [28],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
