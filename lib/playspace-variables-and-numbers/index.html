@@ -4,8 +4,8 @@
 
 	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row" layout-align="space-around center">
 		<div class="variable" ng-repeat="variable in VariablesAndNumbers.variableNames" >
-			<div class="varName">{{VariablesAndNumbers.variables[variable] ? variable : ""}}</div>
-			<div class="varValue">{{ VariablesAndNumbers.variables[variable]}}</div>
+			<div class="varName">{{variable}}</div>
+			<div class="varValue">{{VariablesAndNumbers.variables[variable]}}</div>
 		</div>
 	</div>
 	<div class="itemBox" >
@@ -17,7 +17,7 @@
 <div class="foreground {{VariablesAndNumbers.foreground}}"></div>
 
 <!--for level 1 of mathops and mathops2, where variables appear when you give them a value-->
-
+<!--
 <div class='background varsandnums {{VariablesAndNumbers.background}}' ng-class="{hide: VariablesAndNumbers.view != 'create-vars'}">
 
 	<div class="variableBox {{VariablesAndNumbers.background}}" layout="row" layout-align="space-around center">
@@ -33,7 +33,7 @@
 	</div>
 </div>
 <div class="foreground {{VariablesAndNumbers.foreground}}"></div>
-
+-->
 
 
 <!--third view, for third level currently not being used-->

@@ -18,7 +18,7 @@ md-bottom-sheet.playspace-magic-words {
 	margin: 0px auto 0px auto;
 	width: 630px;
 	height: 138px;
-	background: url('overhang.png');
+	background: url('overhang.png') no-repeat;
 	color: white;
 	
 }
@@ -37,7 +37,7 @@ md-bottom-sheet.playspace-magic-words {
 	top: 516px;
 	width: 630px;
 	height: 114px;
-	background: url('floor.png');
+	background: url('floor.png') no-repeat;
 }
 
 [playspace-magic-words] .bubble {
@@ -46,7 +46,7 @@ md-bottom-sheet.playspace-magic-words {
 	top: 27px;
 	width: 180px;
 	height: 245px;
-	background: url('bubble1.png');
+	background: url('bubble1.png') no-repeat;
 	text-align: center;
 	font-size: 24px;
 }
