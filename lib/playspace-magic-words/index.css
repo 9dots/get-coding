@@ -17,8 +17,9 @@ md-bottom-sheet.playspace-magic-words {
 [playspace-magic-words] .overhang {
 	margin: 0px auto 0px auto;
 	width: 630px;
-	height: 138px;
+	height: 148px;
 	background: url('overhang.png') no-repeat;
+	background-size: 630px 148px;
 	color: white;
 	
 }
@@ -82,7 +83,17 @@ md-bottom-sheet.playspace-magic-words {
 	width: 120px;
 	height: 118px;
 	background-position: 0px 0px; 
-	background: url('wizard_sprite.png') no-repeat;
+	background: url('wizard_sprite1.png') no-repeat;
+}
+
+[playspace-magic-words] .spell {
+	position: absolute;
+	width: 80px;
+	height: 78px;
+	left: 150px;
+	top: 20px;
+	background: url('fireSpell.gif') no-repeat;
+	background-size: 80px 78px;
 }
 
 [playspace-magic-words] .gate-holder {
@@ -93,8 +104,8 @@ md-bottom-sheet.playspace-magic-words {
 	position: absolute;
 	width: 70px;
 	height: 415px;
-	background: url('gate1.png');
-	background-position: 0px 15px;
+	background: url('gate1.png') no-repeat;
+	background-position: 6px 15px;
 }
 
 [playspace-magic-words] .obstacle {
@@ -117,6 +128,7 @@ md-bottom-sheet.playspace-magic-words {
 	width: 70px;
 	height: 240px;
 	top: 133px;
+	left: 6px;
 }
 
 [playspace-magic-words] .label {

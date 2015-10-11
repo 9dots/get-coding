@@ -129,7 +129,17 @@
 			},
 			"mission":"Use the functions \`jump(0)\` and \`jump(1)\` to move frogs 0 and 1 to the farthest lilypads in either direction.", 
 			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
-			"tips": "This one's easy, so you're on your own!"
+			"tips": "This one's easy, so you're on your own!", 
+			"quiz": [
+				{
+	          	"questionId": "1a4b", 
+	          	"text": "In \`jump(0);\`, which part is the parameter?", 
+	          	"a": "\`jump\`", 
+	          	"b": "\`0\`",
+	          	"c": "\`()\`", 
+	          	"d": "\`;\`"
+	          	}
+	        ]
 		},
 		{
 			"level": 6,

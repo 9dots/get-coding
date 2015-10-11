@@ -112,11 +112,11 @@
       "quiz": [
         {
           "questionId": "1b1a",
-          "text": "Which choice below would create a variable called \`fruit\`?", 
-          "a": "variable fruit;", 
-          "b": "variable = fruit;", 
-          "c": "var fruit;", 
-          "d": "var = fruit;"
+          "text": "Which choice would create a variable called \`fruit\` and give it a value of \`5\`?", 
+          "a": "variable fruit = 5;", 
+          "b": "variable = fruit 5;", 
+          "c": "var fruit = 5;", 
+          "d": "var = fruit 5;"
         }
       ]
     },
