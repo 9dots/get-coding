@@ -92,6 +92,14 @@ md-bottom-sheet.playspace-magic-words {
 	height: 78px;
 	left: 150px;
 	top: 20px;
+}
+
+[playspace-magic-words] .iceSpell {
+	background: url('iceSpell.gif') no-repeat;
+	background-size: 80px 78px;
+}
+
+[playspace-magic-words] .fireSpell {
 	background: url('fireSpell.gif') no-repeat;
 	background-size: 80px 78px;
 }
@@ -180,12 +188,4 @@ md-bottom-sheet.playspace-magic-words {
 
 [playspace-magic-words] .gate.down {
 	top: -24px;
-}
-
-[playspace-magic-words] .obstacle.up {
-	display: none;
-}
-
-[playspace-magic-words] .obstacle.down {
-	display: visible;
 }
