@@ -36,7 +36,13 @@
       },
       "workspace": {
         "codeSpace": ""
-      }
+      }, 
+      "directions": {
+          "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
+        },
+      "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": ""
     },
     {
       "level": 3,
