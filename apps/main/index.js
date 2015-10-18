@@ -97,6 +97,7 @@ module
         appObject['magic-words'],
         appObject['squirrel3'],
         appObject['frogjump-puzzle'],
+        appObject['fire-and-ice'],
         appObject['crossriver-intro'], 
         appObject['space-man']
       ]
