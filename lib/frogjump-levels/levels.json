@@ -8,14 +8,14 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 2
+					"destination": [2]
 				}
 			],
 			"directions":
 			{
-				"dialogText":"Use \`jump(0)\` to get frog 0 to the farthest lilypad to the left."
+				"dialogText":"Use \`jump(0)\` to get frog 0 to the farthest lilypad to the right."
 			},
-			"mission":"Use the function \`jump(0)\` to move frog 0 to the farthest lilypad to the left.", 
+			"mission":"Use the function \`jump(0)\` to move frog 0 to the farthest lilypad to the right.", 
 			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
 			"tips": "Type \`jump(0)\` twice to move the frog two lilypads over."
 		},
@@ -27,13 +27,13 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 2
+					"destination": [2]
 				}, 
 				{
 					"id": 1,
 					"position": 2,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0]
 				}
 			],
 			"directions":
@@ -52,19 +52,19 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 2
+					"destination": [2, 3]
 				}, 
 				{
 					"id": 1,
 					"position": 2,  
 					"rotation": "right", 
-					"destination": 3
+					"destination": [2, 3]
 				}, 
 				{
 					"id": 2,
 					"position": 3,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0]
 				}
 			],
 			"directions":
@@ -83,19 +83,19 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 2
+					"destination": [2, 3]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 3
+					"destination": [2, 3]
 				}, 
 				{
 					"id": 2,
 					"position": 2,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0]
 				}
 			],
 			"directions":
@@ -114,13 +114,13 @@
 					"id": 0,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [4]
 				}, 
 				{
 					"id": 1,
 					"position": 3,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0]
 				}
 			],
 			"directions":
@@ -149,25 +149,25 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 2
+					"destination": [2, 3, 4]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 3
+					"destination": [2, 3, 4]
 				},
 				{
 					"id": 2,
 					"position": 2,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [2, 3, 4]
 				}, 
 				{
 					"id": 3,
 					"position": 4,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0]
 				}
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
@@ -182,25 +182,25 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 3
+					"destination": [3, 4]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0, 1]
 				},
 				{
 					"id": 2,
 					"position": 2,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [3, 4]
 				}, 
 				{
 					"id": 3,
 					"position": 3,  
 					"rotation": "left", 
-					"destination": 1
+					"destination": [0, 1]
 				}
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
@@ -215,25 +215,25 @@
 					"id": 0,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [4, 5]
 				}, 
 				{
 					"id": 1,
 					"position": 2,  
 					"rotation": "right", 
-					"destination": 5
+					"destination": [4, 5]
 				},
 				{
 					"id": 2,
 					"position": 4,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0, 1]
 				}, 
 				{
 					"id": 3,
 					"position": 5,  
 					"rotation": "left", 
-					"destination": 1
+					"destination": [0, 1]
 				}
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
@@ -248,31 +248,31 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [4, 5]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 5
+					"destination": [4, 5]
 				},
 				{
 					"id": 2,
 					"position": 3,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0, 1, 2]
 				}, 
 				{
 					"id": 3,
 					"position": 4,  
 					"rotation": "left", 
-					"destination": 1
+					"destination": [0, 1, 2]
 				}, 
 				{
 					"id": 4,
 					"position": 5,  
 					"rotation": "left", 
-					"destination": 2
+					"destination": [0, 1, 2]
 				}
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
@@ -287,37 +287,37 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": 4
+					"destination": [4, 5, 6]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": 5
+					"destination": [4, 5, 6]
 				},
 				{
 					"id": 2,
 					"position": 2,  
 					"rotation": "right", 
-					"destination": 6
+					"destination": [4, 5, 6]
 				}, 
 				{
 					"id": 3,
 					"position": 4,  
 					"rotation": "left", 
-					"destination": 0
+					"destination": [0, 1, 2]
 				}, 
 				{
 					"id": 4,
 					"position": 5,  
 					"rotation": "left", 
-					"destination": 1
+					"destination": [0, 1, 2]
 				}, 
 				{
 					"id": 5,
 					"position": 6,  
 					"rotation": "left", 
-					"destination": 2
+					"destination": [0, 1, 2]
 				}
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 

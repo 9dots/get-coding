@@ -190,19 +190,7 @@
         }, 
         "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
-        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right.",
-        "quiz": [
-          {
-            "database": "https://getcoding1a2.firebaseio.com/", 
-            "questionId": "", 
-            "text": "", 
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
-          }
-        ]
-      
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
       {
         "level": 6,
