@@ -1,23 +1,19 @@
 <div layout="row" layout-align="center center" class="crossRiver">
+
 	<div class="background">
+
 	  <div class="frame back">
 	  	<div class="character-holder">
-		  	<div class="back-character" ng-repeat="char in Crossriver.background.characters track by $index" 
+		  	<div class="back-character" ng-repeat="char in Crossriver.background.characters" 
 		  	ng-class="[char.type, char.option]">
 		  	</div>
 	  	</div>
 	  </div>
 	  
 	  <div class="frame middle" ng-class="['to-' + Crossriver.boat.position, 'speed-' + Crossriver.speed]">
-
 	    <div class="boat rear"></div>
-	    
-	    
 	    	<div class="passenger" ng-class="[passenger.type, passenger.option]" ng-repeat="passenger in Crossriver.boat.characters"></div>
-    	
-
     	<div class="boat fore"></div>
-
 	  </div>
 	  
 	  <div class="frame front">
@@ -27,5 +23,7 @@
 		  	</div>
 	  	</div>
 	  </div>
+
 	</div>
+	
 </div>

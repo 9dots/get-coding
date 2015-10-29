@@ -99,7 +99,8 @@ module
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
         appObject['crossriver-intro'], 
-        appObject['space-man']
+        appObject['space-man'], 
+        appObject['create-functions']
       ]
     },
     {

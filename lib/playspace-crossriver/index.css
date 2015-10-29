@@ -75,20 +75,34 @@
   position: absolute;
   background: url('fox.png') no-repeat;
   width: 127px;
-  height: 75px;
+  height: 78px;
 }
 
 .chicken {
   position: absolute;
   background: url('chicken.png') no-repeat;
-  width: 81px;
-  height: 75px;
+  width: 127px;
+  height: 78px;
 }
 
 .grain {
   position: absolute;
   background: url('grain.png') no-repeat;
-  width: 72px;
+  width: 127px;
+  height: 78px;
+}
+
+.deadgrain {
+  position: absolute;
+  background: url('dead_grain.png') no-repeat;
+  width: 127px;
+  height: 78px;
+}
+
+.deadchicken {
+  position: absolute;
+  background: url('dead_chicken.png') no-repeat;
+  width: 127px;
   height: 78px;
 }
 
@@ -130,7 +144,17 @@
   top: 230px;
 }
 
+.front-character.deadchicken {
+  left: 270px;
+  top: 230px;
+}
+
 .front-character.grain {
+  left: 228px;
+  top: 296px;
+}
+
+.front-character.deadgrain {
   left: 228px;
   top: 296px;
 }
@@ -168,8 +192,18 @@
   top: 213px;
 }
 
+.back-character.deadgrain {
+  left: 0px;
+  top: 213px;
+}
+
 .back-character.chicken {
   left: 97px;
+  top: 157px;
+}
+
+.back-character.deadchicken {
+  left: 60px;
   top: 157px;
 }
 
@@ -216,14 +250,6 @@
 .cargo {
   left: 170px;
   top: 160px;
-}
-
-.deadchicken {
-  
-}
-
-.deadgrain {
-  
 }
 
 .run {
