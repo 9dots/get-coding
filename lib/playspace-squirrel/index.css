@@ -37,6 +37,10 @@ md-bottom-sheet.playspace-squirrel {
   background: url('sq-bg5.png');
 }
 
+[playspace-squirrel] .background.background6 {
+  background: url('sq-bg6.png');
+}
+
 [playspace-squirrel] .grid-holder {
   position: relative;
 }

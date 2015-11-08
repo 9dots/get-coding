@@ -59,7 +59,8 @@ var module = angular.module(name, [
   require('apps/squirrel2'), 
   require('apps/mathops2'), 
   require('apps/squirrel3'), 
-  require('apps/mathops3')
+  require('apps/mathops3'), 
+  require('apps/squirrel4')
 ]);
 
 /**
@@ -99,6 +100,7 @@ module
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
         appObject['crossriver-intro'], 
+        appObject['squirrel4'],
         appObject['space-man'], 
         appObject['create-functions']
       ]
