@@ -72,6 +72,14 @@
 	display: none;
 }
 
+[playspace-cash-register] .button {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: green;
+	left: 400px;
+	top: 50px;
+}
 
 
 

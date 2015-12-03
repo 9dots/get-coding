@@ -13,4 +13,5 @@
 	<div class="items" layout='row'>
 		<div ng-repeat="item in CashRegister.basketItems" ng-class="{hide : item.price < 0}" class="{{item.item}}" flex></div>
 	</div>
+	<div class='button' id='greenButton' ng-click="CashRegister.btnFn()">button</div>
 </div>
