@@ -114,4 +114,73 @@ md-bottom-sheet.playspace-squirrel {
   font-weight: 400;
 }
 
+[playspace-squirrel] .buttonHolder {
+  width: 630px;
+  height: 90px;
+  left: 0px;
+  top: 540px;
+  background: url('buttonPanel.png');
+  position: absolute;
+}
+
+[playspace-squirrel] .button {
+  width: 90px;
+  height: 90px;
+  font-size: 60px;
+  line-height: 1.4em;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+  color: #3e2a10;
+  cursor: pointer;
+  background: url('blankBtnUp.png');
+}
+
+[playspace-squirrel] .button.getAcornButton {
+  background: url('acornBtnUp.png');
+}
+
+[playspace-squirrel] .button.moveButton {
+  background: url('moveBtnUp.png');
+}
+
+[playspace-squirrel] .button.rightButton {
+  background: url('rightBtnUp.png');
+}
+
+[playspace-squirrel] .button.leftButton {
+  background: url('leftBtnUp.png');
+}
+
+[playspace-squirrel] .button.upButton {
+  background: url('upBtnUp.png');
+}
+
+[playspace-squirrel] .button.downButton {
+  background: url('downBtnUp.png');
+}
+
+[playspace-squirrel] .button.getAcornButton:active {
+  background: url('acornBtnDown.png');
+}
+
+[playspace-squirrel] .button.moveButton:active {
+  background: url('moveBtnDown.png');
+}
+
+[playspace-squirrel] .button.rightButton:active {
+  background: url('rightBtnDown.png');
+}
+
+[playspace-squirrel] .button.leftButton:active {
+  background: url('leftBtnDown.png');
+}
+
+[playspace-squirrel] .button.upButton:active {
+  background: url('upBtnDown.png');
+}
+
+[playspace-squirrel] .button.downButton:active {
+  background: url('downBtnDown.png');
+}
+
 
