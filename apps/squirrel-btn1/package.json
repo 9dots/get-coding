@@ -1,6 +1,7 @@
 {
   "name": "squirrel-btn1",
-  "title": "Using Buttons",
-  "description": "Tie your function calls to buttons that can be clicked.",
-  "author": "Ryan Baber"
+  "title": "Creating Functions",
+  "description": "Write functions and tie them to buttons that can be clicked.",
+  "author": "Ryan Baber", 
+  "database": "1b5"
 }
