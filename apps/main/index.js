@@ -100,9 +100,9 @@ module
         appObject['squirrel3'],
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
+        appObject['squirrel-btn1'],
         appObject['crossriver-intro'], 
         appObject['squirrel4'],
-        appObject['squirrel-btn1'],
         appObject['space-man'], 
         appObject['create-functions']
       ]
