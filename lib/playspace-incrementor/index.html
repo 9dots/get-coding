@@ -1,15 +1,23 @@
 <div class="background">
 	<div class="frame sprite"></div>
 	<div class="frame incrementor"></div>
+	<div class="sign" ng-show="Incrementor.allSet">
+		<div class="textHolder">
+			<div class="signLine">MUST BE</div>
+			<div class="signLine">{{Incrementor.adjective}}</div>
+			<div class="signLine">{{Incrementor.targetVal}}</div>
+			<div class="signLine">TO RIDE</div>
+		</div>
+	</div>
 	<div class="frame handyman open" ng-class="{open : !Incrementor.allSet, closed : Incrementor.allSet}"></div>
 	<div class="buttonBox" layout='row' layout-align="center">
 		<div class="button" ng-repeat="button in Incrementor.buttons" ng-class="{ {{button.name}}Button : button.set }" id="button{{$index + 1}}">
 			<div class="label" id="label{{$index + 1}}"  ng-show="button.set"></div>
 		</div>
 	</div>
-	<div class="variable" ng-repeat="variable in Incrementor.variableNames">
+	<div class="variable" ng-repeat="variable in Incrementor.variableNames" ng-show="!Incrementor.success">
 			<div class="varName">{{variable}}</div>
 			<div class="varValue" id="{{variable}}"></div>
 	</div>
-	<div class="train empty"></div>
+	<div class="train empty" ng-class="{empty: !Incrementor.success, full: Incrementor.success}"></div>
 </div>

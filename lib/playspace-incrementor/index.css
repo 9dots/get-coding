@@ -30,11 +30,41 @@
 }
 
 [playspace-incrementor] .sprite {
-
+	position: absolute;
+	left: -10px;
+	top: 84px;
+	width: 675px;
+	height: 260px;
+	background: url('coaster-sprite.png');
 }
 
 [playspace-incrementor] .incrementor {
 	background: url('incrementor.png');
+}
+
+[playspace-incrementor] .sign {
+	position: absolute;
+	width: 183px;
+	height: 272px;
+	left: 20px;
+	top: 340px;
+	background: url('sign1.png');
+}
+
+[playspace-incrementor] .textHolder {
+	width: 180px;
+	height: 180px;
+	margin-top: 18px;
+	margin-left: 2px;
+}
+
+[playspace-incrementor] .signLine {
+	width: 180px;
+	height: 45px;
+	font-size: 36px;
+	text-align: center;
+	font-family:Tahoma, Geneva, sans-serif;
+
 }
 
 [playspace-incrementor] .handyman.open{
@@ -42,7 +72,7 @@
 } 
 
 [playspace-incrementor] .handyman.closed{
-	background: url('handymanClosed.png');
+	background: url('handymanClosed1.png');
 } 
 
 [playspace-incrementor] .buttonBox {

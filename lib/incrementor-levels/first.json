@@ -7,7 +7,9 @@
 				"values": [8], 
 				"showItems": ["number"],
 				"showValues": [null], 
-				"initValues": [0]
+				"initValues": [0], 
+				"adjective": "EXACTLY", 
+				"targetVal": "8"
 			},
 			"powers": {
 			  	"buttons": [
@@ -15,7 +17,8 @@
 			  		 "name": "add1",
 			  		 "fnName": "add1",
 			  		 "set": false, 
-			  		 "label": "+=1"
+			  		 "label": "+=1", 
+			  		 "contents": "{number+=1;}"
 	  				}
 	  			]
 	   		}, 
@@ -25,10 +28,12 @@
 			"level": 2, 
 			"board": {
 				"variables": ["number"],
-				"values": [8], 
+				"values": [11], 
 				"showItems": ["number"],
 				"showValues": [null], 
-				"initValues": [0]
+				"initValues": [0],
+				"adjective": "BETWEEN", 
+				"targetVal": "10 and 12"
 			},
 			"powers": {
 			  	"buttons": [
@@ -36,12 +41,14 @@
 			  		 "name": "add1",
 			  		 "fnName": "add1",
 			  		 "set": false, 
-			  		 "label": "+=1"
+			  		 "label": "+=1",
+			  		 "contents": "{number+=1;}"
 	  				},{
 			  		 "name": "add2",
 			  		 "fnName": "add2",
 			  		 "set": false, 
-			  		 "label": "+=2"
+			  		 "label": "+=2",
+			  		 "contents": "{number+=2;}"
 	  				}
 	  			]
 	   		}, 
@@ -51,10 +58,12 @@
 			"level": 3, 
 			"board": {
 				"variables": ["number"],
-				"values": [8], 
+				"values": [23, 24], 
 				"showItems": ["number"],
 				"showValues": [null], 
-				"initValues": [0]
+				"initValues": [0],
+				"adjective": "BETWEEN", 
+				"targetVal": "22 and 25"
 			},
 			"powers": {
 			  	"buttons": [
@@ -62,17 +71,20 @@
 			  		 "name": "add1",
 			  		 "fnName": "add1",
 			  		 "set": false, 
-			  		 "label": "+=1"
+			  		 "label": "+=1",
+			  		 "contents": "{number+=1;}"
 	  				},{
 			  		 "name": "add2",
 			  		 "fnName": "add2",
 			  		 "set": false, 
-			  		 "label": "+=2"
+			  		 "label": "+=2",
+			  		 "contents": "{number+=2;}"
 	  				},{
 			  		 "name": "add5",
 			  		 "fnName": "add5",
 			  		 "set": false, 
-			  		 "label": "+=5"
+			  		 "label": "+=5",
+			  		 "contents": "{number+=5;}"
 	  				}
 	  			]
 	   		},
