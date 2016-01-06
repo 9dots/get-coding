@@ -1,0 +1,82 @@
+{
+	"levels":[
+		{
+			"level": 1, 
+			"board": {
+				"variables": ["number"],
+				"values": [8], 
+				"showItems": ["number"],
+				"showValues": [null], 
+				"initValues": [0]
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "add1",
+			  		 "fnName": "add1",
+			  		 "set": false, 
+			  		 "label": "+=1"
+	  				}
+	  			]
+	   		}, 
+	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nsetButton(1, add1)"
+		}, 
+		{
+			"level": 2, 
+			"board": {
+				"variables": ["number"],
+				"values": [8], 
+				"showItems": ["number"],
+				"showValues": [null], 
+				"initValues": [0]
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "add1",
+			  		 "fnName": "add1",
+			  		 "set": false, 
+			  		 "label": "+=1"
+	  				},{
+			  		 "name": "add2",
+			  		 "fnName": "add2",
+			  		 "set": false, 
+			  		 "label": "+=2"
+	  				}
+	  			]
+	   		}, 
+	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)"
+		}, 
+		{
+			"level": 3, 
+			"board": {
+				"variables": ["number"],
+				"values": [8], 
+				"showItems": ["number"],
+				"showValues": [null], 
+				"initValues": [0]
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "add1",
+			  		 "fnName": "add1",
+			  		 "set": false, 
+			  		 "label": "+=1"
+	  				},{
+			  		 "name": "add2",
+			  		 "fnName": "add2",
+			  		 "set": false, 
+			  		 "label": "+=2"
+	  				},{
+			  		 "name": "add5",
+			  		 "fnName": "add5",
+			  		 "set": false, 
+			  		 "label": "+=5"
+	  				}
+	  			]
+	   		},
+	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nfunction add5(){\n    number += 5;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)\nsetButton(3, add5)"
+		}
+	]
+}

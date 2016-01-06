@@ -61,7 +61,8 @@ var module = angular.module(name, [
   require('apps/squirrel3'), 
   require('apps/mathops3'), 
   require('apps/squirrel4'), 
-  require('apps/squirrel-btn1')
+  require('apps/squirrel-btn1'), 
+  require('apps/incrementor')
 ]);
 
 /**
@@ -114,7 +115,8 @@ module
         appObject['variables-and-numbers'], 
         appObject['math-operators'], 
         appObject['mathops2'], 
-        appObject['mathops3']
+        appObject['mathops3'], 
+        appObject['incrementor']
       ]
     },
     {

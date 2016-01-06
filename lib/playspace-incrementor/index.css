@@ -1,0 +1,124 @@
+[playspace-incrementor] .background {
+	position: relative;
+	width: 630px;
+	height: 630px;
+	background: url('inc-bg.png');
+}
+
+[playspace-incrementor] .frame {
+	position: absolute;
+	width: 630px;
+	height: 630px;
+}
+
+[playspace-incrementor] .train {
+	position: absolute;
+	left: 5px;
+	top: 469px;
+	width: 630px;
+	height: 161px;
+}
+
+[playspace-incrementor] .train.empty{
+	background: url('train-empty.png');
+	background-position: (0px -469px);
+}
+
+[playspace-incrementor] .train.full{
+	background: url('train-full.png');
+	background-position: (0px -469px);
+}
+
+[playspace-incrementor] .sprite {
+
+}
+
+[playspace-incrementor] .incrementor {
+	background: url('incrementor.png');
+}
+
+[playspace-incrementor] .handyman.open{
+	background: url('handymanOpen.png');
+} 
+
+[playspace-incrementor] .handyman.closed{
+	background: url('handymanClosed.png');
+} 
+
+[playspace-incrementor] .buttonBox {
+	position: absolute;
+	width: 360px;
+	height: 90px;
+	left: 248px;
+	top: 168px;
+}
+
+[playspace-incrementor] .button {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	background: url('btnUp.png');
+}
+
+[playspace-incrementor] .label {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	font-size: 30px;
+	line-height: 2.8em;
+	text-align: center;
+	font: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	color: #403a2a;
+	font-weight: bold;
+}
+
+[playspace-incrementor] .label:active {
+	top: 3px;
+	left: -3px;
+}
+
+[playspace-incrementor] .button:active {
+	width: 90px;
+	height: 90px;
+	background: url('btnDn.png');
+}
+
+[playspace-incrementor] .variable {
+	width: 123px;
+	height: 315px;
+	background: url('/lib/playspace-variables-and-numbers/var-man.png') no-repeat;
+	background-position: -20px 3px;
+	position: relative;
+	left: 357px;
+	top: 265px;
+}
+
+[playspace-incrementor] .varName {
+	width: 120px;
+	height: 21px;
+	color: white;
+	font: 16px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: 2px;
+	top:114px;
+}
+
+[playspace-incrementor] .varValue {
+	width: 99px;
+	height: 86px;
+	color: rgb(79, 108, 116);
+	background: white;
+	font-size: 82px;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	left: 12px;
+	top:147px;
+	overflow: hidden;
+}
+
+
+

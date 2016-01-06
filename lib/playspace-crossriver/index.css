@@ -6,253 +6,253 @@
   overflow: hidden;
 }
 
-.crossRiver{
+[playspace-crossriver] .crossRiver{
   position: relative;
 }
 
-.frame {
+[playspace-crossriver] .frame {
   position: absolute;
   width: 396px;
   height: 378px;
 }
 
-.front {
+[playspace-crossriver] .front {
   left: 234px;
   bottom:0;
 }
 
-.middle {
+[playspace-crossriver] .middle {
   top: 250px;
 }
 
-.back {
+[playspace-crossriver] .back {
   top:150px;
 }
 
-.middle.to-foreground{
+[playspace-crossriver] .middle.to-foreground{
   left: 234px;
 }
 
-.middle.to-background {
+[playspace-crossriver] .middle.to-background {
   left: -20px;
 }
 
-.speed-125 {
+[playspace-crossriver] .speed-125 {
   transition: all 0.125s ease-in-out;
 }
 
-.speed-250 {
+[playspace-crossriver] .speed-250 {
   transition: all 0.25s ease-in-out;
 }
 
-.speed-500 {
+[playspace-crossriver] .speed-500 {
   transition: all 0.5s ease-in-out;
 }
 
-.speed-1000 {
+[playspace-crossriver] .speed-1000 {
   transition: all 1s ease-in-out;
 }
 
-.speed-2000 {
+[playspace-crossriver] .speed-2000 {
   transition: all 2s ease-in-out;
 }
 
-.speed-4000 {
+[playspace-crossriver] .speed-4000 {
   transition: all 4s ease-in-out;
 }
 
-.character-holder{
+[playspace-crossriver] .character-holder{
   position:relative;
   width:100%;
   height: 100%;
 }
 
-.front-character {
+[playspace-crossriver] .front-character {
   z-index:2;
 }
 
-.fox {
+[playspace-crossriver] .fox {
   position: absolute;
   background: url('fox.png') no-repeat;
   width: 127px;
   height: 78px;
 }
 
-.chicken {
+[playspace-crossriver] .chicken {
   position: absolute;
   background: url('chicken.png') no-repeat;
   width: 127px;
   height: 78px;
 }
 
-.grain {
+[playspace-crossriver] .grain {
   position: absolute;
   background: url('grain.png') no-repeat;
   width: 127px;
   height: 78px;
 }
 
-.deadgrain {
+[playspace-crossriver] .deadgrain {
   position: absolute;
   background: url('dead_grain.png') no-repeat;
   width: 127px;
   height: 78px;
 }
 
-.deadchicken {
+[playspace-crossriver] .deadchicken {
   position: absolute;
   background: url('dead_chicken.png') no-repeat;
   width: 127px;
   height: 78px;
 }
 
-.boat {
+[playspace-crossriver] .boat {
   position: absolute;
   width: 225px;
   height: 54px;
   top: 265px;
 }
 
-.rear {
+[playspace-crossriver] .rear {
   background: url(boat-back.png) no-repeat;
 }
 
-.fore {
+[playspace-crossriver] .fore {
   background: url(boat-fore.png) no-repeat;
   z-index: 2;
 }
 
-.farmer, .human{
+[playspace-crossriver] .farmer, .human{
   background: url('farmer.png') no-repeat;
   width: 124px;
   height: 182px;
 }
 
-.front-character.farmer {
+[playspace-crossriver] .front-character.farmer {
   position: absolute;
   left: 269px;
   top: 0px;
 }
 
-.front-character.fox {
+[playspace-crossriver] .front-character.fox {
   left: 190px;
   top: 182px;
 }
 
-.front-character.chicken {
+[playspace-crossriver] .front-character.chicken {
   left: 308px;
   top: 230px;
 }
 
-.front-character.deadchicken {
+[playspace-crossriver] .front-character.deadchicken {
   left: 270px;
   top: 230px;
 }
 
-.front-character.grain {
+[playspace-crossriver] .front-character.grain {
   left: 228px;
   top: 296px;
 }
 
-.front-character.deadgrain {
+[playspace-crossriver] .front-character.deadgrain {
   left: 228px;
   top: 296px;
 }
 
-.passenger {
+[playspace-crossriver] .passenger {
   left: 24px;
   top: 225px;
 }
 
-.passenger.fox {
+[playspace-crossriver] .passenger.fox {
   left: 0px;
   z-index: 1;
 }
 
-.passenger.farmer {
+[playspace-crossriver] .passenger.farmer {
   position: absolute;
   background-size: 124px 140px;
   left: 95px;
   top: 170px;
 }
 
-.back-character.farmer {
+[playspace-crossriver] .back-character.farmer {
   position: absolute;
   left: 123px;
   top: 0px;
 }
 
-.back-character.fox {
+[playspace-crossriver] .back-character.fox {
   left: 0px;
   top: 119px;
 }
 
-.back-character.grain {
+[playspace-crossriver] .back-character.grain {
   left: 17px;
   top: 213px;
 }
 
-.back-character.deadgrain {
+[playspace-crossriver] .back-character.deadgrain {
   left: 0px;
   top: 213px;
 }
 
-.back-character.chicken {
+[playspace-crossriver] .back-character.chicken {
   left: 97px;
   top: 157px;
 }
 
-.back-character.deadchicken {
+[playspace-crossriver] .back-character.deadchicken {
   left: 60px;
   top: 157px;
 }
 
-.cop {
+[playspace-crossriver] .cop {
   background: url(http://www.clipartbest.com/cliparts/xig/K9E/xigK9EyKT.png) no-repeat;
   background-size:contain;
 }
 
-.robber {
+[playspace-crossriver] .robber {
   background: url(http://st-takla.org/Pix/People-General/St-Takla-org___Prisoner-03-Theif.gif) no-repeat;
   background-size:77%;
 }
 
-.monkey {
+[playspace-crossriver] .monkey {
   background: url(http://cliparts.co/cliparts/kTK/nGB/kTKnGBKbc.png) no-repeat;
   background-size:contain;
 }
 
-.bigMonkey {
+[playspace-crossriver] .bigMonkey {
   background: url(http://www.homemade-preschool.com/image-files/chimpanzee.png) no-repeat;
   background-size: contain;
 }
 
-.left {
+[playspace-crossriver] .left {
   left: 0px;
   top: 180px;
 }
 
-.center {
+[playspace-crossriver] .center {
   left: 72px;
   top: 180px;
 }
 
-.right {
+[playspace-crossriver] .right {
   left: 144px;
   top: 180px;
 }
 
-.farRight {
+[playspace-crossriver] .farRight {
   left: 216px;
   top: 65px;
 }
 
-.cargo {
+[playspace-crossriver] .cargo {
   left: 170px;
   top: 160px;
 }
 
-.run {
+[playspace-crossriver] .run {
   position: absolute;
   left: 50px;
   top: 575px;
