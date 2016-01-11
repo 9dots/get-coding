@@ -22,7 +22,9 @@
 	  				}
 	  			]
 	   		}, 
-	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nsetButton(1, add1)"
+	   		"workspace": {
+		   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nsetButton(1, add1)"
+	   		}
 		}, 
 		{
 			"level": 2, 
@@ -52,7 +54,9 @@
 	  				}
 	  			]
 	   		}, 
-	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)"
+	   		"workspace":{
+	   			"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)"
+	   		}
 		}, 
 		{
 			"level": 3, 
@@ -88,7 +92,9 @@
 	  				}
 	  			]
 	   		},
-	   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nfunction add5(){\n    number += 5;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)\nsetButton(3, add5)"
+	   		"workspace": {
+		   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nfunction add5(){\n    number += 5;\n}\n\nsetButton(1, add1)\nsetButton(2, add2)\nsetButton(3, add5)"
+	   		}
 		}
 	]
 }

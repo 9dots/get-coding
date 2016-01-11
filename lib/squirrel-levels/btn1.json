@@ -4,9 +4,9 @@
 	  "level": 1, 
 	  "background": "background2",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
-	  	"ground": ["6*"], 
+	  	"ground": [], 
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
 	  	"branch": ["21", "22", "23", "35"],
 	  	"acorns": ["52"]
@@ -31,20 +31,19 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace":"function getAcornButton(){\n    getAcorn();\n}\n\nsetButton(1, getAcornButton);"
-	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\n\nfunction getAcornButton(){\n    \n}"	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"Let's program our first button! Write \`getAcorn();\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then press the button!"
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "Write \`getAcorn();\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then use the button to get the acorn.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function getAcornButton(){\n\n         getAcorn();\n\n    }\n\n    "
 	},
 	{
 	  "level": 2, 
 	  	  "background": "background1",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
 	  	"ground": [], 
 	  	"tree": ["*0"],
@@ -76,20 +75,19 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace":"function getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nsetButton(1, getAcornButton);\nsetButton(2, moveButton);"
-	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    \n}"	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"Good job! Now let's make a MOVE button. We've written most of the code for you. Just add \`move();\` between the \`{ }\`s in the \`moveButton()\` function. Then run your code and use your buttons!"
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "Write \`move();\` between the \`{  }\`s in the \`moveButton()\` function and run your code to the buttons. Then use the buttons to get the acorn.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function moveButton(){\n\n         move();\n\n    }\n\n    "
 	},
 	{
 	  "level": 3, 
 	  "background": "background3",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
 	  	"ground": [], 
 	  	"tree": ["*0"],
@@ -126,20 +124,19 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace":"function getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nsetButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);"
-	  }, 
+"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction "	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"OK! This time you will have to write a little more code. To set button 3, you need to create a function called \`leftButton()\` which turns the squirrel \`left()\`. We've started you off with \`function \`. You finish it!"
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "After \`function\` write \`leftButton(){}\`. Then BETWEEN the \`{ }\`s, write \`left();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function leftButton(){\n\n         left();\n\n    }\n\n    "
 	},
 	{
 	  "level": 4, 
 	  "background": "background2",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
 	  	"ground": ["6*"], 
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
@@ -181,20 +178,19 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace":"function getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nsetButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);"
-	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\n"	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"You are ready to create a function all by yourself. To set button 4, you need to create a function called \`rightButton()\` which turns the squirrel \`right()\`. Add it below the code that's already there."
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "On line 18, write \`function rightButton(){}\`. Then BETWEEN the \`{ }\`s, write \`right();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function rightButton(){\n\n         right();\n\n    }\n\n    "
 	},
 	{
 	  "level": 5, 
 	  "background": "background3",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
 	  	"ground": [], 
 	  	"tree": ["*0"],
@@ -241,20 +237,19 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace": "function getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nsetButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);"
-	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\n"	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"Well, you probably know the drill by now! Create a \`function\` called \`upButton()\` that makes the squirrel face up."
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "On line 23, write \`function upButton(){}\`. Then BETWEEN the \`{ }\`s, write \`up();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function upButton(){\n\n         up();\n\n    }\n\n    "
 	},
 	{
 	  "level": 6, 
 	  "background": "background4b",
 	  "field": {
-	  	"rows": 7, 
+	  	"rows": 6, 
 	  	"cols": 7, 
 	  	"ground": [], 
 	  	"tree": ["*3"],
@@ -306,14 +301,77 @@
 	  	]
 	   },
 	  "workspace": {
-	  	"codeSpace": "function getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nfunction downButton(){\n    down();\n}\n\nsetButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);"
-	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}"	  }, 
 	  "directions": {
-			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
+			"dialogText":"OK! Last button! Create a function called \`downButton()\` that makes the squirrel face \`down()\`. Then run it and use those buttons!"
 	  }, 
-	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
+	  "mission": "On line 28, write \`function downButton(){}\`. Then BETWEEN the \`{ }\`s, write \`down();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Your code should look like this:\n\n    function downButton(){\n\n         down();\n\n    }\n\n    "
+	},
+	{
+	  "level": 7, 
+	  "background": "background6",
+	  "field": {
+	  	"rows": 7, 
+	  	"cols": 7, 
+	  	"ground": [], 
+	  	"tree": ["00", "10", "20", "30", "40", "50", "02", "12", "22", "32", "42", "52", "04", "14", "24", "34", "44", "54", "06", "16", "26", "36", "46", "56" ],
+	  	"branch": ["11", "31", "51", "23", "43", "63", "15", "35", "55"],
+	  	"acorns": ["01", "21", "41", "13", "33", "53", "05", "25", "45"]
+	  }, 
+	  "squirrel": {
+	  	"rotation": 270, 
+	  	"facing": "onTree",
+	  	"axis": "ver", 
+	  	"squareOn": "50", 
+	  	"ahead": "40", 
+	  	"behind": "60",
+	  	"canMove": true  
+	  }, 
+	  "powers": {
+	  	"moveNumber": false, 
+	  	"buttons": [
+	  		{
+	  		 "name": "getAcorn",
+	  		 "fnName": "getAcornButton",
+	  		 "set": false
+	  		},
+	  		{
+	  		 "name": "move",
+	  		 "fnName": "moveButton",
+	  		 "set": false
+	  		},
+	  		{
+	  		 "name": "left",
+	  		 "fnName": "leftButton",
+	  		 "set": false
+	  		},
+	  		{
+	  		 "name": "right",
+	  		 "fnName": "rightButton",
+	  		 "set": false
+	  		},
+	  		{
+	  		 "name": "up",
+	  		 "fnName": "upButton",
+	  		 "set": false
+	  		},
+	  		{
+	  		 "name": "down",
+	  		 "fnName": "downButton",
+	  		 "set": false
+	  		},
+	  	]
+	   },
+	  "workspace": {
+"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nfunction downButton(){\n    down();\n}"	  }, 
+	  "directions": {
+			"dialogText":"Good work! No new code to write on this level. Just play around!"
+	  }, 
+	  "mission": "Get the acorns or just run around! And don't forget to turn up the speed.",
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
+      "tips": "Don't bet on a slow horse. That's the only tip on this level."
 	}
   ]
 }

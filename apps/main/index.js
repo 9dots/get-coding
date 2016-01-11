@@ -101,7 +101,8 @@ module
         appObject['squirrel3'],
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
-        appObject['squirrel-btn1'],
+        appObject['squirrel-btn1'], 
+        appObject['incrementor'],
         appObject['crossriver-intro'], 
         appObject['squirrel4'],
         appObject['space-man'], 
@@ -115,8 +116,7 @@ module
         appObject['variables-and-numbers'], 
         appObject['math-operators'], 
         appObject['mathops2'], 
-        appObject['mathops3'], 
-        appObject['incrementor']
+        appObject['mathops3']
       ]
     },
     {
