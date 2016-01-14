@@ -1,16 +1,82 @@
 {
   "levels": [
-    {
+      {
       "playspace": {
         "level": 1,
+        "board": {
+          "background" :"store",
+          "foreground" : "a2level1",
+          "view": "static-vars",//determines view
+          "variables": ["apples", "fruit", "oranges"], //all variables
+          "values": [9, 15, 6], //values for check purposes
+          "showItems": [null, 15, 6], 
+          "showValues": [],//values to show in playspace initially
+          "setVars": ["fruit", "oranges"],//variables that can't change
+          "setVals": [15, 6],//values for non-changing variable
+          "requiredCalls": {
+            "fruit": 0, 
+            "oranges": 0
+          }, 
+          "numberCalls": {
+            "fruit": 1,
+            "oranges": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = ;"
+      }, 
+      "directions": {
+        "dialogText": "Let's do some subtraction! To figure out how many \`apples\` there are, subtract \`oranges\` from \`fruit\` by writing \`fruit - oranges\`."
+      }, 
+      "mission": "Give the variable \`apples\` the correct number value by subtracting \`oranges\` from \`fruit\` using the \`-\` sign.", 
+      "tools": "\`fruit\`: contains the total number of fruit  \`oranges\`: contains the number of oranges\n\n\`-\`: subtracts numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`fruit - oranges\`."
+    }, 
+    {
+      "playspace": {
+        "level": 2,
+        "board": {
+          "background" :"frogs",
+          "foreground" : "a2level2",
+          "view": "static-vars",
+          "variables": ["green", "frogs", "yellow"], 
+          "values": [4, 7, 3], 
+          "showItems": [],
+          "showValues": [null, 7, 3],
+          "setVars": ["yellow", "frogs"],
+          "setVals": [3, 4],
+          "requiredCalls": {
+            "yellow": 0, 
+            "frogs": 0
+          }, 
+          "numberCalls": {
+            "yellow": 1,
+            "frogs": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var green = ;"
+      }, 
+      "directions": {
+        "dialogText": "This time let's figure out how many \`green\` frogs there are by subtracting \`yellow\` from \`frogs\`. Remember to write \`frogs - yellow\` and not the other way around!"
+      }, 
+      "mission": "Give the variable \`green\` the correct number value by subtracting \`yellow\` from \`frogs\` using the \`-\` sign.", 
+      "tools": "\`frogs\`: contains the number of  frogs  \`yellow\`: contains the number of yellow frogs\n\n\`-\`: subtracts numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`frogs - yellow\`."
+    }, 
+    {
+      "playspace": {
+        "level": 3,
         "board": {
           "background" :"iceCream",
           "foreground" : "a2level4",
           "view": "static-vars",
-          "variables": ["cones", "vanilla", "strawberry"], 
-          "values": [16, 9, 7], 
+          "variables": ["strawberry", "cones", "vanilla"], 
+          "values": [7, 16, 9], 
           "showItems": [],
-          "showValues": [16, 9],
+          "showValues": [null, 16, 9],
           "setVars": ["cones", "vanilla"],
           "setVals": [16, 9],
           "requiredCalls": {
@@ -27,7 +93,7 @@
         "codeSpace": "var strawberry = ;"
       }, 
       "directions": {
-        "dialogText": "Let's do some subtraction! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
+        "dialogText": "Let's keep subtracting! We have declared a variable called \`strawberry\`. Give it the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign."
       }, 
       "mission": "Give the variable \`strawberry\` the correct number value by subtracting \`vanilla\` from \`cones\` using the \`-\` sign.", 
       "tools": "\`vanilla\`: contains the number of vanilla  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
@@ -35,49 +101,137 @@
     },
     {
       "playspace": {
-        "level": 2,
+        "level": 4,
         "board": {
           "background": "farm",
           "foreground": "a2level5",
           "view": "static-vars",//determines view
-          "variables": ["animals", "chickens", "foxes"], //all variables
-          "values": [13, 10, 3], //values for check purposes
+          "variables": ["chickens", "animals", "foxes"], //all variables
+          "values": [10, 13, 3], //values for check purposes
           "showItems": [], 
-          "showValues": [13, 10, null],//values to show in playspace initially
-          "setVars": ["animals", "chickens"],//variables that can't change
-          "setVals": [13, 10],//values for non-changing variable
+          "showValues": [null, 13, 3],//values to show in playspace initially
+          "setVars": ["animals", "foxes"],//variables that can't change
+          "setVals": [13, 3],//values for non-changing variable
           "requiredCalls": {
             "animals": 0, 
-            "chickens": 0
+            "foxes": 0
           }, 
           "numberCalls": {
             "animals": 1,
-            "chickens": 1
+            "foxes": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": "var foxes = ;"
+        "codeSpace": "var chickens = ;"
       }, 
       "directions": {
         "dialogText": "We have declared a variable called \`foxes\`. Give it the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign."
       }, 
-      "mission": "Give the variable \`foxes\` the correct number value by subtracting \`chickens\` from \`animals\` using the \`-\` sign.", 
-      "tools": "\`chickens\`: contains the number of chickens  \`animals\`: contains the number of animals\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - chickens\`."
+      "mission": "Give the variable \`chickens\` the correct number value by subtracting \`foxes\` from \`animals\` using the \`-\` sign.", 
+      "tools": "\`foxes\`: contains the number of foxes  \`animals\`: contains the number of animals\n\n\`-\`: subtracts one number from another", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`animals - foxes\`."
     },
     {
       "playspace": {
-        "level": 3,
+        "level": 5,
+        "board": {
+          "background" :"bakery",
+          "foreground" : "a2level3",
+          "view": "static-vars",
+          "variables": ["sprinkles", "doughnuts", "chocolate", "glazed"], 
+          "values": [9, 22, 6, 7], 
+          "showItems": [],
+          "showValues": [null, 22, 6, 7],
+          "setVars": ["doughnuts", "chocolate", "glazed"],
+          "setVals": [22, 6, 7],
+          "requiredCalls": {
+            "doughnuts": 0, 
+            "chocolate": 0, 
+            "glazed": 0
+          }, 
+          "numberCalls": {
+            "doughnuts": 1,
+            "chocolate": 1,
+            "glazed": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var sprinkles = ;"
+      }, 
+      "directions": {
+        "dialogText": "Now let's make it a bit harder. Find out how many \`sprinkles\` doughnuts there are by subtracting \`chocolate\` and \`glazed\` from \`doughnuts\` by typing \`doughnuts - chocolate - glazed\`."
+      }, 
+      "mission": "Give the variable \`sprinkles\` the correct number value by subtracting \`chocolate\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
+      "tools": "\`doughnuts\`: contains the total number of doughnuts\n\n\`chocolate\`: contains the number of chocolate doughnuts\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`-\`: subtracts numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - chocolate - glazed\`.", 
+      "quiz": [
+        {
+          "questionId": "1b1a",
+          "text": "Which choice below would create the variable \`brownies\` and give it a value of \`12\`?", 
+          "a": "variable brownies 12;", 
+          "b": "variable = brownies 12;", 
+          "c": "var brownies = 12;", 
+          "d": "var = 12 brownies;"
+        },
+        {
+          "questionId": "1b2a",
+          "text": "If the variable \`apples\` has a value of \`5\` and the variable \`oranges\` has a value of \`3\`, which choice below would have a value of \`8\`?", 
+          "a": "apples;", 
+          "b": "oranges;", 
+          "c": "apples + oranges;", 
+          "d": "apples - oranges;"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "level": 6,
+        "board": {
+          "background" :"store",
+          "foreground" : "a2level6",
+          "view": "static-vars",
+          "variables": ["apples", "fruit", "oranges", "limes"], 
+          "values": [8, 22, 5, 9],          
+          "showItems": [],
+          "showValues": [null, 22, 5, 9],
+          "setVars": ["fruit", "oranges", "limes"],
+          "setVals": [22, 5, 9],
+          "requiredCalls": {
+            "fruit": 0, 
+            "limes" : 0, 
+            "oranges": 0
+          }, 
+          "numberCalls": {
+            "fruit": 1,
+            "limes" : 1, 
+            "oranges": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var apples = ;"
+      }, 
+      "directions": {
+        "dialogText": "Let's try another harder one. Find out how many \`apples\` there are by subtracting \`oranges\` and \`limes\` from \`fruit\`."
+      }, 
+      "mission": "Give the variable \`apples\` the correct number value by subtracting \`oranges\` and \`limes\` from \`fruit\` using the \`-\` sign.", 
+      "tools": "\`oranges\`: contains the number of oranges\n\n\`limes\`: contains the number of limes\n\n\`fruit\`: contains the total number of fruit\n\n\`-\`: subtracts numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`fruit - oranges - limes\`."
+    },
+    {
+      "playspace": {
+        "level": 7,
         "board": {
           "background" :"frogs",
           "foreground" : "a2level7",
           "view": "static-vars",
-          "variables": ["lilypads", "yellow", "green", "emptyPads"], 
-          "values": [7, 3, 2, 2], 
+          "variables": ["emptyPads", "lilypads", "green", "yellow"], 
+          "values": [2, 7, 2, 3], 
           "showItems": [],
-          "showValues": [7, 3, 2, null],
-          "setVars": ["lilypads", "yellow", "green"],
+          "showValues": [null, 7, 2, 3],
+          "setVars": ["lilypads", "yellow", "green", "lilypads"],
           "setVals": [7, 3, 2],
           "requiredCalls": {
             "lilypads": 0, 
@@ -92,18 +246,18 @@
         }
       },
       "workspace": {
-        "codeSpace": ""
+        "codeSpace": "var emptyPads = ;"
       }, 
       "directions": {
         "dialogText": "Declare a variable called \`emptyPads\`. Give it the correct number value by subtracting \`yellow\` and \`green\` from \`lilypads\` using the \`-\` sign."
       }, 
       "mission": "Create the variable \`emptyPads\` and give it the correct number value by subtracting \`yellow\` and \`green\` from \`lilypads\` using the \`-\` sign.", 
       "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lilypads\`: contains the number of lilypads\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`lillypads - yellow - green\`.",
+      "tips": "After the \`=\` sign and before the \`;\`, type \`lilypads - green - yellow\`.",
       "quiz": [
         {
           "questionId": "1b2a",
-          "text": "Which choice would create the variable \`doughtnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
+          "text": "Which choice would create the variable \`doughnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
           "a": "\`var doughnuts = chocolate + glazed;\`", 
           "b": "\`var glazed = doughnuts - chocolate;\`", 
           "c": "\`var chocolate = doughnuts + glazed;\`", 
@@ -121,71 +275,38 @@
     },
     {
       "playspace": {
-        "level": 4,
+        "level": 8,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level8",
           "view": "static-vars",
-          "variables": ["doughnuts", "sprinkles", "glazed", "chocolate"], 
-          "values": [16, 6, 6, 4], 
+          "variables": ["sprinkles", "doughnuts", "chocolate", "glazed"], 
+          "values": [6, 16, 4, 6], 
           "showItems": [],
-          "showValues": [16, 6, 6],
-          "setVars": ["doughnuts", "sprinkles", "glazed"],
-          "setVals": [16, 6, 6],
+          "showValues": [null, 16, 4, 6],
+          "setVars": ["doughnuts", "chocolate", "glazed"],
+          "setVals": [16, 4, 6],
           "requiredCalls": {
             "doughnuts": 0, 
-            "sprinkles": 0, 
+            "chocolate": 0, 
             "glazed": 0
           }, 
           "numberCalls": {
             "doughnuts": 1,
-            "sprinkles": 1, 
+            "chocolate": 1, 
             "glazed": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": ""
+        "codeSpace": "var sprinkles = ;"
       }, 
       "directions": {
-        "dialogText": "Create a variable called \`chocolate\`. Give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
+        "dialogText": "Create a variable called \`sprinkles\`. Give it the correct number value by subtracting \`chocolate\` and \`glazed\` from \`doughnuts\` using the \`-\` sign."
       }, 
-      "mission": "Create the variable \`chocolate\` and give it the correct number value by subtracting \`sprinkles\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
-      "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`doughnuts\`: contains the total number of doughnuts\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - sprinkles - glazed\`."
-    },
-    {
-      "playspace": {
-        "level": 5,
-        "board": {
-          "background" :"blank",
-          "foreground" : "",
-          "view": "static-vars",
-          "variables": ["firstNumber", "secondNumber", "difference"], 
-          "values": ["*", "*", 8], 
-          "showItems": [],
-          "showValues": [null, null, 8],
-          "setVars": ["difference"],
-          "setVals": [8],
-          "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
-          }, 
-          "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber ;\nvar difference = firstNumber - secondNumber;"
-      }, 
-      "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`8\`."
-      }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`8\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+      "mission": "Create the variable \`sprinkles\` and give it the correct number value by subtracting \`chocolate\` and \`glazed\` from \`doughnuts\` using the \`-\` sign.", 
+      "tools": "\`chocolate\`: contains the number of doughnuts with chocolate\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`doughnuts\`: contains the total number of doughnuts\n\n\`-\`: subtracts numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`doughnuts - chocolate - glazed\`."
     }
   ]
 }

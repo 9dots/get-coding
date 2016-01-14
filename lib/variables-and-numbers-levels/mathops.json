@@ -7,10 +7,10 @@
           "background" :"store",
           "foreground" : "a2level1",
           "view": "static-vars",//determines view
-          "variables": ["apples", "oranges", "fruit"], //all variables
-          "values": [9, 6, 15], //values for check purposes
+          "variables": ["fruit", "apples", "oranges"], //all variables
+          "values": [15, 9, 6], //values for check purposes
           "showItems": [], 
-          "showValues": [9, 6, null],//values to show in playspace initially
+          "showValues": [null, 9, 6],//values to show in playspace initially
           "setVars": ["apples", "oranges"],//variables that can't change
           "setVals": [9, 6],//values for non-changing variable
           "requiredCalls": {
@@ -40,10 +40,10 @@
           "background" :"frogs",
           "foreground" : "a2level2",
           "view": "static-vars",
-          "variables": ["yellow", "green", "frogs"], 
-          "values": [3, 4, 7], 
+          "variables": ["frogs", "green", "yellow"], 
+          "values": [7, 4, 3], 
           "showItems": [],
-          "showValues": [3, 4, null],
+          "showValues": [null, 4, 3],
           "setVars": ["yellow", "green"],
           "setVals": [3, 4],
           "requiredCalls": {
@@ -66,9 +66,75 @@
       "tools": "\`green\`: contains the number of green frogs  \`yellow\`: contains the number of yellow frogs\n\n\`+\`: adds numbers together", 
       "tips": "After the \`=\` sign and before the \`;\`, type \`green + yellow\`."
     }, 
-    {
+{
       "playspace": {
         "level": 3,
+        "board": {
+          "background" :"iceCream",
+          "foreground" : "a2level4",
+          "view": "static-vars",
+          "variables": ["cones", "strawberry", "vanilla"], 
+          "values": [16, 7, 9], 
+          "showItems": [],
+          "showValues": [null, 7, 9],
+          "setVars": ["strawberry", "vanilla"],
+          "setVals": [16, 9],
+          "requiredCalls": {
+            "strawberry": 0, 
+            "vanilla": 0
+          }, 
+          "numberCalls": {
+            "strawberry": 1,
+            "vanilla": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var cones = ;"
+      }, 
+      "directions": {
+        "dialogText": "Let's figure out how many ice cream cones there are. Give the variable \`cones\` a value by adding \`strawberry\` and \`vanilla\` with the \`+\` operator."
+      }, 
+      "mission": "Give the variable \`cones\` the correct number value by adding \`strawberry\` and \`vanilla\` using the \`+\` sign.", 
+      "tools": "\`vanilla\`: contains the number of vanilla  \`strawberry\`: contains the number of strawberry\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`strawberry + vanilla\`."
+    },
+    {
+      "playspace": {
+        "level": 4,
+        "board": {
+          "background": "farm",
+          "foreground": "a2level5",
+          "view": "static-vars",//determines view
+          "variables": ["animals", "chickens", "foxes"], //all variables
+          "values": [13, 10, 3], //values for check purposes
+          "showItems": [], 
+          "showValues": [null, 10, 3],//values to show in playspace initially
+          "setVars": ["chickens", "foxes"],//variables that can't change
+          "setVals": [10, 3],//values for non-changing variable
+          "requiredCalls": {
+            "chickens": 0, 
+            "foxes": 0
+          }, 
+          "numberCalls": {
+            "chickens": 1,
+            "foxes": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var animals = ;"
+      }, 
+      "directions": {
+        "dialogText": "We have declared a variable called \`animals\`. Give it the correct number value by adding \`chickens\` and \`foxes\` using the \`+\` sign."
+      }, 
+      "mission": "Give the variable \`animals\` the correct number value by adding \`chickens\` and \`foxes\` using the \`+\` sign.", 
+      "tools": "\`chickens\`: contains the number of chickens  \`foxes\`: contains the number of foxes\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes\`."
+    },
+    {
+      "playspace": {
+        "level": 5,
         "board": {
           "background" :"bakery",
           "foreground" : "a2level3",
@@ -121,17 +187,17 @@
     },
     {
       "playspace": {
-        "level": 4,
+        "level": 6,
         "board": {
           "background" :"store",
           "foreground" : "a2level6",
           "view": "static-vars",
-          "variables": ["apples", "limes", "oranges", "fruit"], 
-          "values": [8, 9, 5, 22], 
+          "variables": ["apples", "oranges", "limes", "fruit"], 
+          "values": [8, 5, 9, 22], 
           "showItems": [],
-          "showValues": [8, 9, 5, null],
+          "showValues": [8, 5, 9, null],
           "setVars": ["apples", "limes", "oranges"],
-          "setVals": [8, 9, 5],
+          "setVals": [8, 5, 9],
           "requiredCalls": {
             "apples": 0, 
             "limes" : 0, 
@@ -148,44 +214,99 @@
         "codeSpace": "var fruit = ;"
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign."
+        "dialogText": "We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`oranges\`, and \`limes\` using the \`+\` sign."
       }, 
-      "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\`, \`limes\`, and \`oranges\` using the \`+\` sign.", 
-      "tools": "\`apples\`: contains the number of apples\n\n\`limes\`: contains the number of limes doughnuts\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`+\`: adds numbers together", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + limes + oranges\`."
+      "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\`, \`oranges\`, and \`limes\` using the \`+\` sign.", 
+      "tools": "\`apples\`: contains the number of apples\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`limes\`: contains the number of limes doughnuts\n\n\`+\`: adds numbers together", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + oranges + limes\`."
     },
     {
       "playspace": {
-        "level": 5,
+        "level": 7,
         "board": {
-          "background" :"blank",
-          "foreground" : "",
-          "view": "static-vars",//determines view
-          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": ["*", "*", 28], //values for check purposes
-          "showItems": [], 
-          "showValues": [null, null, 28],//values to show in playspace initially
-          "setVars": ["sum"],//variables that can't change
-          "setVals": [28],//values for non-changing variable
+          "background" :"frogs",
+          "foreground" : "a2level7",
+          "view": "static-vars",
+          "variables": ["lilypads", "green", "emptyPads", "yellow"], 
+          "values": [7, 2, 2, 3], 
+          "showItems": [],
+          "showValues": [null, 2, 2, 3],
+          "setVars": ["yellow", "green", "emptyPads"],
+          "setVals": [3, 2, 7],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "emptyPads": 0, 
+            "yellow": 0, 
+            "green": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "emptyPads": 1,
+            "yellow": 1, 
+            "green": 1
           }
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+        "codeSpace": "var lilypads = ;"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`28\`."
+        "dialogText": "Have the computer find out how many \`lilypads\` there are by adding \`green\`, \`emptyPads\`, and \`yellow\`."
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`28\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "No tips on this level!"
+      "mission": "Create the variable \`lilypads\` and give it the correct number value by adding \`green\`, \`emptyPads\` and \`yellow\` using the \`+\` sign.", 
+      "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`emptyPads\`: contains the number of emptyPads\n\n\`+\`: adds numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`green + emptyPads + yellow\`.",
+      "quiz": [
+        {
+          "questionId": "1b2a",
+          "text": "Which choice would create the variable \`doughnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
+          "a": "\`var doughnuts = chocolate + glazed;\`", 
+          "b": "\`var glazed = doughnuts - chocolate;\`", 
+          "c": "\`var chocolate = doughnuts + glazed;\`", 
+          "d": "\`var doughnuts = chocolate - glazed;\`"
+        },
+        {
+          "questionId": "1b3a",
+          "text": "Which choice would give the variable \`number\` a value of \`4\`?", 
+          "a": "\`var number = 17 - 2;\`", 
+          "b": "\`var number = 1 + 3;\`", 
+          "c": "\`var number = 12 - 6;\`", 
+          "d": "\`var number = 3 + 3;\`"
+        }
+      ]
+    },
+    {
+      "playspace": {
+        "level": 8,
+        "board": {
+          "background" :"bakery",
+          "foreground" : "a2level8",
+          "view": "static-vars",
+          "variables": ["sprinkles", "chocolate", "glazed", "doughnuts"], 
+          "values": [6, 4, 6, 16],  
+          "showItems": [],
+          "showValues": [6, 4, 6, null],
+          "setVars": ["sprinkles", "chocolate", "glazed"],
+          "setVals": [6, 4, 6],
+          "requiredCalls": {
+            "sprinkles": 0, 
+            "chocolate": 0, 
+            "glazed": 0
+          }, 
+          "numberCalls": {
+            "sprinkles": 1,
+            "chocolate": 1, 
+            "glazed": 1
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var doughnuts = ;"
+      }, 
+      "directions": {
+        "dialogText": "Last level! Add up all the \`sprinkles\`, \`chocolate\`, and \`glazed\` together to find out how many \`doughnuts\` there are."
+      }, 
+      "mission": "Create the variable \`doughnuts\` and give it the correct number value by adding \`sprinkles\`, \`glazed\` and \`chocolate\` using the \`+\` sign.", 
+      "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`chocolate\`: contains the total number of chocolate doughnuts\n\n\`+\`: adds numbers", 
+      "tips": "After the \`=\` sign and before the \`;\`, type \`sprinkles + chocolate + glazed\`."
     }
   ]
 }

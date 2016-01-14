@@ -136,7 +136,7 @@
 	  "level": 4, 
 	  "background": "background2",
 	  "field": {
-	  	"rows": 6, 
+	  	"rows": 7, 
 	  	"cols": 7, 
 	  	"ground": ["6*"], 
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
