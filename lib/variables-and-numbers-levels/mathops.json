@@ -24,8 +24,7 @@
         }
       },
       "workspace": {
-        "codeSpace": "var fruit = ;"
-      }, 
+        "codeSpace":"var apples = 9;\nvar oranges = 6;\nvar fruit = apples + oranges;"      }, 
       "directions": {
         "dialogText": "Let's do some addition! We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\` and \`oranges\` using the \`+\` sign."
       }, 
@@ -57,7 +56,7 @@
         }
       },
       "workspace": {
-        "codeSpace": "var frogs = ;"
+        "codeSpace":"var green = 4;\nvar yellow = 3;\nvar frogs = ;"
       }, 
       "directions": {
         "dialogText": "We have declared a variable called \`frogs\`. Give it the correct number value by adding \`green\` and \`yellow\` using the \`+\` sign."
@@ -90,7 +89,7 @@
         }
       },
       "workspace": {
-        "codeSpace": "var cones = ;"
+        "codeSpace":"var strawberry = 7;\nvar vanilla = 9;\nvar cones = ;"
       }, 
       "directions": {
         "dialogText": "Let's figure out how many ice cream cones there are. Give the variable \`cones\` a value by adding \`strawberry\` and \`vanilla\` with the \`+\` operator."
@@ -123,7 +122,7 @@
         }
       },
       "workspace": {
-        "codeSpace": "var animals = ;"
+        "codeSpace":"var chickens = 10;\nvar foxes = 3;\nvar animals = ;"
       }, 
       "directions": {
         "dialogText": "We have declared a variable called \`animals\`. Give it the correct number value by adding \`chickens\` and \`foxes\` using the \`+\` sign."
@@ -158,14 +157,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var doughnuts = ;"
+        "codeSpace":"var sprinkles= 9;\nvar chocolate = 6;\nvar glazed = 7;\n"
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`doughnuts\`. Give it the correct number value by adding \`sprinkles\`, \`chocolate\`, and \`glazed\` using the \`+\` sign."
+        "dialogText": "From now on, we'll let you create the variables. Start by making a variable called \`doughnuts\`. Give it the correct number value by adding \`sprinkles\`, \`chocolate\`, and \`glazed\` using the \`+\` sign."
       }, 
       "mission": "Give the variable \`doughnuts\` the correct number value by combining \`sprinkles\`, \`chocolate\`, and \`glazed\` using the \`+\` sign.", 
       "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`chocolate\`: contains the number of chocolate doughnuts\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`+\`: adds numbers together", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`sprinkles + chocolate + glazed\`.", 
+      "tips": "Your code should look like this: \`var doughnuts = sprinkles + chocolate + glazed\`.", 
       "quiz": [
         {
           "questionId": "1b1a",
@@ -211,14 +210,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var fruit = ;"
+        "codeSpace":"var apples = 8;\nvar oranges = 5;\nvar limes = 9;\n"
       }, 
       "directions": {
-        "dialogText": "We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`oranges\`, and \`limes\` using the \`+\` sign."
+        "dialogText": "Declare a variable called \`fruit\`. Give it the correct number value by adding \`apples\`, \`oranges\`, and \`limes\` using the \`+\` sign."
       }, 
       "mission": "Give the variable \`fruit\` the correct number value by combining \`apples\`, \`oranges\`, and \`limes\` using the \`+\` sign.", 
       "tools": "\`apples\`: contains the number of apples\n\n\`oranges\`: contains the number of oranges doughnuts\n\n\`limes\`: contains the number of limes doughnuts\n\n\`+\`: adds numbers together", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`apples + oranges + limes\`."
+      "tips": "Your code should look like this: \`var fruit = apples + oranges + limes\`."
     },
     {
       "playspace": {
@@ -246,14 +245,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var lilypads = ;"
+        "codeSpace":"var green = 2;\nvar emptyPads = 2;\nvar yellow = 3;\n"
       }, 
       "directions": {
         "dialogText": "Have the computer find out how many \`lilypads\` there are by adding \`green\`, \`emptyPads\`, and \`yellow\`."
       }, 
       "mission": "Create the variable \`lilypads\` and give it the correct number value by adding \`green\`, \`emptyPads\` and \`yellow\` using the \`+\` sign.", 
       "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`emptyPads\`: contains the number of emptyPads\n\n\`+\`: adds numbers", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`green + emptyPads + yellow\`.",
+      "tips": "Your code should look like this: \`var lilypads = green + emptyPads + yellow\`.",
       "quiz": [
         {
           "questionId": "1b2a",
@@ -299,14 +298,14 @@
         }
       },
       "workspace": {
-        "codeSpace": "var doughnuts = ;"
+        "codeSpace":"var sprinkles = 6;\nvar chocolate = 4;\nvar glazed = 6;\n"
       }, 
       "directions": {
         "dialogText": "Last level! Add up all the \`sprinkles\`, \`chocolate\`, and \`glazed\` together to find out how many \`doughnuts\` there are."
       }, 
       "mission": "Create the variable \`doughnuts\` and give it the correct number value by adding \`sprinkles\`, \`glazed\` and \`chocolate\` using the \`+\` sign.", 
       "tools": "\`sprinkles\`: contains the number of doughnuts with sprinkles\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`chocolate\`: contains the total number of chocolate doughnuts\n\n\`+\`: adds numbers", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`sprinkles + chocolate + glazed\`."
+      "tips": "Your code should look like: \`var doughnuts = sprinkles + chocolate + glazed\`."
     }
   ]
 }

@@ -4,48 +4,79 @@
       "playspace": {
         "level": 1,
         "board": {
-          "background" :"blank",
+          "background" :"farm",
           "foreground" : "",
           "view": "static-vars",//determines view
-          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": ["*", "*", 8], //values for check purposes
+          "variables": ["firstNumber"], //all variables
+          "values": [10], //values for check purposes
           "showItems": [], 
-          "showValues": [null, null, 8],//values to show in playspace initially
-          "setVars": ["sum"],//variables that can't change
-          "setVals": [8],//values for non-changing variable
+          "showValues": [null],//values to show in playspace initially
+          "setVars": ["firstNumber"],//variables that can't change
+          "setVals": [10],//values for non-changing variable
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "firstNumber": 0
           }
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+        "codeSpace": "var firstNumber = ;"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`8\`."
+        "dialogText": "Let's make a simple program that adds two numbers together. We'll start by creating a variable called \`firstNumber\` and giving it a value of \`10\`."
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`8\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "No tips on this level!"
+      "mission": "We've already written \`var firstNumber = ;\`. Now you give it a value by typing \`10\` between the \`=\` and the \`;\`.", 
+      "tools": "\`firstNumber\`: contains a value of \`10\`", 
+      "tips": "Your code should look like this: \`var firstNumber = 10;\`"
     },
     {
       "playspace": {
         "level": 2,
         "board": {
-          "background" :"blank",
+          "background" :"farm",
           "foreground" : "",
           "view": "static-vars",
-          "variables": ["firstNumber", "secondNumber", "difference"], 
-          "values": ["*", "*", 5], 
+          "variables": ["firstNumber", "secondNumber"], 
+          "values": [10, 4], 
           "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": ["difference"],
-          "setVals": [5],
+          "showValues": [10, null],
+          "setVars": ["firstNumber", "secondNumber"],
+          "setVals": [10, 4],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 0,
+            "secondNumber": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace": "var firstNumber = 10;\n"
+      }, 
+      "directions": {
+        "dialogText": "Ok! Now let's make another variable called \`secondNumber\` and give it a value of \`4\`. You'll have to do all the typing this time!"
+      }, 
+      "mission": "Make another variable called \`secondNumber\` and give it a value of \`4\`. If you aren't sure where to start, click on the lightning bolt to the left for Tips.", 
+      "tools": "\`firstNumber\`: contains the value \`10\`\n\n\`secondNumber\`: contains the value \`4\`", 
+      "tips": "Your second line of code should look like this: \`var secondNumber = 4;\`"
+    },
+        {
+      "playspace": {
+        "level": 3,
+        "board": {
+          "background" :"farm",
+          "foreground" : "",
+          "view": "static-vars",//determines view
+          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
+          "values": [10, 4, 14], //values for check purposes
+          "showItems": [], 
+          "showValues": [10, 4, null],//values to show in playspace initially
+          "setVars": ["firstNumber", "secondNumber"],//variables that can't change
+          "setVals": [10, 4],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -57,28 +88,28 @@
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
+        "codeSpace": "var firstNumber = 10;\nvar secondNumber = 4;\n"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`5\`."
+        "dialogText": "Now we need to add these two together, but we'll let the computer do the math! Create a third variable called \`sum\` and give it a value of \`firstNumber + secondNumber\`."
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`5\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
+      "mission": "Create a third variable called \`sum\` and give it a value of \`firstNumber + secondNumber\`. You must type \`firstNumber + secondNumber\`. You will not pass the level if you just type a number.", 
+      "tools": "\`firstNumber\`: contains the value \`10\`\n\n\`secondNumber\`: contains the value \`4\`\n\n\`sum\`: contains sum of \`firstNumber + secondNumber\`", 
+      "tips": "Your third line of code should look like this: \`var sum = firstNumber + secondNumber;\`"
     },
-        {
+    {
       "playspace": {
-        "level": 3,
+        "level": 4,
         "board": {
-          "background" :"blank",
+          "background" :"farm",
           "foreground" : "",
-          "view": "static-vars",//determines view
-          "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": ["*", "*", 12], //values for check purposes
-          "showItems": [], 
-          "showValues": ["", "", ""],//values to show in playspace initially
-          "setVars": ["sum"],//variables that can't change
-          "setVals": [12],//values for non-changing variable
+          "view": "static-vars",
+          "variables": ["firstNumber", "secondNumber", "sum"], 
+          "values": ["*", "*", 17], 
+          "showItems": [],
+          "showValues": [null, null, null],
+          "setVars": ["sum"],
+          "setVals": [17],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -93,44 +124,11 @@
         "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`12\`."
+        "dialogText": "Great! Now we can have the computer add any numbers we want! Change the values of \`firstNumber\` and \`secondNumber\` so that \`sum\` will have a value of \`17\`."
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`12\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "No tips on this level!"
-    },
-    {
-      "playspace": {
-        "level": 4,
-        "board": {
-          "background" :"blank",
-          "foreground" : "",
-          "view": "static-vars",
-          "variables": ["firstNumber", "secondNumber", "difference"], 
-          "values": ["*", "*", 9], 
-          "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": ["difference"],
-          "setVals": [9],
-          "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
-          }, 
-          "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
-          }
-        }
-      },
-      "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
-      }, 
-      "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`9\`."
-      }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`9\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`.",
+      "mission": "Give \`firstNumber\` and \`secondNumber\` new values so that \`sum\` will have a value of \`17\`. Do not change any of the code on line 3!", 
+      "tools": "\`firstNumber\`: contains a number\n\n\`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "Find two numbers that add up to \`17\`. Then give \`firstNumber\` and \`secondNumber\` each one of those numbers.",
       "quiz": [
         {
           "questionId": "1b1a",
@@ -162,15 +160,15 @@
       "playspace": {
         "level": 5,
         "board": {
-          "background" :"blank",
+          "background" :"farm",
           "foreground" : "",
           "view": "static-vars",//determines view
           "variables": ["firstNumber", "secondNumber", "sum"], //all variables
-          "values": ["*", "*", 36], //values for check purposes
+          "values": [11, 10, 21], //values for check purposes
           "showItems": [], 
-          "showValues": ["", "", ""],//values to show in playspace initially
-          "setVars": ["sum"],//variables that can't change
-          "setVals": [36],//values for non-changing variable
+          "showValues": [11, null, 21],//values to show in playspace initially
+          "setVars": ["firstNumber", "sum"],//variables that can't change
+          "setVals": [11, 21],//values for non-changing variable
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -182,28 +180,28 @@
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
+        "codeSpace": "var firstNumber = 11;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`36\`."
+        "dialogText": "This time, we have given \`firstNumber\` a value of \`11\`. We want you to give \`secondNumber\` a value that will make a \`sum\` of \`21\`."
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`sum\` a value of \`36\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
-      "tips": "No tips on this level!"
+      "mission": "Give \`secondNumber\` a value that will make a \`sum\` of \`21\`. \`firstNumber\` is already set to \`11\`.", 
+      "tools": "\`firstNumber\`: has value of \`11\`\n\n\`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "What do you need to add to 11 to get to 21? Type that number between the \`var secondNumber =\` and the \`;\` on line 2."
     },
     {
       "playspace": {
         "level": 6,
         "board": {
-          "background" :"blank",
+          "background" :"farm",
           "foreground" : "",
           "view": "static-vars",
-          "variables": ["firstNumber", "secondNumber", "difference"], 
-          "values": ["*", "*", 12], 
+          "variables": ["firstNumber", "secondNumber", "sum"], 
+          "values": [20, 10, 30], 
           "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": ["difference"],
-          "setVals": [12],
+          "showValues": [null, 10, 30],
+          "setVars": ["secondNumber", "sum"],
+          "setVals": [10, 30],
           "requiredCalls": {
             "firstNumber": 0, 
             "secondNumber": 0
@@ -215,140 +213,146 @@
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar difference = firstNumber - secondNumber;"
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = 10;\nvar sum = firstNumber + secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`12\`."
+        "dialogText": "Good! Let's keep \`secondNumber\` at \`10\` but change \`firstNumber\` to a value that will make a \`sum\` of \`30\`. Remember not to change \`secondNumber\`!"
       }, 
-      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will give \`difference\` a value of \`12\`.", 
-      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "mission": "Give \`firstNumber\` a value that will combine with a \`secondNumber\` of \`10\` to make a \`sum\` of \`30\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`", 
       "tips": "Pick a number and type it after \`var secondNumber =\`. Then, add eight to \`secondNumber\`, and type your answer next to \`var firstNumber =\`."
     },
     {
       "playspace": {
         "level": 7,
         "board": {
-          "background": "",
-          "foreground": "",
+          "background" :"farm",
+          "foreground" : "",
           "view": "static-vars",
-          "variables": ["apples", "oranges", "limes"], 
-          "values": [6, 9, 15], 
-          "showItems": ["apple", "orange", "lime"], 
-          "showValues": [null, null, null]
+          "variables": ["firstNumber", "secondNumber", "sum", "difference"], 
+          "values": [20, 10, 30, 10], 
+          "showItems": [],
+          "showValues": [20, 10, 30, null],
+          "setVars": ["secondNumber", "sum", "firstNumber"],
+          "setVals": [10, 30, 20],
+          "requiredCalls": {
+            "firstNumber": 0, 
+            "secondNumber": 0
+          }, 
+          "numberCalls": {
+            "firstNumber": 2,
+            "secondNumber": 2
+          }
         }
       },
       "workspace": {
-        "codeSpace": "var apples = ;\nvar oranges = ;\nvar limes = ;"
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = 10;\nvar sum = firstNumber + secondNumber;\n"
       }, 
       "directions": {
-        "dialogText": "Let's review a little! Declare variables called \`apples\`, \`oranges\`, and \`limes\` and give them the correct number values."
+        "dialogText": "So we can add variables, but we can also SUBTRACT! Let's make a variable called \`difference\` and give it a value of \`firstNumber - secondNumber\`. Keep our other variables with the same values for now."
       }, 
-      "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
-      "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
-      "tips": "Sorry! No tips for this level. :)"
+      "mission": "Make a variable called \`difference\` and give it a value of \`firstNumber - secondNumber\`. Do not change the other variables.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "On line 4, type: \`var difference = firstNumber - secondNumber;\`"
     },
     {
       "playspace": {
         "level": 8,
         "board": {
-          "background" :"iceCream",
-          "foreground" : "a2level4",
+          "background" :"farm",
+          "foreground" : "",
           "view": "static-vars",
-          "variables": ["cones", "vanilla", "strawberry"], 
-          "values": [16, 9, 7], 
+          "variables": ["firstNumber", "secondNumber", "sum", "difference"], 
+          "values": [4, 1, 5, 3], 
           "showItems": [],
-          "showValues": [16, 7],
-          "setVars": ["cones", "strawberry"],
-          "setVals": [16, 7],
+          "showValues": [null, null, 5, 3],
+          "setVars": [],
+          "setVals": [],
           "requiredCalls": {
-            "cones": 0, 
-            "strawberry": 0
+            "firstNumber": 0, 
+            "secondNumber": 0
           }, 
           "numberCalls": {
-            "cones": 1,
-            "strawberry": 1
+            "firstNumber": 2,
+            "secondNumber": 2
           }
         }
       },
       "workspace": {
-        "codeSpace": "var vanilla = ;"
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;\nvar difference = firstNumber - secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Let's review subtraction! We have declared a variable called \`vanilla\`. Give it the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign."
+        "dialogText": "Now for a REAL CHALLENGE!!! Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`5\` and a \`difference\` of \`3\`."
       }, 
-      "mission": "Give the variable \`vanilla\` the correct number value by subtracting \`strawberry\` from \`cones\` using the \`-\` sign.", 
-      "tools": "\`strawberry\`: contains the number of strawberry  \`cones\`: contains the number of cones\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`cones - strawberry\`."
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`5\` and a \`difference\` of \`3\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No answers this time! Find two numbers that add up to 5 (like 5 + 0 or 3 + 2), but have a difference of 3 (like 5 - 2 or 7 - 4)."
     },
     {
       "playspace": {
         "level": 9,
         "board": {
-          "background" :"iceCream",
-          "foreground" : "a2level9",
+          "background" :"farm",
+          "foreground" : "",
           "view": "static-vars",
-          "variables": ["singles", "chocolate", "strawberry", "doubles"], 
-          "values": [8, 9, 7, 8], 
+          "variables": ["firstNumber", "secondNumber", "sum", "difference"], 
+          "values": [7, 3, 10, 4], 
           "showItems": [],
-          "showValues": [8, 9, 7, null],
-          "setVars": ["singles", "chocolate", "strawberry"],
-          "setVals": [8, 9, 7],
+          "showValues": [null, null, 10, 4],
+          "setVars": [],
+          "setVals": [],
           "requiredCalls": {
-            "singles": 0, 
-            "chocolate": 0, 
-            "strawberry": 0
+            "firstNumber": 0, 
+            "secondNumber": 0
           }, 
           "numberCalls": {
-            "singles": 1,
-            "chocolate": 1, 
-            "strawberry": 1
+            "firstNumber": 2,
+            "secondNumber": 2
           }
         }
       },
       "workspace": {
-        "codeSpace": ""
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;\nvar difference = firstNumber - secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Now let's add AND subtract! Declare a variable called \`doubles\`. Give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`."
+        "dialogText": "Well done! Let's make it a little harder. Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`10\` and a \`difference\` of \`4\`."
       }, 
-      "mission": "Create the variable \`doubles\` and give it the correct number value by adding \`chocolate\` and \`strawberry\` and then subtracting \`singles\`.", 
-      "tools": "\`chocolate\`: contains the number of cones with chocolate ice cream\n\n\`strawberry\`: contains the number of cones with strawberry ice cream\n\n\`singles\`: contains the number of cones with a single scoop\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`chocolate + strawberry - singles\`."
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`10\` and a \`difference\` of \`4\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No answers this time! Find two numbers that add up to 10 (like 9 + 1 or 8 + 2), but have a difference of 4 (like 5 - 1 or 8 - 4)."
     },
     {
       "playspace": {
         "level": 10,
         "board": {
           "background" :"farm",
-          "foreground" : "a2level10",
+          "foreground" : "",
           "view": "static-vars",
-          "variables": ["chickens", "foxes", "cowboys", "ninjas"], 
-          "values": [8, 5, 6, 7], 
+          "variables": ["firstNumber", "secondNumber", "sum", "difference"], 
+          "values": [15, 5, 20, 10], 
           "showItems": [],
-          "showValues": [8, 5, 6, null],
-          "setVars": ["chickens", "foxes", "cowboys"],
-          "setVals": [8, 5, 6],
+          "showValues": [null, null, 20, 10],
+          "setVars": [],
+          "setVals": [],
           "requiredCalls": {
-            "chickens": 0, 
-            "foxes": 0, 
-            "cowboys": 0
+            "firstNumber": 0, 
+            "secondNumber": 0
           }, 
           "numberCalls": {
-            "chickens": 1,
-            "foxes": 1, 
-            "cowboys": 1
+            "firstNumber": 2,
+            "secondNumber": 2
           }
         }
       },
       "workspace": {
-        "codeSpace": ""
+        "codeSpace": "var firstNumber = ;\nvar secondNumber = ;\nvar sum = firstNumber + secondNumber;\nvar difference = firstNumber - secondNumber;"
       }, 
       "directions": {
-        "dialogText": "Last level!!! Create a variable called \`ninjas\`. Give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`."
+        "dialogText": "Well done! Here's your final challenge. Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`20\` and a \`difference\` of \`10\`."
       }, 
-      "mission": "Create the variable \`ninjas\` and give it the correct number value by adding \`chickens\` and \`foxes\` and then subtracting \`cowboys\`.", 
-      "tools": "\`chickens\`: contains the number of chickens\n\n\`foxes\`: contains the number of foxes\n\n\`cowboys\`: contains the number of cowboys\n\n\`+\`: adds numbers together\n\n\`-\`: subtracts one number from another", 
-      "tips": "After the \`=\` sign and before the \`;\`, type \`chickens + foxes - cowboys\`.",
+      "mission": "Give \`firstNumber\` and \`secondNumber\` values that will create a \`sum\` of \`20\` and a \`difference\` of \`10\`.", 
+      "tools": "\`firstNumber\`: contains a number  \`secondNumber\`: contains a number\n\n\`sum\`: contains sum of \`firstNumber\` and \`secondNumber\`\n\n\`difference\`: contains difference of \`firstNumber\` and \`secondNumber\`", 
+      "tips": "No answers this time! Find two numbers that add up to 20 (like 19 + 1 or 18 + 2), but have a difference of 10 (like 17 - 7 or 13 - 3)."
     }
   ]
 }

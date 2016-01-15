@@ -12,7 +12,7 @@
 	<div class="frame handyman open" ng-class="{open : !Incrementor.allSet, closed : Incrementor.allSet}"></div>
 	<div class="buttonBox" layout='row' layout-align="center">
 		<div class="button" ng-repeat="button in Incrementor.buttons" ng-class="{ {{button.name}}Button : button.set }" id="button{{$index + 1}}">
-			<div class="label" id="label{{$index + 1}}"  ng-show="button.set"></div>
+			<div class="label" id="label{{$index + 1}}">{{button.set ? button.label : $index + 1}}</div>
 		</div>
 	</div>
 	<div class="variable" ng-repeat="variable in Incrementor.variableNames" ng-show="!Incrementor.success">
