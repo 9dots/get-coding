@@ -169,7 +169,7 @@
 				"showValues": [20], 
 				"initValues": [20], 
 				"adjective": "EXACTLY", 
-				"targetVal": "", 
+				"targetVal": "8", 
 				"allSet": false
 			},
 			"powers": {

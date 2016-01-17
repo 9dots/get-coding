@@ -184,7 +184,17 @@
 	  }, 
 	  "mission": "On line 18, write \`function rightButton(){}\`. Then BETWEEN the \`{ }\`s, write \`right();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function rightButton(){\n\n         right();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function rightButton(){\n\n         right();\n\n    }\n\n    ",
+      "quiz": [
+        {
+          "questionId": "1b4b",
+          "text": "Which choice would give the variable \`number\` a value of \`10\`?", 
+          "a": "\`var number = 7 - 3;\`", 
+          "b": "\`var number = 9 + 2;\`", 
+          "c": "\`var number = 17 - 7;\`", 
+          "d": "\`var number = 4 + 7;\`"
+        }
+      ]
 	},
 	{
 	  "level": 5, 
@@ -365,7 +375,7 @@
 	  	]
 	   },
 	  "workspace": {
-"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nfunction downButton(){\n    down();\n}"	  }, 
+			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nfunction downButton(){\n    down();\n}"	  }, 
 	  "directions": {
 			"dialogText":"Good work! No new code to write on this level. Just play around!"
 	  }, 

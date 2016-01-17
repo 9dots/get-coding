@@ -14,12 +14,12 @@
           "setVars": ["apples", "oranges"],//variables that can't change
           "setVals": [9, 6],//values for non-changing variable
           "requiredCalls": {
-            "apples": 0, 
-            "oranges": 0
+            "apples": 3, 
+            "oranges": 3
           }, 
           "numberCalls": {
-            "apples": 1,
-            "oranges": 1
+            "apples": 0,
+            "oranges": 0
           }
         }
       },
@@ -46,12 +46,12 @@
           "setVars": ["yellow", "green"],
           "setVals": [3, 4],
           "requiredCalls": {
-            "yellow": 0, 
-            "green": 0
+            "yellow": 3, 
+            "green": 3
           }, 
           "numberCalls": {
-            "yellow": 1,
-            "green": 1
+            "yellow": 0,
+            "green": 0
           }
         }
       },
@@ -79,12 +79,12 @@
           "setVars": ["strawberry", "vanilla"],
           "setVals": [16, 9],
           "requiredCalls": {
-            "strawberry": 0, 
-            "vanilla": 0
+            "strawberry": 3, 
+            "vanilla": 3
           }, 
           "numberCalls": {
-            "strawberry": 1,
-            "vanilla": 1
+            "strawberry": 0,
+            "vanilla": 0
           }
         }
       },
@@ -112,12 +112,12 @@
           "setVars": ["chickens", "foxes"],//variables that can't change
           "setVals": [10, 3],//values for non-changing variable
           "requiredCalls": {
-            "chickens": 0, 
-            "foxes": 0
+            "chickens": 3, 
+            "foxes": 3
           }, 
           "numberCalls": {
-            "chickens": 1,
-            "foxes": 1
+            "chickens": 0,
+            "foxes": 0
           }
         }
       },
@@ -145,14 +145,14 @@
           "setVars": ["sprinkles", "chocolate", "glazed"],
           "setVals": [9, 6, 7],
           "requiredCalls": {
-            "sprinkles": 0, 
-            "chocolate": 0, 
-            "glazed": 0
+            "sprinkles": 3, 
+            "chocolate": 3, 
+            "glazed": 3
           }, 
           "numberCalls": {
-            "sprinkles": 1,
-            "chocolate": 1,
-            "glazed": 1
+            "sprinkles": 0,
+            "chocolate": 0,
+            "glazed": 0
           }
         }
       },
@@ -167,20 +167,20 @@
       "tips": "Your code should look like this: \`var doughnuts = sprinkles + chocolate + glazed\`.", 
       "quiz": [
         {
-          "questionId": "1b1a",
+          "questionId": "1b1b",
           "text": "Which choice below would create the variable \`brownies\` and give it a value of \`12\`?", 
-          "a": "variable brownies 12;", 
-          "b": "variable = brownies 12;", 
-          "c": "var brownies = 12;", 
-          "d": "var = 12 brownies;"
+          "a": "var = brownies 12;", 
+          "b": "var brownies = 12;", 
+          "c": "variable brownies = 12;", 
+          "d": "variable = 12 brownies;"
         },
         {
           "questionId": "1b2a",
           "text": "If the variable \`apples\` has a value of \`5\` and the variable \`oranges\` has a value of \`3\`, which choice below would have a value of \`8\`?", 
           "a": "apples;", 
           "b": "oranges;", 
-          "c": "apples + oranges;", 
-          "d": "apples - oranges;"
+          "c": "apples - oranges;", 
+          "d": "apples + oranges;"
         }
       ]
     },
@@ -198,14 +198,14 @@
           "setVars": ["apples", "limes", "oranges"],
           "setVals": [8, 5, 9],
           "requiredCalls": {
-            "apples": 0, 
-            "limes" : 0, 
-            "oranges": 0
+            "apples": 3, 
+            "limes" : 3, 
+            "oranges": 3
           }, 
           "numberCalls": {
-            "apples": 1,
-            "limes" : 1, 
-            "oranges": 1
+            "apples": 0,
+            "limes" : 0, 
+            "oranges": 0
           }
         }
       },
@@ -233,14 +233,14 @@
           "setVars": ["yellow", "green", "emptyPads"],
           "setVals": [3, 2, 7],
           "requiredCalls": {
-            "emptyPads": 0, 
-            "yellow": 0, 
-            "green": 0
+            "emptyPads": 3, 
+            "yellow": 3, 
+            "green": 3
           }, 
           "numberCalls": {
-            "emptyPads": 1,
-            "yellow": 1, 
-            "green": 1
+            "emptyPads": 0,
+            "yellow": 0, 
+            "green": 0
           }
         }
       },
@@ -286,14 +286,14 @@
           "setVars": ["sprinkles", "chocolate", "glazed"],
           "setVals": [6, 4, 6],
           "requiredCalls": {
-            "sprinkles": 0, 
-            "chocolate": 0, 
-            "glazed": 0
+            "sprinkles": 3, 
+            "chocolate": 3, 
+            "glazed": 3
           }, 
           "numberCalls": {
-            "sprinkles": 1,
-            "chocolate": 1, 
-            "glazed": 1
+            "sprinkles": 0,
+            "chocolate": 0, 
+            "glazed": 0
           }
         }
       },

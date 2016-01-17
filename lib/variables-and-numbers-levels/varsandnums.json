@@ -3,6 +3,7 @@
     {
       "playspace": {
         "board": {
+          "level": 1,
           "background": "store",
           "foreground": "a1level1",
           "view": "static-vars",
@@ -25,6 +26,7 @@
     {
       "playspace": {
         "board": {
+          "level": 2,
           "background": "store",
           "foreground": "a1level2",
           "view": "static-vars",
@@ -47,6 +49,7 @@
     {
       "playspace": {
         "board": {
+          "level": 3,
           "background": "store",
           "foreground": "a1level3",
           "view": "static-vars",
@@ -69,6 +72,7 @@
     {
       "playspace": {
         "board": {
+          "level": 4,
           "background": "bakery",
           "foreground": "a1level4",
           "view": "static-vars",
@@ -91,6 +95,7 @@
     {
       "playspace": {
         "board": {
+          "level": 5,
           "background": "bakery",
           "foreground": "a1level5",
           "view": "static-vars",
@@ -123,6 +128,7 @@
     {
       "playspace": {
         "board": {
+          "level": 6,
           "background": "bakery",
           "foreground": "a1level6",
           "view": "static-vars",
@@ -145,6 +151,7 @@
     {
       "playspace": {
         "board": {
+          "level": 7,
           "background": "iceCream",
           "foreground": "a1level7",
           "view": "static-vars",
@@ -167,6 +174,7 @@
     {
       "playspace": {
         "board": {
+          "level": 8,
           "background": "iceCream",
           "foreground": "a1level8",
           "view": "static-vars",
@@ -189,6 +197,7 @@
     {
       "playspace": {
         "board": {
+          "level": 9,
           "background": "iceCream",
           "foreground": "a1level9",
           "view": "static-vars",
@@ -211,6 +220,7 @@
     {
       "playspace": {
         "board": {
+          "level": 10,
           "background": "",
           "foreground": "",
           "view": "static-vars",
@@ -228,17 +238,7 @@
       }, 
       "mission": "Declare variables called \`apples\`, \`oranges\` and \`limes\`. Then give all three variables accurate number values based on the picture.", 
       "tools": "To declare a variable, type \`var\` followed by the variable's name. Then to give it a value, type an equals sign (\`=\` ) followed by the value you want to give the variable. Finally, finish each line off with a \`;\`.", 
-      "tips": "Sorry! No tips for this level. :)",
-      "quiz": [
-        {
-          "questionId": "1b1b",
-          "text": "Which one of the following choices could NOT be the name of a variable?", 
-          "a": "red velvet", 
-          "b": "redvelvet", 
-          "c": "redVelvet", 
-          "d": "red-velvet"
-        }
-      ]
+      "tips": "Sorry! No tips for this level. :)"
     }
 
   ]

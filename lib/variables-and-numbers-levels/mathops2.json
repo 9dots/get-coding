@@ -14,12 +14,12 @@
           "setVars": ["fruit", "oranges"],//variables that can't change
           "setVals": [15, 6],//values for non-changing variable
           "requiredCalls": {
-            "fruit": 0, 
-            "oranges": 0
+            "fruit": 3, 
+            "oranges": 3
           }, 
           "numberCalls": {
-            "fruit": 1,
-            "oranges": 1
+            "fruit": 0,
+            "oranges": 0
           }
         }
       },
@@ -47,12 +47,12 @@
           "setVars": ["yellow", "frogs"],
           "setVals": [3, 4],
           "requiredCalls": {
-            "yellow": 0, 
-            "frogs": 0
+            "yellow": 3, 
+            "frogs": 3
           }, 
           "numberCalls": {
-            "yellow": 1,
-            "frogs": 1
+            "yellow": 0,
+            "frogs": 0
           }
         }
       },
@@ -80,12 +80,12 @@
           "setVars": ["cones", "vanilla"],
           "setVals": [16, 9],
           "requiredCalls": {
-            "cones": 0, 
-            "vanilla": 0
+            "cones": 3, 
+            "vanilla": 3
           }, 
           "numberCalls": {
-            "cones": 1,
-            "vanilla": 1
+            "cones": 0,
+            "vanilla": 0
           }
         }
       },
@@ -113,12 +113,12 @@
           "setVars": ["animals", "foxes"],//variables that can't change
           "setVals": [13, 3],//values for non-changing variable
           "requiredCalls": {
-            "animals": 0, 
-            "foxes": 0
+            "animals": 3, 
+            "foxes": 3
           }, 
           "numberCalls": {
-            "animals": 1,
-            "foxes": 1
+            "animals": 0,
+            "foxes": 0
           }
         }
       },
@@ -146,14 +146,14 @@
           "setVars": ["doughnuts", "chocolate", "glazed"],
           "setVals": [22, 6, 7],
           "requiredCalls": {
-            "doughnuts": 0, 
-            "chocolate": 0, 
-            "glazed": 0
+            "doughnuts": 3, 
+            "chocolate": 3, 
+            "glazed": 3
           }, 
           "numberCalls": {
-            "doughnuts": 1,
-            "chocolate": 1,
-            "glazed": 1
+            "doughnuts": 0,
+            "chocolate": 0,
+            "glazed": 0
           }
         }
       },
@@ -167,21 +167,21 @@
       "tools": "\`doughnuts\`: contains the total number of doughnuts\n\n\`chocolate\`: contains the number of chocolate doughnuts\n\n\`glazed\`: contains the number of glazed doughnuts\n\n\`-\`: subtracts numbers", 
       "tips": "Your code should look like this: \`var sprinkles = doughnuts - chocolate - glazed\`.", 
       "quiz": [
+        {//change content of this question
+          "questionId": "1b2b",
+          "text": "If the variable \`sprinkles\` has a value of \`8\` and \`glazed\` has a value of \`2\`, which choice below would have a value of \`10\`?", 
+          "a": "sprinkles - glazed;", 
+          "b": "chocolate - sprinkles;", 
+          "c": "sprinkles + glazed;", 
+          "d": "sprinkels + chocolate;"
+        }, 
         {
-          "questionId": "1b1a",
-          "text": "Which choice below would create the variable \`brownies\` and give it a value of \`12\`?", 
-          "a": "variable brownies 12;", 
-          "b": "variable = brownies 12;", 
-          "c": "var brownies = 12;", 
-          "d": "var = 12 brownies;"
-        },
-        {
-          "questionId": "1b2a",
-          "text": "If the variable \`apples\` has a value of \`5\` and the variable \`oranges\` has a value of \`3\`, which choice below would have a value of \`8\`?", 
-          "a": "apples;", 
-          "b": "oranges;", 
-          "c": "apples + oranges;", 
-          "d": "apples - oranges;"
+          "questionId": "1b3a",
+          "text": "Which choice would create the variable \`doughnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
+          "a": "\`var doughnuts = chocolate + glazed;\`", 
+          "b": "\`var glazed = doughnuts - chocolate;\`", 
+          "c": "\`var chocolate = chocolate + glazed;\`", 
+          "d": "\`var doughnuts = chocolate - glazed;\`"
         }
       ]
     },
@@ -199,14 +199,14 @@
           "setVars": ["fruit", "oranges", "limes"],
           "setVals": [22, 5, 9],
           "requiredCalls": {
-            "fruit": 0, 
-            "limes" : 0, 
-            "oranges": 0
+            "fruit": 3, 
+            "limes" : 3, 
+            "oranges": 3
           }, 
           "numberCalls": {
-            "fruit": 1,
-            "limes" : 1, 
-            "oranges": 1
+            "fruit": 0,
+            "limes" : 0, 
+            "oranges": 0
           }
         }
       },
@@ -234,14 +234,14 @@
           "setVars": ["lilypads", "yellow", "green", "lilypads"],
           "setVals": [7, 3, 2],
           "requiredCalls": {
-            "lilypads": 0, 
-            "yellow": 0, 
-            "green": 0
+            "lilypads": 3, 
+            "yellow": 3, 
+            "green": 3
           }, 
           "numberCalls": {
-            "lilypads": 1,
-            "yellow": 1, 
-            "green": 1
+            "lilypads": 0,
+            "yellow": 0, 
+            "green": 0
           }
         }
       },
@@ -253,25 +253,7 @@
       }, 
       "mission": "Create the variable \`emptyPads\` and give it the correct number value by subtracting \`yellow\` and \`green\` from \`lilypads\` using the \`-\` sign.", 
       "tools": "\`yellow\`: contains the number of yellow frogs\n\n\`green\`: contains the number of green frogs\n\n\`lilypads\`: contains the number of lilypads\n\n\`-\`: subtracts one number from another", 
-      "tips": "Your code should look like this: \`var emptyPads = lilypads - green - yellow\`.",
-      "quiz": [
-        {
-          "questionId": "1b2a",
-          "text": "Which choice would create the variable \`doughnuts\` and give it a value of  \`chocolate\` plus \`glazed\`?", 
-          "a": "\`var doughnuts = chocolate + glazed;\`", 
-          "b": "\`var glazed = doughnuts - chocolate;\`", 
-          "c": "\`var chocolate = doughnuts + glazed;\`", 
-          "d": "\`var doughnuts = chocolate - glazed;\`"
-        },
-        {
-          "questionId": "1b3a",
-          "text": "Which choice would give the variable \`number\` a value of \`4\`?", 
-          "a": "\`var number = 17 - 2;\`", 
-          "b": "\`var number = 1 + 3;\`", 
-          "c": "\`var number = 12 - 6;\`", 
-          "d": "\`var number = 3 + 3;\`"
-        }
-      ]
+      "tips": "Your code should look like this: \`var emptyPads = lilypads - green - yellow\`."
     },
     {
       "playspace": {
@@ -287,14 +269,14 @@
           "setVars": ["doughnuts", "chocolate", "glazed"],
           "setVals": [16, 4, 6],
           "requiredCalls": {
-            "doughnuts": 0, 
-            "chocolate": 0, 
-            "glazed": 0
+            "doughnuts": 3, 
+            "chocolate": 3, 
+            "glazed": 3
           }, 
           "numberCalls": {
-            "doughnuts": 1,
-            "chocolate": 1, 
-            "glazed": 1
+            "doughnuts": 0,
+            "chocolate": 0, 
+            "glazed": 0
           }
         }
       },
@@ -322,14 +304,14 @@
           "setVars": ["singles", "chocolate", "strawberry"],
           "setVals": [8, 9, 7],
           "requiredCalls": {
-            "singles": 0, 
-            "chocolate": 0, 
-            "strawberry": 0
+            "singles": 3, 
+            "chocolate": 3, 
+            "strawberry": 3
           }, 
           "numberCalls": {
-            "singles": 1,
-            "chocolate": 1, 
-            "strawberry": 1
+            "singles": 0,
+            "chocolate": 0, 
+            "strawberry": 0
           }
         }
       },
@@ -357,14 +339,14 @@
           "setVars": ["chickens", "foxes", "cowboys"],
           "setVals": [8, 5, 6],
           "requiredCalls": {
-            "chickens": 0, 
-            "foxes": 0, 
-            "cowboys": 0
+            "chickens": 3, 
+            "foxes": 3, 
+            "cowboys": 3
           }, 
           "numberCalls": {
-            "chickens": 1,
-            "foxes": 1, 
-            "cowboys": 1
+            "chickens": 0,
+            "foxes": 0, 
+            "cowboys": 0
           }
         }
       },

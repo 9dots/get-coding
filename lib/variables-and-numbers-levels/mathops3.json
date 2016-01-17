@@ -11,10 +11,10 @@
           "values": [10], //values for check purposes
           "showItems": [], 
           "showValues": [null],//values to show in playspace initially
-          "setVars": ["firstNumber"],//variables that can't change
+          "setVars": ["firstNumber"],//variables that can't change..setting this will push up req calls by one each
           "setVals": [10],//values for non-changing variable
           "requiredCalls": {
-            "firstNumber": 0
+            "firstNumber": 1
           }, 
           "numberCalls": {
             "firstNumber": 0
@@ -45,8 +45,8 @@
           "setVars": ["firstNumber", "secondNumber"],
           "setVals": [10, 4],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 1, 
+            "secondNumber": 1
           }, 
           "numberCalls": {
             "firstNumber": 0,
@@ -78,12 +78,14 @@
           "setVars": ["firstNumber", "secondNumber"],//variables that can't change
           "setVals": [10, 4],//values for non-changing variable
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 3, 
+            "secondNumber": 3, 
+            "sum": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0
           }
         }
       },
@@ -107,16 +109,18 @@
           "variables": ["firstNumber", "secondNumber", "sum"], 
           "values": ["*", "*", 17], 
           "showItems": [],
-          "showValues": [null, null, null],
-          "setVars": ["sum"],
-          "setVals": [17],
+          "showValues": [null, null, 17],
+          "setVars": [],//no setVars here since first and second are allowed to change
+          "setVals": [],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 2, 
+            "secondNumber": 2, 
+            "sum": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0
           }
         }
       },
@@ -131,23 +135,15 @@
       "tips": "Find two numbers that add up to \`17\`. Then give \`firstNumber\` and \`secondNumber\` each one of those numbers.",
       "quiz": [
         {
-          "questionId": "1b1a",
-          "text": "Which choice below would create a variable called \`doughnuts\` and give it a value of \`12\`?", 
-          "a": "variable doughnuts = 12;", 
-          "b": "variable = doughnuts 12;", 
-          "c": "var doughnuts = 12;", 
-          "d": "var = doughnuts 12;"
-        },
-        {
-          "questionId": "1b2a",
+          "questionId": "1b3b",
           "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
           "a": "\`var fruit = apples - oranges;\`", 
-          "b": "\`var oranges = fruit + apples;\`", 
+          "b": "\`var fruit = apples + oranges;\`", 
           "c": "\`var apples = fruit - oranges;\`", 
-          "d": "\`var fruit = apples + oranges;\`"
+          "d": "\`var oranges = fruit + apples;\`"
         },
         {
-          "questionId": "1b3a",
+          "questionId": "1b4a",
           "text": "Which choice would give the variable \`number\` a value of \`8\`?", 
           "a": "\`var number = 3 + 4;\`", 
           "b": "\`var number = 12 - 2;\`", 
@@ -167,15 +163,17 @@
           "values": [11, 10, 21], //values for check purposes
           "showItems": [], 
           "showValues": [11, null, 21],//values to show in playspace initially
-          "setVars": ["firstNumber", "sum"],//variables that can't change
-          "setVals": [11, 21],//values for non-changing variable
+          "setVars": ["firstNumber"],//variables that can't change
+          "setVals": [11],//values for non-changing variable
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 3, 
+            "secondNumber": 2, 
+            "sum": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0
           }
         }
       },
@@ -200,15 +198,17 @@
           "values": [20, 10, 30], 
           "showItems": [],
           "showValues": [null, 10, 30],
-          "setVars": ["secondNumber", "sum"],
-          "setVals": [10, 30],
+          "setVars": ["secondNumber"],
+          "setVals": [10],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 2, 
+            "secondNumber": 3, 
+            "sum": 0
           }, 
           "numberCalls": {
-            "firstNumber": 1,
-            "secondNumber": 1
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0
           }
         }
       },
@@ -233,20 +233,24 @@
           "values": [20, 10, 30, 10], 
           "showItems": [],
           "showValues": [20, 10, 30, null],
-          "setVars": ["secondNumber", "sum", "firstNumber"],
-          "setVals": [10, 30, 20],
+          "setVars": ["secondNumber", "firstNumber"],
+          "setVals": [10, 20],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 6, 
+            "secondNumber": 6, 
+            "sum": 0, 
+            "difference": 0
           }, 
           "numberCalls": {
-            "firstNumber": 2,
-            "secondNumber": 2
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0, 
+            "difference": 0
           }
         }
       },
       "workspace": {
-        "codeSpace": "var firstNumber = ;\nvar secondNumber = 10;\nvar sum = firstNumber + secondNumber;\n"
+        "codeSpace": "var firstNumber = 20;\nvar secondNumber = 10;\nvar sum = firstNumber + secondNumber;\n"
       }, 
       "directions": {
         "dialogText": "So we can add variables, but we can also SUBTRACT! Let's make a variable called \`difference\` and give it a value of \`firstNumber - secondNumber\`. Keep our other variables with the same values for now."
@@ -269,12 +273,16 @@
           "setVars": [],
           "setVals": [],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 5, 
+            "secondNumber": 5, 
+            "sum": 0, 
+            "difference": 0
           }, 
           "numberCalls": {
-            "firstNumber": 2,
-            "secondNumber": 2
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0, 
+            "difference": 0
           }
         }
       },
@@ -302,12 +310,16 @@
           "setVars": [],
           "setVals": [],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 5, 
+            "secondNumber": 5, 
+            "sum": 0, 
+            "difference": 0
           }, 
           "numberCalls": {
-            "firstNumber": 2,
-            "secondNumber": 2
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0, 
+            "difference": 0
           }
         }
       },
@@ -335,12 +347,16 @@
           "setVars": [],
           "setVals": [],
           "requiredCalls": {
-            "firstNumber": 0, 
-            "secondNumber": 0
+            "firstNumber": 5, 
+            "secondNumber": 5, 
+            "sum": 0, 
+            "difference": 0
           }, 
           "numberCalls": {
-            "firstNumber": 2,
-            "secondNumber": 2
+            "firstNumber": 0,
+            "secondNumber": 0, 
+            "sum": 0, 
+            "difference": 0
           }
         }
       },
