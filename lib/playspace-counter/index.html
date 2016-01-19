@@ -1,0 +1,13 @@
+<div class="background">
+	<div class="variableBox" layout='row' layout-align='space-around center'>
+		<div class="variable" ng-repeat="variable in Counter.variableNames" >
+			<div class="varName">{{variable}}</div>
+			<div class="varValue" id="{{variable}}">{{Counter.variables[variable]}}</div>
+		</div>
+	</div>
+	<div class="buttonBox" layout='row' layout-align= 'space-around center'>
+		<div class="button" ng-repeat="button in Counter.buttons" ng-class="{ {{button.name}}Button : button.set }" id="button{{$index + 1}}">
+			<div class="label" ng-class="{ {{button.img}} : button.set}" id="label{{$index + 1}}">{{button.set ? button.label : $index + 1}}</div>
+		</div>
+	</div>
+</div>

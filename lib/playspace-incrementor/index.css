@@ -97,7 +97,7 @@
 	font-size: 30px;
 	line-height: 2.8em;
 	text-align: center;
-	font: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	font-family: 'Monaco';
 	color: #403a2a;
 	font-weight: bold;
 }

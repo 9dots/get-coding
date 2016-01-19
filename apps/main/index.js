@@ -62,7 +62,8 @@ var module = angular.module(name, [
   require('apps/mathops3'), 
   require('apps/squirrel4'), 
   require('apps/squirrel-btn1'), 
-  require('apps/incrementor')
+  require('apps/incrementor'), 
+  require('apps/counter')
 ]);
 
 /**

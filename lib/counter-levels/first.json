@@ -1,0 +1,175 @@
+{
+	"levels":[
+		{
+			"level": 1, 
+			"board": {
+				"variables": ["apples", "oranges", "limes", "total"],
+				"values": [0, 0, 0, 0], 
+				"showItems": [],
+				"showValues": [null, null, null, null], 
+				"initValues": [0, 0, 0, 0], 
+				"allSet": true
+			},
+	   		"workspace": {
+		   		"codeSpace":""
+	   		},
+	   		"directions": {
+        		"dialogText": ""
+      		}, 
+      		"mission":"",
+      		"tools": "", 
+      		"tips": ""
+		},
+		{
+			"level": 2, 
+			"board": {
+				"variables": ["apples", "oranges", "limes", "total"],
+				"values": [4, 0, 0, 0], 
+				"showItems": [],
+				"showValues": [null, null, null, null], 
+				"initValues": [0, 0, 0, 0], 
+				"allSet": true
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "addApple",
+			  		 "fnName": "addApple",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "contents": "{apples+=1;}"
+	  				}
+	  			]
+	   		}, 
+	   		"workspace": {
+		   		"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\n\nfunction addApple(){\n    \n}"
+	   		},
+	   		"directions": {
+        		"dialogText": ""
+      		}, 
+      		"mission":"",
+      		"tools": "", 
+      		"tips": ""
+		},
+		{
+			"level": 3, 
+			"board": {
+				"variables": ["apples", "oranges", "limes", "total"],
+				"values": [6, 0, 0, 6], 
+				"showItems": [],
+				"showValues": [null, null, null, null], 
+				"initValues": [0, 0, 0, 0], 
+				"allSet": true
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "addApple",
+			  		 "fnName": "addApple",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "apple",
+			  		 "contents": "{apples+=1;total+=1;}"
+	  				}
+	  			]
+	   		}, 
+	   		"workspace": {
+				"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple)\n\nfunction addApple(){\n    apples += 1;\n    \n}"
+	   		},
+	   		"directions": {
+        		"dialogText": ""
+      		}, 
+      		"mission":"",
+      		"tools": "", 
+      		"tips": ""
+		},
+		{
+			"level": 4, 
+			"board": {
+				"variables": ["apples", "oranges", "limes", "total"],
+				"values": [5, 6, 0, 11], 
+				"showItems": [],
+				"showValues": [null, null, null, null], 
+				"initValues": [0, 0, 0, 0], 
+				"allSet": true
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "addApple",
+			  		 "fnName": "addApple",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "apple",
+			  		 "contents": "{apples+=1;total+=1;}"
+	  				},
+	  				{
+			  		 "name": "addOrange",
+			  		 "fnName": "addOrange",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "orange",
+			  		 "contents": "{oranges+=1;total+=1;}"
+	  				}
+	  			]
+	   		}, 
+	   		"workspace": {
+	   			"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\nsetButton(2, addOrange);\n\nfunction addApple(){\n    apples += 1;\n    total+= 1;\n}\n\nfunction "
+	   		},
+	   		"directions": {
+        		"dialogText": ""
+      		}, 
+      		"mission":"",
+      		"tools": "", 
+      		"tips": ""
+		},
+		{
+			"level": 5, 
+			"board": {
+				"variables": ["apples", "oranges", "limes", "total"],
+				"values": [3, 2, 5, 10], 
+				"showItems": [],
+				"showValues": [null, null, null, null], 
+				"initValues": [0, 0, 0, 0], 
+				"allSet": true
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "addApple",
+			  		 "fnName": "addApple",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "apple",
+			  		 "contents": "{apples+=1;total+=1;}"
+	  				},
+	  				{
+			  		 "name": "addOrange",
+			  		 "fnName": "addOrange",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "orange",
+			  		 "contents": "{oranges+=1;total+=1;}"
+	  				},
+	  				{
+			  		 "name": "addLime",
+			  		 "fnName": "addLime",
+			  		 "set": false, 
+			  		 "label": "+", 
+			  		 "img": "lime",
+			  		 "contents": "{limes+=1;total+=1;}"
+	  				}
+	  			]
+	   		}, 
+	   		"workspace": {
+				"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\nsetButton(2, addOrange);\nsetButton(3, addLime);\n\nfunction addApple(){\n    apples += 1;\n    total+= 1;\n}\n\nfunction addOrange(){\n    oranges += 1;\n    total += 1;\n}\n\n"
+	   		},
+	   		"directions": {
+        		"dialogText": ""
+      		}, 
+      		"mission":"",
+      		"tools": "", 
+      		"tips": ""
+		}
+	]
+}

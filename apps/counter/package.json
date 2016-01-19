@@ -1,0 +1,7 @@
+{
+  "name": "counter",
+  "title": "Fruit Counter",
+  "description": "Write a simple program to keep track of fruit being sold.",
+  "author": "Ryan Baber", 
+  "database": "1b8"
+}

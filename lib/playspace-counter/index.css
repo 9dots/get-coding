@@ -1,0 +1,101 @@
+[playspace-counter] .background {
+	position: relative;
+	width: 630px;
+	height: 630px;
+	background: url('./counter-bg.png');
+}
+
+[playspace-counter] .variableBox {
+	position: absolute;
+	width: 557px;
+	height: 300px;
+	left: 32px;
+	top: 16px;
+}
+
+[playspace-counter] .buttonBox {
+	position: absolute;
+	width: 557px;
+	height: 93px;
+	left: 32px;
+	top: 326px;
+}
+
+[playspace-counter] .variable {
+	width: 123px;
+	height: 315px;
+	background: url('/lib/playspace-variables-and-numbers/var-man.png') no-repeat;
+	background-position: -20px 3px;
+	position: relative;
+}
+
+
+[playspace-counter] .varName {
+	width: 120px;
+	height: 21px;
+	color: white;
+	font: 16px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: 1px;
+	top:114px;
+}
+
+[playspace-counter] .varValue {
+	width: 99px;
+	height: 86px;
+	color: rgb(79, 108, 116);
+	background: white;
+	font-size: 82px;
+	font-family: 'Helvetica';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	left: 11px;
+	top:147px;
+	overflow: hidden;
+}
+
+[playspace-counter] .button {
+	position: relative;
+	width: 93px;
+	height: 93px;
+	background: url('./counter-button.png');
+}
+
+[playspace-counter] .button:active {
+	background: url('./counter-button-down.png');
+}
+
+[playspace-counter] .label {
+	position: absolute;
+	width: 93px;
+	height: 93px;
+	font-size: 30px;
+	line-height: 3em;
+	text-align: center;
+	font-family: 'Monaco';
+	color: white;
+	font-weight: bold;
+}
+
+[playspace-counter] .label:active {
+	top: 3px;
+	left: -3px;
+}
+
+[playspace-counter] .apple {
+	background: url('./apple.png');
+}
+
+[playspace-counter] .orange {
+	background: url('./orange1.png');
+}
+
+[playspace-counter] .lime {
+	background: url('./lime1.png');
+}
+
+
+
