@@ -25,10 +25,14 @@
 			"board": {
 				"variables": ["apples", "oranges", "limes", "total"],
 				"values": [4, 0, 0, 0], 
-				"showItems": [],
+				"showItems": ["apples"],
 				"showValues": [null, null, null, null], 
 				"initValues": [0, 0, 0, 0], 
-				"allSet": true
+				"allSet": true, 
+				"baskets": [
+					{"fruit": "apple", "number": 4}, 
+					{"fruit": "orange", "number": 3}
+				]
 			},
 			"powers": {
 			  	"buttons": [
@@ -37,6 +41,7 @@
 			  		 "fnName": "addApple",
 			  		 "set": false, 
 			  		 "label": "+", 
+			  		 "img": "apple",
 			  		 "contents": "{apples+=1;}"
 	  				}
 	  			]

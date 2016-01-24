@@ -72,8 +72,8 @@
 	position: absolute;
 	width: 93px;
 	height: 93px;
-	font-size: 30px;
-	line-height: 3em;
+	font-size: 45px;
+	line-height: 1.9em;
 	text-align: center;
 	font-family: 'Monaco';
 	color: white;
@@ -97,5 +97,60 @@
 	background: url('./lime1.png');
 }
 
+[playspace-counter] .fruitTrack {
+	position: absolute;
+	left: 0px;
+	top: 510px;
+	width: 727px;
+	height: 116px;
+}
 
+[playspace-counter] .fruitBox {
+	position: absolute;
+	left: 630px;
+	width: 243px;
+	height: 116px;
+}
+
+[playspace-counter] .fruit {
+	position: absolute;
+	width: 93px;
+	height: 93px;
+}
+
+[playspace-counter] .position1 {
+	left: 60px;
+	top: 22px;
+	z-index: 1;
+}
+
+[playspace-counter] .position2 {
+	left: 90px;
+	top: 0px;
+	z-index: 0;
+}
+
+[playspace-counter] .position3 {
+	left: 120px;
+	top: 22px;
+	z-index: 1;
+}
+
+[playspace-counter] .position4 {
+	left: 30px;
+	top: 0px;
+	z-index: 0;
+}
+
+[playspace-counter] .position6 {
+	left: 150px;
+	top: 0px;
+	z-index: 0;
+}
+
+[playspace-counter] .position5 {
+	left: 0px;
+	top: 22px;
+	z-index: 1;
+}
 

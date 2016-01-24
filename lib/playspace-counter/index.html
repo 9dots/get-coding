@@ -10,4 +10,9 @@
 			<div class="label" ng-class="{ {{button.img}} : button.set}" id="label{{$index + 1}}">{{button.set ? button.label : $index + 1}}</div>
 		</div>
 	</div>
+	<div class="fruitTrack">
+		<div class="fruitBox" ng-repeat="basket in Counter.baskets" id="basket{{$index}}">
+			<div ng-repeat="item in basket track by $index" class="fruit {{item}} position{{$index + 1}}"></div>
+		</div>
+	</div>
 </div>
