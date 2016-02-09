@@ -136,7 +136,25 @@
       		}, 
       		"mission": "After \`function \`, type \`add5(){}\`. Then between the \`{ }\`s, create a new line and type \`number +=5;\`. Then run your code and use the buttons.", 
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
-      		"tips": "Your code should look like this:\n\n    function add5(){\n\n        number += 5;\n\n    }"
+      		"tips": "Your code should look like this:\n\n    function add5(){\n\n        number += 5;\n\n    }",
+      		"quiz": [
+		        {
+		          "questionId": "1b3b",
+		          "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
+		          "a": "\`var fruit = apples - oranges;\`", 
+		          "b": "\`var fruit = apples + oranges;\`", 
+		          "c": "\`var apples = fruit - oranges;\`", 
+		          "d": "\`var oranges = fruit + apples;\`"
+		        },
+		        {
+		          "questionId": "1b4a",
+		          "text": "Which choice would give the variable \`number\` a value of \`8\`?", 
+		          "a": "\`var number = 3 + 4;\`", 
+		          "b": "\`var number = 12 - 2;\`", 
+		          "c": "\`var number = 14 - 7;\`", 
+		          "d": "\`var number = 5 + 3;\`"
+		        }
+      		]
 		},
 		{
 			"level": 5, 

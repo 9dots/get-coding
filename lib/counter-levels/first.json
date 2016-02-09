@@ -132,11 +132,16 @@
 			"level": 5, 
 			"board": {
 				"variables": ["apples", "oranges", "limes", "total"],
-				"values": [3, 2, 5, 10], 
+				"values": [4, 3, 6, 13], 
 				"showItems": [],
 				"showValues": [null, null, null, null], 
 				"initValues": [0, 0, 0, 0], 
-				"allSet": true
+				"allSet": true, 
+				"baskets": [
+					{"fruit": "apple", "number": 4}, 
+					{"fruit": "orange", "number": 3}, 
+					{"fruit": "lime", "number": 6}
+				]
 			},
 			"powers": {
 			  	"buttons": [

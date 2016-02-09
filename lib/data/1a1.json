@@ -1,0 +1,4858 @@
+{
+  "-JymybKdtG1lXtHcKM5a" : {
+    "completed" : [ true, true ]
+  },
+  "-JymydMOaktb6OJe-BNH" : {
+    "completed" : [ true, true ]
+  },
+  "-JymymlHMBcrzIwBaMzm" : {
+    "completed" : [ true, true ]
+  },
+  "-JymyqMAjUb1QY0sHkeE" : {
+    "completed" : [ true, true, true ]
+  },
+  "-Jymyz6VLHTw8m-scjH7" : {
+    "completed" : [ true, true ]
+  },
+  "-Jymz6C6DCaJfAGUbm2k" : {
+    "completed" : [ true, true ]
+  },
+  "-Jymz7YMYos42uQePM5r" : {
+    "completed" : [ true, true ]
+  },
+  "-Jymz7ikgLETT-a0FGUH" : {
+    "completed" : [ true, true, true ]
+  },
+  "-Jymz8l0JDCl7xuO_ZNt" : {
+    "completed" : [ true ]
+  },
+  "-Jymz9fXgd061joAfu8l" : {
+    "completed" : [ true, true, true ]
+  },
+  "-JymzEFAOUqk51h-O9Jt" : {
+    "completed" : [ true, true ]
+  },
+  "-JymzERQl_SseY6C-kT8" : {
+    "completed" : [ true, true ]
+  },
+  "-JymzNTm64ch0fHbo_nF" : {
+    "completed" : [ true ]
+  },
+  "-JymzVZdo6Zo21EHq1TH" : {
+    "completed" : [ true ]
+  },
+  "-JymzcIhWwJSG6kBEYRj" : {
+    "completed" : [ true, true ]
+  },
+  "-JymzgCn3Z1AyWGdYvPV" : {
+    "completed" : [ true ]
+  },
+  "-JymzhhguPt2LaIe3mk-" : {
+    "completed" : [ true, true ]
+  },
+  "-Jyn-4vorG2G8seQhM5Y" : {
+    "completed" : [ true, true, true, true ]
+  },
+  "-Jyoqb3RLwR4so3CY51O" : {
+    "completed" : {
+      "6" : true
+    }
+  },
+  "-JypixDbl7Hq126pcWyz" : {
+    "completed" : [ true ]
+  },
+  "-Jz28EeLj8w-bhvIe_dr" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "1",
+    "completed" : [ true, true, true, true, true ],
+    "difficulty" : "3",
+    "endTime" : 1442088778,
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : 1442088776,
+    "type" : "teacher"
+  },
+  "-JzGtL2Qw9lz_otOYPUx" : {
+    "completed" : [ "9/15/2015, 10:11:18 AM", "9/15/2015, 10:11:29 AM", "9/15/2015, 10:14:52 AM" ]
+  },
+  "-JzGtLACf7aLs9RMvyyc" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:24 AM", "9/15/2015, 10:14:06 AM", "9/15/2015, 10:20:09 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:21:37 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:21:18 AM",
+    "type" : "student"
+  },
+  "-JzGtLTImwMdMjGzun_1" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:12 AM", "9/15/2015, 10:06:55 AM", "9/15/2015, 10:09:43 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:11:09 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:10:57 AM",
+    "type" : "student"
+  },
+  "-JzGtM60ZjSwGQxAUVa3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:02:08 AM", "9/15/2015, 10:08:37 AM", "9/15/2015, 10:11:59 AM", "9/15/2015, 10:15:12 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:13:34 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:13:11 AM",
+    "type" : "student"
+  },
+  "-JzGtMNljxpgBAQH2fdN" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:03:08 AM", "9/15/2015, 10:09:09 AM", "9/15/2015, 10:13:45 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:14:46 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:14:37 AM"
+  },
+  "-JzGtN3cQfBWPQDRVs82" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:41 AM", "9/15/2015, 10:08:57 AM", "9/15/2015, 10:14:06 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/15/2015, 10:15:24 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:15:09 AM",
+    "type" : "student"
+  },
+  "-JzGtN88Pkfldate5f6c" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:02:27 AM", "9/15/2015, 10:08:21 AM", "9/15/2015, 10:15:29 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/15/2015, 10:16:40 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:16:29 AM"
+  },
+  "-JzGtNiXeI0en4IZm9SK" : {
+    "completed" : [ "9/15/2015, 10:11:17 AM", "9/15/2015, 10:02:59 AM", "9/15/2015, 10:05:30 AM", "9/15/2015, 10:07:56 AM", "9/15/2015, 10:11:03 AM" ]
+  },
+  "-JzGtNqflaoI_zf7TZnX" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:03:55 AM", "9/15/2015, 10:09:01 AM", "9/15/2015, 10:13:36 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:14:44 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:14:23 AM",
+    "type" : "student"
+  },
+  "-JzGtOE6PHuXOXa0Vrew" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:02:08 AM", "9/15/2015, 10:07:58 AM", "9/15/2015, 10:11:30 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:12:36 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:12:25 AM"
+  },
+  "-JzGtOrtVCCadAm-KL5d" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:23 AM", "9/15/2015, 10:09:15 AM", "9/15/2015, 10:16:19 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/15/2015, 10:17:06 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:17:04 AM",
+    "type" : "student"
+  },
+  "-JzGtOsHbKssn9D488UE" : {
+    "completed" : [ "9/15/2015, 10:02:14 AM", "9/15/2015, 10:09:56 AM", "9/15/2015, 10:16:47 AM" ]
+  },
+  "-JzGtP3YWuOwFsZIGRCE" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:22 AM", "9/15/2015, 10:08:13 AM", "9/15/2015, 10:12:22 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:14:36 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:13:21 AM",
+    "type" : "student"
+  },
+  "-JzGtQL0-2DFAAVOrIkD" : {
+    "completed" : [ "9/15/2015, 10:02:56 AM", "9/15/2015, 10:07:57 AM", "9/15/2015, 10:13:00 AM" ]
+  },
+  "-JzGtRVkzkakSKksI8rP" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:02:25 AM", "9/15/2015, 10:10:08 AM", "9/15/2015, 10:12:35 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:14:38 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:14:30 AM",
+    "type" : "student"
+  },
+  "-JzGtRYYppA0E5PSobLZ" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:04:05 AM", "9/15/2015, 10:07:22 AM", "9/15/2015, 10:11:24 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/15/2015, 10:12:27 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:12:20 AM",
+    "type" : "student"
+  },
+  "-JzGtRj-wgWvRvDiCvuO" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:02:24 AM", "9/15/2015, 10:09:59 AM", "9/15/2015, 10:14:48 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:15:44 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:15:27 AM",
+    "type" : "student"
+  },
+  "-JzGtSeSAKgVFILmjQuX" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:03:11 AM", "9/15/2015, 10:13:21 AM", "9/15/2015, 10:16:54 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/15/2015, 10:19:08 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:18:59 AM",
+    "type" : "student"
+  },
+  "-JzGtUbbBvHNMmMvK7r5" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/15/2015, 10:01:51 AM", "9/15/2015, 10:10:52 AM", "9/15/2015, 10:14:05 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/15/2015, 10:15:35 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/15/2015, 10:15:16 AM",
+    "type" : "student"
+  },
+  "-JzLzTK8Ps4PAuDDPFsd" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:47:38 AM", "9/16/2015, 9:50:35 AM", "9/16/2015, 9:55:00 AM", "9/16/2015, 9:59:16 AM", "9/16/2015, 10:02:06 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:56:01 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:55:56 AM",
+    "type" : "student"
+  },
+  "-JzLzTKxOdjtfjkT-ZoU" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:56:35 AM", "9/16/2015, 9:56:47 AM", "9/16/2015, 9:57:06 AM", "9/16/2015, 9:57:55 AM", "9/16/2015, 9:58:02 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:57:32 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:57:30 AM",
+    "type" : "student"
+  },
+  "-JzLzTQojdOYc0LzOdDl" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:43:58 AM", "9/16/2015, 9:49:14 AM", "9/16/2015, 9:51:23 AM", "9/16/2015, 9:55:09 AM", "9/16/2015, 9:58:50 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:52:13 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:52:05 AM",
+    "type" : "student"
+  },
+  "-JzLzTlHjLYAXZFZmAJp" : {
+    "completed" : [ "9/16/2015, 9:44:26 AM", "9/16/2015, 9:47:25 AM", "9/16/2015, 9:49:32 AM", "9/16/2015, 9:54:28 AM", "9/16/2015, 9:59:37 AM" ]
+  },
+  "-JzLzTn-wl92kD1rj34u" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:55:48 AM", "9/16/2015, 9:55:55 AM", "9/16/2015, 9:56:01 AM", "9/16/2015, 9:56:10 AM", "9/16/2015, 9:56:15 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:56:06 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:56:04 AM",
+    "type" : "student"
+  },
+  "-JzLzTqAZ_ai70D98JaV" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:46:38 AM", "9/16/2015, 9:50:18 AM", "9/16/2015, 9:55:23 AM", "9/16/2015, 10:02:21 AM", "9/16/2015, 10:05:46 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:57:34 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:57:07 AM",
+    "type" : "student"
+  },
+  "-JzLzUIHnuXbVCOQLKqH" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:44:14 AM", "9/16/2015, 9:47:59 AM", "9/16/2015, 9:51:18 AM", "9/16/2015, 9:54:28 AM", "9/16/2015, 9:58:09 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:52:49 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:52:21 AM",
+    "type" : "student"
+  },
+  "-JzLzUUuf9FbM26Xyef8" : {
+    "completed" : [ "9/16/2015, 9:47:32 AM", "9/16/2015, 10:04:20 AM", "9/16/2015, 10:07:51 AM" ]
+  },
+  "-JzLzU_Kj5BqKmSQYAoT" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:56:43 AM", "9/16/2015, 9:49:35 AM", "9/16/2015, 9:50:47 AM", "9/16/2015, 9:53:16 AM", "9/16/2015, 9:54:45 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:52:13 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:51:44 AM",
+    "type" : "student"
+  },
+  "-JzLzUagyYYFWnTqDVC1" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:44:03 AM", "9/16/2015, 9:47:40 AM", "9/16/2015, 9:49:59 AM", "9/16/2015, 9:52:40 AM", "9/16/2015, 9:56:20 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:51:27 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:50:56 AM",
+    "type" : "student"
+  },
+  "-JzLzUnoLOsN0lwD8Rqt" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:44:07 AM", "9/16/2015, 9:48:17 AM", "9/16/2015, 9:50:00 AM", "9/16/2015, 9:52:48 AM", "9/16/2015, 9:56:07 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:51:24 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:50:48 AM",
+    "type" : "student"
+  },
+  "-JzLzUpxYlOkEi9QFD_K" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:43:58 AM", "9/16/2015, 9:48:33 AM", "9/16/2015, 9:50:17 AM", "9/16/2015, 9:54:00 AM", "9/16/2015, 9:56:25 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:51:37 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:51:07 AM",
+    "type" : "student"
+  },
+  "-JzLzV3tX5EJZ7KzeYD3" : {
+    "1a1a" : "c",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:43:48 AM", "9/16/2015, 9:50:41 AM", "9/16/2015, 9:53:17 AM", "9/16/2015, 9:57:35 AM", "9/16/2015, 10:00:43 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:55:18 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:55:13 AM",
+    "type" : "student"
+  },
+  "-JzLzV8CWSSrt_JZD607" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:59:20 AM", "9/16/2015, 9:59:43 AM", "9/16/2015, 9:59:59 AM", null, "9/16/2015, 9:59:06 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 10:01:03 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 10:00:53 AM",
+    "type" : "student"
+  },
+  "-JzLzVHnZgTyuDXuYoPj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:58:53 AM", "9/16/2015, 9:59:01 AM", "9/16/2015, 9:59:08 AM", "9/16/2015, 9:59:34 AM", "9/16/2015, 9:59:46 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:59:25 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:59:17 AM",
+    "type" : "student"
+  },
+  "-JzLzVKYHTdsz5W7OD7o" : {
+    "completed" : [ "9/16/2015, 9:46:23 AM", "9/16/2015, 9:48:21 AM", "9/16/2015, 9:50:36 AM", "9/16/2015, 9:53:54 AM", "9/16/2015, 9:59:28 AM" ]
+  },
+  "-JzLzVM3CjoQHs6hXb0K" : {
+    "completed" : [ "9/16/2015, 9:44:08 AM", "9/16/2015, 9:48:31 AM", "9/16/2015, 9:51:09 AM", "9/16/2015, 9:54:43 AM", "9/16/2015, 9:59:07 AM" ]
+  },
+  "-JzLzVPaezwYADONJ1Lk" : {
+    "completed" : [ "9/16/2015, 9:47:19 AM", "9/16/2015, 9:57:05 AM", null, null, "9/16/2015, 10:03:19 AM" ]
+  },
+  "-JzLzWc3jUnSK0TgXA0e" : {
+    "completed" : [ "9/16/2015, 9:44:24 AM", "9/16/2015, 9:48:22 AM", "9/16/2015, 9:51:35 AM", "9/16/2015, 9:55:03 AM", "9/16/2015, 9:57:50 AM" ]
+  },
+  "-JzLzXhJb6cgYfjrEOir" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:46:34 AM", "9/16/2015, 9:50:28 AM", "9/16/2015, 9:53:53 AM", "9/16/2015, 9:58:59 AM", "9/16/2015, 10:04:07 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 9:56:32 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 9:55:07 AM",
+    "type" : "student"
+  },
+  "-JzLzXurGAZnvIbTkHrB" : {
+    "completed" : [ "9/16/2015, 9:43:50 AM", "9/16/2015, 9:48:37 AM", "9/16/2015, 9:51:35 AM", "9/16/2015, 9:56:02 AM", "9/16/2015, 9:59:49 AM" ]
+  },
+  "-JzLz_wjeGQUMUcIMA4s" : {
+    "completed" : [ "9/16/2015, 9:45:29 AM", "9/16/2015, 9:51:17 AM", "9/16/2015, 9:53:27 AM", "9/16/2015, 9:58:10 AM", "9/16/2015, 10:01:31 AM" ]
+  },
+  "-JzLzfbULFmaBLTZ8EMT" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/16/2015, 9:49:08 AM", "9/16/2015, 9:55:27 AM", "9/16/2015, 10:02:39 AM", "9/16/2015, 10:07:46 AM" ],
+    "difficulty" : "3",
+    "endTime" : "9/16/2015, 10:04:38 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 10:04:13 AM",
+    "type" : "student"
+  },
+  "-JzLzoS0zEMj55GlhgRI" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "9/16/2015, 9:58:58 AM", "9/16/2015, 10:04:02 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/16/2015, 10:05:03 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "9/16/2015, 10:04:50 AM",
+    "type" : "student"
+  },
+  "-JzLzu1fUFL6qs7e6O2V" : {
+    "completed" : [ "9/16/2015, 9:54:14 AM" ]
+  },
+  "-JzM1ydbiGuZahMrXmq3" : {
+    "completed" : [ "9/16/2015, 9:45:36 AM" ]
+  },
+  "-JzQiS3dtnuoqvS8CN5z" : {
+    "completed" : [ "September 17, 2015 at 6:21:34 PM PDT" ]
+  },
+  "-JzR9SzUytVh7Wjzo7nU" : {
+    "completed" : [ "9/17/2015, 9:36:37 AM", "9/17/2015, 9:36:57 AM", "9/17/2015, 9:37:20 AM" ]
+  },
+  "-JzToTdVYT3RjS4Bh7L0" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/17/2015, 10:00:17 PM", "9/17/2015, 10:00:56 PM", "9/17/2015, 10:01:37 PM", "9/17/2015, 10:03:07 PM", "9/17/2015, 10:04:05 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/17/2015, 10:02:26 PM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/17/2015, 10:02:08 PM",
+    "type" : "teacher"
+  },
+  "-JzWZF5n77s9aXDb2Pks" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:02 AM", "9/18/2015, 11:01:54 AM", "9/18/2015, 11:02:51 AM", "9/18/2015, 11:04:24 AM", "9/18/2015, 11:05:49 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:03:30 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:03:19 AM",
+    "type" : "student"
+  },
+  "-JzWZFgdAerAMYi7_7VT" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:11 AM", "9/18/2015, 11:02:55 AM", "9/18/2015, 11:07:00 AM", "9/18/2015, 11:10:40 AM", "9/18/2015, 11:12:59 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:08:07 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:07:45 AM",
+    "type" : "student"
+  },
+  "-JzWZeMUy_AY_LT21GKS" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:09:44 AM", "9/18/2015, 11:09:52 AM", "9/18/2015, 11:10:00 AM", "9/18/2015, 11:10:09 AM", "9/18/2015, 11:10:18 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:10:04 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:10:02 AM",
+    "type" : "student"
+  },
+  "-JzWZeNJ2XhGmP8AWMQT" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:13 AM", "9/18/2015, 11:02:57 AM", "9/18/2015, 11:04:22 AM", "9/18/2015, 11:06:58 AM", "9/18/2015, 11:10:20 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:05:27 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:04 AM",
+    "type" : "student"
+  },
+  "-JzWZeP8x1Pg72-AfmzB" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:27 AM", "9/18/2015, 11:04:20 AM", "9/18/2015, 11:07:51 AM", "9/18/2015, 11:10:35 AM", "9/18/2015, 11:15:27 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:08:53 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:08:38 AM",
+    "type" : "student"
+  },
+  "-JzWZebtguQdGLCWU6rO" : {
+    "completed" : [ "9/18/2015, 11:01:20 AM", "9/18/2015, 11:04:29 AM", "9/18/2015, 11:08:01 AM", "9/18/2015, 11:10:40 AM", "9/18/2015, 11:14:16 AM" ]
+  },
+  "-JzWZex__nkPlnhhsA4v" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:02 AM", "9/18/2015, 11:02:42 AM", "9/18/2015, 11:04:58 AM", "9/18/2015, 11:07:04 AM", "9/18/2015, 11:09:12 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:05:35 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:25 AM",
+    "type" : "student"
+  },
+  "-JzWZf1Klrj8TMQO9nH9" : {
+    "completed" : [ "9/18/2015, 10:59:31 AM", "9/18/2015, 11:03:04 AM", "9/18/2015, 11:04:42 AM", "9/18/2015, 11:07:54 AM", "9/18/2015, 11:11:44 AM" ]
+  },
+  "-JzWZf2zkpIKpk9A0wV4" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:16 AM", "9/18/2015, 11:05:25 AM", "9/18/2015, 11:07:37 AM", "9/18/2015, 11:09:47 AM", "9/18/2015, 11:13:40 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:08:18 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:08:11 AM",
+    "type" : "student"
+  },
+  "-JzWZf3wCCzddhiCxeNu" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:15 AM", "9/18/2015, 11:03:29 AM", "9/18/2015, 11:04:51 AM", "9/18/2015, 11:07:02 AM", "9/18/2015, 11:10:04 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:05:55 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:41 AM",
+    "type" : "student"
+  },
+  "-JzWZf4gADcxpHPBZ3lw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:15 AM", "9/18/2015, 11:04:17 AM", "9/18/2015, 11:07:17 AM", "9/18/2015, 11:09:11 AM", "9/18/2015, 11:13:19 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:07:55 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:07:41 AM",
+    "type" : "student"
+  },
+  "-JzWZf5Mc1FjXDqnYKet" : {
+    "1a1a" : "a",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "9/18/2015, 11:20:24 AM", "9/18/2015, 11:20:52 AM", "9/18/2015, 11:21:04 AM", "9/18/2015, 11:21:14 AM", "9/18/2015, 11:21:26 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:21:08 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:21:06 AM",
+    "type" : "student"
+  },
+  "-JzWZf5NPG9rgEb45oNO" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:46 AM", "9/18/2015, 11:05:02 AM", "9/18/2015, 11:08:16 AM", "9/18/2015, 11:15:33 AM", "9/18/2015, 11:20:02 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:12:30 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:11:08 AM",
+    "type" : "student"
+  },
+  "-JzWZf6nrFbQrUcDgPLz" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:00:30 AM", "9/18/2015, 11:02:28 AM", "9/18/2015, 11:04:26 AM", "9/18/2015, 11:06:42 AM", "9/18/2015, 11:08:32 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:05:13 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:04 AM",
+    "type" : "student"
+  },
+  "-JzWZfBhybZisZCVt4-U" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:19 AM", "9/18/2015, 11:02:36 AM", "9/18/2015, 11:05:00 AM", "9/18/2015, 11:07:14 AM", "9/18/2015, 11:09:27 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:05:50 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:26 AM",
+    "type" : "student"
+  },
+  "-JzWZfCJI4HaJEFm6ZD1" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:16 AM", "9/18/2015, 11:06:48 AM", "9/18/2015, 11:09:20 AM", "9/18/2015, 11:15:53 AM", "9/18/2015, 11:18:53 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:11:33 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:10:39 AM",
+    "type" : "student"
+  },
+  "-JzWZfF4u7TRldX7HViJ" : {
+    "completed" : [ "9/18/2015, 11:00:06 AM", "9/18/2015, 11:02:36 AM", "9/18/2015, 11:05:54 AM", "9/18/2015, 11:08:40 AM", "9/18/2015, 11:11:41 AM" ]
+  },
+  "-JzWZfhSto7tJheVIBUM" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:09:43 AM", "9/18/2015, 11:09:51 AM", "9/18/2015, 11:09:59 AM", "9/18/2015, 11:10:13 AM", "9/18/2015, 11:10:23 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:10:05 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:10:03 AM",
+    "type" : "student"
+  },
+  "-JzWZfn6Fud1LNoeKO_x" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:24 AM", "9/18/2015, 11:03:14 AM", "9/18/2015, 11:08:45 AM", "9/18/2015, 11:13:02 AM", "9/18/2015, 11:16:26 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:09:55 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:09:22 AM",
+    "type" : "student"
+  },
+  "-JzWZfnPj9TgC1c594yz" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:13:35 AM", "9/18/2015, 11:13:58 AM", "9/18/2015, 11:05:36 AM", "9/18/2015, 11:08:16 AM", "9/18/2015, 11:13:26 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:06:22 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:06:10 AM",
+    "type" : "student"
+  },
+  "-JzWZfswjGzwmUy0u6CM" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:09:37 AM", "9/18/2015, 11:02:28 AM", "9/18/2015, 11:04:10 AM", "9/18/2015, 11:06:21 AM", "9/18/2015, 11:08:28 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:05:04 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:04:53 AM",
+    "type" : "student"
+  },
+  "-JzWZg8D9R5JYQeUSxxM" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:25 AM", "9/18/2015, 11:04:21 AM", "9/18/2015, 11:07:09 AM", "9/18/2015, 11:09:59 AM", "9/18/2015, 11:13:53 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:08:10 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:07:51 AM",
+    "type" : "student"
+  },
+  "-JzWZgE0ssG6qTLvVMTj" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:10 AM", "9/18/2015, 11:02:17 AM", "9/18/2015, 11:04:51 AM", "9/18/2015, 11:08:20 AM", "9/18/2015, 11:10:53 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:06:34 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:35 AM",
+    "type" : "student"
+  },
+  "-JzWZhRlH8EFjApSuBKK" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:11 AM", "9/18/2015, 11:03:45 AM", "9/18/2015, 11:07:49 AM", "9/18/2015, 11:10:21 AM", "9/18/2015, 11:12:39 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:08:45 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:08:25 AM",
+    "type" : "student"
+  },
+  "-JzWZk7cldhCMxKjVt1-" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:39 AM", "9/18/2015, 11:03:15 AM", "9/18/2015, 11:06:14 AM", "9/18/2015, 11:08:36 AM", "9/18/2015, 11:10:59 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:07:20 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:06:59 AM",
+    "type" : "student"
+  },
+  "-JzWZl0G0UzgOQy-NfNM" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "9/18/2015, 10:59:22 AM", "9/18/2015, 11:02:58 AM", "9/18/2015, 11:04:40 AM", "9/18/2015, 11:07:33 AM", "9/18/2015, 11:12:22 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/18/2015, 11:06:00 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:05:27 AM",
+    "type" : "student"
+  },
+  "-JzWZu2CGmNpkRbBlL9K" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 11:01:41 AM", "9/18/2015, 11:06:07 AM", "9/18/2015, 11:12:27 AM", "9/18/2015, 11:16:12 AM", "9/18/2015, 11:20:03 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:13:40 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:13:20 AM",
+    "type" : "student"
+  },
+  "-JzW_VDcygakclAXZxEz" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/18/2015, 10:59:44 AM", "9/18/2015, 11:02:51 AM", "9/18/2015, 11:05:39 AM", "9/18/2015, 11:09:04 AM", "9/18/2015, 11:11:19 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 11:07:18 AM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 11:07:03 AM",
+    "type" : "student"
+  },
+  "-JzXllmsiIWPjRbCQqz0" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "9/18/2015, 4:27:01 PM", "9/18/2015, 4:27:39 PM", "9/18/2015, 4:28:12 PM", "9/18/2015, 4:29:14 PM", "9/18/2015, 4:31:38 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/18/2015, 4:28:43 PM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "9/18/2015, 4:28:37 PM",
+    "type" : "student"
+  },
+  "-JzkjGDsapWgc2Dc7ZOx" : {
+    "completed" : [ "9/21/2015, 9:48:54 AM", "9/21/2015, 10:01:07 AM", "9/21/2015, 10:04:56 AM", "9/21/2015, 10:09:19 AM", "9/21/2015, 10:13:51 AM" ]
+  },
+  "-JzkjGiZ6GftmaxKTRsm" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:49:08 AM", "9/21/2015, 9:55:01 AM", "9/21/2015, 9:57:42 AM", "9/21/2015, 10:02:54 AM", "9/21/2015, 10:06:32 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:59:37 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:59:25 AM",
+    "type" : "student"
+  },
+  "-JzkjH-B-PG30v_5HBU4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:52 AM", "9/21/2015, 9:53:16 AM", "9/21/2015, 10:01:25 AM", "9/21/2015, 10:06:30 AM", "9/21/2015, 10:14:26 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 10:02:46 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 10:02:35 AM",
+    "type" : "student"
+  },
+  "-JzkjH0igzZG10Ec9jzg" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:46:59 AM", "9/21/2015, 9:48:34 AM", "9/21/2015, 9:49:24 AM", "9/21/2015, 9:50:42 AM", "9/21/2015, 9:52:27 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:50:05 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:49:58 AM",
+    "type" : "student"
+  },
+  "-JzkjHcVcxF6Jf2zjb5z" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:36 AM", "9/21/2015, 9:48:28 AM", "9/21/2015, 9:49:18 AM", "9/21/2015, 9:50:50 AM", "9/21/2015, 9:51:52 AM" ],
+    "endTime" : "9/21/2015, 9:50:04 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:49:49 AM",
+    "type" : "student"
+  },
+  "-JzkjHdk-E6b4MRpAYBH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:15 AM", "9/21/2015, 9:52:39 AM", "9/21/2015, 9:54:54 AM", "9/21/2015, 9:58:33 AM", "9/21/2015, 10:00:23 AM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 9:56:04 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:55:56 AM",
+    "type" : "student"
+  },
+  "-JzkjHedikiobTJOBoMR" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:48:59 AM", "9/21/2015, 9:50:28 AM", "9/21/2015, 9:51:22 AM", "9/21/2015, 9:52:59 AM", "9/21/2015, 9:54:51 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:52:12 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:52:08 AM",
+    "type" : "student"
+  },
+  "-JzkjHm0Qxjd6lzojdlh" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:49:45 AM", "9/21/2015, 9:54:01 AM", "9/21/2015, 9:59:09 AM", "9/21/2015, 10:05:34 AM", "9/21/2015, 10:12:13 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 10:01:54 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 10:01:23 AM",
+    "type" : "student"
+  },
+  "-JzkjIEHTaMT7VB8ZXxL" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:48:25 AM", "9/21/2015, 9:50:42 AM", "9/21/2015, 9:52:40 AM", "9/21/2015, 9:56:32 AM", "9/21/2015, 9:58:45 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:53:42 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:53:17 AM",
+    "type" : "student"
+  },
+  "-JzkjIF9r2czx2lHsqEg" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:56:49 AM", "9/21/2015, 9:56:58 AM", "9/21/2015, 9:57:07 AM", "9/21/2015, 9:57:20 AM", "9/21/2015, 9:57:31 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:57:14 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:57:11 AM",
+    "type" : "student"
+  },
+  "-JzkjIJvCXEk3CEOt7lp" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 9:46:57 AM", "9/21/2015, 9:48:01 AM", "9/21/2015, 9:49:06 AM", "9/21/2015, 9:50:45 AM", "9/21/2015, 9:55:39 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:49:51 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:49:41 AM",
+    "type" : "student"
+  },
+  "-JzkjILvmKi4b-cyzi5c" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:00 AM", "9/21/2015, 9:48:33 AM", "9/21/2015, 9:49:50 AM", "9/21/2015, 9:51:08 AM", "9/21/2015, 9:52:50 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:50:27 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:50:16 AM",
+    "type" : "student"
+  },
+  "-JzkjIOQ5ggYAvGCtM8I" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 9:49:29 AM", "9/21/2015, 9:53:00 AM", "9/21/2015, 9:59:26 AM", "9/21/2015, 10:03:15 AM", "9/21/2015, 10:06:26 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 10:00:32 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 10:00:22 AM",
+    "type" : "student"
+  },
+  "-JzkjIzC9CNNI1rKawgF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:37 AM", "9/21/2015, 9:50:52 AM", "9/21/2015, 9:52:49 AM", "9/21/2015, 9:55:52 AM", "9/21/2015, 9:57:36 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:53:58 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:53:45 AM",
+    "type" : "student"
+  },
+  "-JzkjJG1eLjxKCMmru62" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:56:52 AM", "9/21/2015, 9:57:01 AM", "9/21/2015, 9:57:10 AM", "9/21/2015, 9:57:28 AM", "9/21/2015, 9:57:41 AM" ],
+    "difficulty" : "3",
+    "endTime" : "9/21/2015, 9:57:21 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:57:17 AM",
+    "type" : "student"
+  },
+  "-JzkjK5xjilCIx8-jMLf" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:17 AM", "9/21/2015, 9:48:18 AM", "9/21/2015, 9:49:42 AM", "9/21/2015, 9:51:17 AM", "9/21/2015, 9:52:42 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:50:16 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:50:10 AM",
+    "type" : "student"
+  },
+  "-JzkjK_jmvm1taN5Mm9D" : {
+    "1a1a" : "a",
+    "completed" : [ "9/21/2015, 9:48:24 AM", "9/21/2015, 9:50:35 AM", "9/21/2015, 9:52:22 AM", "9/21/2015, 9:54:46 AM", "9/21/2015, 9:56:38 AM" ],
+    "endTime" : "9/21/2015, 9:53:02 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:52:48 AM"
+  },
+  "-JzkjMxYZXdfdy0WPRYw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:46 AM", "9/21/2015, 9:53:32 AM", "9/21/2015, 9:56:26 AM", "9/21/2015, 10:00:13 AM", "9/21/2015, 10:04:13 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:57:35 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:57:19 AM",
+    "type" : "student"
+  },
+  "-JzkjNkcCT8gzc1ROhuk" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:48:10 AM", "9/21/2015, 9:53:06 AM", "9/21/2015, 9:57:00 AM", "9/21/2015, 10:07:02 AM", "9/21/2015, 10:11:35 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:59:14 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:59:06 AM",
+    "type" : "student"
+  },
+  "-JzkjSZMLmNiHgnVyxZJ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 9:47:01 AM", "9/21/2015, 9:47:49 AM", "9/21/2015, 9:49:32 AM", "9/21/2015, 9:51:12 AM", "9/21/2015, 9:55:22 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 9:50:25 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:50:17 AM",
+    "type" : "student"
+  },
+  "-JzkjczM-7VDNrnA-m_s" : {
+    "1a1a" : "c",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 9:49:03 AM", "9/21/2015, 9:54:01 AM", "9/21/2015, 9:58:17 AM", "9/21/2015, 10:03:16 AM", "9/21/2015, 10:10:12 AM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 10:00:03 AM",
+    "grade" : "2",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 9:59:27 AM",
+    "type" : "student"
+  },
+  "-JzlYEG3kgP8-9lGupns" : {
+    "completed" : [ "9/21/2015, 1:54:08 PM", "9/21/2015, 1:37:16 PM", "9/21/2015, 1:38:58 PM", "9/21/2015, 1:42:02 PM", "9/21/2015, 1:53:35 PM" ]
+  },
+  "-JzlYqgkGmevXMQZWXUZ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:35:18 PM", "9/21/2015, 1:43:07 PM", "9/21/2015, 1:47:53 PM", "9/21/2015, 1:51:51 PM", "9/21/2015, 1:54:02 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 1:49:32 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:49:24 PM",
+    "type" : "student"
+  },
+  "-JzlYrTVL1xHOC6VqAaP" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:35:30 PM", "9/21/2015, 1:42:00 PM", "9/21/2015, 1:45:38 PM", "9/21/2015, 1:48:35 PM", "9/21/2015, 1:55:54 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:46:45 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:46:32 PM",
+    "type" : "student"
+  },
+  "-JzlYrhK7MEY4lwuuexN" : {
+    "completed" : [ "9/21/2015, 1:34:04 PM", "9/21/2015, 1:40:37 PM", "9/21/2015, 1:42:57 PM", "9/21/2015, 1:47:27 PM", "9/21/2015, 1:53:38 PM" ]
+  },
+  "-JzlYrm0OSvWKR2ERJmB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:52:28 PM", "9/21/2015, 1:52:40 PM", "9/21/2015, 1:52:52 PM", "9/21/2015, 1:53:05 PM", "9/21/2015, 1:53:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:52:58 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:52:55 PM",
+    "type" : "student"
+  },
+  "-JzlYrtGpFrOP-nXES4O" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:45:20 PM", "9/21/2015, 1:45:30 PM", "9/21/2015, 1:45:41 PM", "9/21/2015, 1:45:56 PM", "9/21/2015, 1:46:08 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:45:48 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:45:46 PM",
+    "type" : "student"
+  },
+  "-JzlYrxc5AaGmCc_KeAd" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 1:42:06 PM", "9/21/2015, 1:53:49 PM", "9/21/2015, 2:00:37 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 2:04:50 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 2:03:19 PM",
+    "type" : "student"
+  },
+  "-JzlYs0a0boT4u6pYIe5" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 1:41:33 PM", "9/21/2015, 1:49:39 PM", "9/21/2015, 2:03:23 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 2:04:46 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 2:04:31 PM",
+    "type" : "student"
+  },
+  "-JzlYsEK1a7wTA19kdv8" : {
+    "completed" : [ "9/21/2015, 1:34:52 PM", "9/21/2015, 1:39:11 PM", "9/21/2015, 1:46:31 PM", "9/21/2015, 1:54:18 PM", "9/21/2015, 2:02:46 PM" ]
+  },
+  "-JzlYsFRXIEPCUltT1d9" : {
+    "completed" : [ "9/21/2015, 1:35:13 PM", "9/21/2015, 1:40:43 PM", "9/21/2015, 1:42:34 PM", "9/21/2015, 1:45:54 PM", "9/21/2015, 1:49:56 PM" ]
+  },
+  "-JzlYswGYSJWz9aMFENe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:51:00 PM", "9/21/2015, 1:51:09 PM", "9/21/2015, 1:51:18 PM", "9/21/2015, 1:51:32 PM", "9/21/2015, 1:51:45 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:51:23 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:51:21 PM",
+    "type" : "student"
+  },
+  "-JzlYt3ynhmh0-5BE2Jn" : {
+    "completed" : [ "9/21/2015, 2:04:13 PM", "9/21/2015, 1:42:44 PM", "9/21/2015, 1:50:11 PM", "9/21/2015, 1:56:07 PM", "9/21/2015, 2:01:54 PM" ]
+  },
+  "-JzlYt4bIvVwXwg4mLJ2" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:34:45 PM", "9/21/2015, 1:39:21 PM", "9/21/2015, 1:43:31 PM", "9/21/2015, 1:48:02 PM", "9/21/2015, 1:54:47 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 1:45:21 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:44:57 PM",
+    "type" : "student"
+  },
+  "-JzlYt8RtA7L-z_qGujb" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:35:21 PM", "9/21/2015, 1:38:41 PM", "9/21/2015, 1:43:55 PM", "9/21/2015, 1:50:37 PM", "9/21/2015, 1:54:38 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:46:00 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:45:47 PM",
+    "type" : "student"
+  },
+  "-JzlYtNRcmP1IcgB7kpi" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:34:31 PM", "9/21/2015, 1:36:50 PM", "9/21/2015, 1:39:25 PM", "9/21/2015, 1:42:48 PM", "9/21/2015, 1:45:10 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:40:31 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:40:15 PM",
+    "type" : "student"
+  },
+  "-JzlYtTUhk1AY-qFYN15" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "9/21/2015, 1:34:56 PM", "9/21/2015, 1:43:19 PM", "9/21/2015, 1:48:32 PM", "9/21/2015, 1:53:02 PM", "9/21/2015, 1:58:22 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 1:50:20 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:50:03 PM",
+    "type" : "student"
+  },
+  "-JzlYtVBR0r4n3peeydV" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:34:51 PM", "9/21/2015, 1:41:07 PM", "9/21/2015, 1:47:30 PM", "9/21/2015, 1:55:41 PM", "9/21/2015, 1:59:47 PM" ],
+    "difficulty" : "3",
+    "endTime" : "9/21/2015, 1:50:28 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:50:17 PM",
+    "type" : "student"
+  },
+  "-JzlYtVI9Y7GYxEmmXyj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:35:20 PM", "9/21/2015, 1:39:56 PM", "9/21/2015, 1:42:34 PM", "9/21/2015, 1:47:28 PM", "9/21/2015, 1:50:35 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:44:57 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:44:09 PM",
+    "type" : "student"
+  },
+  "-JzlYtWsvAEW5NmR0KXS" : {
+    "completed" : [ "9/21/2015, 1:34:43 PM", "9/21/2015, 1:37:08 PM", "9/21/2015, 1:39:26 PM", "9/21/2015, 1:43:54 PM", "9/21/2015, 1:47:00 PM" ]
+  },
+  "-JzlYu6xrwDnrwkNvmhy" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:35:01 PM", "9/21/2015, 1:39:04 PM", "9/21/2015, 1:47:38 PM", "9/21/2015, 1:56:31 PM", "9/21/2015, 2:00:35 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:50:03 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:49:30 PM",
+    "type" : "student"
+  },
+  "-JzlYuz4Epsrk2Jv6_cP" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:37:24 PM", "9/21/2015, 1:42:24 PM", "9/21/2015, 1:47:26 PM", "9/21/2015, 1:54:27 PM", "9/21/2015, 2:00:22 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/21/2015, 1:49:03 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:48:51 PM",
+    "type" : "student"
+  },
+  "-JzlYvbYUd8K6ZW02msb" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/21/2015, 1:37:33 PM", "9/21/2015, 1:42:44 PM", "9/21/2015, 1:48:25 PM", "9/21/2015, 1:52:48 PM", "9/21/2015, 1:58:10 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/21/2015, 1:50:55 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/21/2015, 1:50:06 PM",
+    "type" : "student"
+  },
+  "-JzlYyXe9-ax79uVDpCg" : {
+    "completed" : [ "9/21/2015, 1:37:02 PM", "9/21/2015, 1:43:59 PM", "9/21/2015, 1:50:28 PM", "9/21/2015, 1:58:33 PM", "9/21/2015, 2:03:32 PM" ]
+  },
+  "-JzmIVn99zFdzW3MC7EX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "September 21, 2015 at 4:48:44 PM PDT", "September 21, 2015 at 4:50:27 PM PDT", "September 21, 2015 at 4:51:56 PM PDT", "September 21, 2015 at 4:54:03 PM PDT", "September 21, 2015 at 4:56:25 PM PDT" ],
+    "difficulty" : "1",
+    "endTime" : "September 21, 2015 at 4:52:31 PM PDT",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "September 21, 2015 at 4:52:29 PM PDT",
+    "type" : "student"
+  },
+  "-JzmjmCYQCTjlXvCnioL" : {
+    "completed" : [ "9/21/2015, 6:51:51 PM", "9/21/2015, 6:53:13 PM" ]
+  },
+  "-JzmyUPsYzHlnGR5KRz4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "September 21, 2015 at 7:56:19 PM PDT", "September 21, 2015 at 7:58:08 PM PDT", "September 21, 2015 at 7:59:36 PM PDT", "September 21, 2015 at 8:01:23 PM PDT", "September 21, 2015 at 8:03:31 PM PDT" ],
+    "difficulty" : "1",
+    "endTime" : "September 21, 2015 at 8:00:04 PM PDT",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "September 21, 2015 at 8:00:03 PM PDT",
+    "type" : "student"
+  },
+  "-JzrOYmxKrpp5RZc4hkC" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/22/2015, 4:36:03 PM", "9/22/2015, 4:36:21 PM", "9/22/2015, 4:33:41 PM", "9/22/2015, 4:35:13 PM", "9/22/2015, 4:35:56 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/22/2015, 4:34:53 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "9/22/2015, 4:34:45 PM",
+    "type" : "student"
+  },
+  "-JzrTNFW69ByLmwBcKkr" : {
+    "completed" : [ "9/22/2015, 4:54:10 PM" ]
+  },
+  "-K-5PbS09eDseH_1UvnT" : {
+    "completed" : [ "September 25, 2015 at 2:40:40 PM PDT", "September 25, 2015 at 2:41:36 PM PDT" ]
+  },
+  "-K-6SCqO7nxxryZ2HLdJ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/25/2015, 7:23:11 PM", "9/25/2015, 7:24:47 PM", "9/25/2015, 7:25:46 PM" ],
+    "difficulty" : "1",
+    "endTime" : "9/25/2015, 7:26:23 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "9/25/2015, 7:26:16 PM",
+    "type" : "teacher"
+  },
+  "-K-El-iWV2TwlNlL47MB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "September 27, 2015 at 10:06:08 AM PDT", "September 27, 2015 at 10:06:41 AM PDT", "September 27, 2015 at 10:07:08 AM PDT", "September 27, 2015 at 10:08:03 AM PDT", "September 27, 2015 at 10:08:47 AM PDT" ],
+    "difficulty" : "1",
+    "endTime" : "September 27, 2015 at 10:07:40 AM PDT",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "September 27, 2015 at 10:07:33 AM PDT",
+    "type" : "teacher"
+  },
+  "-K-FwEu7ITBoOzwNDhAx" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "9/27/2015, 3:36:14 PM", "9/27/2015, 3:41:17 PM", "9/27/2015, 3:43:36 PM", "9/27/2015, 3:45:35 PM" ],
+    "difficulty" : "2",
+    "endTime" : "9/27/2015, 3:44:27 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "9/27/2015, 3:44:23 PM",
+    "type" : "student"
+  },
+  "-K-MXhT0sOyHBcr1587a" : {
+    "completed" : [ "9/28/2015, 10:20:22 PM" ]
+  },
+  "-K-X5E5-xnfgmv3AqxRO" : {
+    "completed" : [ "9/30/2015, 11:31:23 PM" ]
+  },
+  "-K-iKb_s50UPDhqEB2-h" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "October 3, 2015 at 8:34:39 AM PDT", "October 3, 2015 at 8:35:30 AM PDT", "October 3, 2015 at 8:36:13 AM PDT", "October 3, 2015 at 8:37:37 AM PDT", "October 3, 2015 at 8:38:24 AM PDT" ],
+    "difficulty" : "1",
+    "endTime" : "October 3, 2015 at 8:36:55 AM PDT",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "October 3, 2015 at 8:36:48 AM PDT",
+    "type" : "teacher"
+  },
+  "-K-jNI9Lox8oYjPKqRd5" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:26:00 PM", "10/3/2015, 1:26:50 PM", "10/3/2015, 1:27:50 PM", "10/3/2015, 1:29:48 PM", "10/3/2015, 1:31:38 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:28:27 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:28:22 PM",
+    "type" : "student"
+  },
+  "-K-jNIJ7AkeP9EcVUcmX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:30:10 PM", "10/3/2015, 1:30:17 PM", "10/3/2015, 1:30:22 PM", "10/3/2015, 1:30:29 PM", "10/3/2015, 1:30:34 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:30:26 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:30:24 PM",
+    "type" : "student"
+  },
+  "-K-jNIL27bWs0-Y5umXZ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:27:21 PM", "10/3/2015, 1:28:31 PM", "10/3/2015, 1:30:30 PM", "10/3/2015, 1:31:23 PM", "10/3/2015, 1:32:38 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:30:55 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:30:51 PM",
+    "type" : "student"
+  },
+  "-K-jNIO0k-_DWwh66uXn" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:25:48 PM", "10/3/2015, 1:26:35 PM", "10/3/2015, 1:27:21 PM", "10/3/2015, 1:28:49 PM", "10/3/2015, 1:29:33 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:28:17 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:28:09 PM",
+    "type" : "student"
+  },
+  "-K-jNIa_4HZOMDuQf4fD" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:29:17 PM", "10/3/2015, 1:30:37 PM", "10/3/2015, 1:31:37 PM", "10/3/2015, 1:32:52 PM", "10/3/2015, 1:34:39 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:32:15 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:32:06 PM",
+    "type" : "student"
+  },
+  "-K-jNIyR-iFH5K4tzLJt" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:29:13 PM", "10/3/2015, 1:29:21 PM", "10/3/2015, 1:29:28 PM", "10/3/2015, 1:28:32 PM", "10/3/2015, 1:29:00 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:27:52 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:27:45 PM",
+    "type" : "student"
+  },
+  "-K-jNJ0J-rK3u5KddKr0" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:25:51 PM", "10/3/2015, 1:26:23 PM", "10/3/2015, 1:27:03 PM", "10/3/2015, 1:28:36 PM", "10/3/2015, 1:29:35 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:28:02 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:27:56 PM",
+    "type" : "student"
+  },
+  "-K-jNJ561XVshza_bCHa" : {
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:32:03 PM", "10/3/2015, 1:32:11 PM", "10/3/2015, 1:32:19 PM", "10/3/2015, 1:30:50 PM", "10/3/2015, 1:31:35 PM" ],
+    "difficulty" : "1",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:30:17 PM",
+    "type" : "student"
+  },
+  "-K-jNJDEEjQwskGUPpGQ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:25:54 PM", "10/3/2015, 1:26:15 PM", "10/3/2015, 1:26:41 PM", "10/3/2015, 1:28:55 PM", "10/3/2015, 1:28:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:27:29 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:27:24 PM",
+    "type" : "student"
+  },
+  "-K-jNK-BJ3Eso_eKCoYi" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:25:59 PM", "10/3/2015, 1:27:24 PM", "10/3/2015, 1:27:53 PM", "10/3/2015, 1:28:57 PM", "10/3/2015, 1:29:29 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:28:35 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:28:29 PM",
+    "type" : "student"
+  },
+  "-K-jNKC92SVW6ryiAArD" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:27:25 PM", "10/3/2015, 1:28:17 PM", "10/3/2015, 1:29:04 PM", "10/3/2015, 1:30:42 PM", "10/3/2015, 1:33:56 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:30:00 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:29:46 PM",
+    "type" : "student"
+  },
+  "-K-jNKRlUjjz9lu7X6gS" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/3/2015, 1:33:28 PM", "10/3/2015, 1:33:40 PM", "10/3/2015, 1:33:52 PM", "10/3/2015, 1:34:04 PM", "10/3/2015, 1:34:20 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/3/2015, 1:33:57 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:33:55 PM",
+    "type" : "student"
+  },
+  "-K-jNNfDac0lmyknefWH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:32:13 PM", "10/3/2015, 1:32:24 PM", "10/3/2015, 1:32:34 PM", "10/3/2015, 1:32:45 PM", "10/3/2015, 1:32:59 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:32:39 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:32:36 PM",
+    "type" : "student"
+  },
+  "-K-jNY6njEVLZE_FEu5c" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:33:48 PM", "10/3/2015, 1:34:00 PM", "10/3/2015, 1:34:13 PM", "10/3/2015, 1:34:32 PM", "10/3/2015, 1:34:51 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:34:24 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:34:21 PM",
+    "type" : "student"
+  },
+  "-K-jNb9paNycyNZN0Lfs" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ null, null, "10/3/2015, 1:33:12 PM", "10/3/2015, 1:35:09 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 1:34:09 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:33:57 PM"
+  },
+  "-K-jNcSAYViXOKCwouI2" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 1:30:47 PM", "10/3/2015, 1:33:49 PM", "10/3/2015, 1:36:29 PM", "10/3/2015, 1:38:25 PM", "10/3/2015, 1:43:47 PM" ],
+    "difficulty" : "3",
+    "endTime" : "10/3/2015, 1:37:22 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/3/2015, 1:37:15 PM",
+    "type" : "student"
+  },
+  "-K-jjEnWvoFxtDMTpV95" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:09:28 PM", "10/3/2015, 3:11:52 PM", "10/3/2015, 3:13:12 PM", "10/3/2015, 3:14:57 PM", "10/3/2015, 3:17:37 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:14:22 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:14:17 PM",
+    "type" : "student"
+  },
+  "-K-jjLfBBMHDspTGPtmj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:10:28 PM", "10/3/2015, 3:13:03 PM", "10/3/2015, 3:15:57 PM", "10/3/2015, 3:17:53 PM", "10/3/2015, 3:19:44 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:17:14 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:17:09 PM",
+    "type" : "student"
+  },
+  "-K-jjRE1_QAG6x2o8AJV" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015 3:20:08 PM", "10/3/2015 3:20:50 PM", "10/3/2015 3:24:51 PM", "10/3/2015 3:26:27 PM", "10/3/2015 3:30:13 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/3/2015 3:25:39 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/3/2015 3:25:32 PM",
+    "type" : "student"
+  },
+  "-K-jjRj1EbI67aJWGXyz" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:20:36 PM", "10/3/2015, 3:20:56 PM", "10/3/2015, 3:21:18 PM", "10/3/2015, 3:21:31 PM", "10/3/2015, 3:21:43 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:21:24 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:21:23 PM",
+    "type" : "student"
+  },
+  "-K-jjek0Hi_wEMCW8VGF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:29:21 PM", "10/3/2015, 3:29:30 PM", "10/3/2015, 3:29:38 PM", "10/3/2015, 3:29:50 PM", "10/3/2015, 3:30:02 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/3/2015, 3:29:43 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:29:42 PM",
+    "type" : "student"
+  },
+  "-K-jjkwr0e9_H1_YLUnB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:21:10 PM", "10/3/2015, 3:21:20 PM", "10/3/2015, 3:15:50 PM", "10/3/2015, 3:17:57 PM", "10/3/2015, 3:20:48 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:17:13 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:16:57 PM",
+    "type" : "student"
+  },
+  "-K-jjztP1E8_WBX0mVSK" : {
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:24:28 PM", "10/3/2015, 3:22:35 PM", "10/3/2015, 3:31:01 PM", "10/3/2015, 3:32:42 PM", "10/3/2015, 3:34:38 PM" ],
+    "difficulty" : "2",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:31:04 PM",
+    "type" : "student"
+  },
+  "-K-jk5Ky31a1uNJ4YSns" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:30:19 PM", "10/3/2015, 3:30:28 PM", "10/3/2015, 3:30:37 PM", "10/3/2015, 3:30:58 PM", "10/3/2015, 3:31:07 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:30:50 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:30:39 PM",
+    "type" : "student"
+  },
+  "-K-jk5eYKI8Aa3q5oqP5" : {
+    "completed" : [ "10/3/2015, 3:23:12 PM" ]
+  },
+  "-K-jkGAZe0aniDJU03-h" : {
+    "completed" : [ "10/3/2015 3:20:56 PM", "10/3/2015 3:26:51 PM", "10/3/2015 3:34:41 PM" ]
+  },
+  "-K-jkOgCJpCq3IjrPmDi" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:29:57 PM", "10/3/2015, 3:30:09 PM", "10/3/2015, 3:30:26 PM", "10/3/2015, 3:29:32 PM", "10/3/2015, 3:29:44 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/3/2015, 3:29:23 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:29:11 PM",
+    "type" : "student"
+  },
+  "-K-jkQozMW052fAvv__A" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:37:34 PM", "10/3/2015, 3:47:31 PM", "10/3/2015, 3:28:46 PM", "10/3/2015, 3:33:29 PM", "10/3/2015, 3:37:09 PM" ],
+    "difficulty" : "3",
+    "endTime" : "10/3/2015, 3:30:18 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:30:09 PM",
+    "type" : "student"
+  },
+  "-K-jkmTTyYehbuqqL57q" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/3/2015, 3:27:33 PM", "10/3/2015, 3:33:56 PM", "10/3/2015, 3:37:53 PM", "10/3/2015, 3:41:20 PM", "10/3/2015, 3:45:13 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/3/2015, 3:39:25 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:39:10 PM",
+    "type" : "student"
+  },
+  "-K-jl8JaBPKBxaA30lQs" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/3/2015, 3:34:14 PM", "10/3/2015, 3:35:08 PM", "10/3/2015, 3:35:26 PM", "10/3/2015, 3:29:45 PM", "10/3/2015, 3:33:41 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/3/2015, 3:28:05 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:27:51 PM",
+    "type" : "student"
+  },
+  "-K-jlIVfTrq3IVk82QSy" : {
+    "completed" : [ "10/3/2015, 3:31:04 PM" ]
+  },
+  "-K-js9G7mB8-XwZxWvcH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : {
+      "2" : "10/3/2015, 3:46:05 PM"
+    },
+    "difficulty" : "3",
+    "endTime" : "10/3/2015, 3:46:16 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 3:46:15 PM",
+    "type" : "other"
+  },
+  "-K-jvBxMNnk13gQvxk0X" : {
+    "completed" : [ "10/3/2015, 4:00:30 PM" ]
+  },
+  "-K-kCeuj25RU_jxCDX4c" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : {
+      "2" : "10/3/2015, 5:20:11 PM"
+    },
+    "difficulty" : "3",
+    "endTime" : "10/3/2015, 5:20:16 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 5:20:13 PM",
+    "type" : "other"
+  },
+  "-K-kD9AMzQrZ-w42vPy6" : {
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : {
+      "2" : "10/3/2015, 5:21:09 PM"
+    },
+    "difficulty" : "3",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/3/2015, 5:20:55 PM",
+    "type" : "other"
+  },
+  "-K-l3lapZdnDY_02S7-6" : {
+    "completed" : [ "‎10‎/‎3‎/‎2015‎ ‎9‎:‎20‎:‎55‎ ‎PM" ]
+  },
+  "-K-z1JCi-Ld9ipC1Nqc4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:25:53 PM", "10/6/2015, 2:26:44 PM", "10/6/2015, 2:27:36 PM", "10/6/2015, 2:29:15 PM", "10/6/2015, 2:31:21 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:28:10 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:28:05 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JGb0wwCSp5--9ou" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:45:34 PM", "10/6/2015, 2:45:45 PM", "10/6/2015, 2:45:56 PM", "10/6/2015, 2:46:11 PM", "10/6/2015, 2:46:25 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:46:00 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:45:59 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JM88zZZ8dvNdjvP" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:29:55 PM", "10/6/2015, 2:33:12 PM", "10/6/2015, 2:34:39 PM", "10/6/2015, 2:37:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:36:05 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:35:59 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JSHhLfSn4k9blX9" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:36:13 PM", "10/6/2015, 2:36:45 PM", "10/6/2015, 2:30:19 PM", "10/6/2015, 2:33:12 PM", "10/6/2015, 2:34:41 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:31:59 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:30:48 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JVYh37VR2v3JJh3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:33:03 PM", "10/6/2015, 2:33:08 PM", "10/6/2015, 2:32:00 PM", "10/6/2015, 2:32:16 PM", "10/6/2015, 2:32:48 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:32:07 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/6/2015, 2:32:03 PM",
+    "type" : "student"
+  },
+  "-K-z1J_MJrPbkCK6vU2L" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/6/2015 2:28:20 PM", "10/6/2015 2:29:43 PM", "10/6/2015 2:32:50 PM", "10/6/2015 2:34:12 PM", "10/6/2015 2:38:07 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015 2:34:04 PM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "10/6/2015 2:32:52 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JevE30w9oTtYojY" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015 2:41:05 PM", "10/6/2015 2:41:18 PM", "10/6/2015 2:41:32 PM", "10/6/2015 2:34:30 PM", "10/6/2015 2:40:36 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/6/2015 2:41:50 PM",
+    "grade" : "K",
+    "school" : "other",
+    "startTime" : "10/6/2015 2:41:48 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JkieFaUvFJMOY20" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:28:04 PM", "10/6/2015, 2:31:16 PM", "10/6/2015, 2:32:45 PM", "10/6/2015, 2:39:14 PM", "10/6/2015, 2:41:36 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:34:22 PM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:33:51 PM",
+    "type" : "teacher"
+  },
+  "-K-z1JzsHwi16pWujJ9R" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:27:51 PM", "10/6/2015, 2:29:52 PM", "10/6/2015, 2:31:50 PM", "10/6/2015, 2:33:33 PM", "10/6/2015, 2:39:50 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:32:31 PM",
+    "grade" : "1",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:32:22 PM",
+    "type" : "teacher"
+  },
+  "-K-z1K40JQiM99BUD32T" : {
+    "completed" : [ "10/6/2015, 2:33:58 PM" ]
+  },
+  "-K-z1K4v9cPFzbnRgety" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/6/2015, 2:29:01 PM", "10/6/2015, 2:31:09 PM", "10/6/2015, 2:32:47 PM", "10/6/2015, 2:39:49 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:33:54 PM",
+    "grade" : "1",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:33:36 PM",
+    "type" : "teacher"
+  },
+  "-K-z1KNqxIiFZMlJj8b1" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:28:43 PM", "10/6/2015, 2:30:56 PM", "10/6/2015, 2:32:09 PM", "10/6/2015, 2:34:13 PM", "10/6/2015, 2:41:39 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:33:03 PM",
+    "grade" : "1",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:32:51 PM",
+    "type" : "teacher"
+  },
+  "-K-z1KOUxkM9_LeAUwQu" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:26:33 PM", "10/6/2015, 2:27:28 PM", "10/6/2015, 2:31:23 PM", "10/6/2015, 2:37:50 PM", "10/6/2015, 2:38:36 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/6/2015, 2:32:04 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:31:55 PM",
+    "type" : "teacher"
+  },
+  "-K-z1LMif0q0CyYebi7P" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:40:20 PM", "10/6/2015, 2:39:52 PM", "10/6/2015, 2:39:58 PM", "10/6/2015, 2:40:06 PM", "10/6/2015, 2:40:13 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:40:01 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:40:00 PM",
+    "type" : "teacher"
+  },
+  "-K-z1LkEkkA1F7YZ8FDA" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ null, "10/6/2015, 2:33:03 PM", "10/6/2015, 2:34:04 PM", "10/6/2015, 2:35:57 PM", "10/6/2015, 2:38:03 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:34:48 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:34:33 PM",
+    "type" : "teacher"
+  },
+  "-K-z1LnPKsd2Ctef5BEG" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:27:04 PM", "10/6/2015, 2:28:57 PM", "10/6/2015, 2:32:18 PM", "10/6/2015, 2:48:28 PM", "10/6/2015, 2:52:18 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:47:37 PM",
+    "grade" : "K",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:33:33 PM",
+    "type" : "teacher"
+  },
+  "-K-z1N30POE3vT_Bdtgb" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015 2:28:41 PM", "10/6/2015 2:31:13 PM", "10/6/2015 2:33:02 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015 2:33:51 PM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "10/6/2015 2:33:35 PM",
+    "type" : "teacher"
+  },
+  "-K-z1N5rGjTOeNesevDX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:41:36 PM", "10/6/2015, 2:42:02 PM", "10/6/2015, 2:42:12 PM", "10/6/2015, 2:42:24 PM", "10/6/2015, 2:41:18 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/6/2015, 2:42:16 PM",
+    "grade" : "K",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:42:14 PM",
+    "type" : "teacher"
+  },
+  "-K-z1NCshRopaI_WInyX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:27:36 PM", "10/6/2015, 2:30:07 PM", "10/6/2015, 2:31:39 PM", "10/6/2015, 2:36:24 PM", "10/6/2015, 2:38:21 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:32:51 PM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:32:42 PM",
+    "type" : "teacher"
+  },
+  "-K-z1OyarahCtqZAuujt" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:26:36 PM", "10/6/2015, 2:28:05 PM", "10/6/2015, 2:28:46 PM", "10/6/2015, 2:30:25 PM", "10/6/2015, 2:31:41 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:29:22 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:29:17 PM",
+    "type" : "teacher"
+  },
+  "-K-z1Pl-NDZQCF7NS1Wc" : {
+    "1a1a" : "d",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/6/2015 2:29:10 PM", "10/6/2015 2:37:30 PM", "10/6/2015 2:38:23 PM", "10/6/2015 2:40:54 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015 2:39:07 PM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "10/6/2015 2:39:01 PM",
+    "type" : "teacher"
+  },
+  "-K-z1afCoVch0FJ6DjeX" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/6/2015, 2:48:37 PM", "10/6/2015, 2:47:31 PM", "10/6/2015, 2:47:40 PM", "10/6/2015, 2:47:59 PM", "10/6/2015, 2:48:13 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/6/2015, 2:47:47 PM",
+    "grade" : "K",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:47:43 PM",
+    "type" : "teacher"
+  },
+  "-K-z1dNfoADHec0TKKye" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:29:02 PM", "10/6/2015, 2:31:12 PM", "10/6/2015, 2:32:55 PM", "10/6/2015, 2:35:58 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:33:58 PM",
+    "grade" : "K",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:33:16 PM",
+    "type" : "teacher"
+  },
+  "-K-z1sXJBkb2IDiCjcXK" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:35:52 PM", "10/6/2015, 2:36:10 PM", "10/6/2015, 2:36:22 PM", "10/6/2015, 2:36:44 PM", "10/6/2015, 2:37:30 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:36:28 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:36:25 PM",
+    "type" : "teacher"
+  },
+  "-K-z2HEVNGN4w44uTVyJ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 3:38:55 PM", "10/6/2015, 3:36:04 PM", "10/6/2015, 3:36:49 PM", "10/6/2015, 3:37:51 PM", "10/6/2015, 3:38:36 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 3:37:20 PM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "10/6/2015, 3:37:12 PM",
+    "type" : "teacher"
+  },
+  "-K-z2VtQjqo5CPj4Ivvl" : {
+    "completed" : [ "10/6/2015 2:30:53 PM" ]
+  },
+  "-K-z3AccRaArLaMuGce2" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/6/2015, 2:41:47 PM", "10/6/2015, 2:42:10 PM", "10/6/2015, 2:42:20 PM", "10/6/2015, 2:42:36 PM", "10/6/2015, 2:42:52 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/6/2015, 2:42:25 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/6/2015, 2:42:23 PM",
+    "type" : "teacher"
+  },
+  "-K0434z4lgIQ79qjBagW" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "‎10‎/‎7‎/‎2015‎ ‎6‎:‎29‎:‎42‎ ‎PM", "‎10‎/‎7‎/‎2015‎ ‎6‎:‎30‎:‎55‎ ‎PM", "‎10‎/‎7‎/‎2015‎ ‎6‎:‎32‎:‎03‎ ‎PM", "‎10‎/‎7‎/‎2015‎ ‎6‎:‎33‎:‎30‎ ‎PM", "‎10‎/‎7‎/‎2015‎ ‎6‎:‎36‎:‎14‎ ‎PM" ],
+    "difficulty" : "1",
+    "endTime" : "‎10‎/‎7‎/‎2015‎ ‎6‎:‎37‎:‎00‎ ‎PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "‎10‎/‎7‎/‎2015‎ ‎6‎:‎36‎:‎54‎ ‎PM",
+    "type" : "student"
+  },
+  "-K04He71bC5y8N680g88" : {
+    "completed" : [ "7/10/2015 19:33:49", "7/10/2015 19:36:33" ]
+  },
+  "-K0OvkyJMSvBaD6KLnbu" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/11/2015, 7:52:08 PM", "10/11/2015, 7:54:03 PM", "10/11/2015, 7:55:08 PM", "10/11/2015, 7:56:23 PM", "10/11/2015, 7:58:14 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/11/2015, 7:55:34 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/11/2015, 7:55:30 PM",
+    "type" : "teacher"
+  },
+  "-K0ShaQy8uuzV9ThmwUg" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/12/2015, 1:23:40 PM", "10/12/2015, 1:27:14 PM", "10/12/2015, 1:30:08 PM", "10/12/2015, 1:32:50 PM", "10/12/2015, 1:36:22 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/12/2015, 1:37:45 PM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "10/12/2015, 1:37:41 PM",
+    "type" : "teacher"
+  },
+  "-K0WdZ_mzdJGoVJORQsk" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "October 13, 2015 at 7:42:04 AM PDT", "October 13, 2015 at 7:42:28 AM PDT", "October 13, 2015 at 7:42:51 AM PDT" ],
+    "difficulty" : "1",
+    "endTime" : "October 13, 2015 at 7:43:22 AM PDT",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "October 13, 2015 at 7:43:19 AM PDT",
+    "type" : "teacher"
+  },
+  "-K0XYqiVvXnuWY9fEo17" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:58:31 AM", "10/13/2015, 12:01:19 PM", "10/13/2015, 12:02:18 PM", "10/13/2015, 12:03:27 PM", "10/13/2015, 12:05:43 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:02:45 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:02:42 PM",
+    "type" : "student"
+  },
+  "-K0XYuCnciuUxLAUoDZd" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 11:57:38 AM", "10/13/2015, 11:58:50 AM", "10/13/2015, 11:59:45 AM", "10/13/2015, 12:00:53 PM", "10/13/2015, 12:01:59 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 12:00:11 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:00:04 PM",
+    "type" : "student"
+  },
+  "-K0XYvPgCJm_ZyLVxmyg" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:57:10 AM", "10/13/2015, 11:58:03 AM", "10/13/2015, 11:58:45 AM", "10/13/2015, 12:00:04 PM", "10/13/2015, 12:00:50 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 11:59:31 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 11:59:24 AM",
+    "type" : "student"
+  },
+  "-K0XYyNh6Tdsjexd0u9i" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 11:57:29 AM", "10/13/2015, 11:58:03 AM", "10/13/2015, 11:58:41 AM", "10/13/2015, 12:00:26 PM", "10/13/2015, 12:01:42 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 11:59:07 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 11:59:04 AM",
+    "type" : "student"
+  },
+  "-K0XYzP6L226XtcUKv7m" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:57:42 AM", "10/13/2015, 11:58:42 AM", "10/13/2015, 12:00:02 PM", "10/13/2015, 12:01:36 PM", "10/13/2015, 12:02:41 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:00:42 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:00:33 PM",
+    "type" : "student"
+  },
+  "-K0XZ-_BN52LKbAlzo64" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:57:49 AM", "10/13/2015, 11:59:16 AM", "10/13/2015, 12:00:17 PM", "10/13/2015, 12:02:54 PM", "10/13/2015, 12:05:19 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:01:00 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:00:54 PM",
+    "type" : "student"
+  },
+  "-K0XZ1K1nKBbU1Xn57WM" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:58:45 AM", "10/13/2015, 12:00:52 PM", "10/13/2015, 12:02:51 PM", "10/13/2015, 12:05:25 PM", "10/13/2015, 12:08:58 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:03:48 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:03:31 PM",
+    "type" : "student"
+  },
+  "-K0XZ2EMBUt1r3e-h7UR" : {
+    "1a1a" : "c",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 12:00:17 PM", "10/13/2015, 12:02:17 PM", "10/13/2015, 12:04:24 PM", "10/13/2015, 12:06:09 PM", "10/13/2015, 12:08:24 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 12:04:56 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:04:52 PM",
+    "type" : "student"
+  },
+  "-K0XZ38xTbc416kv9IIo" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:58:51 AM", "10/13/2015, 12:01:34 PM", "10/13/2015, 12:03:15 PM", "10/13/2015, 12:04:35 PM", "10/13/2015, 12:06:48 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:03:48 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:03:43 PM",
+    "type" : "student"
+  },
+  "-K0XZ5-z2wSPQDykWDO3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:58:36 AM", "10/13/2015, 11:59:47 AM", "10/13/2015, 12:00:48 PM", "10/13/2015, 12:03:17 PM", "10/13/2015, 12:05:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:02:30 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:02:17 PM",
+    "type" : "student"
+  },
+  "-K0XZ68q_5PoBXKoFdap" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 12:02:47 PM", "10/13/2015, 12:05:27 PM", "10/13/2015, 12:08:01 PM", "10/13/2015, 12:11:56 PM", "10/13/2015, 12:16:31 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 12:09:07 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:08:52 PM",
+    "type" : "student"
+  },
+  "-K0XZBShnELLquSt9RZf" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:58:46 AM", "10/13/2015, 11:59:37 AM", "10/13/2015, 12:00:36 PM", "10/13/2015, 12:02:01 PM", "10/13/2015, 12:03:37 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:01:09 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:01:03 PM",
+    "type" : "student"
+  },
+  "-K0XZC4M_49LSljRo2mF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:59:34 AM", "10/13/2015, 12:00:44 PM", "10/13/2015, 12:02:05 PM", "10/13/2015, 12:03:57 PM", "10/13/2015, 12:05:59 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:02:44 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:02:34 PM",
+    "type" : "student"
+  },
+  "-K0XZCGIuEWafIS8saCz" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:59:29 AM", "10/13/2015, 12:02:19 PM", "10/13/2015, 12:04:37 PM", "10/13/2015, 12:07:14 PM", "10/13/2015, 12:10:46 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:05:42 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:05:34 PM",
+    "type" : "student"
+  },
+  "-K0XZDGcstCGx4e8sWNZ" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 12:02:28 PM", "10/13/2015, 12:05:14 PM", "10/13/2015, 12:07:13 PM", "10/13/2015, 12:12:18 PM", "10/13/2015, 12:15:31 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:07:57 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:07:51 PM",
+    "type" : "student"
+  },
+  "-K0XZG3elTLr8SX6xEtB" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 12:01:05 PM", "10/13/2015, 12:05:12 PM", "10/13/2015, 12:08:00 PM", "10/13/2015, 12:10:39 PM", "10/13/2015, 12:13:19 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 12:08:34 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:08:29 PM",
+    "type" : "student"
+  },
+  "-K0XZNYZdVkKtWSQYhMw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 11:59:20 AM", "10/13/2015, 12:02:04 PM", "10/13/2015, 12:03:39 PM", "10/13/2015, 12:05:43 PM", "10/13/2015, 12:07:52 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:04:21 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:04:18 PM",
+    "type" : "student"
+  },
+  "-K0XZR0Azla8aCOZx5TA" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/13/2015, 12:00:07 PM", "10/13/2015, 12:01:18 PM", "10/13/2015, 12:02:46 PM", "10/13/2015, 12:04:34 PM", "10/13/2015, 12:06:36 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:03:20 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:03:15 PM",
+    "type" : "student"
+  },
+  "-K0XZW7kWChVlopsAuEk" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 12:01:04 PM", "10/13/2015, 12:04:34 PM", "10/13/2015, 12:05:33 PM", "10/13/2015, 12:07:57 PM", "10/13/2015, 12:10:54 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/13/2015, 12:06:27 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:06:16 PM",
+    "type" : "student"
+  },
+  "-K0XZlvMekbpaWAU-ISU" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 12:01:37 PM", "10/13/2015, 12:03:03 PM", "10/13/2015, 12:05:15 PM", "10/13/2015, 12:07:45 PM", "10/13/2015, 12:10:20 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:06:13 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:06:08 PM",
+    "type" : "student"
+  },
+  "-K0XZqkUFz4lK2lqufaj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/13/2015, 12:01:31 PM", "10/13/2015, 12:03:28 PM", "10/13/2015, 12:04:31 PM", "10/13/2015, 12:06:14 PM", "10/13/2015, 12:09:41 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/13/2015, 12:05:22 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/13/2015, 12:05:18 PM",
+    "type" : "student"
+  },
+  "-K0cluxKmIL0RkvJ9cNG" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/14/2015, 4:56:07 PM", "10/14/2015, 4:56:56 PM", "10/14/2015, 4:57:24 PM", "10/14/2015, 4:58:23 PM", "10/14/2015, 4:58:59 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/14/2015, 4:57:58 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/14/2015, 4:57:52 PM",
+    "type" : "other"
+  },
+  "-K0g-SEs0opMKNd8BScp" : {
+    "completed" : [ "October 15, 2015 at 7:59:04 AM PDT" ]
+  },
+  "-K0g-UgadopDdSVXNxQn" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/15/2015, 8:00:30 AM", "10/15/2015, 8:01:10 AM", "10/15/2015, 8:01:50 AM", "10/15/2015, 8:02:44 AM", "10/15/2015, 8:03:38 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/15/2015, 8:02:12 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/15/2015, 8:02:07 AM",
+    "type" : "teacher"
+  },
+  "-K0g2HEFcbP8OJ3YDG0t" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/15/2015 8:10:34 AM", "10/15/2015 8:11:02 AM", "10/15/2015 8:25:50 AM", "10/15/2015 8:28:35 AM", "10/15/2015 8:30:07 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/15/2015 8:26:21 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/15/2015 8:26:09 AM",
+    "type" : "teacher"
+  },
+  "-K0i8mM91m5xzeqNdPlx" : {
+    "completed" : [ "October 15, 2015 at 5:58:29 PM PDT" ]
+  },
+  "-K0lvWTHhx61viKdARNv" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:40:52 AM", "10/16/2015, 11:42:00 AM", "10/16/2015, 11:43:04 AM", "10/16/2015, 11:45:03 AM", "10/16/2015, 11:46:50 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:43:40 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:43:33 AM",
+    "type" : "student"
+  },
+  "-K0lvYiKYkD5iTgPARp_" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 11:38:30 AM", "10/16/2015, 11:41:00 AM", "10/16/2015, 11:43:22 AM", "10/16/2015, 11:44:48 AM", "10/16/2015, 11:47:09 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:44:05 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:43:57 AM",
+    "type" : "student"
+  },
+  "-K0lwOkDOiVS2BXILwoP" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:39:13 AM", "10/16/2015, 11:40:58 AM", "10/16/2015, 11:42:16 AM", "10/16/2015, 11:43:38 AM", "10/16/2015, 11:44:59 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:42:51 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:42:35 AM",
+    "type" : "student"
+  },
+  "-K0lwRe6yAB80g9PLNR9" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:38:37 AM", "10/16/2015, 11:40:17 AM", "10/16/2015, 11:43:55 AM", "10/16/2015, 11:45:34 AM", "10/16/2015, 11:48:25 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:44:12 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:44:09 AM",
+    "type" : "student"
+  },
+  "-K0lwRiCwXd-ersKvzv8" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:39:27 AM", "10/16/2015, 11:40:24 AM", "10/16/2015, 11:41:12 AM", "10/16/2015, 11:42:54 AM", "10/16/2015, 11:47:00 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:42:01 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:31 AM",
+    "type" : "student"
+  },
+  "-K0lwRjiya-vkHlqoMU7" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:39:22 AM", "10/16/2015, 11:41:35 AM", "10/16/2015, 11:44:18 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:44:35 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:44:34 AM",
+    "type" : "student"
+  },
+  "-K0lwRpQWm95MMcOpAWD" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:38:41 AM", "10/16/2015, 11:40:18 AM", "10/16/2015, 11:41:04 AM", "10/16/2015, 11:42:08 AM", "10/16/2015, 11:43:42 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:41:29 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:21 AM",
+    "type" : "student"
+  },
+  "-K0lwRxD1yVeU7Ptey9P" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:40:00 AM", "10/16/2015, 11:41:49 AM", "10/16/2015, 11:43:55 AM", "10/16/2015, 11:46:05 AM", "10/16/2015, 11:48:24 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:44:34 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:44:20 AM",
+    "type" : "student"
+  },
+  "-K0lwSOwJnK6NKhIGEeU" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:38:38 AM", "10/16/2015, 11:39:27 AM", "10/16/2015, 11:40:26 AM", "10/16/2015, 11:41:30 AM", "10/16/2015, 11:42:56 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:40:58 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:40:42 AM",
+    "type" : "student"
+  },
+  "-K0lwSQPQGuxXr5LHskl" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:40:19 AM", "10/16/2015, 11:42:49 AM", "10/16/2015, 11:45:10 AM", "10/16/2015, 11:48:16 AM", "10/16/2015, 11:53:00 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:45:56 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:45:45 AM",
+    "type" : "student"
+  },
+  "-K0lwSRoUQ_sGB4CVSDH" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:39:01 AM", "10/16/2015, 11:40:20 AM", "10/16/2015, 11:43:16 AM", "10/16/2015, 11:45:01 AM", "10/16/2015, 11:46:36 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:43:46 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:43:37 AM",
+    "type" : "student"
+  },
+  "-K0lwSXTgEfUlJ80og-q" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:39:04 AM", "10/16/2015, 11:41:43 AM", "10/16/2015, 11:42:38 AM", "10/16/2015, 11:43:55 AM", "10/16/2015, 11:45:37 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:43:02 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:42:54 AM",
+    "type" : "student"
+  },
+  "-K0lwSq2OYgVNJiZUx4x" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:38:53 AM", "10/16/2015, 11:40:06 AM", "10/16/2015, 11:41:17 AM", "10/16/2015, 11:43:18 AM", "10/16/2015, 11:44:50 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:41:57 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:35 AM",
+    "type" : "student"
+  },
+  "-K0lwTDIscJu_jItEEzZ" : {
+    "1a1a" : "a",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:40:26 AM", "10/16/2015, 11:45:29 AM", "10/16/2015, 11:48:50 AM", "10/16/2015, 11:51:20 AM", "10/16/2015, 11:55:38 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:49:20 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:49:19 AM",
+    "type" : "student"
+  },
+  "-K0lwTikxrgGy9ty3ax_" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:38:30 AM", "10/16/2015, 11:39:00 AM", "10/16/2015, 11:39:29 AM", "10/16/2015, 11:40:29 AM", "10/16/2015, 11:41:17 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:40:04 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:39:58 AM",
+    "type" : "student"
+  },
+  "-K0lwTv8QoTeAmfF0Cl3" : {
+    "1a1a" : "a",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 11:38:59 AM", "10/16/2015, 11:40:04 AM", "10/16/2015, 11:41:08 AM", "10/16/2015, 11:42:28 AM", "10/16/2015, 11:43:44 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:41:29 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:26 AM",
+    "type" : "student"
+  },
+  "-K0lwUZvGd41I9gfxCV5" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:39:08 AM", "10/16/2015, 11:39:57 AM", "10/16/2015, 11:40:50 AM", "10/16/2015, 11:41:56 AM", "10/16/2015, 11:42:59 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:41:19 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:07 AM",
+    "type" : "student"
+  },
+  "-K0lwUgdZRo_Kxeeu2uh" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:39:06 AM", "10/16/2015, 11:40:44 AM", "10/16/2015, 11:41:18 AM", "10/16/2015, 11:42:06 AM", "10/16/2015, 11:44:18 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:41:34 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:32 AM",
+    "type" : "student"
+  },
+  "-K0lwXBgFJdoSNvf1J3V" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:39:19 AM", "10/16/2015, 11:40:56 AM", "10/16/2015, 11:42:19 AM", "10/16/2015, 11:44:05 AM", "10/16/2015, 11:45:54 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:42:44 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:42:38 AM",
+    "type" : "student"
+  },
+  "-K0lw_vxsyouvXMKZH2p" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 11:40:02 AM", "10/16/2015, 11:41:33 AM", "10/16/2015, 11:43:20 AM", "10/16/2015, 11:44:38 AM", "10/16/2015, 11:45:49 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:43:54 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:43:42 AM",
+    "type" : "student"
+  },
+  "-K0lwbZ3MZlSX-cd1vPP" : {
+    "1a1a" : "a",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 11:43:12 AM", "10/16/2015, 11:48:28 AM", "10/16/2015, 11:49:16 AM", "10/16/2015, 11:51:14 AM", "10/16/2015, 11:57:32 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:49:43 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:49:41 AM",
+    "type" : "student"
+  },
+  "-K0lwe-RO7Duew50SOTH" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:40:11 AM", "10/16/2015, 11:43:06 AM", "10/16/2015, 11:43:47 AM", "10/16/2015, 11:45:15 AM", "10/16/2015, 11:46:47 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:44:15 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:44:05 AM",
+    "type" : "student"
+  },
+  "-K0lwgvGEypPBqgkwjxO" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 11:39:43 AM", "10/16/2015, 11:40:42 AM", "10/16/2015, 11:41:20 AM", "10/16/2015, 11:42:08 AM", "10/16/2015, 11:43:14 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:41:39 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:41:31 AM",
+    "type" : "student"
+  },
+  "-K0lwiYPjLvjE48Wja7V" : {
+    "1a1a" : "c",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 11:40:35 AM", "10/16/2015, 11:43:16 AM", "10/16/2015, 11:44:32 AM", "10/16/2015, 11:45:45 AM", "10/16/2015, 11:46:49 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 11:45:11 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:44:56 AM",
+    "type" : "student"
+  },
+  "-K0lx42NOVPul5X3xot6" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/16/2015, 11:43:10 AM", "10/16/2015, 11:45:59 AM", "10/16/2015, 11:49:30 AM", "10/16/2015, 11:51:47 AM", "10/16/2015, 11:55:03 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/16/2015, 11:50:05 AM",
+    "grade" : "5",
+    "school" : "Selma",
+    "startTime" : "10/16/2015, 11:50:00 AM",
+    "type" : "student"
+  },
+  "-K0mmNVncFFb3ljrhIhk" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 4:24:07 PM", "10/16/2015, 4:50:36 PM", "10/16/2015, 4:51:39 PM", "10/16/2015, 4:56:09 PM", "10/16/2015, 4:59:24 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 4:52:35 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/16/2015, 4:52:23 PM",
+    "type" : "student"
+  },
+  "-K0mz2rgCWugi9Ob8vuo" : {
+    "completed" : [ "10/16/2015, 4:34:19 PM", "10/16/2015, 4:47:34 PM", "10/16/2015, 4:56:06 PM" ]
+  },
+  "-K0mz6ZRc5e9JOIpwMCL" : {
+    "completed" : [ "10/16/2015, 4:46:52 PM", "10/16/2015, 4:50:38 PM" ]
+  },
+  "-K0mzJVo3bf4NEVqKmxM" : {
+    "completed" : [ "10/16/2015, 4:32:06 PM", "10/16/2015, 4:51:35 PM", "10/16/2015, 4:53:07 PM", "10/16/2015, 4:57:53 PM" ],
+    "grade" : "3",
+    "school" : "other",
+    "type" : "student"
+  },
+  "-K0n0gGorXiVW75VVTGn" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "1",
+    "completed" : [ "10/16/2015, 4:49:00 PM", "10/16/2015, 4:51:24 PM", "10/16/2015, 4:54:13 PM", "10/16/2015, 4:59:09 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 4:56:09 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/16/2015, 4:55:57 PM",
+    "type" : "student"
+  },
+  "-K0n66c6rf6JYbwAR5AA" : {
+    "completed" : [ "10/16/2015, 5:24:01 PM", "10/16/2015, 5:25:23 PM" ]
+  },
+  "-K0n9r2q1vp7moUrBsNL" : {
+    "completed" : [ "10/16/2015, 5:22:46 PM", null, null, "10/16/2015, 5:38:56 PM" ]
+  },
+  "-K0nAd6NgqTJzTQ-ZVya" : {
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 5:25:19 PM", "10/16/2015, 5:26:10 PM", "10/16/2015, 5:28:09 PM", "10/16/2015, 5:29:58 PM", "10/16/2015, 5:31:43 PM" ],
+    "difficulty" : "1",
+    "grade" : "6",
+    "school" : "other",
+    "type" : "student"
+  },
+  "-K0nAmC34i3FuiGV9G6n" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "completed" : [ "10/16/2015, 5:25:02 PM", "10/16/2015, 5:25:37 PM", "10/16/2015, 5:26:05 PM", "10/16/2015, 5:27:00 PM", "10/16/2015, 5:27:34 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 5:29:54 PM",
+    "grade" : "5",
+    "startTime" : "10/16/2015, 5:29:48 PM",
+    "type" : "student"
+  },
+  "-K0nAtSQJzl1Tbdq-s53" : {
+    "completed" : [ "10/16/2015, 5:26:02 PM", "10/16/2015, 5:27:15 PM", "10/16/2015, 5:28:08 PM", "10/16/2015, 5:29:16 PM", "10/16/2015, 5:31:12 PM" ]
+  },
+  "-K0nAvjLw_xX2GnpOirN" : {
+    "completed" : [ "October 16, 2015 at 5:26:51 PM PDT" ]
+  },
+  "-K0nAwtFeL1StiAYSGyJ" : {
+    "completed" : [ "10/16/2015, 5:26:09 PM", "10/16/2015, 5:28:03 PM", "10/16/2015, 5:28:33 PM" ]
+  },
+  "-K0nB23mp-DAEqD3vTD4" : {
+    "completed" : [ null, null, "10/16/2015, 5:26:55 PM", "10/16/2015, 5:28:18 PM", "10/16/2015, 5:30:31 PM" ]
+  },
+  "-K0nBNizQgA2ooUmbwVF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/16/2015, 5:28:16 PM", "10/16/2015, 5:29:41 PM", "10/16/2015, 5:30:26 PM", "10/16/2015, 5:32:22 PM", "10/16/2015, 5:33:47 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/16/2015, 5:31:06 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/16/2015, 5:31:00 PM",
+    "type" : "student"
+  },
+  "-K0njX0ZXB0-2MK6lPTC" : {
+    "completed" : [ "October 16, 2015 at 8:02:02 PM PDT", null, null, "October 16, 2015 at 8:08:44 PM PDT" ]
+  },
+  "-K0wRtvG9PQTJtkctbuQ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/18/2015, 12:36:54 PM", "10/18/2015, 12:38:08 PM", "10/18/2015, 12:39:13 PM", "10/18/2015, 12:40:57 PM", "10/18/2015, 12:42:33 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/18/2015, 12:40:03 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/18/2015, 12:39:51 PM",
+    "type" : "teacher"
+  },
+  "-K10RnZJWNoIWH9FP-bF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:54:55 AM", "10/19/2015, 11:56:01 AM", "10/19/2015, 11:56:51 AM", "10/19/2015, 11:58:19 AM", "10/19/2015, 12:00:02 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:57:26 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:57:18 AM",
+    "type" : "student"
+  },
+  "-K10RtFX9eRav5dHNiyM" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:54:41 AM", "10/19/2015, 11:55:27 AM", "10/19/2015, 11:56:22 AM", "10/19/2015, 11:57:51 AM", "10/19/2015, 11:59:09 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:56:51 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:56:41 AM",
+    "type" : "student"
+  },
+  "-K10Rw3q_-97rRKCCBYD" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:43 AM", "10/19/2015, 11:57:09 AM", "10/19/2015, 11:58:10 AM", "10/19/2015, 12:00:02 PM", "10/19/2015, 12:01:25 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:45 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:33 AM",
+    "type" : "student"
+  },
+  "-K10Rx1pbds7tA7npx2w" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:01 AM", "10/19/2015, 11:56:21 AM", "10/19/2015, 11:57:25 AM", "10/19/2015, 11:58:52 AM", "10/19/2015, 11:59:58 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:01 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:57:52 AM",
+    "type" : "student"
+  },
+  "-K10RxJ0tpTdo6GEF88-" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:17 AM", "10/19/2015, 11:56:31 AM", "10/19/2015, 11:58:11 AM", "10/19/2015, 11:59:28 AM", "10/19/2015, 12:00:36 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:48 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:45 AM",
+    "type" : "student"
+  },
+  "-K10RxKG9qFWeJ-rY5uE" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:27 AM", "10/19/2015, 11:56:45 AM", "10/19/2015, 11:58:06 AM", "10/19/2015, 12:00:09 PM", "10/19/2015, 12:02:10 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:02:37 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:02:33 PM",
+    "type" : "student"
+  },
+  "-K10RxUJl5LDA9KAF0W2" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/19/2015, 11:56:09 AM", "10/19/2015, 11:58:23 AM", "10/19/2015, 11:59:52 AM", "10/19/2015, 12:03:04 PM", "10/19/2015, 12:05:30 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:00:32 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:00:30 PM",
+    "type" : "student"
+  },
+  "-K10RxlEkpJ1LMXBt50F" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:02 AM", "10/19/2015, 11:58:05 AM", "10/19/2015, 11:59:08 AM", "10/19/2015, 12:00:16 PM", "10/19/2015, 12:02:45 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:36 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:59:28 AM",
+    "type" : "student"
+  },
+  "-K10Ry3qDdeYtKrlqQ0Q" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:04 AM", "10/19/2015, 11:56:10 AM", "10/19/2015, 11:57:20 AM", "10/19/2015, 11:58:50 AM", "10/19/2015, 12:00:26 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/19/2015, 11:57:47 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:57:38 AM",
+    "type" : "student"
+  },
+  "-K10Ry_O7R4uOj9mWplw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:58 AM", "10/19/2015, 11:57:11 AM", "10/19/2015, 11:58:17 AM", "10/19/2015, 11:59:52 AM", "10/19/2015, 12:02:24 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:00 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:45 AM",
+    "type" : "student"
+  },
+  "-K10RybxE8xNGVeq8uX8" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:03 AM", "10/19/2015, 11:58:30 AM", "10/19/2015, 12:00:23 PM", "10/19/2015, 12:02:16 PM", "10/19/2015, 12:03:17 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:01:01 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:00:53 PM",
+    "type" : "student"
+  },
+  "-K10RzKC5pDu0WGXeS3T" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:34 AM", "10/19/2015, 11:58:25 AM", "10/19/2015, 11:59:30 AM", "10/19/2015, 12:01:30 PM", "10/19/2015, 12:05:03 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:00:05 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:59:57 AM",
+    "type" : "student"
+  },
+  "-K10RzptjaRPB4Hupfrw" : {
+    "1a1a" : "d",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:57:16 AM", "10/19/2015, 12:01:53 PM", "10/19/2015, 12:04:30 PM", "10/19/2015, 12:06:42 PM", "10/19/2015, 12:09:17 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:05:05 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:05:02 PM",
+    "type" : "student"
+  },
+  "-K10RzwMEfaC9YVDS22F" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:16 AM", "10/19/2015, 11:56:23 AM", "10/19/2015, 11:58:05 AM", "10/19/2015, 11:59:28 AM", "10/19/2015, 12:00:54 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:45 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:35 AM",
+    "type" : "student"
+  },
+  "-K10S-Imq1ny8LsF97zr" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/19/2015, 11:55:19 AM", "10/19/2015, 11:56:16 AM", "10/19/2015, 11:57:06 AM", "10/19/2015, 11:58:45 AM", "10/19/2015, 12:02:32 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:57:47 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:57:36 AM",
+    "type" : "student"
+  },
+  "-K10S002C7_vNc_yaR0t" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:03 AM", "10/19/2015, 11:57:20 AM", "10/19/2015, 11:58:10 AM", "10/19/2015, 11:59:39 AM", "10/19/2015, 12:00:52 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:47 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:37 AM",
+    "type" : "student"
+  },
+  "-K10S0W4wsC68L3rGzDn" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:44 AM", "10/19/2015, 11:58:18 AM", "10/19/2015, 11:59:42 AM", "10/19/2015, 12:01:34 PM", "10/19/2015, 12:03:16 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:00:09 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:00:08 PM",
+    "type" : "student"
+  },
+  "-K10S2iGHNCB2V9wbAn-" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:57:10 AM", "10/19/2015, 11:59:51 AM", "10/19/2015, 12:02:21 PM", "10/19/2015, 12:05:33 PM", "10/19/2015, 12:07:46 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:03:45 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:03:35 PM",
+    "type" : "student"
+  },
+  "-K10S2umcEBiuiV15n4L" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:01 AM", "10/19/2015, 11:57:09 AM", "10/19/2015, 11:58:31 AM", "10/19/2015, 12:00:12 PM", "10/19/2015, 12:01:41 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:18 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:57 AM",
+    "type" : "student"
+  },
+  "-K10S4-QWX-K6ife4f1J" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:42 AM", "10/19/2015, 11:57:25 AM", "10/19/2015, 11:58:25 AM", "10/19/2015, 11:59:47 AM", "10/19/2015, 12:01:11 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:00 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:53 AM",
+    "type" : "student"
+  },
+  "-K10S4Jt6BVXhd2pETZt" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:55:43 AM", "10/19/2015, 11:56:31 AM", "10/19/2015, 11:57:08 AM", "10/19/2015, 11:58:55 AM", "10/19/2015, 12:00:00 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:57:43 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:57:32 AM",
+    "type" : "student"
+  },
+  "-K10S5xO6OmBMutGbhmX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:57:45 AM", "10/19/2015, 11:59:33 AM", "10/19/2015, 12:00:53 PM", null, "10/19/2015, 12:04:58 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:01:30 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:01:17 PM",
+    "type" : "student"
+  },
+  "-K10S61qF5NYlgjsTCIA" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:11 AM", "10/19/2015, 11:57:21 AM", "10/19/2015, 11:58:36 AM", "10/19/2015, 12:00:19 PM", "10/19/2015, 12:02:38 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:21 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:59:12 AM",
+    "type" : "student"
+  },
+  "-K10S7OrglXWvMW5Rd5X" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/19/2015, 11:56:17 AM", "10/19/2015, 11:57:58 AM", "10/19/2015, 12:02:24 PM", "10/19/2015, 12:04:42 PM", "10/19/2015, 12:06:27 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:03:06 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:03:00 PM",
+    "type" : "student"
+  },
+  "-K10S935zttsI1k1_43t" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:08 AM", "10/19/2015, 11:57:28 AM", "10/19/2015, 11:58:51 AM", "10/19/2015, 12:00:30 PM", "10/19/2015, 12:02:14 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:59:21 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:59:16 AM",
+    "type" : "student"
+  },
+  "-K10SAqZIfNCary4Od5V" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:56:23 AM", "10/19/2015, 11:56:58 AM", "10/19/2015, 11:57:51 AM", "10/19/2015, 11:59:16 AM", "10/19/2015, 12:00:07 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 11:58:35 AM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 11:58:24 AM",
+    "type" : "student"
+  },
+  "-K10SJfIOLVDuAmR8xaX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:57:50 AM", "10/19/2015, 11:59:59 AM", "10/19/2015, 12:02:29 PM", "10/19/2015, 12:05:02 PM", "10/19/2015, 12:07:50 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:03:48 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:03:41 PM",
+    "type" : "student"
+  },
+  "-K10SVBCFpOSmhrGY5FN" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 11:57:44 AM", "10/19/2015, 12:01:52 PM", "10/19/2015, 12:03:17 PM", "10/19/2015, 12:04:54 PM", "10/19/2015, 12:08:26 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 12:03:56 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/19/2015, 12:03:48 PM",
+    "type" : "student"
+  },
+  "-K11qvnq4nkEkWmwpmRG" : {
+    "completed" : [ "10/19/2015, 6:29:18 PM" ]
+  },
+  "-K12EhBjlkmiJvyhbScM" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/19/2015, 8:16:56 PM", "10/19/2015, 8:17:34 PM", "10/19/2015, 8:18:47 PM", "10/19/2015, 8:19:50 PM", "10/19/2015, 8:20:20 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/19/2015, 8:19:14 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/19/2015, 8:19:08 PM",
+    "type" : "student"
+  },
+  "-K17TqLB249KZYNWW_yu" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/20/2015, 8:40:52 PM", "10/20/2015, 8:42:06 PM", "10/20/2015, 8:43:02 PM", "10/20/2015, 8:44:05 PM", "10/20/2015, 8:44:46 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/20/2015, 8:45:16 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/20/2015, 8:45:14 PM",
+    "type" : "student"
+  },
+  "-K17ddn7Gbyplh5vxuh3" : {
+    "completed" : [ "10/20/2015, 9:29:14 PM" ]
+  },
+  "-K1FsL7rOB5xIyBJj-zK" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:28 AM", "10/22/2015, 11:50:36 AM", "10/22/2015, 11:51:38 AM", "10/22/2015, 11:53:07 AM", "10/22/2015, 11:54:21 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:15 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:09 AM",
+    "type" : "student"
+  },
+  "-K1FsLd99Pg8htJNXb_Q" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:18 AM", "10/22/2015, 11:50:07 AM", "10/22/2015, 11:50:56 AM", "10/22/2015, 11:52:12 AM", "10/22/2015, 11:54:01 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:51:29 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:51:23 AM",
+    "type" : "student"
+  },
+  "-K1FsLnXGMebFPzCXO8c" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:50:03 AM", "10/22/2015, 11:52:01 AM", "10/22/2015, 11:53:05 AM", "10/22/2015, 11:54:39 AM", "10/22/2015, 11:59:51 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:53:48 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:53:38 AM",
+    "type" : "teacher"
+  },
+  "-K1FsLsk-eFyICN4hzmw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:43 AM", "10/22/2015, 11:50:15 AM", "10/22/2015, 11:51:15 AM", "10/22/2015, 11:52:28 AM", "10/22/2015, 11:53:36 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:51:49 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:51:40 AM",
+    "type" : "student"
+  },
+  "-K1FsM1uhF7fMDtxa1iC" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:43 AM", "10/22/2015, 11:52:22 AM", "10/22/2015, 11:53:13 AM", "10/22/2015, 11:54:53 AM", "10/22/2015, 11:55:56 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:54:06 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:54:00 AM",
+    "type" : "student"
+  },
+  "-K1FsMACvC5-JGe5pxzu" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:48:55 AM", "10/22/2015, 11:49:32 AM", "10/22/2015, 11:50:14 AM", "10/22/2015, 11:51:10 AM", "10/22/2015, 11:52:30 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:50:37 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:50:33 AM",
+    "type" : "student"
+  },
+  "-K1FsMD3q3HSvdxm3WGe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:50:19 AM", "10/22/2015, 11:52:10 AM", "10/22/2015, 11:53:54 AM", "10/22/2015, 11:55:49 AM", "10/22/2015, 11:57:57 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:54:20 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:54:15 AM",
+    "type" : "student"
+  },
+  "-K1FsMKu4Gu0LOEQzqA9" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:49:32 AM", "10/22/2015, 11:50:45 AM", "10/22/2015, 11:51:34 AM", "10/22/2015, 11:53:28 AM", "10/22/2015, 11:54:58 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:11 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:07 AM",
+    "type" : "student"
+  },
+  "-K1FsMoACiE_M93zTQdF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:49:52 AM", "10/22/2015, 11:51:28 AM", "10/22/2015, 11:53:29 AM", "10/22/2015, 11:56:47 AM", "10/22/2015, 11:58:56 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:54:35 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:54:25 AM",
+    "type" : "student"
+  },
+  "-K1FsMpUiCa7Iv8Rsrh3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:02 AM", "10/22/2015, 11:49:36 AM", "10/22/2015, 11:50:14 AM", "10/22/2015, 11:51:48 AM", "10/22/2015, 11:52:48 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:51:10 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:51:04 AM",
+    "type" : "student"
+  },
+  "-K1FsN30AqxfZb7iYCuy" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:57 AM", "10/22/2015, 11:51:02 AM", "10/22/2015, 11:52:20 AM", "10/22/2015, 11:53:46 AM", "10/22/2015, 11:55:27 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:59 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:52 AM",
+    "type" : "student"
+  },
+  "-K1FsN7cvyE6S3Ky-cQa" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:06 AM", "10/22/2015, 11:49:45 AM", "10/22/2015, 11:50:39 AM", "10/22/2015, 11:51:58 AM", "10/22/2015, 11:52:47 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:51:13 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:51:05 AM",
+    "type" : "student"
+  },
+  "-K1FsN838XFJmZSPv7GN" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:50:59 AM", "10/22/2015, 11:52:32 AM", "10/22/2015, 11:54:48 AM", "10/22/2015, 11:57:31 AM", "10/22/2015, 11:59:28 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:56:16 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:56:09 AM",
+    "type" : "student"
+  },
+  "-K1FsNVCEfC_ydroWgoe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:50:09 AM", "10/22/2015, 11:51:15 AM", "10/22/2015, 11:52:08 AM", "10/22/2015, 11:53:58 AM", "10/22/2015, 11:56:48 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:44 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:38 AM",
+    "type" : "student"
+  },
+  "-K1FsNZPO3P_Qn-WXeW1" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:49:15 AM", "10/22/2015, 11:50:54 AM", "10/22/2015, 11:51:59 AM", "10/22/2015, 11:53:36 AM", "10/22/2015, 11:54:42 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:49 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:36 AM",
+    "type" : "student"
+  },
+  "-K1FsO2T5gIWFVpOLZOb" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:08 AM", "10/22/2015, 11:49:34 AM", "10/22/2015, 11:50:10 AM", "10/22/2015, 11:51:18 AM", "10/22/2015, 11:52:08 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:50:42 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:50:34 AM",
+    "type" : "student"
+  },
+  "-K1FsOTkrba1V3_3xOqc" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:02 AM", "10/22/2015, 11:50:35 AM", "10/22/2015, 11:52:07 AM", "10/22/2015, 11:53:18 AM", "10/22/2015, 11:54:55 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:52:43 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:38 AM",
+    "type" : "student"
+  },
+  "-K1FsOiJxbJ6qkjjiyt9" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:53:46 AM", "10/22/2015, 11:55:32 AM", "10/22/2015, 11:57:22 AM", "10/22/2015, 11:59:48 AM", "10/22/2015, 12:01:19 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:58:00 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:57:49 AM",
+    "type" : "student"
+  },
+  "-K1FsOldDNsyEKxw7wsx" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:49:42 AM", "10/22/2015, 11:51:01 AM", "10/22/2015, 11:52:48 AM", "10/22/2015, 11:55:08 AM", "10/22/2015, 11:57:30 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:53:44 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:53:38 AM",
+    "type" : "other"
+  },
+  "-K1FsOpCaHPV6rMlVkKO" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:09 AM", "10/22/2015, 11:49:45 AM", "10/22/2015, 11:50:23 AM", "10/22/2015, 11:51:16 AM", "10/22/2015, 11:52:16 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:50:45 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:50:40 AM",
+    "type" : "student"
+  },
+  "-K1FsPW5s75L4lzqHA13" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:50:01 AM", "10/22/2015, 11:51:53 AM", "10/22/2015, 11:53:53 AM", "10/22/2015, 11:57:22 AM", "10/22/2015, 11:59:46 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:54:50 AM",
+    "grade" : "6",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:54:40 AM",
+    "type" : "student"
+  },
+  "-K1FsPh6x8uYtfdHe9Yy" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:50:30 AM", "10/22/2015, 11:51:11 AM", "10/22/2015, 11:52:41 AM", "10/22/2015, 11:54:17 AM", "10/22/2015, 11:55:42 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:53:38 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:53:34 AM",
+    "type" : "student"
+  },
+  "-K1FsSzA1Y7yFRtdNBVA" : {
+    "1a1a" : "a",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:51:27 AM", "10/22/2015, 11:52:03 AM", "10/22/2015, 11:52:39 AM", "10/22/2015, 11:54:25 AM", "10/22/2015, 11:55:23 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:53:05 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:53:03 AM",
+    "type" : "student"
+  },
+  "-K1FsUdYMbBBGXmyrj_8" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 11:49:39 AM", "10/22/2015, 11:50:45 AM", "10/22/2015, 11:52:00 AM", "10/22/2015, 11:53:32 AM", "10/22/2015, 11:54:37 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:52:40 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:29 AM",
+    "type" : "student"
+  },
+  "-K1FsZV5WDJEVDXpTZx2" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:50:18 AM", "10/22/2015, 11:51:29 AM", "10/22/2015, 11:52:22 AM", "10/22/2015, 11:53:33 AM", "10/22/2015, 11:56:00 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 11:52:52 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:52:46 AM",
+    "type" : "student"
+  },
+  "-K1FsvwwgdbJNXK5qNU7" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 11:52:16 AM", "10/22/2015, 11:53:10 AM", "10/22/2015, 11:55:03 AM", "10/22/2015, 11:56:28 AM", "10/22/2015, 11:57:59 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 11:55:35 AM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 11:55:32 AM",
+    "type" : "student"
+  },
+  "-K1Fuppr6DLLKZ4Vkl8k" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 12:00:27 PM", "10/22/2015, 12:01:35 PM", "10/22/2015, 12:03:10 PM", "10/22/2015, 12:04:47 PM", "10/22/2015, 12:07:01 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 12:07:46 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 12:07:42 PM",
+    "type" : "student"
+  },
+  "-K1G8yEN9Tz3L0c_nTPV" : {
+    "completed" : [ "10/22/2015, 1:16:53 PM" ]
+  },
+  "-K1GChSmqt9x4HmFGl2K" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:59 PM", "10/22/2015, 1:24:53 PM", "10/22/2015, 1:26:42 PM", "10/22/2015, 1:28:39 PM", "10/22/2015, 1:31:36 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:27:23 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:27:14 PM",
+    "type" : "student"
+  },
+  "-K1GCiI8l-pXJXYYETgI" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:23:38 PM", "10/22/2015, 1:26:25 PM", "10/22/2015, 1:28:31 PM", "10/22/2015, 1:31:14 PM", "10/22/2015, 1:33:48 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:29:14 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:29:04 PM",
+    "type" : "student"
+  },
+  "-K1GCja8v5XDhUsbaXa3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:27 PM", "10/22/2015, 1:23:05 PM", "10/22/2015, 1:23:46 PM", "10/22/2015, 1:24:45 PM", "10/22/2015, 1:25:37 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:24:08 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:24:02 PM"
+  },
+  "-K1GCjaK2a6Qu2Ygh46q" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:52 PM", "10/22/2015, 1:23:54 PM", "10/22/2015, 1:25:12 PM", "10/22/2015, 1:26:42 PM", "10/22/2015, 1:28:30 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:25:51 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:25:38 PM",
+    "type" : "student"
+  },
+  "-K1GCjhFXyDGpVeDm712" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:52 PM", "10/22/2015, 1:23:39 PM", "10/22/2015, 1:25:06 PM", "10/22/2015, 1:26:33 PM", "10/22/2015, 1:27:31 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:25:38 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:25:33 PM",
+    "type" : "student"
+  },
+  "-K1GCjnrYxbiTpE6J-E1" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:48 PM", "10/22/2015, 1:23:56 PM", "10/22/2015, 1:24:58 PM", "10/22/2015, 1:26:28 PM", "10/22/2015, 1:28:18 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:25:28 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:25:22 PM",
+    "type" : "student"
+  },
+  "-K1GClYxb86ytsNzXmsB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:45 PM", "10/22/2015, 1:23:29 PM", "10/22/2015, 1:24:06 PM", "10/22/2015, 1:25:11 PM", "10/22/2015, 1:26:29 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:24:33 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:24:26 PM"
+  },
+  "-K1GCmVEYJif9rH8rhNP" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:15 PM", "10/22/2015, 1:24:10 PM", "10/22/2015, 1:25:04 PM", "10/22/2015, 1:26:25 PM", "10/22/2015, 1:27:37 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 1:25:33 PM",
+    "grade" : "4",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:25:29 PM"
+  },
+  "-K1GCmXsKD_BgV-PLXjL" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:24:46 PM", "10/22/2015, 1:27:02 PM", "10/22/2015, 1:28:45 PM", "10/22/2015, 1:32:37 PM", "10/22/2015, 1:38:51 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:29:40 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:29:26 PM",
+    "type" : "student"
+  },
+  "-K1GCnIj7EP4kDtfQ53N" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:23:53 PM", "10/22/2015, 1:25:44 PM", "10/22/2015, 1:27:59 PM", "10/22/2015, 1:30:19 PM", "10/22/2015, 1:32:05 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:28:41 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:28:35 PM",
+    "type" : "student"
+  },
+  "-K1GCnNL-SqXKqsio3V5" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:28 PM", "10/22/2015, 1:24:47 PM", "10/22/2015, 1:27:01 PM", "10/22/2015, 1:28:34 PM", "10/22/2015, 1:30:59 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:27:44 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:27:32 PM",
+    "type" : "student"
+  },
+  "-K1GCnioUXfVWcVpjSDO" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:37 PM", "10/22/2015, 1:25:12 PM", "10/22/2015, 1:27:57 PM", "10/22/2015, 1:29:44 PM", "10/22/2015, 1:31:49 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 1:28:33 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:28:27 PM",
+    "type" : "student"
+  },
+  "-K1GCoO7fsZlkGl0ILn0" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:59 PM", "10/22/2015, 1:24:01 PM", "10/22/2015, 1:25:38 PM", "10/22/2015, 1:27:23 PM", "10/22/2015, 1:31:32 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:26:21 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:26:02 PM",
+    "type" : "student"
+  },
+  "-K1GCoVuH6McEMMyKI9S" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:39 PM", "10/22/2015, 1:24:18 PM", "10/22/2015, 1:25:00 PM", "10/22/2015, 1:25:55 PM", "10/22/2015, 1:26:42 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:25:32 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:25:26 PM",
+    "type" : "student"
+  },
+  "-K1GCoshUdMlvyiV-ujO" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:01 PM", "10/22/2015, 1:23:34 PM", "10/22/2015, 1:24:26 PM", "10/22/2015, 1:25:59 PM", "10/22/2015, 1:27:12 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:25:05 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:24:56 PM",
+    "type" : "student"
+  },
+  "-K1GCpSfthcfibSkWlyb" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:22:53 PM", "10/22/2015, 1:23:34 PM", "10/22/2015, 1:24:17 PM", "10/22/2015, 1:25:40 PM", "10/22/2015, 1:26:43 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 1:24:56 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:24:49 PM",
+    "type" : "student"
+  },
+  "-K1GCrJPsBKQDFGeainZ" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:24:05 PM", "10/22/2015, 1:25:42 PM", "10/22/2015, 1:28:25 PM", "10/22/2015, 1:30:56 PM", "10/22/2015, 1:33:17 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 1:29:27 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:29:05 PM",
+    "type" : "student"
+  },
+  "-K1GCrshhbqm697XVpi8" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:23:37 PM", "10/22/2015, 1:24:34 PM", "10/22/2015, 1:29:23 PM", "10/22/2015, 1:30:42 PM", "10/22/2015, 1:32:01 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:29:57 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:29:51 PM",
+    "type" : "student"
+  },
+  "-K1GCsK0SGWvMMFR6f_H" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:27 PM", "10/22/2015, 1:25:44 PM", "10/22/2015, 1:28:06 PM", "10/22/2015, 1:30:51 PM", "10/22/2015, 1:34:51 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:29:12 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:29:00 PM",
+    "type" : "student"
+  },
+  "-K1GCst-F89-QKljMrbY" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:37 PM", "10/22/2015, 1:24:43 PM", "10/22/2015, 1:25:55 PM", "10/22/2015, 1:27:19 PM", "10/22/2015, 1:29:04 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:26:26 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:26:19 PM",
+    "type" : "student"
+  },
+  "-K1GCvDKMgOa9zIAh-Tt" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:23:51 PM", "10/22/2015, 1:25:05 PM", "10/22/2015, 1:26:19 PM", "10/22/2015, 1:27:47 PM", "10/22/2015, 1:29:42 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/22/2015, 1:26:53 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:26:49 PM",
+    "type" : "student"
+  },
+  "-K1GD4toZhbUf9jC7pfS" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:26:59 PM", "10/22/2015, 1:31:04 PM", "10/22/2015, 1:34:07 PM", "10/22/2015, 1:37:20 PM", "10/22/2015, 1:45:08 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:35:13 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:35:00 PM"
+  },
+  "-K1GDVRnUFdkEDBjEPM7" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:25:56 PM", "10/22/2015, 1:26:30 PM", "10/22/2015, 1:27:02 PM", "10/22/2015, 1:27:55 PM", "10/22/2015, 1:28:45 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:27:24 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:27:19 PM",
+    "type" : "student"
+  },
+  "-K1GDm9D74O1ddKOVtMy" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:27:26 PM", "10/22/2015, 1:28:59 PM", "10/22/2015, 1:31:15 PM", "10/22/2015, 1:33:13 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:31:53 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:31:45 PM",
+    "type" : "student"
+  },
+  "-K1GJ47TGxdF2TFgYK8W" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "10/22/2015, 1:51:13 PM", "10/22/2015, 1:51:26 PM", "10/22/2015, 1:51:36 PM", "10/22/2015, 1:54:55 PM", "10/22/2015, 1:56:12 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:52:04 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:51:56 PM",
+    "type" : "student"
+  },
+  "-K1GJDbEpoUoHul8-dHv" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:55:10 PM", "10/22/2015, 1:55:19 PM", "10/22/2015, 1:55:30 PM", "10/22/2015, 1:56:06 PM", "10/22/2015, 1:57:52 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:59:29 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:59:19 PM",
+    "type" : "student"
+  },
+  "-K1GJStJj45p6vifX89W" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 2:01:02 PM", "10/22/2015, 2:01:47 PM", "10/22/2015, 2:02:28 PM", "10/22/2015, 2:03:42 PM", "10/22/2015, 2:05:10 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 2:02:52 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 2:02:50 PM",
+    "type" : "student"
+  },
+  "-K1GJX71-CC4v9kq6Qyw" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 1:55:19 PM", "10/22/2015, 1:55:30 PM", null, "10/22/2015, 1:56:21 PM", "10/22/2015, 1:56:32 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/22/2015, 1:56:13 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "10/22/2015, 1:56:06 PM",
+    "type" : "student"
+  },
+  "-K1GlXFG6GtqT3lh0WGU" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/22/2015, 4:00:47 PM", "10/22/2015, 4:01:11 PM", "10/22/2015, 4:01:32 PM", "10/22/2015, 4:02:22 PM", "10/22/2015, 4:03:47 PM" ],
+    "difficulty" : "3",
+    "endTime" : "10/22/2015, 4:02:03 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/22/2015, 4:01:57 PM",
+    "type" : "other"
+  },
+  "-K1M-qDmH91Sb7-TCbEi" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ null, null, "10/23/2015, 4:35:05 PM", "10/23/2015, 4:40:14 PM" ],
+    "difficulty" : "2",
+    "endTime" : "10/23/2015, 4:43:26 PM",
+    "grade" : "3",
+    "school" : "other",
+    "startTime" : "10/23/2015, 4:43:24 PM",
+    "type" : "student"
+  },
+  "-K1PXhY3fYqM0C0QWazg" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 9:00:12 AM", "10/24/2015, 9:02:24 AM", "10/24/2015, 9:03:16 AM", "10/24/2015, 9:04:40 AM", "10/24/2015, 9:07:31 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 9:08:07 AM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/24/2015, 9:08:05 AM",
+    "type" : "student"
+  },
+  "-K1PbDIZ7pfUnik3qvpf" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 9:12:34 AM", "10/24/2015, 9:16:23 AM", "10/24/2015, 9:18:24 AM", "10/24/2015, 9:20:55 AM", "10/24/2015, 9:22:49 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 9:19:42 AM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/24/2015, 9:19:34 AM",
+    "type" : "student"
+  },
+  "-K1Pd12zVv16sIjXluqk" : {
+    "completed" : [ "10/24/2015, 9:25:22 AM" ]
+  },
+  "-K1PdDdlZbUeVd1U67jH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 9:54:34 AM", "10/24/2015, 9:55:45 AM", "10/24/2015, 9:56:59 AM", "10/24/2015, 9:58:28 AM", "10/24/2015, 10:00:06 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/24/2015, 9:57:45 AM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/24/2015, 9:57:38 AM",
+    "type" : "student"
+  },
+  "-K1PiBgLq3gJG9xCwEtw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 9:41:17 AM", "10/24/2015, 9:42:05 AM", "10/24/2015, 9:42:57 AM", "10/24/2015, 9:45:03 AM", "10/24/2015, 9:46:23 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 9:43:59 AM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/24/2015, 9:43:47 AM",
+    "type" : "student"
+  },
+  "-K1Pldcz4azFtjtX0KTq" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 9:58:06 AM", "10/24/2015, 9:59:02 AM", "10/24/2015, 9:59:56 AM", "10/24/2015, 10:01:25 AM", "10/24/2015, 10:02:22 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 10:00:48 AM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/24/2015, 10:00:44 AM",
+    "type" : "student"
+  },
+  "-K1Po8kX2vgAhZGaQhR4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 10:07:45 AM", "10/24/2015, 10:08:38 AM", "10/24/2015, 10:09:58 AM", "10/24/2015, 10:11:59 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 10:10:29 AM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "10/24/2015, 10:10:26 AM",
+    "type" : "student"
+  },
+  "-K1PodnOt9FWsZIGDsfB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 10:13:11 AM", "10/24/2015, 10:16:30 AM", "10/24/2015, 10:17:35 AM", "10/24/2015, 10:19:35 AM", "10/24/2015, 10:21:40 AM" ],
+    "difficulty" : "2",
+    "endTime" : "10/24/2015, 10:22:37 AM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "10/24/2015, 10:22:35 AM",
+    "type" : "student"
+  },
+  "-K1PxSvuidzxYo1DXy2V" : {
+    "completed" : [ "10/24/2015, 10:49:15 AM", "10/24/2015, 10:52:11 AM" ]
+  },
+  "-K1PzZztcdJ8mXKP-ZHA" : {
+    "completed" : [ "10/24/2015, 10:56:41 AM" ]
+  },
+  "-K1Q1jErkBVUvJ3_kqjY" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "10/24/2015, 11:15:45 AM", "10/24/2015, 11:18:27 AM", "10/24/2015, 11:22:32 AM", "10/24/2015, 11:24:57 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 11:20:07 AM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/24/2015, 11:19:55 AM",
+    "type" : "student"
+  },
+  "-K1Q1o7pB8BVDIpEu9ze" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/24/2015, 11:12:47 AM", "10/24/2015, 11:14:44 AM", "10/24/2015, 11:16:34 AM", "10/24/2015, 11:19:14 AM", "10/24/2015, 11:21:18 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/24/2015, 11:17:43 AM",
+    "grade" : "4",
+    "school" : "other",
+    "startTime" : "10/24/2015, 11:17:29 AM"
+  },
+  "-K1jyxWPCghkuPWBkXLF" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "28.10.2015 20:49:25", "28.10.2015 20:50:21", "28.10.2015 20:51:14", "28.10.2015 20:53:56", "28.10.2015 20:54:36" ],
+    "difficulty" : "1",
+    "endTime" : "28.10.2015 20:53:34",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "28.10.2015 20:53:27"
+  },
+  "-K1oT_GSkp8ro4ikzygO" : {
+    "1a1a" : "b",
+    "activity" : "1",
+    "coding" : "2",
+    "completed" : [ "10/29/2015, 9:43:36 AM", "10/29/2015, 9:43:58 AM", "10/29/2015, 9:44:25 AM", "10/29/2015, 9:45:13 AM", "10/29/2015, 9:45:42 AM" ],
+    "difficulty" : "1",
+    "endTime" : "10/29/2015, 9:44:48 AM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "10/29/2015, 9:44:42 AM",
+    "type" : "teacher"
+  },
+  "-K1zM1yL2IVP1FV3arb3" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "10/31/2015, 12:28:29 PM", "10/31/2015, 12:31:03 PM", "10/31/2015, 12:32:40 PM", "10/31/2015, 12:35:14 PM" ],
+    "difficulty" : "1",
+    "endTime" : "10/31/2015, 12:33:57 PM",
+    "grade" : "4",
+    "school" : "Selma",
+    "startTime" : "10/31/2015, 12:33:44 PM",
+    "type" : "student"
+  },
+  "-K24_rzWBuzIZ_DdVHLN" : {
+    "completed" : [ "11/1/2015, 4:28:01 PM" ]
+  },
+  "-K2SjW9UST0Ozd8ZHiw0" : {
+    "completed" : [ "11/6/2015, 9:00:48 AM" ]
+  },
+  "-K2SxNB5-xSXbEimCuTb" : {
+    "completed" : [ "11/6/2015, 10:01:29 AM", null, "11/6/2015, 10:01:52 AM" ]
+  },
+  "-K2YJjtff9s1YXnDIC_K" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "11/7/2015, 11:02:50 AM", "11/7/2015, 11:04:12 AM", "11/7/2015, 11:04:41 AM", "11/7/2015, 11:05:43 AM", "11/7/2015, 11:06:47 AM" ],
+    "difficulty" : "2",
+    "endTime" : "11/7/2015, 11:07:37 AM",
+    "grade" : "2",
+    "school" : "other",
+    "startTime" : "11/7/2015, 11:07:34 AM",
+    "type" : "teacher"
+  },
+  "-K2YK7MXRov7yPoejWbl" : {
+    "completed" : [ "11/7/2015, 11:04:40 AM" ]
+  },
+  "-K2YKadGvdLknyyoqMlN" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "11/7/2015, 11:10:02 AM", "11/7/2015, 11:12:33 AM", "11/7/2015, 11:14:44 AM", "11/7/2015, 11:15:28 AM" ],
+    "difficulty" : "2",
+    "endTime" : "11/7/2015, 11:13:55 AM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "11/7/2015, 11:13:47 AM",
+    "type" : "teacher"
+  },
+  "-K2YMEqBunihihqzPtiJ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "11/7/2015, 11:12:58 AM", "11/7/2015, 11:13:40 AM", "11/7/2015, 11:14:10 AM" ],
+    "difficulty" : "1",
+    "endTime" : "11/7/2015, 11:14:34 AM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "11/7/2015, 11:14:32 AM",
+    "type" : "teacher"
+  },
+  "-K2YMXQli3Y1Dbrfhs-4" : {
+    "completed" : [ "11/7/2015, 11:14:57 AM" ]
+  },
+  "-K2YOG7vHCfroejhJa-M" : {
+    "completed" : [ "11/7/2015, 11:22:32 AM" ]
+  },
+  "-K2jWw7NWN5zoUdwfIsV" : {
+    "completed" : [ "11/9/2015, 7:55:48 PM", "11/9/2015, 7:58:25 PM" ]
+  },
+  "-K2nmR5I7h48Jl3Q_8jE" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "11/10/2015, 3:45:15 PM", "11/10/2015, 3:45:38 PM", "11/10/2015, 3:46:05 PM", "11/10/2015, 3:46:44 PM", "11/10/2015, 3:47:19 PM" ],
+    "difficulty" : "1",
+    "endTime" : "11/10/2015, 3:46:22 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "11/10/2015, 3:46:19 PM",
+    "type" : "teacher"
+  },
+  "-K2nzJQF_pWFtwwf6tFT" : {
+    "completed" : [ "11/10/2015, 4:41:49 PM" ]
+  },
+  "-K31qVv8G0O8U1iIttf3" : {
+    "completed" : [ "‎11‎/‎13‎/‎2015‎ ‎1‎:‎57‎:‎51‎ ‎PM" ]
+  },
+  "-K32GSPj1ibiFUb-M0Hh" : {
+    "completed" : [ "‎11‎/‎13‎/‎2015‎ ‎3‎:‎55‎:‎30‎ ‎PM" ]
+  },
+  "-K32_9Ao9msiqBgEJJXn" : {
+    "completed" : [ "November 13, 2015 at 5:21:10 PM PST" ]
+  },
+  "-K37lVGVomLBh2Tc2QiY" : {
+    "completed" : [ "‎11‎/‎14‎/‎2015‎ ‎5‎:‎33‎:‎26‎ ‎PM" ]
+  },
+  "-K3V_xKZEkbvpsj8oIiS" : {
+    "completed" : [ "Thu Nov 19 2015 10:51:52 GMT-0800 (PST)", "Thu Nov 19 2015 10:53:31 GMT-0800 (PST)", "Thu Nov 19 2015 10:57:10 GMT-0800 (PST)" ]
+  },
+  "-K3X5iC8jGhR1fLssWpu" : {
+    "completed" : [ "‎11‎/‎19‎/‎2015‎ ‎3‎:‎36‎:‎57‎ ‎PM", "‎11‎/‎19‎/‎2015‎ ‎3‎:‎38‎:‎00‎ ‎PM", "‎11‎/‎19‎/‎2015‎ ‎3‎:‎38‎:‎31‎ ‎PM" ]
+  },
+  "-K40XDzagoK8cE7eN_y-" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "November 25, 2015 6:05:09 PM PST", "November 25, 2015 6:06:45 PM PST", "November 25, 2015 6:07:32 PM PST", "November 25, 2015 6:08:51 PM PST", "November 25, 2015 6:09:59 PM PST" ],
+    "difficulty" : "1",
+    "endTime" : "November 25, 2015 6:08:10 PM PST",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "November 25, 2015 6:07:58 PM PST",
+    "type" : "student"
+  },
+  "-K4OnA9n4O3-mrv81PWj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "11/30/2015, 11:10:04 AM", "11/30/2015, 11:10:32 AM", "11/30/2015, 11:11:03 AM", "11/30/2015, 11:12:00 AM", "11/30/2015, 11:12:33 AM" ],
+    "difficulty" : "1",
+    "endTime" : "11/30/2015, 11:11:37 AM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "11/30/2015, 11:11:31 AM",
+    "type" : "other"
+  },
+  "-K4Ph-mts60ONbJ4xXgf" : {
+    "completed" : [ "11/30/2015, 3:23:39 PM" ]
+  },
+  "-K4R6wLH4MJD7zDOKoxj" : {
+    "completed" : [ "11/30/2015, 9:59:34 PM" ]
+  },
+  "-K4_7lZ63jlKBjNIGNOz" : {
+    "completed" : [ "‎12‎/‎2‎/‎2015‎ ‎4‎:‎00‎:‎02‎ ‎PM" ]
+  },
+  "-K4sn_v803jOXuMQMu4W" : {
+    "completed" : [ "12/6/2015, 11:40:39 AM" ]
+  },
+  "-K51iXa8j0TIoa_-niC2" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "12/8/2015, 9:54:58 AM", "12/8/2015, 9:57:17 AM", "12/8/2015, 9:58:36 AM", "12/8/2015, 10:03:19 AM" ],
+    "difficulty" : "1",
+    "endTime" : "12/8/2015, 9:59:02 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "12/8/2015, 9:58:59 AM",
+    "type" : "student"
+  },
+  "-K51iZiHbu--sYe3AYda" : {
+    "completed" : [ "12/8/2015, 9:55:22 AM", "12/8/2015, 10:05:30 AM" ]
+  },
+  "-K51kzl93fWv-iRDQIae" : {
+    "completed" : [ "12/8/2015, 10:05:41 AM" ]
+  },
+  "-K53ohxBonmFCdVTRZnS" : {
+    "1a1a" : "b",
+    "completed" : [ "12/9/2015, 6:56:24 PM", "12/9/2015, 7:02:12 PM", "12/9/2015, 7:13:20 PM" ],
+    "endTime" : "12/9/2015, 7:16:58 PM",
+    "grade" : "other",
+    "startTime" : "12/9/2015, 7:16:46 PM",
+    "type" : "student"
+  },
+  "-K57C5lUXcx3Y4yCsGIT" : {
+    "completed" : [ "12/9/2015, 11:25:49 AM", "12/9/2015, 11:27:57 AM", "12/9/2015, 11:28:31 AM" ]
+  },
+  "-K58oGDf2ZFqrsqTAr_p" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "12/9/2015, 6:57:05 PM", "12/9/2015, 6:58:10 PM", "12/9/2015, 6:59:21 PM", "12/9/2015, 7:03:38 PM", "12/9/2015, 7:08:59 PM" ],
+    "difficulty" : "1",
+    "endTime" : "12/9/2015, 7:10:28 PM",
+    "grade" : "5",
+    "school" : "Beethoven",
+    "startTime" : "12/9/2015, 7:10:24 PM",
+    "type" : "student"
+  },
+  "-K5N0bxnwEyniYmnaVZr" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "12/12/2015, 1:28:47 PM", "12/12/2015, 1:31:04 PM", "12/12/2015, 1:33:12 PM", "12/12/2015, 1:35:48 PM", "12/12/2015, 1:38:16 PM" ],
+    "difficulty" : "3",
+    "endTime" : "12/12/2015, 1:34:11 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "12/12/2015, 1:34:05 PM",
+    "type" : "other"
+  },
+  "-K5NGfUiZvYO6m0R3ZnL" : {
+    "completed" : [ "12/12/2015, 2:19:27 PM" ]
+  },
+  "-K5sm4luuUv2cZFnv0cn" : {
+    "completed" : [ "12/18/2015, 9:48:47 PM", "12/18/2015, 9:49:11 PM" ]
+  },
+  "-K64cb_0dr0PgF9kirwN" : {
+    "1a1a" : "a",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "12/21/2015, 9:43:13 AM", "12/21/2015, 9:44:23 AM", "12/21/2015, 9:45:35 AM", "12/21/2015, 9:46:58 AM", "12/21/2015, 10:03:04 AM" ],
+    "difficulty" : "1",
+    "endTime" : "12/21/2015, 9:46:04 AM",
+    "grade" : "3",
+    "school" : "Beethoven",
+    "startTime" : "12/21/2015, 9:45:55 AM",
+    "type" : "student"
+  },
+  "-K6LOHY6NAMhvJ-TxAOv" : {
+    "completed" : [ "12/24/2015, 5:49:01 PM" ]
+  },
+  "-K6lC1iUodEhbZqfYFQh" : {
+    "completed" : [ "12/29/2015, 10:45:18 PM", "12/29/2015, 10:45:32 PM" ]
+  },
+  "-K6wy8DOvX4jZMYdIbTr" : {
+    "completed" : [ "1/1/2016, 3:35:40 AM" ]
+  },
+  "-K73ptb9p3368UTIEGOR" : {
+    "completed" : [ "1/2/2016, 4:17:01 PM" ]
+  },
+  "-K740lUq4t527KMKE8nf" : {
+    "completed" : [ "1/2/2016, 5:08:29 PM" ]
+  },
+  "-K7w1uYtIOLCYkSMdada" : {
+    "completed" : [ "1/13/2016, 9:46:45 AM" ]
+  },
+  "-K7w1z68q7jf894XYI9D" : {
+    "completed" : [ "1/13/2016, 9:34:14 AM" ]
+  },
+  "-K7w2BF_aB3D-TO6sI51" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "1/13/2016, 9:40:50 AM", "1/13/2016, 9:45:08 AM", "1/13/2016, 9:46:55 AM", "1/13/2016, 9:49:28 AM", "1/13/2016, 9:58:01 AM" ],
+    "difficulty" : "2",
+    "endTime" : "1/13/2016, 9:48:17 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "1/13/2016, 9:47:55 AM",
+    "type" : "student"
+  },
+  "-K7w2mLgr8zKhlDN9oK9" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/13/2016, 9:39:04 AM", "1/13/2016, 9:43:15 AM", "1/13/2016, 9:50:33 AM", "1/13/2016, 9:54:45 AM", "1/13/2016, 10:00:57 AM" ],
+    "difficulty" : "1",
+    "endTime" : "1/13/2016, 9:52:13 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "1/13/2016, 9:50:59 AM",
+    "type" : "student"
+  },
+  "-K7w2q-kqoLYCStr8oLe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/13/2016, 9:41:39 AM", "1/13/2016, 9:44:05 AM", "1/13/2016, 9:49:50 AM", "1/13/2016, 9:53:28 AM", "1/13/2016, 9:58:02 AM" ],
+    "difficulty" : "1",
+    "endTime" : "1/13/2016, 9:50:30 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "1/13/2016, 9:50:25 AM",
+    "type" : "student"
+  },
+  "-K7w3VpOQn6K_GZyEm7N" : {
+    "completed" : [ "1/13/2016, 9:40:23 AM", "1/13/2016, 9:43:00 AM" ]
+  },
+  "-K7w5oYwPqD_YQpAPL42" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/13/2016, 9:50:16 AM", "1/13/2016, 9:52:05 AM", "1/13/2016, 9:53:31 AM", "1/13/2016, 9:55:09 AM", "1/13/2016, 9:56:23 AM" ],
+    "difficulty" : "1",
+    "endTime" : "1/13/2016, 9:53:57 AM",
+    "grade" : "3",
+    "school" : "Selma",
+    "startTime" : "1/13/2016, 9:53:52 AM",
+    "type" : "student"
+  },
+  "-K8WjG_CGVs_krzaGpa8" : {
+    "completed" : [ "1/20/2016, 5:14:48 PM" ]
+  },
+  "-K8WkPfe5sWDjJlsQJhO" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "1/20/2016, 5:17:35 PM", "1/20/2016, 5:18:50 PM", "1/20/2016, 5:19:24 PM", "1/20/2016, 5:20:15 PM", "1/20/2016, 5:20:50 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/20/2016, 5:19:50 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/20/2016, 5:19:46 PM",
+    "type" : "student"
+  },
+  "-K8WkepkuPsg9ymxF_fY" : {
+    "completed" : [ "1/20/2016, 5:19:15 PM", "1/20/2016, 5:20:16 PM", "1/20/2016, 5:21:18 PM", "1/20/2016, 5:22:59 PM", "1/20/2016, 5:25:16 PM" ]
+  },
+  "-K8WlFA6rfMiW7uhGTZv" : {
+    "completed" : [ "1/20/2016, 5:21:43 PM", "1/20/2016, 5:22:27 PM", "1/20/2016, 5:23:00 PM", "1/20/2016, 5:23:42 PM", "1/20/2016, 5:25:43 PM" ],
+    "type" : "student"
+  },
+  "-K8kK6QPTEn6i_bxUhHe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:20:32 PM", "1/23/2016, 1:22:07 PM", "1/23/2016, 1:25:32 PM", "1/23/2016, 1:27:29 PM", "1/23/2016, 1:34:37 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 1:26:30 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:26:21 PM",
+    "type" : "student"
+  },
+  "-K8kK6lRSnMepRiS4b3c" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "2",
+    "completed" : [ "1/23/2016, 1:17:42 PM", "1/23/2016, 1:18:21 PM", "1/23/2016, 1:19:58 PM", "1/23/2016, 1:21:09 PM", "1/23/2016, 1:22:15 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 1:20:33 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:20:22 PM",
+    "type" : "student"
+  },
+  "-K8kKGzqVKZUxj1swUcH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "1/23/2016, 1:21:41 PM", "1/23/2016, 1:22:49 PM", "1/23/2016, 1:25:41 PM", "1/23/2016, 1:28:16 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:24:59 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:24:52 PM",
+    "type" : "student"
+  },
+  "-K8kKN9wyHcMIYrmTXOZ" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:14:40 PM", "1/23/2016, 1:15:24 PM", "1/23/2016, 1:16:07 PM", "1/23/2016, 1:17:13 PM", "1/23/2016, 1:18:08 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:16:39 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:16:33 PM",
+    "type" : "student"
+  },
+  "-K8kKUY_8H3wmShDo4Rk" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "1/23/2016, 1:20:00 PM", "1/23/2016, 1:23:58 PM", "1/23/2016, 1:26:13 PM", "1/23/2016, 1:34:04 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:25:03 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:24:55 PM",
+    "type" : "student"
+  },
+  "-K8kK_f2QIHXVCF8XbX6" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ null, "1/23/2016, 1:19:25 PM", "1/23/2016, 1:21:28 PM", "1/23/2016, 1:25:05 PM", "1/23/2016, 1:36:25 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:23:47 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:23:37 PM",
+    "type" : "student"
+  },
+  "-K8kKfT3ypmLY74ZQylF" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:15:50 PM", "1/23/2016, 1:17:16 PM", "1/23/2016, 1:18:51 PM", "1/23/2016, 1:21:29 PM", "1/23/2016, 1:23:02 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:23:48 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:23:43 PM",
+    "type" : "student"
+  },
+  "-K8kKrxbVZvFOyZEhoPv" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:21:00 PM", "1/23/2016, 1:22:16 PM", "1/23/2016, 1:23:32 PM", "1/23/2016, 1:25:20 PM", "1/23/2016, 1:34:13 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 1:24:29 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:24:20 PM",
+    "type" : "student"
+  },
+  "-K8kKuuBW5Po0gBcBQdo" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:17:28 PM", "1/23/2016, 1:18:00 PM", "1/23/2016, 1:19:09 PM", "1/23/2016, 1:21:05 PM", "1/23/2016, 1:22:04 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:22:39 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:22:38 PM",
+    "type" : "student"
+  },
+  "-K8kL37kCuwBPwj64Co_" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:21:06 PM", "1/23/2016, 1:22:29 PM", "1/23/2016, 1:25:59 PM", "1/23/2016, 1:27:58 PM", "1/23/2016, 1:35:09 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:26:55 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:26:43 PM",
+    "type" : "student"
+  },
+  "-K8kLODPvwUrD6Cf0ww9" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:20:10 PM", "1/23/2016, 1:21:39 PM", "1/23/2016, 1:22:54 PM", "1/23/2016, 1:24:41 PM", "1/23/2016, 1:26:11 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 1:23:48 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:23:32 PM",
+    "type" : "student"
+  },
+  "-K8kLTfgg1mMxxZ8arnK" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:23:03 PM", "1/23/2016, 1:25:07 PM", "1/23/2016, 1:26:27 PM", "1/23/2016, 1:34:45 PM", "1/23/2016, 1:37:57 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:27:11 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:27:05 PM",
+    "type" : "student"
+  },
+  "-K8kLVuvYv-78BQ6Uz56" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:19:44 PM", "1/23/2016, 1:20:25 PM", "1/23/2016, 1:21:06 PM", "1/23/2016, 1:22:17 PM", "1/23/2016, 1:23:21 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:21:50 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:21:44 PM",
+    "type" : "student"
+  },
+  "-K8kLtv2ghCgM0oBcSxk" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:23:17 PM", "1/23/2016, 1:25:38 PM", "1/23/2016, 1:27:22 PM", "1/23/2016, 1:36:46 PM", "1/23/2016, 1:39:38 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 1:34:55 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:34:44 PM",
+    "type" : "student"
+  },
+  "-K8kLyyWwqDeOyj91Izv" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 1:25:31 PM", "1/23/2016, 1:26:55 PM", "1/23/2016, 1:38:29 PM", "1/23/2016, 1:41:58 PM", "1/23/2016, 1:46:49 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 1:39:43 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 1:39:33 PM",
+    "type" : "student"
+  },
+  "-K8kcns0w13M7JD1wZap" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "January 23, 2016 at 2:38:49 PM PST", "January 23, 2016 at 2:39:24 PM PST", "January 23, 2016 at 2:40:01 PM PST", "January 23, 2016 at 2:41:18 PM PST", "January 23, 2016 at 2:42:06 PM PST" ],
+    "endTime" : "January 23, 2016 at 2:40:41 PM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 23, 2016 at 2:40:27 PM PST",
+    "type" : "student"
+  },
+  "-K8klsOoGvRU37Z8Y7xs" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:19:55 PM", "1/23/2016, 3:20:52 PM", "1/23/2016, 3:21:44 PM", "1/23/2016, 3:24:24 PM", "1/23/2016, 3:26:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:23:09 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:22:59 PM",
+    "type" : "student"
+  },
+  "-K8klsPxI--kAUg1qdps" : {
+    "completed" : [ "1/23/2016, 3:29:35 PM", "1/23/2016, 3:29:52 PM" ]
+  },
+  "-K8klsUigaLV00b4kE-7" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:20:15 PM", "1/23/2016, 3:21:33 PM", "1/23/2016, 3:23:14 PM", "1/23/2016, 3:24:52 PM", "1/23/2016, 3:26:51 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:27:32 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:27:31 PM",
+    "type" : "student"
+  },
+  "-K8kls_E5H4HD553YHO8" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:20:43 PM", "1/23/2016, 3:30:40 PM", "1/23/2016, 3:37:45 PM", "1/23/2016, 3:39:36 PM", "1/23/2016, 3:40:45 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:41:38 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:41:35 PM",
+    "type" : "student"
+  },
+  "-K8klsbeFdTx5WCQ40h2" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "1/23/2016, 3:19:31 PM", "1/23/2016, 3:20:46 PM", "1/23/2016, 3:22:18 PM", "1/23/2016, 3:24:02 PM", "1/23/2016, 3:25:27 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:26:14 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:26:12 PM",
+    "type" : "student"
+  },
+  "-K8klsfz0rixKwLY_LjO" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:02 PM", "1/23/2016, 3:21:46 PM", "1/23/2016, 3:23:10 PM", "1/23/2016, 3:25:07 PM", "1/23/2016, 3:26:50 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:24:15 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:24:09 PM",
+    "type" : "student"
+  },
+  "-K8klsipHPB5X3My6Cqw" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:35 PM", "1/23/2016, 3:24:04 PM", "1/23/2016, 3:25:43 PM", "1/23/2016, 3:28:22 PM", "1/23/2016, 3:40:06 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:26:59 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:26:53 PM",
+    "type" : "student"
+  },
+  "-K8klsqq0LtLWr9TaXOW" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:23:04 PM", "1/23/2016, 3:25:13 PM", "1/23/2016, 3:26:57 PM", "1/23/2016, 3:30:53 PM", "1/23/2016, 3:36:40 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:28:14 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:28:05 PM",
+    "type" : "student"
+  },
+  "-K8klsrKj6xOq44ZQ0yH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:07 PM", "1/23/2016, 3:22:43 PM", "1/23/2016, 3:24:03 PM", "1/23/2016, 3:26:10 PM", "1/23/2016, 3:28:01 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:24:52 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:24:45 PM",
+    "type" : "student"
+  },
+  "-K8klstHpZ1QDAdFZBHX" : {
+    "1a1a" : "b",
+    "activity" : "2",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:20:28 PM", "1/23/2016, 3:22:50 PM", "1/23/2016, 3:28:51 PM", "1/23/2016, 3:31:29 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:29:48 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:29:41 PM",
+    "type" : "student"
+  },
+  "-K8klt2nIriQrMdhj3VT" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:22:20 PM", null, "1/23/2016, 3:29:34 PM", "1/23/2016, 3:35:45 PM", "1/23/2016, 4:00:24 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:31:17 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:31:08 PM",
+    "type" : "student"
+  },
+  "-K8klt60YNEY_D2lZyuj" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:50 PM", "1/23/2016, 3:22:54 PM", "1/23/2016, 3:24:28 PM", "1/23/2016, 3:26:05 PM", "1/23/2016, 3:27:13 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:25:11 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:25:03 PM",
+    "type" : "student"
+  },
+  "-K8kltBiMCynM9fiTaCS" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:19:32 PM", "1/23/2016, 3:20:52 PM", "1/23/2016, 3:22:51 PM", "1/23/2016, 3:24:08 PM", "1/23/2016, 3:25:08 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:25:49 PM",
+    "grade" : "6",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:25:47 PM",
+    "type" : "student"
+  },
+  "-K8kltIYxxiUTLPshv7s" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "1/23/2016, 3:21:17 PM", "1/23/2016, 3:22:30 PM", "1/23/2016, 3:25:12 PM", "1/23/2016, 3:27:12 PM", "1/23/2016, 3:31:08 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:26:09 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:26:00 PM",
+    "type" : "student"
+  },
+  "-K8kluEPtbv-MrJDlqQi" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "2",
+    "completed" : [ "1/23/2016, 3:19:48 PM", "1/23/2016, 3:20:48 PM", "1/23/2016, 3:21:31 PM", "1/23/2016, 3:23:42 PM", "1/23/2016, 3:24:35 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:22:58 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:22:53 PM",
+    "type" : "student"
+  },
+  "-K8kluKxriT1kzgZHAk4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:06 PM", "1/23/2016, 3:22:55 PM", "1/23/2016, 3:26:27 PM", "1/23/2016, 3:28:50 PM", "1/23/2016, 3:41:11 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:27:07 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:27:01 PM",
+    "type" : "student"
+  },
+  "-K8klyTCPwRG6Qbi93A9" : {
+    "1a1a" : "c",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:58 PM", "1/23/2016, 3:23:13 PM", "1/23/2016, 3:24:40 PM", "1/23/2016, 3:27:17 PM", "1/23/2016, 3:28:32 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 3:26:23 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:25:56 PM",
+    "type" : "student"
+  },
+  "-K8km2h5PAt5GlTWpTmf" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 3:21:15 PM", "1/23/2016, 3:22:10 PM", "1/23/2016, 3:22:45 PM", "1/23/2016, 3:24:31 PM", "1/23/2016, 3:26:11 PM" ],
+    "difficulty" : "2",
+    "endTime" : "1/23/2016, 3:23:46 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "1/23/2016, 3:23:30 PM",
+    "type" : "student"
+  },
+  "-K8lTPtpUHgxODOW2dLd" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/23/2016, 6:32:49 PM", "1/23/2016, 6:33:12 PM", "1/23/2016, 6:33:53 PM", "1/23/2016, 6:34:47 PM", "1/23/2016, 6:35:22 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/23/2016, 6:34:22 PM",
+    "grade" : "other",
+    "school" : "other",
+    "startTime" : "1/23/2016, 6:34:17 PM",
+    "type" : "other"
+  },
+  "-K8ll9RtfeoDWvSQPoZH" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "‎1‎/‎23‎/‎2016‎ ‎7‎:‎54‎:‎42‎ ‎PM", "‎1‎/‎23‎/‎2016‎ ‎7‎:‎55‎:‎16‎ ‎PM", "‎1‎/‎23‎/‎2016‎ ‎7‎:‎55‎:‎58‎ ‎PM", "‎1‎/‎23‎/‎2016‎ ‎7‎:‎56‎:‎44‎ ‎PM", "‎1‎/‎23‎/‎2016‎ ‎7‎:‎57‎:‎33‎ ‎PM" ],
+    "difficulty" : "1",
+    "endTime" : "‎1‎/‎23‎/‎2016‎ ‎7‎:‎58‎:‎10‎ ‎PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "‎1‎/‎23‎/‎2016‎ ‎7‎:‎58‎:‎08‎ ‎PM",
+    "type" : "student"
+  },
+  "-K8ovLv6weLb3LJiGcZ_" : {
+    "1a1a" : "b",
+    "coding" : "3",
+    "completed" : [ "January 24, 2016 at 10:38:11 AM PST", "January 24, 2016 at 10:38:39 AM PST", "January 24, 2016 at 10:39:30 AM PST", "January 24, 2016 at 10:40:41 AM PST", "January 24, 2016 at 10:41:39 AM PST" ],
+    "endTime" : "January 24, 2016 at 10:40:00 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 24, 2016 at 10:39:56 AM PST",
+    "type" : "student"
+  },
+  "-K8tZrINWT3ssEborzLX" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "January 25, 2016 at 8:22:15 AM PST", "January 25, 2016 at 8:25:23 AM PST", "January 25, 2016 at 8:27:30 AM PST", "January 25, 2016 at 8:29:36 AM PST", "January 25, 2016 at 8:32:44 AM PST" ],
+    "endTime" : "January 25, 2016 at 8:28:09 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 8:28:05 AM PST"
+  },
+  "-K8t_g_p6I2piZSYQgpy" : {
+    "1a1a" : "b",
+    "completed" : [ "January 25, 2016 at 8:23:39 AM PST", "January 25, 2016 at 8:26:23 AM PST", "January 25, 2016 at 8:28:03 AM PST", "January 25, 2016 at 8:30:07 AM PST", "January 25, 2016 at 8:32:06 AM PST" ],
+    "endTime" : "January 25, 2016 at 8:35:43 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 8:35:37 AM PST",
+    "type" : "student"
+  },
+  "-K8t_hvAM1FABlQA1X82" : {
+    "1a1a" : "b",
+    "completed" : [ "January 25, 2016 at 8:23:45 AM PST", "January 25, 2016 at 8:25:43 AM PST", "January 25, 2016 at 8:29:35 AM PST" ],
+    "endTime" : "January 25, 2016 at 8:30:29 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 8:30:20 AM PST"
+  },
+  "-K8t_itCf2o2EA5q-tak" : {
+    "completed" : [ "1/25/2016, 8:22:16 AM" ]
+  },
+  "-K8t_pFuG5P0ridfEJqe" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "January 25, 2016 at 8:22:47 AM PST", "January 25, 2016 at 8:23:43 AM PST", "January 25, 2016 at 8:24:18 AM PST", "January 25, 2016 at 8:25:08 AM PST", "January 25, 2016 at 8:29:26 AM PST" ],
+    "difficulty" : "1",
+    "endTime" : "January 25, 2016 at 8:31:38 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 8:31:37 AM PST"
+  },
+  "-K8tcqYSLBr0TGS87QSR" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "completed" : [ "January 25, 2016 at 8:39:03 AM PST", "January 25, 2016 at 8:39:55 AM PST", "January 25, 2016 at 8:41:22 AM PST", "January 25, 2016 at 8:43:00 AM PST", "January 25, 2016 at 8:45:01 AM PST" ],
+    "difficulty" : "1",
+    "endTime" : "January 25, 2016 at 8:42:17 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 8:41:58 AM PST"
+  },
+  "-K8u51XcMKbJ6_-LLrk3" : {
+    "1a1a" : "b",
+    "coding" : "3",
+    "completed" : [ "January 25, 2016 at 10:56:24 AM PST", "January 25, 2016 at 10:59:44 AM PST", "January 25, 2016 at 11:14:38 AM PST", "January 25, 2016 at 11:16:08 AM PST", "January 25, 2016 at 12:06:12 PM PST" ],
+    "difficulty" : "2",
+    "endTime" : "January 25, 2016 at 12:22:38 PM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 25, 2016 at 12:22:36 PM PST"
+  },
+  "-K8vkiO4fno2PoajOdbB" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/25/2016, 6:29:01 PM", "1/25/2016, 10:29:57 PM", "1/25/2016, 10:30:29 PM", "1/25/2016, 10:31:09 PM", "1/25/2016, 10:31:46 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/25/2016, 10:30:45 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/25/2016, 10:30:43 PM",
+    "type" : "student"
+  },
+  "-K8vqB33BeB5ffcGU_xK" : {
+    "completed" : [ "January 25, 2016 at 6:53:04 PM PST" ]
+  },
+  "-K90SZX0QhUHCSQMoa6k" : {
+    "completed" : [ "1/26/2016, 9:03:06 PM" ]
+  },
+  "-K92u5MgPvc_-u24Lwc2" : {
+    "1a1a" : "b",
+    "coding" : "2",
+    "completed" : [ "January 27, 2016 at 8:27:11 AM PST", "January 27, 2016 at 8:29:16 AM PST", "January 27, 2016 at 8:30:03 AM PST", "January 27, 2016 at 8:31:40 AM PST", "January 27, 2016 at 8:33:26 AM PST" ],
+    "difficulty" : "1",
+    "endTime" : "January 27, 2016 at 8:30:44 AM PST",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "January 27, 2016 at 8:30:41 AM PST"
+  },
+  "-K9AJtxM-G0MtJlUSk2l" : {
+    "completed" : [ "‎1‎/‎28‎/‎2016‎ ‎7‎:‎01‎:‎27‎ ‎PM" ]
+  },
+  "-K9JLYbqRrfrQoHqfZQF" : {
+    "completed" : [ "1/30/2016, 1:05:15 PM", "1/30/2016, 1:05:45 PM" ]
+  },
+  "-K9KDHis5bNIxlz0Yvz6" : {
+    "completed" : [ "January 30, 2016 at 5:08:45 PM PST" ]
+  },
+  "-K9L-keoPayQqADbq6j8" : {
+    "completed" : [ "1/30/2016, 8:52:33 PM" ]
+  },
+  "-K9L9OX0DVZdjZCieCTh" : {
+    "completed" : [ "1/30/2016, 9:31:41 PM", "1/30/2016, 9:32:35 PM" ]
+  },
+  "-K9PrmcIu55lqYBTX9_4" : {
+    "1a1a" : "b",
+    "activity" : "3",
+    "coding" : "3",
+    "completed" : [ "1/31/2016, 7:28:54 PM", "1/31/2016, 7:30:36 PM", "1/31/2016, 7:31:26 PM", "1/31/2016, 7:32:36 PM", "1/31/2016, 7:33:23 PM" ],
+    "difficulty" : "1",
+    "endTime" : "1/31/2016, 7:33:53 PM",
+    "grade" : "5",
+    "school" : "other",
+    "startTime" : "1/31/2016, 7:33:51 PM",
+    "type" : "student"
+  },
+  "-K9VAQgaSdp0wo0JAnVF" : {
+    "completed" : [ "2/1/2016, 9:19:40 PM" ]
+  },
+  "-K9c_G-8voPhIOTL2pOL" : {
+    "completed" : [ "‎2‎/‎3‎/‎2016‎ ‎11‎:‎22‎:‎27‎ ‎AM" ]
+  },
+  "name" : "squirrel1"
+}
