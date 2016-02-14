@@ -108,8 +108,6 @@
 }
 
 [playspace-incrementor] .button:active {
-	width: 90px;
-	height: 90px;
 	background: url('btnDn.png');
 }
 

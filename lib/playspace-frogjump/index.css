@@ -18,16 +18,25 @@
 
 [playspace-frogjump] .frog {
   position: relative;
-  background:url("right-frog1.png") no-repeat;
   background-size:contain;
   background-position: 0%;
   height:75px;
-  left:0;
+  left:3px;
   top: -5px;
+}
+
+
+
+[playspace-frogjump] .empty {
+  background: url();
 }
 
 [playspace-frogjump] .left {
   background:url("left-frog.png") no-repeat;
+}
+
+[playspace-frogjump] .right {
+  background:url("right-frog1.png") no-repeat;
 }
 
 [playspace-frogjump] .left .numbers {
@@ -37,7 +46,7 @@
 [playspace-frogjump] .numbers {
   position: relative;
   text-align: center;
-  bottom: 40px;
+  bottom: -40px;
   font-size: 30px;
   color: #fff;
   text-shadow: 1px 1px rgba(0,0,0,0.4);
@@ -46,10 +55,57 @@
 [playspace-frogjump] .stone {
   display: inline-block;
   position: relative;
-  width: 82px;
-  height: 72px;
-  margin-left: 8px;
-  background: url("lilypad.png") no-repeat;
-  background-size: contain;
-  background-position: 0%;
+  width: 85px;
+  height: 94px;
+  margin-left: 6px;
+  background: url("stone1.png") no-repeat;
+  background-position: 0px 5px; 
+}
+
+[playspace-frogjump] .green {
+  background: url("green_pad1.png") no-repeat;
+  background-position: 0px 5px; 
+}
+
+[playspace-frogjump] .yellow {
+  background: url("yellow_pad1.png") no-repeat;
+  background-position: 0px 5px; 
+}
+
+[playspace-frogjump] .buttonHolder {
+  width: 630px;
+  height: 90px;
+  left: 0px;
+  top: 540px;
+  background: url('/lib/playspace-squirrel/buttonPanel.png');
+  position: absolute;
+}
+
+[playspace-frogjump] .button {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  background: url('/lib/playspace-incrementor/btnUp.png');
+}
+
+[playspace-frogjump] .label {
+  position: absolute;
+  left: 2px;
+  width: 90px;
+  height: 90px;
+  font-size: 60px;
+  line-height: 1.4em;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+  color: #3e2a10;
+} 
+
+[playspace-frogjump] .button:active {
+  background: url('/lib/playspace-incrementor/btnDn.png');
+}
+
+[playspace-frogjump] .label:active {
+  left: -3px;
+  top: 3px;
 }

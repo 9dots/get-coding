@@ -138,21 +138,37 @@
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function add5(){\n\n        number += 5;\n\n    }",
       		"quiz": [
+				{
+		          "questionId": "1b1b",
+		          "text": "Which choice below would create the variable \`fruit\` and give it a value of \`9\`?", 
+		          "a": "\`variable = 9 fruit;\`",
+		          "b": "\`var = fruit 9;\`", 
+		          "c": "\`var fruit = 9;\`", 
+		          "d": "\`variable fruit = 9;\`"
+		        },
 		        {
+		          "questionId": "1b2a",
+		          "text": "If the variable \`brownies\` has a value of \`4\` and the variable \`cookies\` has a value of \`6\`, which choice below would have a value of \`10\`?", 
+		          "a": "\`brownies;\`",  
+		          "b": "\`brownies + cookies;\`",
+		          "c": "\`cookies;\`", 
+		          "d": "\`brownies - cookies;\`"
+		        },
+				{
 		          "questionId": "1b3b",
-		          "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
-		          "a": "\`var fruit = apples - oranges;\`", 
-		          "b": "\`var fruit = apples + oranges;\`", 
-		          "c": "\`var apples = fruit - oranges;\`", 
-		          "d": "\`var oranges = fruit + apples;\`"
+		          "text": "Which would make a variable \`doughnuts\` and give it a value of the sum of \`chocolate\` and \`sprinkles\`?", 
+		          "a": "\`var chocolate = doughnuts - sprinkles;\`", 
+		          "b": "\`var sprinkles = doughnuts + chocolate;\`",
+		          "c": "\`var doughnuts = chocolate - sprinkles;\`", 
+		          "d": "\`var doughnuts = chocolate + sprinkles;\`", 
 		        },
 		        {
 		          "questionId": "1b4a",
-		          "text": "Which choice would give the variable \`number\` a value of \`8\`?", 
-		          "a": "\`var number = 3 + 4;\`", 
-		          "b": "\`var number = 12 - 2;\`", 
-		          "c": "\`var number = 14 - 7;\`", 
-		          "d": "\`var number = 5 + 3;\`"
+		          "text": "Which choice would give the variable \`number\` a value of \`12\`?", 
+		          "a": "\`var number = 10 - 2;\`", 
+		          "b": "\`var number = 13 + 1;\`", 
+		          "c": "\`var number = 8 + 4;\`", 
+		          "d": "\`var number = 6 - 6;\`"
 		        }
       		]
 		},

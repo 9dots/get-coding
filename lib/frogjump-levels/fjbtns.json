@@ -1,0 +1,821 @@
+{
+	"levels": [
+		{
+			"level": 1,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [6]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"Let's program some buttons to help us play the Frog Jump game. We've already written the \`setButton()\` function for you. You just need to create a \`function\` called \`frog0Button()\` and type \`jump(0);\` between the \`{ }\`s. Then run your code and use your button!"
+			},
+			"mission":"On line 3, type \`function frog0Button(){}\`. Then, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(0)\` on line 4.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "Your code at line 3 should look like this:\n\n    function frog0Button(){\n         jump(0);\n    }"
+		},
+		{
+			"level": 2,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [2]
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "left", 
+					"destination": [0]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"You programmed a button! You'll program all the other buttons just like you programmed button 0. Now copy the same code to make button 1 move frog 1!"
+			},
+			"mission":"On line 2, add \`setButton(1, frog1Button)\`. Then at the very bottom, type \`function frog1Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(1);\`.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "\n\n    //type this on line 2\n    setButton(1, frog1Button);\n\n    //type this on line 8\n    function frog1Button(){\n         jump(1);\n    }"
+		},
+		{
+			"level": 3,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [3]
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "left", 
+					"destination": [2]
+				}, 
+				{
+					"id": 2,
+					"position": 3,  
+					"rotation": "right", 
+					"destination": [6]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"Great! Now make button \`2\` the \`frog2Button\`."
+			},
+			"mission":"On line 3, add \`setButton(2, frog2Button)\`. Then at the very bottom, type \`function frog2Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(2);\`.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "\n\n    //type this on line 3\n    setButton(2, frog2Button);\n\n    //type this on line 13\n    function frog2Button(){\n         jump(2);\n    }"
+		},
+		{
+			"level": 4,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": [5, 6]
+				}, 
+				{
+					"id": 1,
+					"position": 3,  
+					"rotation": "right", 
+					"destination": [5, 6]
+				}, 
+				{
+					"id": 2,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 1]
+				}, 
+				{
+					"id": 3,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 1]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"Great! Now make button \`3\` the \`frog3Button\`."
+			},
+			"mission":"On line 4, add \`setButton(3, frog3Button)\`. Then at the very bottom, type \`function frog3Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(3);\`.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "\n\n    //type this on line 4\n    setButton(3, frog3Button);\n\n    //type this on line 18\n    function frog3Button(){\n         jump(3);\n    }"
+		},
+		{
+			"level": 5,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [1]
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [6]
+				}, 
+				{
+					"id": 2,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": [0, 3, 4]
+				}, 
+				{
+					"id": 3,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 3, 4]
+				}, 
+				{
+					"id": 4,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 3, 4]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"Great! Now make button \`4\` the \`frog4Button\`."
+			},
+			"mission":"On line 5, add \`setButton(4, frog4Button)\`. Then at the very bottom, type \`function frog4Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(4);\`.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "\n\n    //type this on line 5\n    setButton(4, frog4Button);\n\n    //type this on line 24\n    function frog4Button(){\n         jump(4);\n    }",
+			"quiz": [
+				{
+		          "questionId": "1b1b",
+		          "text": "Which choice below would create the variable \`brownies\` and give it a value of \`12\`?", 
+		          "a": "var = brownies 12;", 
+		          "b": "var brownies = 12;", 
+		          "c": "variable brownies = 12;", 
+		          "d": "variable = 12 brownies;"
+		        },
+		        {
+		          "questionId": "1b2a",
+		          "text": "If the variable \`apples\` has a value of \`5\` and the variable \`oranges\` has a value of \`3\`, which choice below would have a value of \`8\`?", 
+		          "a": "apples;", 
+		          "b": "oranges;", 
+		          "c": "apples - oranges;", 
+		          "d": "apples + oranges;"
+		        },
+				{
+		          "questionId": "1b3b",
+		          "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
+		          "a": "\`var fruit = apples - oranges;\`", 
+		          "b": "\`var fruit = apples + oranges;\`", 
+		          "c": "\`var apples = fruit - oranges;\`", 
+		          "d": "\`var oranges = fruit + apples;\`"
+		        },
+		        {
+		          "questionId": "1b4a",
+		          "text": "Which choice would give the variable \`number\` a value of \`8\`?", 
+		          "a": "\`var number = 3 + 4;\`", 
+		          "b": "\`var number = 12 - 2;\`", 
+		          "c": "\`var number = 14 - 7;\`", 
+		          "d": "\`var number = 5 + 3;\`"
+		        }
+	        ]
+		},
+		{
+			"level": 6,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [6]
+				}, 
+				{
+					"id": 1,
+					"position": 2,  
+					"rotation": "left", 
+					"destination": [0, 1, 2]
+				}, 
+				{
+					"id": 2,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": [0, 1, 2, 3]
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": [0, 1, 2, 3, 4]
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 1, 2, 3, 4]
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 1, 2, 3, 4]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog5",
+			  		 "fnName": "frog5Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(5);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\n"
+			},
+			"directions":
+			{
+				"dialogText":"Great! Now make button \`5\` the \`frog5Button\`."
+			},
+			"mission":"On line 6, add \`setButton(5, frog5Button)\`. Then at the very bottom, type \`function frog5Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(5);\`.", 
+			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
+			"tips": "\n\n    //type this on line 6\n    setButton(5, frog5Button);\n\n    //type this on line 28\n    function frog5Button(){\n         jump(5);\n    }"
+		},
+		{
+			"level": 7,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [1, 3, 5]
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [1, 3, 5]
+				}, 
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": [3, 5]
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": [0, 2, 4]
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 2, 4]
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 2, 4]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog5",
+			  		 "fnName": "frog5Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(5);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+		   		"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\nsetButton(5, frog5Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\nfunction frog5Button(){\n    jump(5);\n}"
+	   		},
+			"directions":
+			{
+				"dialogText":"That's all the code! On the last levels, just run your code and beat the levels! Good luck!"
+			},
+			"mission":"Get the green frogs to the green lilypads and the yellow frogs to the yellow lilypads!", 
+			"tools": "Use each button to jump each frog one open space in the direction it's facing.",
+			"tips": "You should never let a frog land behind another frog of the same color."
+		},
+		{
+			"level": 8,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [3, 4, 5, 6]
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [3, 4, 5, 6]
+				}, 
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": [3, 4, 5, 6]
+				}, 
+				{
+					"id": 3,
+					"position": 3,  
+					"rotation": "right", 
+					"destination": [3, 4, 5, 6]
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 1]
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 1]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog5",
+			  		 "fnName": "frog5Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(5);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+		   		"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\nsetButton(5, frog5Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\nfunction frog5Button(){\n    jump(5);\n}"
+	   		},
+			"mission":"Get the green frogs to the green lilypads and the yellow frogs to the yellow lilypads!", 
+			"tools": "Use each button to jump each frog one open space in the direction it's facing.",
+			"tips": "You should never let a frog land behind another frog of the same color."
+		},
+		{
+			"level": 9,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [3, 5, 6]
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [3, 5, 6]
+				}, 
+				{
+					"id": 2,
+					"position": 2,  
+					"rotation": "right", 
+					"destination": [3, 5, 6]
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": [0, 1, 4]
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 1, 4]
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 1, 4]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog5",
+			  		 "fnName": "frog5Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(5);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+		   		"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\nsetButton(5, frog5Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\nfunction frog5Button(){\n    jump(5);\n}"
+	   		},
+			"mission":"Get the green frogs to the green lilypads and the yellow frogs to the yellow lilypads!", 
+			"tools": "Use each button to jump each frog one open space in the direction it's facing.",
+			"tips": "You should never let a frog land behind another frog of the same color."
+		},
+		{
+			"level": 10,
+			"stones": 7, 
+			"frogs": [
+				{
+					"id": 0,
+					"position": 0,  
+					"rotation": "right", 
+					"destination": [1, 6]
+				}, 
+				{
+					"id": 1,
+					"position": 1,  
+					"rotation": "right", 
+					"destination": [1, 6]
+				}, 
+				{
+					"id": 2,
+					"position": 3,  
+					"rotation": "left", 
+					"destination": [0, 2, 3]
+				}, 
+				{
+					"id": 3,
+					"position": 4,  
+					"rotation": "left", 
+					"destination": [0, 2, 3]
+				}, 
+				{
+					"id": 4,
+					"position": 5,  
+					"rotation": "left", 
+					"destination": [0, 2, 3, 5]
+				}, 
+				{
+					"id": 5,
+					"position": 6,  
+					"rotation": "left", 
+					"destination": [0, 2, 3, 5]
+				}
+			],
+			"powers": {
+			  	"moveNumber": false, 
+			  	"buttons": [
+			  		{
+			  		 "name": "frog0",
+			  		 "fnName": "frog0Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(0);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog1",
+			  		 "fnName": "frog1Button",
+			  		 "rotation": "right",
+			  		 "contents": "{jump(1);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog2",
+			  		 "fnName": "frog2Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(2);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog3",
+			  		 "fnName": "frog3Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(3);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog4",
+			  		 "fnName": "frog4Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(4);}",
+			  		 "set": false
+			  		},
+			  		{
+			  		 "name": "frog5",
+			  		 "fnName": "frog5Button",
+			  		 "rotation": "left",
+			  		 "contents": "{jump(5);}",
+			  		 "set": false
+			  		}
+			  	]
+			},
+			"workspace": {
+		   		"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\nsetButton(5, frog5Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\nfunction frog5Button(){\n    jump(5);\n}"
+	   		},
+			"mission":"Get the green frogs to the green lilypads and the yellow frogs to the yellow lilypads!", 
+			"tools": "Use each button to jump each frog one open space in the direction it's facing.",
+			"tips": "You should never let a frog land behind another frog of the same color."
+		}
+	]
+}

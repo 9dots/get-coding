@@ -63,7 +63,8 @@ var module = angular.module(name, [
   require('apps/squirrel4'), 
   require('apps/squirrel-btn1'), 
   require('apps/incrementor'), 
-  require('apps/counter')
+  require('apps/counter'), 
+  require('apps/frogjump-btns')
 ]);
 
 /**
@@ -102,7 +103,8 @@ module
         appObject['squirrel3'],
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
-        appObject['squirrel-btn1'], 
+        appObject['squirrel-btn1'],
+        appObject['frogjump-btns'], 
         appObject['incrementor'],
         appObject['crossriver-intro'], 
         appObject['squirrel4'],

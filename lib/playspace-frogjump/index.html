@@ -2,11 +2,17 @@
 <div class="background">  
   <div class="grid-holder" id="grid-holder" layout="row" layout-align="center center">
     <div class="row" layout="row" layout-align="center center">
-      <div class="stone" id="{{stone.id}}" ng-class='[stone.option]' ng-repeat='stone in Frogjump.field.grid'>
-      	<div class="frog" ng-class='[stone.direction]' ng-if="stone.type === 'frog'">
-      		<div class="numbers">{{Frogjump.field.byPos($index).id}}</div>
+      <div class="stone" id="{{stone.id}}" ng-class='{green : stone.option === "right", yellow : stone.option === "left"}' ng-repeat='stone in Frogjump.field.grid'>
+      	<div class="frog {{stone.type}} {{stone.direction}}" id="frog{{stone.id}}" >
+      		<div class="numbers" id="number{{stone.id}}">{{Frogjump.field.byPos($index).id}}</div>
       	</div>
+        
       </div>
+    </div>
+  </div>
+  <div class="buttonHolder" ng-show='Frogjump.powers.buttons' layout= 'row' layout-align='center center'>
+  	<div class="button" ng-repeat="button in Frogjump.buttons" id="button{{$index}}">
+      <div class="label">{{$index}}</div>
     </div>
   </div>
 </div>

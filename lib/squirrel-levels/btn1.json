@@ -37,7 +37,7 @@
 	  }, 
 	  "mission": "Write \`getAcorn();\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then use the button to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function getAcornButton(){\n\n         getAcorn();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function getAcornButton(){\n         getAcorn();\n    }"
 	},
 	{
 	  "level": 2, 
@@ -81,7 +81,7 @@
 	  }, 
 	  "mission": "Write \`move();\` between the \`{  }\`s in the \`moveButton()\` function and run your code to the buttons. Then use the buttons to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function moveButton(){\n\n         move();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function moveButton(){\n         move();\n    }"
 	},
 	{
 	  "level": 3, 
@@ -130,7 +130,7 @@
 	  }, 
 	  "mission": "After \`function\` write \`leftButton(){}\`. Then BETWEEN the \`{ }\`s, write \`left();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function leftButton(){\n\n         left();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function leftButton(){\n         left();\n    }"
 	},
 	{
 	  "level": 4, 
@@ -184,7 +184,7 @@
 	  }, 
 	  "mission": "On line 18, write \`function rightButton(){}\`. Then BETWEEN the \`{ }\`s, write \`right();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function rightButton(){\n\n         right();\n\n    }\n\n    ",
+      "tips": "Your code should look like this:\n\n    function rightButton(){\n         right();\n    }",
       "quiz": [
         {
           "questionId": "1b4b",
@@ -253,7 +253,7 @@
 	  }, 
 	  "mission": "On line 23, write \`function upButton(){}\`. Then BETWEEN the \`{ }\`s, write \`up();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function upButton(){\n\n         up();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function upButton(){\n         up();\n    }"
 	},
 	{
 	  "level": 6, 
@@ -317,7 +317,7 @@
 	  }, 
 	  "mission": "On line 28, write \`function downButton(){}\`. Then BETWEEN the \`{ }\`s, write \`down();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function downButton(){\n\n         down();\n\n    }\n\n    "
+      "tips": "Your code should look like this:\n\n    function downButton(){\n         down();\n    }"
 	},
 	{
 	  "level": 7, 

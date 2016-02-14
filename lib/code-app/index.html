@@ -247,15 +247,15 @@
 
   <div class="mission" layout='row' ng-hide="App.name == 'test'">
 
-    <div class="mission-menu" layout='column'>
-      <div class="menu-button mission-button" ng-click="App.setHelp('Mission', 'up')">
-        <i class='mdi-flag'></i>
+    <div class="mission-menu" layout='column' layout-align='center'>
+      <div class="menu-button mission-button" >
+        <i class='mdi-flag' ng-click="App.setHelp('Mission', 'up')"></i>
       </div>
-      <div class="menu-button tools-button" ng-click="App.setHelp('Tools', 'out')">
-        <i class='mdi-settings'></i>
+      <div class="menu-button tools-button">
+        <i class='mdi-settings' ng-click="App.setHelp('Tools', 'out')"></i>
       </div>
-      <div class="menu-button tips-button" ng-click="App.setHelp('Tips', 'down')">
-        <i class='mdi-flash-on'></i>
+      <div class="menu-button tips-button">
+        <i class='mdi-flash-on' ng-click="App.setHelp('Tips', 'down')"></i>
       </div>
     </div>
     <div class="mission-man {{App.missionMan}}"></div>
