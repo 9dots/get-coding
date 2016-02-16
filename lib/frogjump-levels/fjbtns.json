@@ -24,13 +24,13 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\n\n"
+				"codeSpace":"setButton(0, frog0Button);\n\nfunction "
 			},
 			"directions":
 			{
 				"dialogText":"Let's program some buttons to help us play the Frog Jump game. We've already written the \`setButton()\` function for you. You just need to create a \`function\` called \`frog0Button()\` and type \`jump(0);\` between the \`{ }\`s. Then run your code and use your button!"
 			},
-			"mission":"On line 3, type \`function frog0Button(){}\`. Then, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(0)\` on line 4.", 
+			"mission":"On line 3 after \`function\`, type \`frog0Button(){}\`. Then, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(0)\` on line 4.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
 			"tips": "Your code at line 3 should look like this:\n\n    function frog0Button(){\n         jump(0);\n    }"
 		},
@@ -71,15 +71,15 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\n"
+				"codeSpace":"setButton(0, frog0Button);\nsetButton(1, frog1Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\n"
 			},
 			"directions":
 			{
-				"dialogText":"You programmed a button! You'll program all the other buttons just like you programmed button 0. Now copy the same code to make button 1 move frog 1!"
+				"dialogText":"You programmed a button! You'll program all the other buttons just like you programmed button 0. Write a \`function\` called \`frog1Button()\`, and put \`jump(1);\` inside the \`{ }\`s!"
 			},
-			"mission":"On line 2, add \`setButton(1, frog1Button)\`. Then at the very bottom, type \`function frog1Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(1);\`.", 
+			"mission":"At the very bottom, type \`function frog1Button(){}\`. Then using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(1);\`.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
-			"tips": "\n\n    //type this on line 2\n    setButton(1, frog1Button);\n\n    //type this on line 8\n    function frog1Button(){\n         jump(1);\n    }"
+			"tips": "\n\n    function frog1Button(){\n         jump(1);\n    }"
 		},
 		{
 			"level": 3,
@@ -131,15 +131,14 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\n"
-			},
+				"codeSpace":"setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\n"			},
 			"directions":
 			{
-				"dialogText":"Great! Now make button \`2\` the \`frog2Button\`."
+				"dialogText":"Great! Now make the \`frog2Button\`."
 			},
-			"mission":"On line 3, add \`setButton(2, frog2Button)\`. Then at the very bottom, type \`function frog2Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(2);\`.", 
+			"mission":"At the very bottom, type \`function frog2Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(2);\`.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
-			"tips": "\n\n    //type this on line 3\n    setButton(2, frog2Button);\n\n    //type this on line 13\n    function frog2Button(){\n         jump(2);\n    }"
+			"tips": "\n\n    //type this on line 13\n    function frog2Button(){\n         jump(2);\n    }"
 		},
 		{
 			"level": 4,
@@ -204,15 +203,14 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\n"
-			},
+				"codeSpace":"setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\n"			},
 			"directions":
 			{
-				"dialogText":"Great! Now make button \`3\` the \`frog3Button\`."
+				"dialogText":"Great! Now make the \`frog3Button\`."
 			},
-			"mission":"On line 4, add \`setButton(3, frog3Button)\`. Then at the very bottom, type \`function frog3Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(3);\`.", 
+			"mission":"At the very bottom, type \`function frog3Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(3);\`.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
-			"tips": "\n\n    //type this on line 4\n    setButton(3, frog3Button);\n\n    //type this on line 18\n    function frog3Button(){\n         jump(3);\n    }"
+			"tips": "\n\n    //type this on line 18\n    function frog3Button(){\n         jump(3);\n    }"
 		},
 		{
 			"level": 5,
@@ -222,13 +220,13 @@
 					"id": 0,
 					"position": 0,  
 					"rotation": "right", 
-					"destination": [1]
+					"destination": [1, 6]
 				}, 
 				{
 					"id": 1,
 					"position": 1,  
 					"rotation": "right", 
-					"destination": [6]
+					"destination": [1, 6]
 				}, 
 				{
 					"id": 2,
@@ -290,15 +288,14 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\n"
-			},
+				"codeSpace":"setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\n"			},
 			"directions":
 			{
-				"dialogText":"Great! Now make button \`4\` the \`frog4Button\`."
+				"dialogText":"Great! Now make the \`frog4Button\`."
 			},
-			"mission":"On line 5, add \`setButton(4, frog4Button)\`. Then at the very bottom, type \`function frog4Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(4);\`.", 
+			"mission":"At the very bottom, type \`function frog4Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(4);\`.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
-			"tips": "\n\n    //type this on line 5\n    setButton(4, frog4Button);\n\n    //type this on line 24\n    function frog4Button(){\n         jump(4);\n    }",
+			"tips": "\n\n    //type this on line 23\n    function frog4Button(){\n         jump(4);\n    }",
 			"quiz": [
 				{
 		          "questionId": "1b1b",
@@ -423,15 +420,14 @@
 			  	]
 			},
 			"workspace": {
-				"codeSpace": "setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\n\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\n"
-			},
+				"codeSpace":"setButton(0, frog0Button);\nsetButton(1, frog1Button);\nsetButton(2, frog2Button);\nsetButton(3, frog3Button);\nsetButton(4, frog4Button);\nsetButton(5, frog5Button);\n\nfunction frog0Button(){\n    jump(0);\n}\n\nfunction frog1Button(){\n    jump(1);\n}\n\nfunction frog2Button(){\n    jump(2);\n}\n\nfunction frog3Button(){\n    jump(3);\n}\n\nfunction frog4Button(){\n    jump(4);\n}\n\n"			},
 			"directions":
 			{
-				"dialogText":"Great! Now make button \`5\` the \`frog5Button\`."
+				"dialogText":"Great! Now make the \`frog5Button\`."
 			},
-			"mission":"On line 6, add \`setButton(5, frog5Button)\`. Then at the very bottom, type \`function frog5Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(5);\`.", 
+			"mission":"At the very bottom, type \`function frog5Button(){}\`. Last, using the RETURN or ENTER button to create a new line between the \`{ }\`s, write \`jump(5);\`.", 
 			"tools": "\`jump(number)\`- moves a frog one space in the direction it is facing \n\n \`setButton(number, function)\`- assigns the given function to the given button",
-			"tips": "\n\n    //type this on line 6\n    setButton(5, frog5Button);\n\n    //type this on line 28\n    function frog5Button(){\n         jump(5);\n    }"
+			"tips": "\n\n    //type this on line 28\n    function frog5Button(){\n         jump(5);\n    }"
 		},
 		{
 			"level": 7,
