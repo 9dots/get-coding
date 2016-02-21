@@ -46,12 +46,12 @@
 	  			]
 	   		}, 
 	   		"workspace": {
-		   		"codeSpace":"var number = 0;\n\nfunction add1(){\n    number += 1;\n}\n\nsetButton(1, add1)"
+		   		"codeSpace":"var number = 0;\n\nsetButton(1, add1)\n\nfunction add1(){\n    \n}"
 	   		},
 	   		"directions": {
-        		"dialogText": "Now let's program a button that will add 1 to our \`number\`. Inside the \`{ }\`, write \`number += 1;\`. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
+        		"dialogText": "Now let's program a button that will add \`1\` to our \`number\`. Write a \`function\` called \`add1()\` and write \`number += 1;\` between the \`{ }\`s. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
       		}, 
-      		"mission": "Inside the \`{ }\` after \`add1()\`, write \`number += 1;\` and run the code. Then click the button until \`number\` reaches the right value to ride the roller coaster!", 
+      		"mission": "On line 5, type \`function add1(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number += 1;\`.", 
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function add1(){\n\n        number += 1;\n\n    }"
 		}, 
@@ -85,12 +85,12 @@
 	  			]
 	   		}, 
 	   		"workspace":{
-	   			"codeSpace":"var number = 0;\n\nsetButton(1, add1);\nsetButton(2, add2);\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n\n}\n"
+	   			"codeSpace":"var number = 0;\n\nsetButton(1, add1);\nsetButton(2, add2);\n\nfunction add1(){\n    number += 1;\n}\n\n"
 	   		},
 	   		"directions": {
-        		"dialogText": "Now let's add another button that will increment \`number\` by 2. Inside the \`add2()\` function, type \`number += 2;\`. Run your code and use the buttons to get the variable on the roller coaster!"
+        		"dialogText": "Now let's add another button that will increment \`number\` by \`2\`. Create a \`function\` called \`add2()\` and type \`number += 2;\` between the \`{ }\`s. Run your code and use the buttons to get the variable on the roller coaster!"
       		}, 
-      		"mission": "Between the \`{ }\` in the \`add2()\` function, type \`number += 2;\`. Run your code and use the buttons to get the variable on the roller coaster!", 
+      		"mission": "On line 10, type \`function add2(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number += 2;\`.", 
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function add2(){\n\n        number += 2;\n\n    }"
 		}, 
@@ -130,11 +130,12 @@
 	  			]
 	   		},
 	   		"workspace": {
-				"codeSpace":"var number = 0;\n\nsetButton(1, add1);\nsetButton(2, add2);\nsetButton(3, add5);\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\nfunction "	   		},
+				"codeSpace":"var number = 0;\n\nsetButton(1, add1);\nsetButton(2, add2);\nsetButton(3, add5);\n\nfunction add1(){\n    number += 1;\n}\n\nfunction add2(){\n    number += 2;\n}\n\n"
+			},
 	   		"directions": {
-        		"dialogText": "Ok! Let's add one more button. We've started you off on line 15. After \`function \`, type \`add5(){}\`. Then between the \`{ }\`s, create a new line and type \`number +=5;\`. Then run your code and use the buttons to get the variable onto the ride!"
+        		"dialogText": "Ok! Let's add one more button. Create a \`function\` called \`add5()\` and type \`number += 5;\` between the \`{ }\`s. Run your code and use the buttons to get the variable on the roller coaster!"
       		}, 
-      		"mission": "After \`function \`, type \`add5(){}\`. Then between the \`{ }\`s, create a new line and type \`number +=5;\`. Then run your code and use the buttons.", 
+      		"mission": "On line 15, type \`function add5(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number += 5;\`.", 
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function add5(){\n\n        number += 5;\n\n    }",
       		"quiz": [
@@ -218,12 +219,12 @@
 	  			]
 	   		}, 
 	   		"workspace": {
-		   		"codeSpace": "var number = 20;\n\nsetButton(1, subtract1);\n\nfunction subtract1(){\n    \n}"
+		   		"codeSpace": "var number = 20;\n\nsetButton(1, subtract1);\n\n"
 	   		},
 	   		"directions": {
-        		"dialogText": "Now let's program button 1 to subtract 1 from our \`number\`. Inside the \`{ }\`, write \`number -= 1;\`. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
+        		"dialogText": "Now let's program a button that will subtract \`1\` from our \`number\`. Write a \`function\` called \`subtract1()\` and write \`number -= 1;\` between the \`{ }\`s. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
       		}, 
-      		"mission": "Inside the \`{ }\` after \`subtract1()\`, write \`number -= 1;\` and run the code. Then click the button until \`number\` reaches the right value to ride the roller coaster!", 
+      		"mission": "On line 5, type \`function subtract1(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number -= 1;\`.",
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function subtract1(){\n\n        number -= 1;\n\n    }"
 		}, 
@@ -257,12 +258,12 @@
 	  			]
 	   		}, 
 	   		"workspace":{
-	   			"codeSpace":"var number = 20;\n\nsetButton(1, subtract1);\nsetButton(2, subtract2);\n\nfunction subtract1(){\n    number -= 1;\n}\n\nfunction subtract2(){\n\n}\n"
+	   			"codeSpace":"var number = 20;\n\nsetButton(1, subtract1);\nsetButton(2, subtract2);\n\nfunction subtract1(){\n    number -= 1;\n}\n\n"
 	   		},
 	   		"directions": {
-        		"dialogText": "Now let's add another button that will decrement \`number\` by 2. Inside the \`subtract2()\` function, type \`number -= 2;\`. Run your code and use the buttons to get the variable on the roller coaster!"
+        		"dialogText": "Now let's program a button that will subtract \`2\` from our \`number\`. Write a \`function\` called \`subtract2()\` and write \`number -= 2;\` between the \`{ }\`s. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
       		}, 
-      		"mission": "Between the \`{ }\` in the \`subtract2()\` function, type \`number -= 2;\`. Run your code and use the buttons to get the variable on the roller coaster!", 
+      		"mission": "On line 10, type \`function subtract2(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number -= 2;\`.",
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function subtract2(){\n\n        number -= 2;\n\n    }"
 		}, 
@@ -302,13 +303,97 @@
 	  			]
 	   		},
 	   		"workspace": {
-				"codeSpace":"var number = 20;\n\nsetButton(1, subtract1);\nsetButton(2, subtract2);\nsetButton(3, subtract5);\n\nfunction subtract1(){\n    number -= 1;\n}\n\nfunction subtract2(){\n    number -= 2;\n}\n\nfunction "	   		},
+				"codeSpace":"var number = 20;\n\nsetButton(1, subtract1);\nsetButton(2, subtract2);\nsetButton(3, subtract5);\n\nfunction subtract1(){\n    number -= 1;\n}\n\nfunction subtract2(){\n    number -= 2;\n}\n\n"
+			},
 	   		"directions": {
-        		"dialogText": "Ok! Let's add one more button. We've started you off on line 15. After \`function \`, type \`subtract5(){}\`. Then between the \`{ }\`s, create a new line and type \`number -= 5;\`. Then run your code and use the buttons to get the variable onto the ride!"
+        		"dialogText": "Now let's program a button that will subtract \`5\` from our \`number\`. Write a \`function\` called \`subtract5()\` and write \`number -= 5;\` between the \`{ }\`s. Run the code, then click the button until \`number\` reaches the right value to ride the roller coaster!"
       		}, 
-      		"mission": "After \`function \`, type \`subtract5(){}\`. Then between the \`{ }\`s, create a new line and type \`number -= 5;\`. Then run your code and use the buttons.", 
+      		"mission": "On line 15, type \`function subtract5(){}\` then, using RETURN or ENTER to create a new line between the \`{ }\`s, write \`number -= 5;\`.",
       		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
       		"tips": "Your code should look like this:\n\n    function subtract5(){\n\n        number -= 5;\n\n    }"
+		}, 
+		{
+			"level": 9, 
+			"board": {
+				"variables": ["number"],
+				"values": [34], 
+				"showItems": ["number"],
+				"showValues": [0], 
+				"initValues": [0],
+				"adjective": "EXACTLY", 
+				"targetVal": "34", 
+				"allSet": false
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "subtract3",
+			  		 "fnName": "subtract3",
+			  		 "set": false, 
+			  		 "label": "-=3",
+			  		 "contents": "{number-=3;}"
+	  				},{
+			  		 "name": "add5",
+			  		 "fnName": "add5",
+			  		 "set": false, 
+			  		 "label": "+=5",
+			  		 "contents": "{number+=5;}"
+	  				}
+	  			]
+	   		},
+	   		"workspace": {
+				"codeSpace":"var number = 0;\n\nsetButton(1, subtract3);\nsetButton(2, add5);\n\nfunction subtract3(){\n    \n}\n\nfunction add5(){\n    \n}"			},
+	   		"directions": {
+        		"dialogText": "This is a CHALLENGE level! Fill in the \`{ }\`s for the \`subtract3()\` and \`add5()\` functions. Then use the buttons to get the varible on the ride!"
+      		}, 
+      		"mission": "CHALLENGE\n\nFill in the \`{ }\`s for the \`subtract3()\` and \`add5()\` functions. Then use the buttons to get the varible on the ride!",
+      		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
+      		"tips": "Your code should look like this:\n\n    function subtract5(){\n\n        number -= 5;\n\n    }"
+		}, 
+		{
+			"level": 10, 
+			"board": {
+				"variables": ["number"],
+				"values": [6], 
+				"showItems": ["number"],
+				"showValues": [0], 
+				"initValues": [0],
+				"adjective": "EXACTLY", 
+				"targetVal": "6", 
+				"allSet": false
+			},
+			"powers": {
+			  	"buttons": [
+	  				{
+			  		 "name": "subtract3",
+			  		 "fnName": "subtract3",
+			  		 "set": false, 
+			  		 "label": "-=3",
+			  		 "contents": "{number-=3;}"
+	  				},{
+			  		 "name": "add4",
+			  		 "fnName": "add4",
+			  		 "set": false, 
+			  		 "label": "+=4",
+			  		 "contents": "{number+=4;}"
+	  				},{
+			  		 "name": "add10",
+			  		 "fnName": "add10",
+			  		 "set": false, 
+			  		 "label": "+=10",
+			  		 "contents": "{number+=10;}"
+	  				}
+	  			]
+	   		},
+	   		"workspace": {
+				"codeSpace":"var number = 0;\n\nsetButton(1, subtract3);\nsetButton(2, add4);\nsetButton(3, add10);\n\nfunction subtract3(){\n    \n}\n\nfunction add4(){\n    \n}\n\nfunction add10(){\n    \n}",   	
+				},	
+			"directions": {
+        		"dialogText": "This is a CHALLENGE level! Fill in the \`{ }\`s for the \`subtract3()\`, \`add4()\` and \`add10()\` functions. Then use the buttons to get the varible on the ride!"
+      		}, 
+      		"mission": "CHALLENGE\n\nFill in the \`{ }\`s for the \`subtract3()\`,  \`add4()\` and \`add10()\` functions. Then use the buttons to get the varible on the ride!",
+      		"tools": "\`number\`: a variable with a number value\n\n\`setButton(number, function)\`: sets function to button by number", 
+      		"tips": "Don't take any wooden nickels. That's your only tip on this level! :)"
 		}
 	]
 }
