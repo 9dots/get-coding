@@ -106,6 +106,7 @@ module
         appObject['squirrel-btn1'],
         appObject['frogjump-btns'], 
         appObject['incrementor'],
+        appObject['counter'],
         appObject['crossriver-intro'], 
         appObject['squirrel4'],
         appObject['space-man'], 

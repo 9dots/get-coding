@@ -49,9 +49,9 @@
 		   		"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\n\nfunction addApple(){\n    \n}"
 	   		},
 	   		"directions": {
-        		"dialogText": "Great! Now that we have created our variables, we are going to create a button to add \`1\` to \`apples\`. Inside the \`{ }\`s of the \`addApple()\` function, type \`apples += 1;\`."
+        		"dialogText": "Great! Now that we have created our variables, we are going to create a button to add \`1\` to \`apples\`. Create an \`addApple()\` function and between the \`{ }\`s, type \`apples += 1;\`."
       		}, 
-      		"mission":"Inside the \`{ }\`s of the  \`addApple()\` function, type \`apples += 1;\`.",
+      		"mission":"On line 8, type \`function addApple(){}\`, then using RETURN or ENTER to create a new line inside the \`{ }\`s, type \`apples += 1;\`.",
       		"tools": "\`setButton(number, function)\`- assigns the given function to the given button\n\n\`apples\`- contains the number of apples\n\n\`oranges\`- contains the number of oranges\n\n\`limes\`- contains the number of limes\n\n\`total\`- contains the total number of fruit", 
       		"tips": "Your code on lines 8-10 should look like this:\n\n    function addApple(){\n        apples +=1;\n    }"
 		},
@@ -126,9 +126,9 @@
 	   		"workspace": {
 				"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\nsetButton();\n\nfunction addApple(){\n    apples += 1;\n    total += 1;\n}\n\nfunction addOrange(){\n    \n    \n}"	   		},
 	   		"directions": {
-        		"dialogText": "OK! Now let's make a button to count our \`oranges\`. On line 7, type \`0\` and \`addOrange\` between the \`()\`s in \`setButton()\`. Then on lines 15 and 16, type \`oranges += 1;\` and \`total += 1;\`."
+        		"dialogText": "OK! Now let's make a button to count our \`oranges\`. On line 7, type \`2, addOrange\` between the \`()\`s in \`setButton()\`. Then create an \`addOrange()\` function and type \`oranges += 1;\` and \`total += 1;\` inside it."
       		}, 
-      		"mission":"On line 7, type \`0\` and \`addOrange\` between the \`()\`s in \`setButton()\`. Then on lines 15 and 16, type \`oranges += 1;\` and \`total += 1;\`.",
+      		"mission":"On line 7, type \`2, addOrange\` between the \`()\`s in \`setButton()\`. Then on line 14, type \`function addOrange(){}\` then using RETURN or ENTER to create a new line inside the \`{ }\`s type \`oranges += 1;\` on the first line and \`total += 1;\` on the next one.",
       		"tools": "\`setButton(number, function)\`- assigns the given function to the given button\n\n\`apples\`- contains the number of apples\n\n\`oranges\`- contains the number of oranges\n\n\`limes\`- contains the number of limes\n\n\`total\`- contains the total number of fruit", 
       		"tips": "\n\n    //line 7 should look like this\n    setButton(2, addOrange)\n\n    //lines 15-16 should look like this\n    function addOrange(){\n        oranges +=1;\n        total +=1;\n    }"
 		},
@@ -176,14 +176,49 @@
 	  			]
 	   		}, 
 	   		"workspace": {
-				"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\nsetButton(2, addOrange);\nsetButton(3, addLime);\n\nfunction addApple(){\n    apples += 1;\n    total+= 1;\n}\n\nfunction addOrange(){\n    oranges += 1;\n    total += 1;\n}\n\n"
+				"codeSpace":"var apples = 0;\nvar oranges = 0;\nvar limes = 0;\nvar total = 0;\n\nsetButton(1, addApple);\nsetButton(2, addOrange);\nsetButton();\n\nfunction addApple(){\n    apples += 1;\n    total+= 1;\n}\n\nfunction addOrange(){\n    oranges += 1;\n    total += 1;\n}\n\n"
 	   		},
 	   		"directions": {
         		"dialogText": "This is the last level that you need to write code for. Set button \`3\` to be the \`addLime\` button, then create an \`addLime()\` function that adds \`1\` to both \`limes\` and \`total\`."
       		}, 
-      		"mission":"On line 8, set button \`3\` to be the \`addLime\` button. Then starting on line 20, create an \`addLime()\` function that adds \`1\` to both \`limes\` and \`total\`.",
+      		"mission":"On line 8, type \`3, addLime\` inside the \`()\`s of \`setButton()\`. On line 20, type \`function addLime(){}\`, then using RETURN or ENTER to create a new line between the \`{ }\`s type \`limes += 1;\` on the first line and \`total += 1;\` on the next one.",
       		"tools": "\`setButton(number, function)\`- assigns the given function to the given button\n\n\`apples\`- contains the number of apples\n\n\`oranges\`- contains the number of oranges\n\n\`limes\`- contains the number of limes\n\n\`total\`- contains the total number of fruit", 
-      		"tips": "\n\n    //line 8 should look like this\n    setButton(3, addLime)\n\n    //lines 20-23 should look like this\n    function addLime(){\n        limes +=1;\n        total +=1;\n    }"
+      		"tips": "\n\n    //line 8 should look like this\n    setButton(3, addLime)\n\n    //lines 20-23 should look like this\n    function addLime(){\n        limes +=1;\n        total +=1;\n    }",
+      		"quiz": [
+				{
+		          "questionId": "1b1d",
+		          "text": "Which choice below would create the variable \`brownies\` and give it a value of \`9\`?", 
+		          "a": "\`var brownies = 9;\`",
+		          "b": "\`variable = 9 brownies;\`",
+		          "c": "\`var = brownies 9;\`",  
+		          "d": "\`variable brownies = 9;\`"
+		        },
+		        {
+		          "questionId": "1b2d",
+		          "text": "If the variable \`strawberry\` has a value of \`5\` and the variable \`chocolate\` has a value of \`4\`, which choice below would have a value of \`9\`?", 
+		          "a": "\`strawberry + chocolate;\`",
+		          "b": "\`strawberry;\`",  
+		          "c": "\`chocolate;\`", 
+		          "d": "\`strawberry - chocolate;\`"
+		        },
+				{
+		          "questionId": "1b3d",
+		          "text": "Which would make a variable \`fruit\` and give it a value of the sum of \`apples\` and \`oranges\`?", 
+		          "a": "\`var apples = fruit - oranges;\`", 
+		          "b": "\`var oranges = fruit + apples;\`",
+		          "c": "\`var fruit = apples + oranges;\`", 
+		          "d": "\`var fruit = apples - oranges;\`", 
+		          
+		        },
+		        {
+		          "questionId": "1b4d",
+		          "text": "Which choice would give the variable \`number\` a value of \`10\`?", 
+		          "a": "\`var number = 7 + 3;\`", 
+		          "b": "\`var number = 6 - 6;\`", 
+		          "c": "\`var number = 12 + 2;\`", 
+		          "d": "\`var number = 8 - 2;\`"
+		        }
+      		]
 		},
 		{
 			"level": 6, 
