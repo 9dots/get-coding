@@ -1,0 +1,996 @@
+{
+  "levels": [
+      {
+        "level": 1,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "",
+            "words": ["fire"],
+            "position": ""
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "",
+            "words": ["fire"],
+            "position": ""
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          }
+        ], 
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton();\n\nfunction iceButton(){\n    \n}"
+        }, 
+        "directions": {
+          "dialogText": "We are going to make buttons to play the Magic Words game. Inside the \`()\`s of \`setButton()\`, type \`0, iceButton\`. Then inside the \`{ }\`s of the \`iceButton()\` function, type \`cast('ice')\`."
+        }, 
+        "mission":"On line 1, inside the \`()\`s of \`setButton()\`, type \`0, iceButton\`. Then on line 4, inside the \`{ }\`s of the \`iceButton()\` function, type \`cast('ice')\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice')\`- shoot ice at fire\n\n\`cast('fire')\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(0, iceButton);\n\n    function iceButton(){\n        cast('ice');\n    }"
+      
+      }, 
+      {
+        "level": 2,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          }
+        ], 
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            }
+          ],
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\n\n\nfunction iceButton(){\n    cast('ice');\n}\n\n"
+        }, 
+        "directions": {
+          "dialogText": "Great start! Let's keep going. Set button 1 to be a \`fireButton\` and then define a \`fireButton()\` function that calls \`cast('fire')\`."
+        }, 
+        "mission":"On line 2, type \`setButton(1, fireButton);\`. Then on line 8, type \`function fireButton(){}\`. Using the RETURN/ENTER button to create a new line between the \`{ }\`s, type \`cast('fire')\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice')\`- shoot ice at fire\n\n\`cast('fire')\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(1, fireButton);\n\n    function fireButton(){\n        cast('fire');\n    }"
+      }, 
+      {
+        "level": 3,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["foo"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\n\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\n"
+        }, 
+        "directions": {
+          "dialogText": "Ok! Now let's start adding gates. Set button 2 to be a \`fooButton\` and then define a \`fooButton()\` function that calls \`foo();\`."
+        }, 
+        "mission":"On line 3, type \`setButton(2, fooButton);\`. Then on line 13, type \`function fooButton(){}\`. Using the RETURN/ENTER button to create a new line between the \`{ }\`s, type \`foo();\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(2, fooButton);\n\n    function fooButton(){\n        foo();\n    }"
+      },
+      {
+        "level": 4,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["boo"],
+            "position": "down"
+          },
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\n\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\n"
+        }, 
+        "directions": {
+          "dialogText": "Ok! Let's keep going. Set button 3 to be a \`booButton\` and then define a \`booButton()\` function that calls \`boo();\`."
+        }, 
+        "mission":"On line 4, type \`setButton(3, booButton);\`. Then on line 18, type \`function booButton(){}\`. Using RETURN or ENTER to create a new line between the \`{ }\`s, type \`boo();\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(3, booButton);\n\n    function booButton(){\n        boo();\n    }"
+      },
+      {
+        "level": 5,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["boo", "foo"], 
+            "position": "up"
+          },
+          {
+            "type":"gate", 
+            "words": ["goo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\n\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\n"
+        }, 
+        "directions": {
+          "dialogText": "Ok! Only two more to go. Set button 4 to be a \`gooButton\` and then define a \`gooButton()\` function that calls \`goo();\`."
+        }, 
+        "mission":"On line 5, type \`setButton(4, gooButton);\`. Then on line 23, type \`function gooButton(){}\`. Using RETURN or ENTER to create a new line between the \`{ }\`s, type \`goo();\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(4, gooButton);\n\n    function gooButton(){\n        goo();\n    }"
+      },
+      {
+        "level": 6,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["boo", "goo"],
+            "position": "up"
+          },
+          {
+            "type": "gate",
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["loo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+        },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\n\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\n"
+        }, 
+        "directions": {
+          "dialogText": "Ok! LAST BUTTON! Set button 5 to be a \`looButton\` and then define a \`looButton()\` function that calls \`loo();\`."
+        }, 
+        "mission":"On line 6, type \`setButton(5, looButton);\`. Then on line 28, type \`function looButton(){}\`. Using RETURN or ENTER to create a new line between the \`{ }\`s, type \`loo();\`.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "Add these lines to your code: \n\n    setButton(5, looButton);\n\n    function looButton(){\n        loo();\n    }",
+        "quiz": [
+        {
+              "questionId": "1b1b",
+              "text": "Which choice below would create the variable \`fruit\` and give it a value of \`9\`?", 
+              "a": "\`variable = 9 fruit;\`",
+              "b": "\`var = fruit 9;\`", 
+              "c": "\`var fruit = 9;\`", 
+              "d": "\`variable fruit = 9;\`"
+            },
+            {
+              "questionId": "1b2a",
+              "text": "If the variable \`brownies\` has a value of \`4\` and the variable \`cookies\` has a value of \`6\`, which choice below would have a value of \`10\`?", 
+              "a": "\`brownies;\`",  
+              "b": "\`brownies + cookies;\`",
+              "c": "\`cookies;\`", 
+              "d": "\`brownies - cookies;\`"
+            },
+        {
+              "questionId": "1b3b",
+              "text": "Which would make a variable \`doughnuts\` and give it a value of the sum of \`chocolate\` and \`sprinkles\`?", 
+              "a": "\`var chocolate = doughnuts - sprinkles;\`", 
+              "b": "\`var sprinkles = doughnuts + chocolate;\`",
+              "c": "\`var doughnuts = chocolate - sprinkles;\`", 
+              "d": "\`var doughnuts = chocolate + sprinkles;\`", 
+            },
+            {
+              "questionId": "1b4a",
+              "text": "Which choice would give the variable \`number\` a value of \`12\`?", 
+              "a": "\`var number = 10 - 2;\`", 
+              "b": "\`var number = 13 + 1;\`", 
+              "c": "\`var number = 8 + 4;\`", 
+              "d": "\`var number = 6 - 6;\`"
+            }
+          ]
+      },
+      {
+        "level": 7,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["loo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "directions": {
+          "dialogText": "That's it! You've written all the code you need. From now on, just RUN the code and use the buttons to free the wizard!"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      },
+      {
+        "level": 8,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["loo", "boo"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["foo", "goo"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["goo", "loo"], 
+            "position": "up"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      },
+      {
+        "level": 9,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["fire"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["loo", "boo"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["goo", "foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["boo", "loo"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["foo", "goo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      },
+      {
+        "level": 10,
+        "obstacles": [
+          {
+            "type": "obstacle",
+            "words": ["ice"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["goo", "loo", "boo"],
+            "position": "down"
+          }, 
+          {
+            "type": "gate",
+            "words": ["loo", "boo", "foo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["boo", "foo", "goo"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["foo", "goo", "loo"], 
+            "position": "down"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["ice"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      },
+      {
+        "level": 11,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["boo"],
+            "position": "down"
+          },
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo", "goo"],
+            "position": "up"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo", "loo"], 
+            "position": "up"
+          },
+          {
+            "type":"gate", 
+            "words": ["loo", "boo"], 
+            "position": "up"
+          },
+          {
+            "type":"obstacle", 
+            "words": ["fire"], 
+            "position": "down"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      },
+      {
+        "level": 12,
+        "obstacles": [
+          {
+            "type": "gate",
+            "words": ["foo", "boo"],
+            "position": "up"
+          },
+          {
+            "type": "gate",
+            "words": ["boo", "foo"],
+            "position": "up"
+          }, 
+          {
+            "type": "gate",
+            "words": ["foo", "goo"],
+            "position": "down"
+          }, 
+          {
+            "type":"gate", 
+            "words": ["goo", "loo"], 
+            "position": "up"
+          },
+          {
+            "type":"gate", 
+            "words": ["loo", "boo"], 
+            "position": "down"
+          },
+          {
+            "type":"gate", 
+            "words": ["boo", "foo"], 
+            "position": "up"
+          }
+        ],
+        "powers": {
+          "moveNumber": false, 
+          "buttons": [
+            {
+             "name": "ice",
+             "fnName": "iceButton",
+             "set": false, 
+             "contents": "{cast('ice');}", 
+             "label": ""
+            },
+            {
+             "name": "fire",
+             "fnName": "fireButton",
+             "set": false, 
+             "contents": "{cast('fire');}", 
+             "label": ""
+            },
+            {
+             "name": "foo",
+             "fnName": "fooButton",
+             "set": false, 
+             "contents": "{foo();}", 
+             "label": "foo"
+            },
+            {
+             "name": "boo",
+             "fnName": "booButton",
+             "set": false, 
+             "contents": "{boo();}", 
+             "label": "boo"
+            },
+            {
+             "name": "goo",
+             "fnName": "gooButton",
+             "set": false, 
+             "contents": "{goo();}", 
+             "label": "goo"
+            },
+            {
+             "name": "loo",
+             "fnName": "looButton",
+             "set": false, 
+             "contents": "{loo();}", 
+             "label": "loo"
+            }
+          ]
+         },
+        "workspace": {
+          "codeSpace":"setButton(0, iceButton);\nsetButton(1, fireButton);\nsetButton(2, fooButton);\nsetButton(3, booButton);\nsetButton(4, gooButton);\nsetButton(5, looButton);\n\nfunction iceButton(){\n    cast('ice');\n}\n\nfunction fireButton(){\n    cast('fire');\n}\n\nfunction fooButton(){\n    foo();\n}\n\nfunction booButton(){\n    boo();\n}\n\nfunction gooButton(){\n    goo();\n}\n\nfunction looButton(){\n    loo();\n}"
+        }, 
+        "mission":"Run the code and use the buttons to free the wizard.", 
+        "tools": "\`setButton(number, function)\`- set a button to call a function\n\n\`cast('ice');\`- shoot ice at fire\n\n\`cast('fire');\`- shoot fire at ice\n\n\`foo()\`- toggle foo gates\n\n\`boo()\`- toggle boo gates\n\n\`goo()\`- toggle goo gates\n\n\`loo()\`- toggle loo gates",
+        "tips": "You must open any gates between the wizard and a fire or ice obstacle."
+      }
+    ]
+}

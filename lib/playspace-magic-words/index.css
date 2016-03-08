@@ -182,3 +182,53 @@
 [playspace-magic-words] .gate.down {
 	top: -24px;
 }
+
+[playspace-magic-words] .buttonHolder {
+  width: 630px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  background: url('/lib/playspace-squirrel/buttonPanel.png');
+  position: absolute;
+}
+
+[playspace-magic-words] .button {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  background: url('/lib/playspace-incrementor/btnUp.png');
+}
+
+[playspace-magic-words] .buttonLabel {
+  position: absolute;
+  left: 2px;
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  line-height: 2.8em;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+  color: #3e2a10;
+} 
+
+[playspace-magic-words] .button:active {
+  background: url('/lib/playspace-incrementor/btnDn.png');
+}
+
+[playspace-magic-words] .buttonLabel:active {
+  left: -3px;
+  top: 3px;
+}
+
+[playspace-magic-words] .iceButton {
+	background: url('iceButton.png') no-repeat;
+	background-size: 90% 90%;
+	background-position: 7px 3px;
+}
+
+[playspace-magic-words] .fireButton {
+	background: url('fireButton1.png') no-repeat;
+	background-size: 90% 90%;
+	background-position: 7px 3px;
+}

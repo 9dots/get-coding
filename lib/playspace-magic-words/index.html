@@ -20,5 +20,9 @@
 			<div class="spell"></div>
 		</div>
 	</div>
-
+	<div class="buttonHolder" ng-show='MagicWords.powers.buttons' layout= 'row' layout-align='center center'>
+  		<div class="button" ng-repeat="button in MagicWords.buttons" id="button{{$index}}">
+     	 <div class="buttonLabel" ng-class="{ {{button.name}}Button : button.set }">{{button.set ? button.label : $index}}</div>
+    </div>
+  </div>
 </div>
