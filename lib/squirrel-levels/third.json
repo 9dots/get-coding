@@ -32,7 +32,7 @@
 	  }, 
 	  "mission": "By calling the functions \`move(number)\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Type \`move(4);\` then \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
+      "tips": "Type \`move(4)\` then \`getAcorn()\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 2, 
@@ -66,7 +66,7 @@
 	  }, 
 	  "mission": "By calling the functions \`move(number)\`, \`up()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`up()\`- face up\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Type \`up();\`, then \`move(5);\`, then \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
+      "tips": "Type \`up()\`, then \`move(5)\`, then \`getAcorn()\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 3, 
@@ -100,7 +100,7 @@
 	  }, 
 	  "mission": "By calling the functions \`move(number)\`, \`up()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`up()\`- face up\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Type \`move(3);\`, then \`up();\`, then \`move(2);\`, and finally \`getAcorn();\`. Run your code. Pay attention to spelling, punctuation and capitalization!", 
+      "tips": "Type \`move(3)\`, then \`up()\`, then \`move(2)\`, and finally \`getAcorn()\`. Run your code. Pay attention to spelling, punctuation and capitalization!", 
       "quiz": [
           {
             "questionId": "1a3a",
@@ -151,7 +151,7 @@
 	  }, 
 	  "mission": "By calling the functions \`move(number)\`, \`up()\`, \`right()\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`up()\`- face up\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Type \`up()\`, then \`move(5);\`, then \`right();\`, then \`move(5);\`, and finally \`getAcorn();\`. Run your code. Pay attention to spelling, punctuation and capitalization!"
+      "tips": "Type \`up()\`, then \`move(5)\`, then \`right()\`, then \`move(5)\`, and finally \`getAcorn()\`. Run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 5, 
@@ -185,7 +185,7 @@
 	  }, 
 	  "mission": "By calling the functions \`move(number)\`, \`up()\`, \`right()\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`up()\`- face up\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Type  \`move(2);\`, then \`up();\`, then \`move(3);\`, then \`right();\`, then \`move(3);\` and finally \`getAcorn();\`. Run your code. Pay attention to spelling, punctuation and capitalization!"
+      "tips": "Type  \`move(2)\`, then \`up()\`, then \`move(3)\`, then \`right()\`, then \`move(3)\` and finally \`getAcorn()\`. Run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 6, 

@@ -13,9 +13,15 @@
         "rotation": 0
       },
       "workspace": {
-        "codeSpace":"function jumpAsteroid(){\n//write your code here\n}",
+        "codeSpace":"function jumpAsteroid(){\n\n}",
         "loc":5
-      }
+      },
+      "directions": {
+          "dialogText": "In this activity, we are going to create functions. In levels 1-5, we will write a \`jumpAsteroid()\` function that will allow the Space Ranger to jump over an asteroid and get the part on the other side."
+        },
+      "mission": "Inside the \`{ }\`s of the \`jumpAsteroid()\` function, write the code that will make the Space Ranger get the part. To run your function, add \`jumpAsteroid()\` under the last \`}\`.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function jumpAsteroid(){\n         rotate()\n         move()\n         getPart()\n     }\n\n     jumpAsteroid()"
     },
     {
       "level": 2,
@@ -30,9 +36,15 @@
         "rotation": 0
       },
       "workspace": {
-        "codeSpace":"function jumpAsteroid(){\n    rotate();\n    move();\n    getPart();\n\n}\n\njumpAsteroid();",
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    getPart()\n\n}\n\njumpAsteroid()",
         "loc":9
-      }
+      },
+      "directions": {
+          "dialogText": "Great! Let's keep working on our \`jumpAsteroid()\` function. Add a few more lines to it so the Space Ranger can get the part when it's above the asteroid."
+        },
+      "mission": "Inside the \`{ }\`s of the \`jumpAsteroid()\` function, add code that will make the Space Ranger get the part in its new location.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function jumpAsteroid(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     jumpAsteroid()"
     },
     {
       "level": 3,
@@ -47,9 +59,15 @@
         "rotation": 0
       },
       "workspace": {
-        "codeSpace":"function jumpAsteroid(){\n    rotate();\n    move();\n    rotate();\n    rotate();\n    rotate();\n    move();\n    getPart();\n\n}\n\njumpAsteroid();",
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\njumpAsteroid()",
         "loc":14      
-      }
+      },
+      "directions": {
+          "dialogText": "Almost done! Let's finish our \`jumpAsteroid()\` function. Add a few more lines to it so the Space Ranger can get the part when it's on the other side of the asteroid."
+        },
+      "mission": "Inside the \`{ }\`s of the \`jumpAsteroid()\` function, add code that will make the Space Ranger get the part in its new location.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function jumpAsteroid(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     jumpAsteroid()"
     },
     {
       "level": 4,
@@ -64,9 +82,15 @@
         "rotation": 0
       },
       "workspace": {
-        "codeSpace":"function jumpAsteroid(){\n    rotate();\n    move();\n    rotate();\n    rotate();\n    rotate();\n    move();\n    move();\n    rotate();\n    rotate();\n    rotate();\n    move();\n    getPart();\n}\n\njumpAsteroid();",
+        "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n\n}\n\njumpAsteroid()\njumpAsteroid()",
         "loc":16
-      }
+      },
+      "directions": {
+          "dialogText": "Excellent! But when we try to jump two asteroids in a row, it doesn't work. Can you add one more line to the \`jumpAsteroid()\` function to fix the problem?"
+        },
+      "mission": "Inside the \`{ }\`s of the \`jumpAsteroid()\` function, add one line of code that will allow the Space Ranger to jump two asteroids in a row.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function jumpAsteroid(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n         rotate()\n     }\n\n     jumpAsteroid()\n     jumpAsteroid()"
     },
     {
       "level": 5,
@@ -83,7 +107,13 @@
       "workspace": {
         "codeSpace":"function jumpAsteroid(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n    rotate()\n}\n\njumpAsteroid()\njumpAsteroid()",
         "loc":18
-      }
+      },
+      "directions": {
+          "dialogText": "You did it! Now that our \`jumpAsteroid()\` function works for two asteroids, there's no reason it won't work for three. Can you jump three asteroids by only adding one line of code?"
+        },
+      "mission": "Add just one line of code to make the Space Ranger jump three asteroids in a row.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function jumpAsteroid(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n         rotate()\n     }\n\n     jumpAsteroid()\n     jumpAsteroid()\n     jumpAsteroid()"
     },
     {
       "level": 6,
@@ -100,7 +130,13 @@
       "workspace": {
         "codeSpace":"function upStair(){\n    \n}", 
         "loc": 9
-      }
+      },
+      "directions": {
+          "dialogText": "Now that you know how to create a function, let's try a new one called \`upStair()\`. Between the \`{ }\`s, add code to make the Space Ranger get the part. Don't forget to call the function after you create it!"
+        },
+      "mission": "Between the \`{ }\`s, add code to make the Space Ranger get the part. Don't forget to call the function after you create it!",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
+      "tips": "Your code should look like this:\n\n     function upStair(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     upStair()"
     },
     {
       "level": 7,
@@ -117,7 +153,13 @@
       "workspace": {
         "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n\n}", 
         "loc":16
-      }
+      },
+      "directions": {
+          "dialogText": "Great! Now let's try add another new one called \`downStair()\`. Between the \`{ }\`s of \`downStair()\`, add code to make the Space Ranger get the part. Don't forget to call the function after you create it!"
+        },
+      "mission": "Between the \`{ }\`s, add code to make the Space Ranger get the part. Don't forget to call the function after you create it!",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick down a sphere", 
+      "tips": "Your code should look like this:\n\n     function upStair(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     function downStair(){\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n    downStair()"
     },
     {
       "level": 8,
@@ -134,7 +176,13 @@
       "workspace": {
         "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n",
         "loc":17
-      }
+      },
+      "directions": {
+          "dialogText": "Now that we've created an \`upStair()\` and a \`downStair()\` function, we can use them as much as we want! Add two lines of code to make the Space Ranger get both parts."
+        },
+      "mission": "Add two lines of code to make the Space Ranger get both parts.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick down a sphere", 
+      "tips": "Your code should look like this:\n\n     function upStair(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     function downStair(){\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n    upStair()\n    downStair()"
     },
     {
       "level": 9,
@@ -149,9 +197,15 @@
         "rotation": 0
       },
       "workspace": {
-        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n",
+        "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n    \n}\n\nupStair()\nupStair()\ndownStair()\ndownStair()",
         "loc":20
-      }
+      },
+      "directions": {
+          "dialogText": "Houston, we have a problem! When we try to use multiple \`upStair()\` and \`downStair()\` calls, it doesn't work. Can you fix the problem with only one line of code?"
+        },
+      "mission": "Add one line of code to the \`downStair()\` function to fix the code.",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick down a sphere", 
+      "tips": "Your code should look like this:\n\n     function upStair(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     function downStair(){\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n         rotate()\n     }\n\n    upStair()\n    upStair()\n    downStair()\n    downStair()"
     },
     {
       "level": 10,
@@ -168,7 +222,13 @@
       "workspace": {
         "codeSpace":"function upStair(){\n    rotate()\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n}\n\nfunction downStair(){\n    move()\n    rotate()\n    rotate()\n    rotate()\n    move()\n    getPart()\n    rotate()\n}\n",
         "loc":24
-      }
+      },
+      "directions": {
+          "dialogText": "Great! Now let's use our \`upStair()\` and \`downStair()\` functions to navigate the asteroid field and collect all the parts!"
+        },
+      "mission": "Use your \`upStair()\` and \`downStair()\` functions to navigate the asteroid field and collect all the parts!",
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick down a sphere", 
+      "tips": "Your code should look like this:\n\n     function upStair(){\n         rotate()\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n     }\n\n     function downStair(){\n         move()\n         rotate()\n         rotate()\n         rotate()\n         move()\n         getPart()\n         rotate()\n     }\n\n    downStair()\n    upStair()\n    upStair()\n    downStair()\n    downStair()\n    upStair()"
     }
   ]
 }

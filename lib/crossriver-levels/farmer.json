@@ -35,7 +35,7 @@
 		}
 	  },
 	  "workspace": {
-          "codeSpace": "pickUp();"
+          "codeSpace": "pickUp()"
         },
 	  "directions":{
 	  	"dialogText": "Let's start out by moving the \`'chicken'\` to the other side of the river. Type \`'chicken'\` between the \`()\` in the \`pickUp()\` function."
@@ -80,7 +80,7 @@
 	 		],
 	 	},
 	 	"workspace": {
-          "codeSpace": "pickUp('chicken');"
+          "codeSpace": "pickUp('chicken')"
         },
 	  "directions":{
 	  	"dialogText": "Now add \`crossRiver()\` and \`dropOff('chicken')\` to your code to move the chicken to the other side of the river."
@@ -148,10 +148,10 @@
             "image": "squirrel2-quiz2-image",
               "questionId": "1a2b",
               "text": "Which code below will make the squirrel get the acorn?", 
-              "a": "up();\n\ngetAcorn();", 
-              "b": "getAcorn();\n\nup();", 
-              "c": "move();\n\nup();", 
-              "d": "move();\n\ngetAcorn();"
+              "a": "up()\n\ngetAcorn()", 
+              "b": "getAcorn()\n\nup()", 
+              "c": "move()\n\nup()", 
+              "d": "move()\n\ngetAcorn()"
           }, {
             "questionId": "1a3a",
             "text": "Which of the following could NOT be a function name?", 

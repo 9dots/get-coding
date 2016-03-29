@@ -31,13 +31,13 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\n\nfunction getAcornButton(){\n    \n}"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\n\nfunction getAcornButton(){\n    \n}"	  }, 
 	  "directions": {
-			"dialogText":"Let's program our first button! Write \`getAcorn();\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then press the button!"
+			"dialogText":"Let's program our first button! Write \`getAcorn()\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then press the button!"
 	  }, 
-	  "mission": "Write \`getAcorn();\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then use the button to get the acorn.",
+	  "mission": "Write \`getAcorn()\` between the \`{  }\`s in the \`getAcornButton()\` function and run your code to set Button 1. Then use the button to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function getAcornButton(){\n         getAcorn();\n    }"
+      "tips": "Your code should look like this:\n\n    function getAcornButton(){\n         getAcorn()\n    }"
 	},
 	{
 	  "level": 2, 
@@ -75,13 +75,13 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    \n}"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    \n}"	  }, 
 	  "directions": {
-			"dialogText":"Good job! Now let's make a MOVE button. We've written most of the code for you. Just add \`move();\` between the \`{ }\`s in the \`moveButton()\` function. Then run your code and use your buttons!"
+			"dialogText":"Good job! Now let's make a MOVE button. We've written most of the code for you. Just add \`move()\` between the \`{ }\`s in the \`moveButton()\` function. Then run your code and use your buttons!"
 	  }, 
-	  "mission": "Write \`move();\` between the \`{  }\`s in the \`moveButton()\` function and run your code to the buttons. Then use the buttons to get the acorn.",
+	  "mission": "Write \`move()\` between the \`{  }\`s in the \`moveButton()\` function and run your code to the buttons. Then use the buttons to get the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function moveButton(){\n         move();\n    }"
+      "tips": "Your code should look like this:\n\n    function moveButton(){\n         move()\n    }"
 	},
 	{
 	  "level": 3, 
@@ -124,13 +124,13 @@
 	  	]
 	   },
 	  "workspace": {
-"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction "	  }, 
+"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\nsetButton(3, leftButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    move()\n}\n\nfunction "	  }, 
 	  "directions": {
 			"dialogText":"OK! This time you will have to write a little more code. To set button 3, you need to create a function called \`leftButton()\` which turns the squirrel \`left()\`. We've started you off with \`function \`. You finish it!"
 	  }, 
-	  "mission": "After \`function\` write \`leftButton(){}\`. Then BETWEEN the \`{ }\`s, write \`left();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+	  "mission": "After \`function\` write \`leftButton(){}\`. Then BETWEEN the \`{ }\`s, write \`left()\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function leftButton(){\n         left();\n    }"
+      "tips": "Your code should look like this:\n\n    function leftButton(){\n         left()\n    }"
 	},
 	{
 	  "level": 4, 
@@ -178,13 +178,13 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\n"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\nsetButton(3, leftButton)\nsetButton(4, rightButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    move()\n}\n\nfunction leftButton(){\n    left()\n}\n\n"	  }, 
 	  "directions": {
 			"dialogText":"You are ready to create a function all by yourself. To set button 4, you need to create a function called \`rightButton()\` which turns the squirrel \`right()\`. Add it below the code that's already there."
 	  }, 
-	  "mission": "On line 18, write \`function rightButton(){}\`. Then BETWEEN the \`{ }\`s, write \`right();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+	  "mission": "On line 18, write \`function rightButton(){}\`. Then BETWEEN the \`{ }\`s, write \`right()\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function rightButton(){\n         right();\n    }",
+      "tips": "Your code should look like this:\n\n    function rightButton(){\n         right()\n    }",
       "quiz": [
         {
           "questionId": "1b4b",
@@ -247,13 +247,13 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\n"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\nsetButton(3, leftButton)\nsetButton(4, rightButton)\nsetButton(5, upButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    move()\n}\n\nfunction leftButton(){\n    left()\n}\n\nfunction rightButton(){\n    right()\n}\n\n"	  }, 
 	  "directions": {
 			"dialogText":"Well, you probably know the drill by now! Create a \`function\` called \`upButton()\` that makes the squirrel face up."
 	  }, 
-	  "mission": "On line 23, write \`function upButton(){}\`. Then BETWEEN the \`{ }\`s, write \`up();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+	  "mission": "On line 23, write \`function upButton(){}\`. Then BETWEEN the \`{ }\`s, write \`up()\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function upButton(){\n         up();\n    }"
+      "tips": "Your code should look like this:\n\n    function upButton(){\n         up()\n    }"
 	},
 	{
 	  "level": 6, 
@@ -311,13 +311,13 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\nsetButton(3, leftButton)\nsetButton(4, rightButton)\nsetButton(5, upButton)\nsetButton(6, downButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    move()\n}\n\nfunction leftButton(){\n    left()\n}\n\nfunction rightButton(){\n    right()\n}\n\nfunction upButton(){\n    up()\n}"	  }, 
 	  "directions": {
 			"dialogText":"OK! Last button! Create a function called \`downButton()\` that makes the squirrel face \`down()\`. Then run it and use those buttons!"
 	  }, 
-	  "mission": "On line 28, write \`function downButton(){}\`. Then BETWEEN the \`{ }\`s, write \`down();\` on a new line. When you are done, run the code and use the buttons to pass the level.",
+	  "mission": "On line 28, write \`function downButton(){}\`. Then BETWEEN the \`{ }\`s, write \`down()\` on a new line. When you are done, run the code and use the buttons to pass the level.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn\n\n\`setButton(number, function)\`- set button by number", 
-      "tips": "Your code should look like this:\n\n    function downButton(){\n         down();\n    }"
+      "tips": "Your code should look like this:\n\n    function downButton(){\n         down()\n    }"
 	},
 	{
 	  "level": 7, 
@@ -375,7 +375,7 @@
 	  	]
 	   },
 	  "workspace": {
-			"codeSpace":"setButton(1, getAcornButton);\nsetButton(2, moveButton);\nsetButton(3, leftButton);\nsetButton(4, rightButton);\nsetButton(5, upButton);\nsetButton(6, downButton);\n\nfunction getAcornButton(){\n    getAcorn();\n}\n\nfunction moveButton(){\n    move();\n}\n\nfunction leftButton(){\n    left();\n}\n\nfunction rightButton(){\n    right();\n}\n\nfunction upButton(){\n    up();\n}\n\nfunction downButton(){\n    down();\n}"	  }, 
+			"codeSpace":"setButton(1, getAcornButton)\nsetButton(2, moveButton)\nsetButton(3, leftButton)\nsetButton(4, rightButton)\nsetButton(5, upButton)\nsetButton(6, downButton)\n\nfunction getAcornButton(){\n    getAcorn()\n}\n\nfunction moveButton(){\n    move()\n}\n\nfunction leftButton(){\n    left()\n}\n\nfunction rightButton(){\n    right()\n}\n\nfunction upButton(){\n    up()\n}\n\nfunction downButton(){\n    down()\n}"	  }, 
 	  "directions": {
 			"dialogText":"Good work! No new code to write on this level. Just play around!"
 	  }, 

@@ -24,7 +24,7 @@
         }
       },
       "workspace": {
-        "codeSpace":"var apples = 9;\nvar oranges = 6;\nvar fruit = apples + oranges;"      }, 
+        "codeSpace":"var apples = 9;\nvar oranges = 6;\nvar fruit = ;"      }, 
       "directions": {
         "dialogText": "Let's do some addition! We have declared a variable called \`fruit\`. Give it the correct number value by adding \`apples\` and \`oranges\` using the \`+\` sign."
       }, 

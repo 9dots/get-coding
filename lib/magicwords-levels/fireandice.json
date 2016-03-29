@@ -20,7 +20,7 @@
           }
         ], 
         "workspace": {
-          "codeSpace": "foo();\ncast('');\ngoo();"
+          "codeSpace": "foo()\ncast('')\ngoo()"
         }, 
         "directions": {
           "dialogText": "We've written some code to get you through this level. Add \`fire\` between the \`''\` in \`cast('')\` then run the code."
@@ -50,7 +50,7 @@
           }
         ], 
         "workspace": {
-          "codeSpace": "cast('');\ngoo();\ncast('');"
+          "codeSpace": "cast('')\ngoo()\ncast('')"
         }, 
         "directions": {
           "dialogText": "This time, fill in \`fire\` and \`ice\` into each \`cast('')\` to pass this level."

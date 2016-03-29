@@ -26,7 +26,7 @@
           "dialogText": "Each gate has a magic word on it. Say the words in the right order to open all the gates. Don't forget to use \` () \`!!!"
         }, 
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       }, 
       {
@@ -52,7 +52,7 @@
           "codeSpace": ""
         }, 
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -78,7 +78,7 @@
           "codeSpace": ""
         },
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -104,7 +104,7 @@
           "codeSpace": ""
         },
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -136,7 +136,7 @@
           "codeSpace": ""
         },
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way.",
         "quiz": [
           {
@@ -186,7 +186,7 @@
           "codeSpace": ""
         },
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -221,7 +221,7 @@
           "dialogText": "This time, you can only use TWO WORDS to get all the gates open."
         },
         "mission":"Have the wizard open all the gates using ONLY two words!", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -256,7 +256,7 @@
           "dialogText": "Open all the gates with only TWO words."
         },
         "mission":"Have the wizard open all the gates using ONLY two words!", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -296,7 +296,7 @@
           "dialogText": "Open all the gates with only TWO words."
         },
         "mission":"Have the wizard open all the gates using ONLY two words!", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
       {
@@ -341,7 +341,7 @@
           "dialogText": "Ok! Since this is the hardest one, you can use THREE words this time."
         },
         "mission":"Have the wizard open all the gates using only THREE words!", 
-        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\` and a semicolon \`;\`.",
+        "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       }
     ]

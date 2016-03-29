@@ -24,7 +24,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-	  	"codeSpace":"move(3);\nright;\nmove(4);\ngetAcorn();"
+	  	"codeSpace":"move(3)\nright\nmove(4)\ngetAcorn()"
 	  }, 
 	  "directions": {
 			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
@@ -57,7 +57,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-	  	"codeSpace":"move();\nup();\nmove();\nright();\nmove();\ngetAcorn();"
+	  	"codeSpace":"move()\nup()\nmove()\nright()\nmove()\ngetAcorn()"
 	  },  
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
@@ -87,7 +87,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-	  	"codeSpace":"move(4);\nup();\nmove(4);\nright();\nmove();\ngetacorn();\nmove(2);\ngetacorn();\nmove(2);\ngetacorn();"
+	  	"codeSpace":"move(4)\nup()\nmove(4)\nright()\nmove()\ngetacorn()\nmove(2)\ngetacorn()\nmove(2)\ngetacorn()"
 	  },  
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
@@ -117,7 +117,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-		"codeSpace":"move(4):\nmove(3):\ngetAcorn():\nright():\nmove(4):\ngetAcorn():"	  
+		"codeSpace":"move(4)\nmove(3)\ngetAcorn()\nright()\nmove(4)\ngetAcorn()"	  
 	  },  
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
@@ -147,7 +147,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-		"codeSpace":"up(6);\nright();\nmove(6);\ndown();\nmove(5);\nleft(4);\ngetacorn();"	  },  
+		"codeSpace":"up(6)\nright()\nmove(6)\ndown()\nmove(5)\nleft(4)\ngetacorn()"	  },  
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc.",
@@ -163,10 +163,10 @@
             "image": "squirrel2-quiz-image",
               "questionId": "1a2b",
               "text": "Which code below will make the squirrel get the acorn?", 
-              "a": "move();\n\ndown();", 
-              "b": "down();\n\ngetAcorn();", 
-              "c": "move();\n\ngetAcorn();", 
-              "d": "getAcorn();\n\nmove();"
+              "a": "move()\n\ndown()", 
+              "b": "down()\n\ngetAcorn()", 
+              "c": "move()\n\ngetAcorn()", 
+              "d": "getAcorn()\n\nmove()"
           }, {
             "questionId": "1a3a",
             "text": "Which of the following could NOT be a function name?", 
@@ -208,7 +208,7 @@
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-	  	"codeSpace":"move():\ngetAcorn();\nup(2);\ngetAcorn();\nmove(2);\ngetacorn();\nright;\nmove(3);\ngetAcorn();\nmove(2);\ngetAcorn();\nmove(2);\ngetacorn();\nright;\nmove(2):\nup;\nmove();\ngetAcorn();\nmove(2);\ngetacorn();\nmove(2);\ngetAcorn();"	
+	  	"codeSpace":"move()\ngetAcorn()\nup(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(3)\ngetAcorn()\nmove(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(2)\nup\nmove()\ngetAcorn()\nmove(2)\ngetacorn()\nmove(2)\ngetAcorn()"	
 	  	},  
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
       "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
