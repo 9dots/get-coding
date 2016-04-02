@@ -1,0 +1,240 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "level": 1,
+        "board": {
+          "choices": ["walk", "walks"],
+          "sentences" : [
+            "Rosa ______ to school every day.", 
+            "Do you ______ to school?"
+          ],
+          "variables": ["word1", "word2"], //all variables
+          "values": ["walks", "walk"], //values for check purposes
+          "showValues": [null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":"var word1 = '';\nvar word2 = '';"     
+      }, 
+      "directions": {
+        "dialogText": "In this activity, we are going to store text, or string, values in our variables. In the code panel, type the correct words between the apostrophes (\`' '\`) then run your code to check it."
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between the apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'walks';\n    var word2 = 'walk';"
+    },
+    {
+      "playspace": {
+        "level": 2,
+        "board": {
+          "choices": ["then", "than"],
+          "sentences" : [
+            "Ali likes cake more ______ pie.", 
+            "I brush my teeth ______ go to bed.",
+
+          ],
+          "variables": ["word1", "word2"], //all variables
+          "values": ["than", "then"], //values for check purposes
+          "showValues": [null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":"var word1 = ;\nvar word2 = ;"     
+      }, 
+      "directions": {
+        "dialogText": "Give each variable the correct string value based on the sentences on the board. This time, you will have to type the apostrophes (\`' '\`) yourself."
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'than';\n    var word2 = 'then';"
+    },
+    {
+      "playspace": {
+        "level": 3,
+        "board": {
+          "choices": ["there", "their"],
+          "sentences" : [
+            "The twins love ______ dog.", 
+            "Your lunch is ______ on the table.",
+          ],
+          "variables": ["word1", "word2"], //all variables
+          "values": ["their", "there"], //values for check purposes
+          "showValues": [null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "directions": {
+        "dialogText": "Ok! Looks like you've got the hang of it. From now on, you will have to write all the code yourself. Good luck!"
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'their';\n    var word2 = 'there';"
+    },
+    {
+      "playspace": {
+        "level": 4,
+        "board": {
+          "choices": ["to", "two", "too"],
+          "sentences" : [
+            "Eli wants ______ get a puppy.",
+            "His sister wants one ______.",
+            "Jose wants ______ puppies."
+          ],
+          "variables": ["word1", "word2", "word3"], //all variables
+          "values": ["to", "too", "two"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'too';\n    var word2 = 'two';"
+    },
+    {
+      "playspace": {
+        "level": 5,
+        "board": {
+          "choices": ["fast", "faster", "fastest"],
+          "sentences" : [
+            "What's the ______ animal?",
+            "The cheetah is definitely very ______,",
+            "but the falcon is even ______."
+          ],
+          "variables": ["word1", "word2", "word3"], //all variables
+          "values": ["fastest", "fast", "faster"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'fastest';\n    var word2 = 'fast';\n    var word3 = 'faster';"
+    },
+    {
+      "playspace": {
+        "level": 6,
+        "board": {
+          "choices": ["plays", "played", "will play"],
+          "sentences" : [
+            "John _______ basketball yesterday,", 
+            "and he _______ basketball tomorrow.",
+            "John _______ basketball all the time."
+          ],
+          "variables": ["word1", "word2", "word3"], //all variables
+          "values": ["played", "will play", "plays"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'played';\n    var word2 = 'will play';\n    var word3 = 'plays';"
+    },
+    {
+      "playspace": {
+        "level": 7,
+        "board": {
+          "choices": ["at", "for", "from", "to"],
+          "sentences" : [
+            "Lisa went ______ the grocery store.",
+            "Ricky is ______ New York City.",
+            "I left my bag ______ school.",
+            "The vacation lasted ______ five days.",
+
+          ],
+          "variables": ["word1", "word2", "word3", "word4"], //all variables
+          "values": ["to", "from", "at", "for"], //values for check purposes
+          "showValues": [null, null,null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'from';\n    var word3 = 'at';\n    var word4 = 'for';"
+    },
+    {
+      "playspace": {
+        "level": 8,
+        "board": {
+          "choices": ["wash", "washed", "then", "than"],
+          "sentences" : [
+            "First we ate our dinner, ______ we ", 
+            "______ the dishes. I think that it is",
+            "more fun to eat food  ______  it is to",
+            "______ dirty dishes."
+
+          ],
+          "variables": ["word1", "word2", "word3", "word4"], //all variables
+          "values": ["then", "washed", "than", "wash"], //values for check purposes
+          "showValues": [null, null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'then';\n    var word2 = 'washed';\n    var word3 = 'than';\n    var word4 = 'wash';"
+    },
+    {
+      "playspace": {
+        "level": 9,
+        "board": {
+          "choices": ["take", "took", "there", "their"],
+          "sentences" : [
+            "Once we ______ a trip to the Grand ",
+            "Canyon. When we got ______, a family",
+            "asked my father if he would ______",
+            "______ picture. He happily agreed."
+
+          ],
+          "variables": ["word1", "word2", "word3", "word4"], //all variables
+          "values": ["took", "there", "take", "their"], //values for check purposes
+          "showValues": [null, null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'took';\n    var word2 = 'there';\n    var word3 = 'take';\n    var word4 = 'their';"
+    },
+    {
+      "playspace": {
+        "level": 10,
+        "board": {
+          "choices": ["then", "than", "to", "too", "two"],
+          "sentences" : [
+            "Lindy went ______ a new store today.", 
+            "She needed ______ loaves of bread, but",
+            "but they cost ______ much! This store",
+            "was definitely more expensive ______",
+            "her old store. ______ she left."
+
+          ],
+          "variables": ["word1", "word2", "word3", "word4", "word5"], //all variables
+          "values": ["to", "two", "too", "than", "then"], //values for check purposes
+          "showValues": [null, null, null, null, null],//values to show in playspace initially
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.", 
+      "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values\n\n\`word5\`- variable meant to hold string values", 
+      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'two';\n    var word3 = 'too';\n    var word4 = 'than';\n    var word5 = 'then';"
+    }
+  ]
+}

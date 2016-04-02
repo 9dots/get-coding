@@ -1,0 +1,24 @@
+<div class='background'>
+	<div class="choicesBox" layout="row" layout-align= "space-around center">
+		<div class="choice" ng-repeat="choice in VariablesAndStrings.choices">{{choice}}</div>
+	</div>
+
+	<div class="paragraph" layout="column" layout-align="space-around center">
+		<div class="duplicateSentence" ng-repeat="sentence in VariablesAndStrings.duplicateSentences track by $index" 
+		ng-class= "{'highlight' : VariablesAndStrings.declared[$index]}">{{sentence}}</div>
+	</div>
+
+	<div class="paragraph" layout="column" layout-align="space-around center">
+		<div class="sentence" ng-repeat="sentence in VariablesAndStrings.sentences">{{sentence}}</div>
+	</div>
+
+	<div class="variableBox {{VariablesAndStrings.background}}" layout="row" layout-align="space-around center">
+		<div class="variable" ng-repeat="variable in VariablesAndStrings.variableNames" >
+			<div class="varName">{{variable}}</div>
+			<div class="varValue">{{VariablesAndStrings.variables[variable]}}</div>
+		</div>
+	</div>
+
+	<div class="foreground"></div>
+</div>
+

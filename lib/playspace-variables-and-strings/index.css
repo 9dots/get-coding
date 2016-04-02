@@ -1,0 +1,102 @@
+[playspace-variables-and-strings] .background {
+	position: relative;
+	width: 630px;
+	height: 630px;
+	background: url('background.png') no-repeat;
+}
+
+[playspace-variables-and-strings] .foreground {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 630px;
+	height: 630px;
+	background: url('foreground.png') no-repeat;
+}
+
+[playspace-variables-and-strings] .choicesBox {
+	position: absolute;
+	width: 584px;
+	height: 52px;
+	left: 23px;
+	top: 65px;
+}
+
+[playspace-variables-and-strings] .choice {
+	font-family: "Chalkboard";
+	font-size: 36pt;
+	color: #47ad6d;
+}
+
+[playspace-variables-and-strings] .paragraph {
+	position: absolute;
+	width: 570px;
+	height: 187px;
+	left: 37px;
+	top: 115px;
+}
+
+[playspace-variables-and-strings] .sentence {
+	font-size: 30px;
+	color: #0b1a36;
+	font-family: "Chalkboard";
+	text-align: left;
+	width: 100%;
+}
+
+[playspace-variables-and-strings] .duplicateSentence {
+	font-size: 30px;
+	color: #b3b3b3;
+	font-family: "Chalkboard";
+	text-align: left;
+	width: 100%;
+	white-space: pre;
+}
+
+[playspace-variables-and-strings] .highlight {
+	color: #47ad6d;
+}
+
+[playspace-variables-and-strings] .variableBox {
+	position: relative;
+	left: 0px;
+	top: 282px;
+	width: 630px;
+	height: 315px;
+}
+
+[playspace-variables-and-strings] .variable {
+	width: 123px;
+	height: 315px;
+	background: url('/lib/playspace-variables-and-numbers/var-man.png') no-repeat;
+	background-position: -20px 3px;
+	position: relative;
+}
+
+[playspace-variables-and-strings] .varName {
+	width: 120px;
+	height: 21px;
+	color: white;
+	font: 16px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: 1px;
+	top:114px;
+}
+
+[playspace-variables-and-strings] .varValue {
+	width: 99px;
+	height: 86px;
+	color: #47ad6d;
+	background: white;
+	font-size: 21.5px;
+	line-height: 4em;
+	font-family: 'Helvetica';
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: 11px;
+	top:147px;
+	overflow: hidden;
+}
