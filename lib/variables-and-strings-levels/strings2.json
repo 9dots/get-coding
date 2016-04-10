@@ -1,0 +1,336 @@
+{
+  "levels": [
+    {
+      "playspace": {
+        "level": 1,
+        "activity": "appletree",
+        "board": {
+          "choices": ["word1", "word2"],
+          "words": ["shoe", "horse"],//the values that will be assigned, also the check function
+          "variables": ["compound1"], //all variables
+          "values": ["horseshoe"], //values for check purposes
+          "showValues": [null],//values to show in playspace initially
+          "setVars": ["word1", "word2"],//variables that can't change
+          "setVals": ["horse", "shoe"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2, 
+            "word2": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":"var compound1 = word1;"    
+      }, 
+      "directions": {
+        "dialogText": "We have hidden the values of some \`word\` variables, but luckily we can pass values from one variable to another. Use the \`+\` operator to combine \`word1\` and \`word2\` in the \`compound1\` variable."
+      }, 
+      "mission": "Use the \`+\` operator to combine \`word1\` and \`word2\` and create a longer word in the \`compound1\` variable.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value", 
+      "tips": "Your code should look like this:\n\n     var compound1 = word2 + word1;"
+    },
+    {
+      "playspace": {
+        "level": 2,
+        "activity": "beach",
+        "board": {
+          "choices": ["word1", "word2", "word3"],
+          "words":["brush", "fish", "tooth"],
+          "variables": ["compound1"], //all variables
+          "values": ["toothbrush"], //values for check purposes
+          "showValues": [null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3"],//variables that can't change
+          "setVals": ["brush", "fish", "tooth"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2, 
+            "word2": 0, 
+            "word3": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":"var compound1 = word1;"     
+      }, 
+      "directions": {
+        "dialogText": "Good work! Let's add another hidden \`word\` variable. Give \`compound1\` a value by combining two of the \`word\` variables using the \`+\` operator."
+      }, 
+      "mission": "Give \`compound1\` a value by combining two of the \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value", 
+      "tips": "The word you're looking for is something the dentist might give you."
+    },
+    {
+      "playspace": {
+        "level": 3,
+        "activity": "pool",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["fire", "board", "dog", "skate"],
+          "variables": ["compound1"], //all variables
+          "values": ["skateboard"], //values for check purposes
+          "showValues": [null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3", "word4"],//variables that can't change
+          "setVals": ["fire", "board", "dog", "skate"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 0, 
+            "word2": 2,
+            "word3": 0,
+            "word4": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0,
+            "word3": 0,
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":"var compound1 = word1;"     
+      }, 
+      "mission": "Give \`compound1\` a value by combining two of the \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "The word you're looking for is something you can ride."
+    },
+    {
+      "playspace": {
+        "level": 4,
+        "activity": "appletree",
+        "board": {
+          "choices": ["word1", "word2", "word3"],
+          "words": ["dog", "hot", "house"],
+          "variables": ["compound1", "compound2"], //all variables
+          "values": ["hotdog", "doghouse"], //values for check purposes
+          "showValues": [null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3"],//variables that can't change
+          "setVals": ["dog", "hot", "house"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 4, 
+            "word2": 2, 
+            "word3": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0,
+            "word3": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":"var compound1 = ;\nvar compound2 = ;"      
+      }, 
+      "directions": {
+        "dialogText": "Great! Now can you make TWO different \`compounds\` by combining \`word\` variables?"
+      }, 
+      "mission": "Give \`compound1\` and \`compound2\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value", 
+      "tips": "The first word is something you eat.\n\nThe second word is a very small building."
+    },
+    {
+      "playspace": {
+        "level": 5,
+        "activity": "beach",
+        "board": {
+          "choices": ["word1", "word2", "word3"],
+          "words": ["house", "light", "flash"],
+          "variables": ["compound1", "compound2"], //all variables
+          "values": ["flashlight", "lighthouse"], //values for check purposes
+          "showValues": [null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3"],//variables that can't change
+          "setVals": ["house", "light", "flash"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2, 
+            "word2": 4,
+            "word3": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0,
+            "word3": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "Give \`compound1\` and \`compound2\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value", 
+      "tips": "Both words are things that help you find your way in the dark."
+    },
+    {
+      "playspace": {
+        "level": 6,
+        "activity": "pool",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["ball", "base", "basket", "foot"],
+          "variables": ["compound1", "compound2", "compound3"], //all variables
+          "values": ["baseball", "basketball", "football"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3" ,"word4"],//variables that can't change
+          "setVals": ["ball", "base", "basket", "foot"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 6, 
+            "word2": 2, 
+            "word3": 2, 
+            "word4": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0, 
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":"var compound1 = ;\nvar compound2 = ;\nvar compound3 = ;"      
+      }, 
+      "directions": {
+        "dialogText": "Ok! You're doing great so far! Do you think you can make THREE different \`compound\` words this time?"
+      }, 
+      "mission": "Give \`compound1\`,  \`compound2\`, and \`compound3\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "All three compound words are items used in playing sports."
+    },
+    {
+      "playspace": {
+        "level": 7,
+        "activity": "appletree",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["flake", "ball", "snow", "man"],
+          "variables": ["compound1", "compound2", "compound3"], //all variables
+          "values": ["snowflake", "snowball", "snowman"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3" ,"word4"],//variables that can't change
+          "setVals": ["flake", "ball", "snow", "man"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2,
+            "word2": 2, 
+            "word3": 6, 
+            "word4": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0, 
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "Give \`compound1\`,  \`compound2\`, and \`compound3\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "All three compound words are things you find in very cold weather."
+    },
+    {
+      "playspace": {
+        "level": 8,
+        "activity": "beach",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["shore", "shell", "star", "sea"],
+          "variables": ["compound1", "compound2", "compound3"], //all variables
+          "values": ["seashell", "seastar", "seashore"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3" ,"word4"],//variables that can't change
+          "setVals": ["shore", "shell", "star", "sea"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2,
+            "word2": 2, 
+            "word3": 2, 
+            "word4": 6
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0, 
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "Give \`compound1\`,  \`compound2\`, and \`compound3\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "All three compound words are things you might find at the beach."
+    },
+    {
+      "playspace": {
+        "level": 9,
+        "activity": "pool",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["bag", "jelly", "bean", "fish"],
+          "variables": ["compound1", "compound2", "compound3"], //all variables
+          "values": ["jellyfish", "jellybean", "beanbag"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3" ,"word4"],//variables that can't change
+          "setVals": ["bag", "jelly", "bean", "fish"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2,
+            "word2": 4, 
+            "word3": 4, 
+            "word4": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0, 
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "Give \`compound1\`,  \`compound2\`, and \`compound3\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "These words are all very different. One is sweet, one is soft, and one can sting you."
+    },
+    {
+      "playspace": {
+        "level": 10,
+        "activity": "appletree",
+        "board": {
+          "choices": ["word1", "word2", "word3" ,"word4"],
+          "words": ["camp", "works", "fire", "fly"],
+          "variables": ["compound1", "compound2", "compound3"], //all variables
+          "values": ["campfire", "firefly", "fireworks"], //values for check purposes
+          "showValues": [null, null, null],//values to show in playspace initially
+          "setVars": ["word1", "word2", "word3" ,"word4"],//variables that can't change
+          "setVals": ["camp", "works", "fire", "fly"],//values for non-changing variables
+          "requiredCalls": {
+            "word1": 2,
+            "word2": 2, 
+            "word3": 6, 
+            "word4": 2
+          }, 
+          "numberCalls": {
+            "word1": 0,
+            "word2": 0, 
+            "word3": 0, 
+            "word4": 0
+          }
+        }
+      },
+      "workspace": {
+        "codeSpace":""     
+      }, 
+      "mission": "Give \`compound1\`,  \`compound2\`, and \`compound3\` values by combining \`word\` variables using the \`+\` operator.", 
+      "tools": "\`compound1\`- empty variable\n\n\`word1\`- variable with a hidden string value\n\n\`word2\`- variable with a hidden string value\n\n\`word3\`- variable with a hidden string value\n\n\`word4\`- variable with a hidden string value", 
+      "tips": "No hints on this one. You're on your own!"
+    }
+  ]
+}

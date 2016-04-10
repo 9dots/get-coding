@@ -2,5 +2,6 @@
   "name": "strings1",
   "title": "String Values",
   "description": "Declare variables and give them string, or text, values.",
-  "author": "Ryan Baber"
+  "author": "Ryan Baber", 
+  "database": "1c2"
 }

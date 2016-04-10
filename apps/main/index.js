@@ -66,7 +66,8 @@ var module = angular.module(name, [
   require('apps/counter'), 
   require('apps/frogjump-btns'), 
   require('apps/magic-words-buttons'), 
-  require('apps/strings1')
+  require('apps/strings1'), 
+  require('apps/strings2')
 ]);
 
 /**
@@ -124,7 +125,8 @@ module
         appObject['math-operators'], 
         appObject['mathops2'], 
         appObject['mathops3'], 
-        appObject['strings1']
+        appObject['strings1'], 
+        appObject['strings2']
       ]
     },
     {

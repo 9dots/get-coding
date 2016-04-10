@@ -3,6 +3,7 @@
     {
       "playspace": {
         "level": 1,
+        "activity": "strings1",
         "board": {
           "choices": ["walk", "walks"],
           "sentences" : [
@@ -27,6 +28,7 @@
     {
       "playspace": {
         "level": 2,
+        "activity": "strings1",
         "board": {
           "choices": ["then", "than"],
           "sentences" : [
@@ -52,6 +54,7 @@
     {
       "playspace": {
         "level": 3,
+        "activity": "strings1",
         "board": {
           "choices": ["there", "their"],
           "sentences" : [
@@ -76,6 +79,7 @@
     {
       "playspace": {
         "level": 4,
+        "activity": "strings1",
         "board": {
           "choices": ["to", "two", "too"],
           "sentences" : [
@@ -98,6 +102,7 @@
     {
       "playspace": {
         "level": 5,
+        "activity": "strings1",
         "board": {
           "choices": ["fast", "faster", "fastest"],
           "sentences" : [
@@ -120,6 +125,7 @@
     {
       "playspace": {
         "level": 6,
+        "activity": "strings1",
         "board": {
           "choices": ["plays", "played", "will play"],
           "sentences" : [
@@ -142,6 +148,7 @@
     {
       "playspace": {
         "level": 7,
+        "activity": "strings1",
         "board": {
           "choices": ["at", "for", "from", "to"],
           "sentences" : [
@@ -166,6 +173,7 @@
     {
       "playspace": {
         "level": 8,
+        "activity": "strings1",
         "board": {
           "choices": ["wash", "washed", "then", "than"],
           "sentences" : [
@@ -190,6 +198,7 @@
     {
       "playspace": {
         "level": 9,
+        "activity": "strings1",
         "board": {
           "choices": ["take", "took", "there", "their"],
           "sentences" : [
@@ -214,6 +223,7 @@
     {
       "playspace": {
         "level": 10,
+        "activity": "strings1",
         "board": {
           "choices": ["then", "than", "to", "too", "two"],
           "sentences" : [

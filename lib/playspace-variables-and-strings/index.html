@@ -1,7 +1,5 @@
-<div class='background'>
-	<div class="choicesBox" layout="row" layout-align= "space-around center">
-		<div class="choice" ng-repeat="choice in VariablesAndStrings.choices">{{choice}}</div>
-	</div>
+<div class='background {{VariablesAndStrings.activity}}'>
+
 
 	<div class="paragraph" layout="column" layout-align="space-around center">
 		<div class="duplicateSentence" ng-repeat="sentence in VariablesAndStrings.duplicateSentences track by $index" 
@@ -12,13 +10,20 @@
 		<div class="sentence" ng-repeat="sentence in VariablesAndStrings.sentences">{{sentence}}</div>
 	</div>
 
-	<div class="variableBox {{VariablesAndStrings.background}}" layout="row" layout-align="space-around center">
+	<div class="variableBox {{VariablesAndStrings.activity}}" layout="row" layout-align="space-around center">
 		<div class="variable" ng-repeat="variable in VariablesAndStrings.variableNames" >
 			<div class="varName">{{variable}}</div>
 			<div class="varValue">{{VariablesAndStrings.variables[variable]}}</div>
 		</div>
 	</div>
 
-	<div class="foreground"></div>
+	<div class="choicesBox {{VariablesAndStrings.activity}}" layout="row" layout-align= "space-around center">
+		<div class="choice {{VariablesAndStrings.activity}}" ng-repeat="choice in VariablesAndStrings.choices">{{choice}}
+			<div class="mask {{VariablesAndStrings.activity}}"></div>
+		</div>
+		
+	</div>
+
+	<div class="foreground {{VariablesAndStrings.activity}}"></div>
 </div>
 
