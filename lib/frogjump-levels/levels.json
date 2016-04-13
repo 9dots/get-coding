@@ -277,7 +277,7 @@
 			],
 			"mission":"Use the functions \`jump(number)\` to move the frogs to the farthest lilypads in either direction. Replace the word \`number\` with the number above the frog that you want to jump.", 
 			"tools": "\`jump(number)\`- The frog with the specified number jumps to the adjacent lilypad or over one frog if there is an empty lilypad on the other side.",
-			"tips": "Jump a green frog, then a yellow frog, and so on like that."
+			"tips": "First, move as many green frogs as you can without creating a block, then move as many yellows as you can without creating a block. Keep going like that until you're finished."
 		},
 		{
 			"level": 10,
