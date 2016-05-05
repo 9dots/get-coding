@@ -2,7 +2,7 @@
 
 
 	<div class="paragraph" layout="column" layout-align="space-around center">
-		<div class="duplicateSentence" ng-repeat="sentence in VariablesAndStrings.duplicateSentences track by $index" 
+		<div class="duplicateSentence" ng-repeat="sentence in VariablesAndStrings.duplicateSentences track by $index"
 		ng-class= "{'highlight' : VariablesAndStrings.declared[$index]}">{{sentence}}</div>
 	</div>
 
@@ -19,11 +19,9 @@
 
 	<div class="choicesBox {{VariablesAndStrings.activity}}" layout="row" layout-align= "space-around center">
 		<div class="choice {{VariablesAndStrings.activity}}" ng-repeat="choice in VariablesAndStrings.choices">{{choice}}
-			<div class="mask {{VariablesAndStrings.activity}}"></div>
+			<div class="choiceValue">{{VariablesAndStrings.variables[choice]}}</div>
 		</div>
-		
 	</div>
 
 	<div class="foreground {{VariablesAndStrings.activity}}"></div>
 </div>
-
