@@ -1,6 +1,6 @@
 {
   "name": "strings2",
-  "title": "Passing Strings",
-  "description": "Pass values from one variable to another.",
+  "title": "Strings Expressions",
+  "description": "Add variables that are storing strings to make compound words.",
   "author": "Ryan Baber"
 }

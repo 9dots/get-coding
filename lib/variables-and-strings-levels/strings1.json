@@ -21,9 +21,9 @@
       "directions": {
         "dialogText": "In this activity, we are going to store text, or string, values in our variables. In the code panel, type the correct words between the apostrophes (\`' '\`) then run your code to check it."
       },
-      "mission": "In the code panel, after the \`=\`s, type the correct words between the apostrophes (\`' '\`). Then run your code to check it.",
+      "mission": "In the code panel, after the \`=\`, type the correct words between the apostrophes (\`' '\`). Then run your code to check it.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'example';\n    var word2 = 'walk';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';"
     },
     {
       "playspace": {
@@ -47,9 +47,9 @@
       "directions": {
         "dialogText": "Give each variable the correct string value based on the sentences on the board. This time, you will have to type the apostrophes (\`' '\`) yourself."
       },
-      "mission": "In the code panel, after the \`=\`s, type the correct words between apostrophes (\`' '\`). Then run your code to check it.",
+      "mission": "In the code panel, after the \`=\`, type the correct words between apostrophes (\`' '\`). Then run your code to check it.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'than';\n    var word2 = 'then';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';"
     },
     {
       "playspace": {
@@ -74,7 +74,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'their';\n    var word2 = 'there';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';"
     },
     {
       "playspace": {
@@ -97,7 +97,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'too';\n    var word2 = 'two';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';"
     },
     {
       "playspace": {
@@ -120,7 +120,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'fastest';\n    var word2 = 'fast';\n    var word3 = 'faster';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';"
     },
     {
       "playspace": {
@@ -143,7 +143,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'played';\n    var word2 = 'will play';\n    var word3 = 'plays';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';"
     },
     {
       "playspace": {
@@ -168,7 +168,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'from';\n    var word3 = 'at';\n    var word4 = 'for';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';\n    var word4 = 'example4';"
     },
     {
       "playspace": {
@@ -193,7 +193,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'then';\n    var word2 = 'washed';\n    var word3 = 'than';\n    var word4 = 'wash';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';\n    var word4 = 'example4';"
     },
     {
       "playspace": {
@@ -218,7 +218,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'took';\n    var word2 = 'there';\n    var word3 = 'take';\n    var word4 = 'their';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';\n    var word4 = 'example4';"
     },
     {
       "playspace": {
@@ -244,7 +244,7 @@
       },
       "mission": "Create a variable for each missing word and give it the correct value. For example, to create word1, you'd type \`var word1 = '';\` Then put the correct word between the \`''\`s.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values\n\n\`word3\`- variable meant to hold string values\n\n\`word4\`- variable meant to hold string values\n\n\`word5\`- variable meant to hold string values",
-      "tips": "Your code should look like this:\n\n    var word1 = 'to';\n    var word2 = 'two';\n    var word3 = 'too';\n    var word4 = 'than';\n    var word5 = 'then';"
+      "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';\n    var word3 = 'example3';\n    var word4 = 'example4';\n    var word5 = 'then';"
     }
   ]
 }

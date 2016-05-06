@@ -13,13 +13,15 @@
 	<div class="variableBox {{VariablesAndStrings.activity}}" layout="row" layout-align="space-around center">
 		<div class="variable" ng-repeat="variable in VariablesAndStrings.variableNames" >
 			<div class="varName">{{variable}}</div>
-			<div class="varValue">{{VariablesAndStrings.variables[variable]}}</div>
+			<div class="varValue">
+				<span ng-show="VariablesAndStrings.variables[variable]">'{{VariablesAndStrings.variables[variable]}}'</span>
+			</div>
 		</div>
 	</div>
 
 	<div class="choicesBox {{VariablesAndStrings.activity}}" layout="row" layout-align= "space-around center">
 		<div class="choice {{VariablesAndStrings.activity}}" ng-repeat="choice in VariablesAndStrings.choices">{{choice}}
-			<div class="choiceValue">{{VariablesAndStrings.variables[choice]}}</div>
+			<div class="choiceValue" ng-show="VariablesAndStrings.variables[choice]">'{{VariablesAndStrings.variables[choice]}}'</div>
 		</div>
 	</div>
 
