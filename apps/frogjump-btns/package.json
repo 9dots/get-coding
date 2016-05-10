@@ -1,7 +1,7 @@
 {
   "name": "frogjump-btns",
   "title": "Frog Jump Buttons",
-  "description": "Create functions and tie them to buttons to play the Frog Jump game",
-  "author": "Ryan Baber", 
+  "description": "Create functions and tie them to buttons to play the Frog Jump game.",
+  "author": "Ryan Baber",
   "database": "1b6"
 }

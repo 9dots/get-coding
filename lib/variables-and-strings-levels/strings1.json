@@ -19,9 +19,9 @@
         "codeSpace":"var word1 = '';\nvar word2 = '';"
       },
       "directions": {
-        "dialogText": "In this activity, we are going to store text, or string, values in our variables. In the code panel, type the correct words between the apostrophes (\`' '\`) then run your code to check it."
+        "dialogText": "In this activity, we are going to store text, or string, values in our variables. In the code panel, type the correct words between the quotes (\`' '\`) then run your code to check it."
       },
-      "mission": "In the code panel, after the \`=\`, type the correct words between the apostrophes (\`' '\`). Then run your code to check it.",
+      "mission": "In the code panel, after the \`=\`, type the correct words between the quotes (\`' '\`). Then run your code to check it.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values",
       "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';"
     },
@@ -45,9 +45,9 @@
         "codeSpace":"var word1 = ;\nvar word2 = ;"
       },
       "directions": {
-        "dialogText": "Give each variable the correct string value based on the sentences on the board. This time, you will have to type the apostrophes (\`' '\`) yourself."
+        "dialogText": "Give each variable the correct string value based on the sentences on the board. This time, you will have to type the quotes (\`' '\`) yourself."
       },
-      "mission": "In the code panel, after the \`=\`, type the correct words between apostrophes (\`' '\`). Then run your code to check it.",
+      "mission": "In the code panel, after the \`=\`, type the correct words between quotes (\`' '\`). Then run your code to check it.",
       "tools": "\`word1\`- variable meant to hold string values\n\n\`word2\`- variable meant to hold string values",
       "tips": "Your code should look like this:\n\n    var word1 = 'example1';\n    var word2 = 'example2';"
     },
@@ -225,7 +225,7 @@
         "level": 10,
         "activity": "strings1",
         "board": {
-          "choices": ["then", "than", "to", "too", "two"],
+          "choices": ["Then", "than", "to", "too", "two"],
           "sentences" : [
             "Lindy went ______ a new store today.",
             "She needed ______ loaves of bread, ",
@@ -235,7 +235,7 @@
 
           ],
           "variables": ["word1", "word2", "word3", "word4", "word5"], //all variables
-          "values": ["to", "two", "too", "than", "then"], //values for check purposes
+          "values": ["to", "two", "too", "than", "Then"], //values for check purposes
           "showValues": [null, null, null, null, null],//values to show in playspace initially
         }
       },
