@@ -34,6 +34,12 @@ marked p {
   margin: 0 auto 0 auto;
 }
 
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .dialog-screen {
   position: absolute;
   width: 100%;
@@ -270,7 +276,6 @@ input.nameInput {
 }
 
 .title {
-  padding-left: 10px;
   background: rgba(90, 167, 192, 1);
   font-size: 33px;
   line-height: 2em;
