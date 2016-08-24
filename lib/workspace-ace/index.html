@@ -1,0 +1,12 @@
+<div class='workspace-ace' layout='row'>
+  <div ng-show='api' class='toolbox'>
+    <div ng-repeat='(key, value) in api'>
+      <button layout='row' layout-align='start center' class='tool' ng-click='addCode(value.template)'>
+        <div flex='1'>{{value.name}}</div>
+        <div class='badge'>{{value.allowed}}</div>
+      </button>
+    </div>
+  </div>
+  <div flex='1' class='ace-editor'>
+  </div>
+</div>

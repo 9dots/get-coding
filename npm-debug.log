@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/9dots/.nvm/v0.11.14/bin/node',
+1 verbose cli   '/Users/9dots/.nvm/v0.11.14/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsAnalyse' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 warn package.json js-analyse@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'jsAnalyse', null ]
+7 verbose cache add spec="jsAnalyse" args=["jsAnalyse",null]
+8 verbose parsed spec { raw: 'jsAnalyse',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'jsAnalyse',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec { raw: 'jsAnalyse',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'jsAnalyse',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'jsAnalyse', '*' ]
+11 verbose addNamed [ null, '*' ]
+12 silly lockFile d7d934ac-jsAnalyse jsAnalyse@*
+13 verbose lock jsAnalyse@* /Users/9dots/.npm/d7d934ac-jsAnalyse.lock
+14 silly addNameRange { name: 'jsAnalyse', range: '*', hasData: false }
+15 verbose mapToRegistry name jsAnalyse
+16 verbose mapToRegistry uri https://registry.npmjs.org/jsAnalyse
+17 verbose request on initialization, where is /jsAnalyse
+18 verbose request after pass 1, where is /jsAnalyse
+19 verbose request url raw /jsAnalyse
+20 verbose request resolving registry [ 'https://registry.npmjs.org/', './jsAnalyse' ]
+21 verbose request after pass 2, where is https://registry.npmjs.org/jsAnalyse
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 13:07:07
+24 verbose request using bearer token for auth
+25 verbose request id 3e74907c6228d36c
+26 http request GET https://registry.npmjs.org/jsAnalyse
+27 http 404 https://registry.npmjs.org/jsAnalyse
+28 silly registry.get cb [ 404,
+28 silly registry.get   { 'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '2',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Wed, 24 Aug 2016 20:07:07 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     connection: 'close',
+28 silly registry.get     'x-served-by': 'cache-lax1436-LAX',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1472069227.591043,VS0,VE176',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 silly lockFile d7d934ac-jsAnalyse jsAnalyse@*
+30 silly lockFile d7d934ac-jsAnalyse jsAnalyse@*
+31 verbose stack Error: Not Found
+31 verbose stack     at errorResponse (/Users/9dots/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:267:10)
+31 verbose stack     at setData (/Users/9dots/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:210:12)
+31 verbose stack     at saved (/Users/9dots/.nvm/v0.11.14/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+31 verbose stack     at Object.oncomplete (fs.js:93:15)
+32 verbose statusCode 404
+33 verbose pkgid jsAnalyse
+34 verbose cwd /Users/9dots/Repositories/get-coding
+35 error Darwin 14.5.0
+36 error argv "/Users/9dots/.nvm/v0.11.14/bin/node" "/Users/9dots/.nvm/v0.11.14/bin/npm" "install" "jsAnalyse"
+37 error node v0.11.14
+38 error npm  v2.0.0
+39 error code E404
+40 error 404 Not Found
+40 error 404
+40 error 404 'jsAnalyse' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'get-coding'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]

@@ -5,7 +5,7 @@
         "field": {
           "rows": 7,
           "cols": 7,
-          "blocked": ["2*", "4*"],
+          "blocked": ["0*", "1*", "2*", "4*", "5*", "6*"],
           "parts": ["36"],
         },
         "astro": {
@@ -14,9 +14,61 @@
         }
       },
       "workspace": {
-        "codeSpace": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"8\" x=\"212\" y=\"144\"><field name=\"TIMES\">6</field></block></xml>"
-      }
+        "codeSpace": "",
+        "loc": "7",
+        "visisbleApi": [
+          {
+            "name": "move",
+            "template": "move()",
+          },
+          {
+            "name": "getPart",
+            "template": "getPart()"
+          },
+          {
+            "name": "rotate",
+            "template": "rotate()"
+          }
+        ]
+      },
     },
+    {
+    	"playspace": {
+          "field": {
+            "rows": 7,
+            "cols": 7,
+            "blocked": ["0*", "1*", "2*", "4*", "5*", "6*"],
+            "parts": ["36"],
+          },
+          "astro": {
+            "position": "30",
+            "rotation": 0
+          }
+        },
+        "workspace": {
+          "codeSpace": "",
+          "loc": "2",
+          "visisbleApi": [
+            {
+              "name": "move",
+              "template": "move()",
+              "allowed": 1
+            },
+            {
+              "name": "getPart",
+              "template": "getPart()"
+            },
+            {
+              "name": "rotate",
+              "template": "rotate()"
+            },
+            {
+              "name": "loop",
+              "template": "loop(num, function () {\n\n})"
+            }
+          ]
+        }
+      },
     {
       "playspace": {
         "field": {
@@ -31,7 +83,7 @@
         }
       },
       "workspace": {
-        "codeSpace": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><block type=\"controls_repeat\" id=\"5\" x=\"212\" y=\"144\"><field name=\"TIMES\">3</field></block></xml>"
+        "codeSpace": ""
       }
     },
     {

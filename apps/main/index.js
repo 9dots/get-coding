@@ -37,6 +37,7 @@ var module = angular.module(name, [
   require('apps/spaceman-sequencing-blockly'),
   require('apps/spaceman-functions'),
   require('apps/spaceman-functions-blockly'),
+  require('apps/spaceman-loops'),
   require('apps/crossriver-intro'),
   require('apps/crossriver-blockly'),
   require('apps/strings'),
@@ -44,29 +45,29 @@ var module = angular.module(name, [
   require('apps/crossriver-cops'),
   require('apps/crossriver-cops-blockly'),
   require('apps/frogjump-blockly'),
-  require('apps/crossriver-monkeys'), 
-  require('apps/squirrel'), 
-  require('apps/magic-words'), 
-  require('apps/fire-and-ice'), 
-  require('apps/variables-and-numbers'), 
-  require('apps/math-operators'), 
-  require('apps/combining-variables'), 
-  require('apps/cash-register'), 
-  require('apps/find-the-rule'), 
-  require('apps/copy-rule'), 
-  require('apps/three-to-one'), 
-  require('apps/test'), 
-  require('apps/squirrel2'), 
-  require('apps/mathops2'), 
-  require('apps/squirrel3'), 
-  require('apps/mathops3'), 
-  require('apps/squirrel4'), 
-  require('apps/squirrel-btn1'), 
-  require('apps/incrementor'), 
-  require('apps/counter'), 
-  require('apps/frogjump-btns'), 
-  require('apps/magic-words-buttons'), 
-  require('apps/strings1'), 
+  require('apps/crossriver-monkeys'),
+  require('apps/squirrel'),
+  require('apps/magic-words'),
+  require('apps/fire-and-ice'),
+  require('apps/variables-and-numbers'),
+  require('apps/math-operators'),
+  require('apps/combining-variables'),
+  require('apps/cash-register'),
+  require('apps/find-the-rule'),
+  require('apps/copy-rule'),
+  require('apps/three-to-one'),
+  require('apps/test'),
+  require('apps/squirrel2'),
+  require('apps/mathops2'),
+  require('apps/squirrel3'),
+  require('apps/mathops3'),
+  require('apps/squirrel4'),
+  require('apps/squirrel-btn1'),
+  require('apps/incrementor'),
+  require('apps/counter'),
+  require('apps/frogjump-btns'),
+  require('apps/magic-words-buttons'),
+  require('apps/strings1'),
   require('apps/strings2')
 ]);
 
@@ -100,20 +101,21 @@ module
       name: 'Unit 1 - Functions',
       open: 'closed',
       apps: [
-        appObject['squirrel'], 
+        appObject['squirrel'],
         appObject['squirrel2'],
         appObject['magic-words'],
         appObject['squirrel3'],
         appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
         appObject['squirrel-btn1'],
-        appObject['frogjump-btns'], 
+        appObject['frogjump-btns'],
         appObject['incrementor'],
         appObject['counter'],
         appObject['magic-words-buttons'],
-        appObject['crossriver-intro'], 
+        appObject['crossriver-intro'],
         appObject['squirrel4'],
-        appObject['space-man'], 
+        appObject['space-man'],
+        appObject['spaceman-loops'],
         appObject['create-functions']
       ]
     },
@@ -121,11 +123,11 @@ module
       name: 'Unit 2 - Variables',
       open: 'closed',
       apps: [
-        appObject['variables-and-numbers'], 
-        appObject['math-operators'], 
-        appObject['mathops2'], 
-        appObject['mathops3'], 
-        appObject['strings1'], 
+        appObject['variables-and-numbers'],
+        appObject['math-operators'],
+        appObject['mathops2'],
+        appObject['mathops3'],
+        appObject['strings1'],
         appObject['strings2']
       ]
     },
@@ -134,10 +136,10 @@ module
       open: 'closed',
       apps: [
         appObject['crossriver-blockly'],
-        appObject['frogjump-blockly'], 
+        appObject['frogjump-blockly'],
         appObject['spaceman-functions-blockly']
       ]
-    }, 
+    },
     {
       name: 'Tests',
       open: 'closed',
@@ -148,7 +150,7 @@ module
   ];
 
   $scope.toggleStatus = function(e) {
-    $scope.$emit('toggle', this, $animate);  
+    $scope.$emit('toggle', this, $animate);
   }
 
   $scope.scrollTop = function(){
@@ -174,7 +176,7 @@ module
         height : element[0].scrollHeight
       }
     });
-  } 
+  }
   function animateRemove(element, $animate) {
     $animate.removeClass(element, 'on', {
       from: {
@@ -207,4 +209,3 @@ angular.element(document).ready(function() {
   var modules = ['main', require('lib/html5mode')];
   angular.bootstrap(document, modules);
 });
-

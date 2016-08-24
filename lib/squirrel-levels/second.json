@@ -1,173 +1,276 @@
 {
   "levels": [
 	{
-	  "level": 1, 
+	  "level": 1,
 	  "background": "background2",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": ["6*"], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": ["6*"],
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
 	  	"branch": ["21", "22", "23", "35"],
 	  	"acorns": ["25"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 180, 
+	  	"rotation": 180,
 	  	"facing": "onTree",
-	  	"axis": "hor", 
-	  	"squareOn": "34", 
-	  	"ahead": "33", 
+	  	"axis": "hor",
+	  	"squareOn": "34",
+	  	"ahead": "33",
 	  	"behind": "35",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "workspace": {
 	  	"codeSpace": ""
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"Now let's climb the tree! Use the new function \`up()\` along with \`move()\`, \`right()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch."
-	  }, 
+	  },
 	  "mission": "Use the new function \`up()\` along with \`move()\`, \`right()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch.",
-      "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn \`right()\`- face right", 
-      "tips": "First, type \`move();\` as many times as needed to get the squirrel next to the acorn. Then type \`right();\` to turn toward the acorn. Then use \`move();\` and \`getAcorn()\` to get the acorn."
+      "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn \`right()\`- face right",
+      "tips": "First, type \`move();\` as many times as needed to get the squirrel next to the acorn. Then type \`right();\` to turn toward the acorn. Then use \`move();\` and \`getAcorn()\` to get the acorn.",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()"
+        },
+        {
+          "name": "right",
+          "template": "right()"
+        },
+        {
+          "name": "left",
+          "template": "left()"
+        },
+        {
+          "name": "up",
+          "template": "up()"
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()"
+        }
+      ]
 	},
 	{
-	  "level": 2, 
+	  "level": 2,
 	  "background": "background2",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": ["6*"], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": ["6*"],
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
 	  	"branch": ["21", "22", "23", "35"],
 	  	"acorns": ["25"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 180, 
+	  	"rotation": 180,
 	  	"facing": "left",
-	  	"axis": "hor", 
-	  	"squareOn": "55", 
-	  	"ahead": "54", 
+	  	"axis": "hor",
+	  	"squareOn": "55",
+	  	"ahead": "54",
 	  	"behind": "56",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "workspace": {
 	  	"codeSpace": ""
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"The squirrel can also climb the SIDE of the tree. Use \`up()\` along with \`move()\` and \`getAcorn()\` to climb the side of the tree and get the acorn!"
-	  }, 
+	  },
 	  "mission": "Use the new function \`up()\` along with \`move()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch.",
-      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
       "tips": "After \`up();\`, type \`move();\` until the squirrel reaches the acorn. Then use \`getAcorn();\` to get the acorn.",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()"
+        },
+        {
+          "name": "right",
+          "template": "right()"
+        },
+        {
+          "name": "left",
+          "template": "left()"
+        },
+        {
+          "name": "up",
+          "template": "up()"
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()"
+        }
+      ]
 	},
 	{
-	  "level": 3, 
+	  "level": 3,
 	  "background": "background3",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*0"],
 	  	"branch": ["11", "12", "13", "14", "15", "51", "52", "53", "54"],
 	  	"acorns": ["41"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 180, 
+	  	"rotation": 180,
 	  	"facing": "left",
-	  	"axis": "hor", 
-	  	"squareOn": "01", 
-	  	"ahead": "00", 
+	  	"axis": "hor",
+	  	"squareOn": "01",
+	  	"ahead": "00",
 	  	"behind": "02",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "workspace": {
 	  	"codeSpace": ""
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"There's just one more new function! Use \`down()\`, along with \`move()\` and \`getAcorn()\` to get the squirrel to the acorn below."
-	  }, 
+	  },
 	  "mission": "Use the \`down()\` function, along with the others you've learned, to get the squirrel down to the acorn below.",
-      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
       "tips": "First, type \`left();\` to change directions. Then use \`move();\` to get to the tree. Type \`down();\` to change directions, then use \`move();\` and \`getAcorn();\` to get the acorn.",
-	  "quiz": [
-	  	{
-          "questionId": "1a1a",
-          "text": "Which one of the following choices would call a fly function?", 
-          "a": "fly{}", 
-          "b": "fly", 
-          "c": "fly[]", 
-          "d": "fly()"
-	  	},
-	  	{
-	  	  "image": "squirrel2-quiz-image",
-          "questionId": "1a1b",
-          "text": "Which code below will make the squirrel get the acorn?", 
-          "a": "move();\n\ngetAcorn();", 
-          "b": "down();\n\ngetAcorn();", 
-          "c": "getAcorn();\n\ndown();", 
-          "d": "getAcorn();\n\nmove();"
-	  	}
-	  ]
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()"
+        },
+        {
+          "name": "right",
+          "template": "right()"
+        },
+        {
+          "name": "left",
+          "template": "left()"
+        },
+        {
+          "name": "up",
+          "template": "up()"
+        },
+        {
+          "name": "down",
+          "template": "down()"
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()"
+        }
+      ]
 	},
 	{
-	  "level": 4, 
+	  "level": 4,
 	  "background": "background4",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*3"],
 	  	"branch": ["64", "41", "42", "14", "15", "16"],
 	  	"acorns": ["32", "54"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 0, 
+	  	"rotation": 0,
 	  	"facing": "right",
-	  	"axis": "hor", 
-	  	"squareOn": "31", 
-	  	"ahead": "32", 
+	  	"axis": "hor",
+	  	"squareOn": "31",
+	  	"ahead": "32",
 	  	"behind": "30",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "workspace": {
 	  	"codeSpace": ""
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"Let's make it a little harder! This time, use your functions to get TWO acorns."
-	  }, 
+	  },
 	  "mission": "Use the functions you've learned (\`right()\`, \`left()\`, \`up()\`, \`down()\`, \`move()\`, \`getAcorn()\`) to get both acorns.",
-      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
-      "tips": "The squirrel can move up the middle of the tree or along either side, but it can only move on top of branches."
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
+      "tips": "The squirrel can move up the middle of the tree or along either side, but it can only move on top of branches.",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()"
+        },
+        {
+          "name": "right",
+          "template": "right()"
+        },
+        {
+          "name": "left",
+          "template": "left()"
+        },
+        {
+          "name": "up",
+          "template": "up()"
+        },
+        {
+          "name": "down",
+          "template": "down()"
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()"
+        }
+      ]
 	},
 	{
-	  "level": 5, 
+	  "level": 5,
 	  "background": "background4",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*3"],
 	  	"branch": ["64", "41", "42", "14", "15", "16"],
 	  	"acorns": ["31", "54"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 0, 
+	  	"rotation": 0,
 	  	"facing": "right",
-	  	"axis": "hor", 
-	  	"squareOn": "04", 
-	  	"ahead": "05", 
+	  	"axis": "hor",
+	  	"squareOn": "04",
+	  	"ahead": "05",
 	  	"behind": "03",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "workspace": {
 	  	"codeSpace": ""
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"Last level! Use the functions you've learned to get both acorns!"
-	  }, 
+	  },
 	  "mission": "Use the functions you've learned (\`right()\`, \`left()\`, \`up()\`, \`down()\`, \`move()\`, \`getAcorn()\`) to get both acorns.",
-      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn", 
-      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
+      "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on.",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()"
+        },
+        {
+          "name": "right",
+          "template": "right()"
+        },
+        {
+          "name": "left",
+          "template": "left()"
+        },
+        {
+          "name": "up",
+          "template": "up()"
+        },
+        {
+          "name": "down",
+          "template": "down()"
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()"
+        }
+      ]
 	}
   ]
 }

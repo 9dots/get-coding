@@ -14,13 +14,27 @@
       },
       "workspace": {
         "codeSpace": ""
-      }, 
+      },
       "directions": {
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 2,
@@ -36,13 +50,27 @@
       },
       "workspace": {
         "codeSpace": ""
-      }, 
+      },
       "directions": {
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 3,
@@ -63,8 +91,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 4,
@@ -85,8 +127,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 5,
@@ -107,8 +163,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 6,
@@ -129,8 +199,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 7,
@@ -151,8 +235,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 8,
@@ -173,8 +271,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 9,
@@ -195,8 +307,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     },
     {
       "level": 10,
@@ -217,8 +343,22 @@
           "dialogText": "Use the functions \`move()\`, \`rotate()\` and \`getPart()\` to direct the Space Ranger pick up the sphere."
         },
       "mission": "Get the Space Ranger to each sphere. On each square with a sphere, call the function getPart() to pick up the sphere.",
-      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere", 
-      "tips": ""
+      "tools": "\`move()\` move forward one square\n\n\`rotate()\` rotate 90 degrees\n\n\`getPart()\` pick up a sphere",
+      "tips": "",
+      "visisbleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+        },
+        {
+          "name": "getPart",
+          "template": "getPart()"
+        },
+        {
+          "name": "rotate",
+          "template": "rotate()"
+        }
+      ]
     }
   ]
 }

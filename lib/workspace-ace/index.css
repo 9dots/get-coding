@@ -1,28 +1,56 @@
-#workspace-ace {
-  margin-top: 5px;
+#workspace-ace .workspace-ace .ace_scrollbar-v {
+  overflow-y: hidden;
 }
 
-#workspace-ace .ace_scrollbar-v {
-  overflow-y: hidden; 
-}
-
-
-
-#workspace-ace .ace_gutter {
+#workspace-ace .workspace-ace .ace_gutter {
   background-color: white;
   color: rgba(0, 0, 0, 0.3);
   border-right: 1px solid;
   border-right-color: rgba(0, 0, 0, 0.12);
 }
 
-#workspace-ace .ace_scroller {
+#workspace-ace .workspace-ace .ace_scroller {
   color: rgba(0, 0, 0, 0.8);
 }
 
-#workspace-ace.ace-tm .ace_marker-layer .ace_step {
+#workspace-ace .workspace-ace .ace-tm .ace_marker-layer .ace_step {
   background: rgba(236, 87, 98, .5);
 }
 
-#workspace-ace .ace_content {
+#workspace-ace .workspace-ace .ace_content {
 	border-right: 3px solid #f6f6f6;
+}
+
+#workspace-ace .toolbox {
+  background-color:#E7F5F8;
+  width: 20%;
+  font-family: 'Monaco'
+}
+
+#workspace-ace .toolbox .tool{
+  position: relative;
+  width: 100%;
+  text-align: left;
+  height: 50px;
+}
+
+#workspace-ace .toolbox .tool .badge{
+  border-radius: 4px;
+  width: 24px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+#workspace-ace .toolbox .tool:hover{
+  background-color: rgba(158,158,158,0.2);
+}
+
+#workspace-ace .ace-editor {
+  width: 80%;
+  height: 100%;
+}
+
+#workspace-ace .workspace-ace {
+  width: 100%;
+  height: 100%;
 }

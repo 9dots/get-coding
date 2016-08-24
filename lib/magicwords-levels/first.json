@@ -12,23 +12,37 @@
             "type": "gate",
             "words": ["goo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["loo"],
             "position": "down"
           }
-        ], 
+        ],
         "workspace": {
           "codeSpace": ""
-        }, 
+        },
         "directions": {
           "dialogText": "Each gate has a magic word on it. Say the words in the right order to open all the gates. Don't forget to use \` () \`!!!"
-        }, 
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        },
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
-        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
-      }, 
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way.",
+        "visisbleApi": [
+          {
+            "name": "foo",
+            "template": "foo()",
+          },
+          {
+            "name": "loo",
+            "template": "loo()"
+          },
+          {
+            "name": "goo",
+            "template": "goo()"
+          }
+        ]
+      },
       {
         "level": 2,
         "obstacles": [
@@ -41,7 +55,7 @@
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo"],
@@ -50,8 +64,8 @@
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        },
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -67,7 +81,7 @@
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "loo"],
@@ -77,7 +91,7 @@
         "workspace": {
           "codeSpace": ""
         },
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -93,7 +107,7 @@
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["loo"],
@@ -103,7 +117,7 @@
         "workspace": {
           "codeSpace": ""
         },
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -119,12 +133,12 @@
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo", "loo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo", "loo", "boo"],
@@ -135,25 +149,25 @@
         "workspace": {
           "codeSpace": ""
         },
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way.",
         "quiz": [
           {
           "image": "squirrel2-quiz2-image",
           "questionId": "1a2b",
-          "text": "Which code below will make the squirrel get the acorn?", 
-          "a": "up();\n\ngetAcorn();", 
-          "b": "move();\n\ngetAcorn();", 
-          "c": "getAcorn();\n\nup();", 
+          "text": "Which code below will make the squirrel get the acorn?",
+          "a": "up();\n\ngetAcorn();",
+          "b": "move();\n\ngetAcorn();",
+          "c": "getAcorn();\n\nup();",
           "d": "getAcorn();\n\nmove();"
           },
           {
             "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?", 
-            "a": "open-gate()", 
-            "b": "openGate()", 
-            "c": "open_gate()", 
+            "text": "Which of the following could NOT be a function name?",
+            "a": "open-gate()",
+            "b": "openGate()",
+            "c": "open_gate()",
             "d": "open gate()"
           }
         ]
@@ -170,7 +184,7 @@
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["boo", "loo"],
@@ -185,7 +199,7 @@
         "workspace": {
           "codeSpace": ""
         },
-        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.", 
+        "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -201,26 +215,26 @@
             "type": "gate",
             "words": ["foo", "goo", "moo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo", "loo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
-            "words": ["doo", "koo", "moo"], 
+            "words": ["doo", "koo", "moo"],
             "position": "down"
           }
         ],
         "workspace": {
-          "codeSpace": "", 
+          "codeSpace": "",
           "loc": 2
         },
         "directions": {
           "dialogText": "This time, you can only use TWO WORDS to get all the gates open."
         },
-        "mission":"Have the wizard open all the gates using ONLY two words!", 
+        "mission":"Have the wizard open all the gates using ONLY two words!",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -236,7 +250,7 @@
             "type": "gate",
             "words": ["goo", "loo", "moo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["doo", "foo", "moo"],
@@ -249,13 +263,13 @@
           }
         ],
         "workspace": {
-          "codeSpace": "", 
+          "codeSpace": "",
           "loc": 2
         },
         "directions": {
           "dialogText": "Open all the gates with only TWO words."
         },
-        "mission":"Have the wizard open all the gates using ONLY two words!", 
+        "mission":"Have the wizard open all the gates using ONLY two words!",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -271,7 +285,7 @@
             "type": "gate",
             "words": ["doo", "foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["boo", "doo", "foo", "goo", "koo", "moo"],
@@ -289,13 +303,13 @@
           }
         ],
         "workspace": {
-          "codeSpace": "", 
+          "codeSpace": "",
           "loc": 2
         },
         "directions": {
           "dialogText": "Open all the gates with only TWO words."
         },
-        "mission":"Have the wizard open all the gates using ONLY two words!", 
+        "mission":"Have the wizard open all the gates using ONLY two words!",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       },
@@ -311,7 +325,7 @@
             "type": "gate",
             "words": ["moo", "boo", "foo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["boo", "foo", "doo"],
@@ -334,13 +348,13 @@
           }
         ],
         "workspace": {
-          "codeSpace": "", 
+          "codeSpace": "",
           "loc": 3
         },
         "directions": {
           "dialogText": "Ok! Since this is the hardest one, you can use THREE words this time."
         },
-        "mission":"Have the wizard open all the gates using only THREE words!", 
+        "mission":"Have the wizard open all the gates using only THREE words!",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way."
       }
