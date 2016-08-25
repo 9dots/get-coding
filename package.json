@@ -32,7 +32,7 @@
     "gulp-template": "^3.0.0",
     "gulp-util": "^3.0.3",
     "inquirer": "^0.8.0",
-    "js-analyse": "file:../jsAnalyse",
+    "js-analyse": "git://github.com/danleavitt0/jsAnalyse.git",
     "lodash": "^3.2.0",
     "lscache": "^1.0.5",
     "marked": "^0.3.3",

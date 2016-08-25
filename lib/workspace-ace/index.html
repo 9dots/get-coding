@@ -3,7 +3,7 @@
     <div ng-repeat='(key, value) in api'>
       <button layout='row' layout-align='start center' class='tool' ng-click='addCode(value.template)'>
         <div flex='1'>{{value.name}}</div>
-        <div class='badge'>{{value.allowed}}</div>
+        <div ng-show='value.allowed' class='badge'>{{value.allowed - apiCalls[value.name]}}</div>
       </button>
     </div>
   </div>

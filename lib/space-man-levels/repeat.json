@@ -16,7 +16,7 @@
       "workspace": {
         "codeSpace": "",
         "loc": "7",
-        "visisbleApi": [
+        "visibleApi": [
           {
             "name": "move",
             "template": "move()",
@@ -47,8 +47,8 @@
         },
         "workspace": {
           "codeSpace": "",
-          "loc": "2",
-          "visisbleApi": [
+          "loc": "3",
+          "visibleApi": [
             {
               "name": "move",
               "template": "move()",
