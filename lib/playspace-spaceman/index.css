@@ -18,6 +18,10 @@
   background: url('./comet.png') no-repeat;
 }
 
+.part.planet {
+  background: url('./planet.png') no-repeat;
+}
+
 /* probably cuttable
 
 [playspace-spaceman] {
@@ -101,6 +105,16 @@
   width: 90px;
   height: 90px;
   border: 1px solid rgba(61, 62, 62, 1);
+  position: relative;
+}
+
+[playspace-spaceman] .square .count {
+  position: absolute;
+  color: #FFF;
+  text-shadow: 1px 1px #333;
+  right: 4px;
+  bottom: 4px;
+  font-size: 26px;
 }
 
 [playspace-spaceman] .astronaut {

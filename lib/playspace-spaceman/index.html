@@ -2,7 +2,9 @@
 <div class="background">
   <div class="grid-holder" id="grid-holder">
     <div class="row" ng-repeat="row in Spaceman.field.grid">
-      <div class="square" id="{{square.id}}" ng-class='[square.type, square.option]' ng-repeat='square in row'></div>
+      <div class="square" id="{{square.id}}" ng-class='[square.type, square.option]' ng-repeat='square in row'>
+        <div class='count' ng-show="square.type === 'part'">{{(square.option === 'planet' && !Spaceman.running) ? '?' : square.count}}</div>
+      </div>
     </div>
     <div class="astronaut" ng-class='{still: !Spaceman.moving && ! Spaceman.celebrating, thrust: Spaceman.moving, celebrate: Spaceman.celebrating}'></div>
   </div>
