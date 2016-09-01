@@ -13,7 +13,7 @@
 <!--quiz survey container-->
 <div class="dialog-screen" ng-show="App.quizSurveyOn">
   <div class="dialog-box survey" layout='row'>
-    
+
     <div flex='100' layout='column' layout-align="space-around center">
       <form class='survey' layout='column' layout-align='center center' name='quizSurveyForm' ng-submit='App.dialogBtnFn()'novalidate>
 
@@ -26,7 +26,7 @@
         </div>
         <div class='input' layout='row' layout-align='center'>
           <div flex='33'>
-            in grade: 
+            in grade:
             <select ng-model='App.user.grade' ng-required='true'>
               <option value='K'>K</option>
               <option value='1'>1</option>
@@ -41,7 +41,7 @@
         </div>
         <div class='input' layout='row' layout-align='center'>
         <div flex='33'>
-            at: 
+            at:
             <select ng-model='App.user.school' ng-required='true'>
               <option value='Beethoven'>Beethoven</option>
               <option value='Selma'>Selma</option>
@@ -73,7 +73,7 @@
         </div>
         <button type='submit' class="dialog-button" name='btn' ng-disabled='quizSurveyForm.$invalid'>GO TO QUIZ</button>
       </form>
-     
+
     </div>
   </div>
 </div>
@@ -91,7 +91,7 @@
             <input class="nameInput" type="text" ng-model='App.user.name' ng-required='true'></input>
           </div>
 
-          
+
           <div class='prompt'>I am a:</div>
           <div class='input' ng-required='true' flex= '100' layout='row' layout-align='center'>
             <div flex='10'></div>
@@ -102,7 +102,7 @@
 
           <div class='input' layout='row' layout-align='center'>
           <div flex='33'>
-            in grade: 
+            in grade:
             <select ng-model='App.user.grade' ng-required='true'>
               <option value='K'>K</option>
               <option value='1'>1</option>
@@ -117,7 +117,7 @@
         </div>
         <div class='input' layout='row' layout-align='center'>
         <div flex='33'>
-            at: 
+            at:
             <select ng-model='App.user.school' ng-required='true'>
               <option value='Beethoven'>Beethoven</option>
               <option value='Selma'>Selma</option>
@@ -164,7 +164,7 @@
     <div flex='50' layout='column'><!--left panel-->
       <a href='/'>
         <div class='title bar' layout='row'>
-          <div flex='10'><i class='mdi-arrow-back'></i></div> <!-- back arrow-->
+          <div layout='row' layout-align='center center' flex='10'><i class='mdi-arrow-back'></i></div> <!-- back arrow-->
           <div flex='90'>{{App.title}}</div><!-- title-->
         </div>
       </a>

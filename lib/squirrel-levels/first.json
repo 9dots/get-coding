@@ -21,7 +21,19 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": true
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": true
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Use the functions \`move()\` and \`getAcorn()\` to direct the squirrel to get the acorn."
@@ -29,16 +41,6 @@
 	  "mission": "By calling the functions \`move()\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move()\`- move forward one square\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Then type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        },
-      ]
 	},
 	{
 	  "level": 2,
@@ -61,24 +63,27 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": true
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": true
+        }
+      ]
+
 	  },
 	  "directions": {
 			"dialogText":"Use the functions \`move()\` and \`getAcorn()\` to direct the squirrel to get the acorn."
 	  },
 	  "mission": "By calling the functions \`move()\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move()\`- move forward one square   \`getAcorn()\`- pick up acorn",
-      "tips": "First, type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        },
-      ]
+      "tips": "First, type \`move();\` as many times as it takes to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 3,
@@ -101,28 +106,31 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": true
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": true
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": true
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Now use the new function \`right()\`, along with the others, to direct the squirrel to get the acorn."
 	  },
 	  "mission": "By calling the functions \`right()\`, \`move()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move()\`- move forward one square  \`getAcorn()\`- pick up acorn \`right()\`- face right",
-      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 4,
@@ -145,32 +153,36 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": true
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": true
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": true
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": true
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Now use the new function \`left()\`, along with the others, to direct the squirrel to get the acorn."
 	  },
 	  "mission": "By calling the functions \`left()\`, \`move()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move()\`- move forward one square  \`getAcorn()\`- pick up acorn \`left()\`- face left",
-      "tips": "First, type \`left();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "First, type \`left();\` in the code panel above. Then type \`move();\` to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 5,
@@ -193,32 +205,35 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": true
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": true
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": true
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": true
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Ok! Last level! You only need three of the four functions you know (\`right()\`, \`left()\`, \`move()\`, and \`getAcorn()\`) to complete this level! You may use some more than once."
 	  },
 	  "mission": "You only need three of the four functions you know (\`right()\`, \`left()\`, \`move()\`, and \`getAcorn()\`) to complete this level! You may use some more than once.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
-      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` twice to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "First, type \`right();\` in the code panel above. Then type \`move();\` twice to get the squirrel to the square with the acorn. Finally, type \`getAcorn();\` and run your code. Pay attention to spelling, punctuation and capitalization!"
 	}
-  ]
-}
+]}

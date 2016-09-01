@@ -98,29 +98,34 @@ module
 
   this.courses = [
     {
-      name: 'Unit 1 - Functions',
+      name: 'Pre-Code Activities',
+      subtitle: 'Unit for early readers that does not require typing.',
+      open: 'closed',
+      apps: [
+        appObject['crossriver-blockly'],
+        appObject['frogjump-blockly'],
+        appObject['spaceman-functions-blockly']
+      ]
+    },
+    {
+      name: 'Unit 1',
+      subtitle: 'Students solve problems by calling functions, passing arguments, and utilizing looping and selection.',
       open: 'closed',
       apps: [
         appObject['squirrel'],
         appObject['squirrel2'],
+        appObject['space-man'],
         appObject['magic-words'],
         appObject['squirrel3'],
-        appObject['frogjump-puzzle'],
         appObject['fire-and-ice'],
-        appObject['squirrel-btn1'],
-        appObject['frogjump-btns'],
-        appObject['incrementor'],
-        appObject['counter'],
-        appObject['magic-words-buttons'],
+        appObject['frogjump-puzzle'],
         appObject['crossriver-intro'],
-        appObject['squirrel4'],
-        appObject['space-man'],
-        appObject['spaceman-loops'],
-        appObject['create-functions']
+        appObject['spaceman-loops']
       ]
     },
     {
-      name: 'Unit 2 - Variables',
+      name: 'Unit 2',
+      subtitle: 'Students learn about creating and using variables to store strings and numbers.',
       open: 'closed',
       apps: [
         appObject['variables-and-numbers'],
@@ -132,22 +137,20 @@ module
       ]
     },
     {
-      name: 'Pre-Code Activities',
+      name: 'Unit 3',
+      subtitle: 'Students learn how to create their own functions in JavaScript to solve problems more effectively.',
       open: 'closed',
       apps: [
-        appObject['crossriver-blockly'],
-        appObject['frogjump-blockly'],
-        appObject['spaceman-functions-blockly']
-      ]
-    },
-    {
-      name: 'Tests',
-      open: 'closed',
-      apps: [
-        appObject['test']
+        appObject['squirrel4'],
+        appObject['create-functions'],
+        appObject['squirrel-btn1'],
+        appObject['frogjump-btns'],
+        appObject['incrementor'],
+        appObject['counter'],
+        appObject['magic-words-buttons']
       ]
     }
-  ];
+  ]
 
   $scope.toggleStatus = function(e) {
     $scope.$emit('toggle', this, $animate);

@@ -1,26 +1,29 @@
 <div class="tab-holder">
   <div class="unit" ng-repeat='course in Main.courses track by $id(course)' id='{{course.name}}'>
-    
-    <div class="tab" ng-click='toggleStatus($event)' layout='row'>
-      <div class='unit-title' flex='70'>{{course.name}}</div>
 
-      <div class='info-box'flex='30' layout='column'>
-        <div class='number' layout='row'> 
+    <div class="tab" ng-click='toggleStatus($event)' layout='row'>
+      <div class='unit-title' layout-align='center start' layout='column' flex='75'>
+        <div class="unit-header">{{course.name}}</div>
+        <div class='unit-subtitle'>{{course.subtitle}}</div>
+      </div>
+
+      <div class='info-box' flex='25' layout='column'>
+        <div class='number' flex="1" layout='row' layout-align='center center'>
           <div flex='20'></div>
-          <div flex='80'>{{course.apps.length}} LESSON<span class="plural" ng-if="course.apps.length > 1">S</span></div>
-        
+          <div flex='80' layout-align='center center'>{{course.apps.length}} LESSON<span class="plural" ng-if="course.apps.length > 1">S</span></div>
+
         </div>
-        <div class='expand' layout='row'>
+        <div class='expand' flex="1" layout-align='center center' layout='row'>
           <div flex='20'></div>
-          <div flex='10'><span ng-hide='active'>+</span><span ng-show='active'>-</span></div>
-          <div flex='70'><span ng-hide='active'>EXPAND</span><span ng-show='active'>CLOSE</span></div>
+          <div layout-align='center center' flex='10'><span ng-hide='active'>+</span><span ng-show='active'>-</span></div>
+          <div layout-align='center center' flex='70'><span ng-hide='active'>EXPAND</span><span ng-show='active'>CLOSE</span></div>
         </div>
       </div>
 
     </div>
-    
+
     <div expandable class="lesson-holder animate-show">
-      
+
       <div ng-repeat='app in course.apps' class='lesson' layout='column'>
         <a ng-href="{{app.name}}" ng-click="scrollTop()">
         <div class="divider" ng-if='$first'></div>
@@ -30,9 +33,8 @@
         <div class="divider" ng-if='!$last'></div>
         </a>
       </div>
-      
+
     </div>
 
   </div>
 </div>
-

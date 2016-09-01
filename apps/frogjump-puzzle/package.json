@@ -1,7 +1,7 @@
 {
   "name": "frogjump-puzzle",
-  "title": "Frog Jump",
+  "title": "Passing Arguments: Frog Jump",
   "description": "Jump the frogs to solve the puzzle",
-  "author": "Daniel Leavitt", 
+  "author": "Daniel Leavitt",
   "database": "1a5"
 }

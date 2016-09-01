@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'js-analyse' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData js-analyse
+8 silly fetchNamedPackageData js-analyse
+9 silly mapToRegistry name js-analyse
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/js-analyse
+13 verbose request uri https://registry.npmjs.org/js-analyse
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:30:27 AM
+16 verbose request using bearer token for auth
+17 verbose request id 1bd8cd40231a8f45
+18 verbose etag "1IF67TSRG67XHUK12U8VBDY83"
+19 http request GET https://registry.npmjs.org/js-analyse
+20 http 200 https://registry.npmjs.org/js-analyse
+21 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 verbose headers   etag: '"8C1TW86RXRS4RRLYUA5Y4FB84"',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Wed, 31 Aug 2016 17:30:32 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lax1437-LAX',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1472664632.391715,VS0,VE327',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"8C1TW86RXRS4RRLYUA5Y4FB84"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Wed, 31 Aug 2016 17:30:32 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lax1437-LAX',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1472664632.391715,VS0,VE327',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving js-analyse to /Users/9dots/.npm/registry.npmjs.org/js-analyse/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule js-analyse@0.2.0 checking installable status
+37 silly cache add args [ 'js-analyse', null ]
+38 verbose cache add spec js-analyse
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'js-analyse',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'js-analyse',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed js-analyse@*
+41 verbose addNamed "*" is a valid semver range for js-analyse
+42 silly addNameRange { name: 'js-analyse', range: '*', hasData: false }
+43 silly mapToRegistry name js-analyse
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/js-analyse
+47 verbose addNameRange registry:https://registry.npmjs.org/js-analyse not in flight; fetching
+48 verbose get https://registry.npmjs.org/js-analyse not expired, no request
+49 silly addNameRange number 2 { name: 'js-analyse', range: '*', hasData: true }
+50 silly addNameRange versions [ 'js-analyse', [ '0.1.0', '0.2.0' ] ]
+51 silly addNamed js-analyse@0.2.0
+52 verbose addNamed "0.2.0" is a plain semver version for js-analyse
+53 silly mapToRegistry name js-analyse
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/js-analyse
+57 verbose addRemoteTarball https://registry.npmjs.org/js-analyse/-/js-analyse-0.2.0.tgz not in flight; adding
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/js-analyse/-/js-analyse-0.2.0.tgz',
+58 verbose addRemoteTarball   '997829356988a0009326e235e978587a78b1a286' ]
+59 info retry fetch attempt 1 at 10:30:34 AM
+60 info attempt registry request try #1 at 10:30:34 AM
+61 http fetch GET https://registry.npmjs.org/js-analyse/-/js-analyse-0.2.0.tgz
+62 verbose request using bearer token for auth
+63 http fetch 200 https://registry.npmjs.org/js-analyse/-/js-analyse-0.2.0.tgz
+64 silly fetchAndShaCheck shasum 997829356988a0009326e235e978587a78b1a286
+65 verbose addTmpTarball /var/folders/g7/l3d1nyz934d7kdkyq9dtlm1r0000gn/T/npm-1550-6a450285/registry.npmjs.org/js-analyse/-/js-analyse-0.2.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for js-analyse@0.2.0
+67 silly cache afterAdd js-analyse@0.2.0
+68 verbose afterAdd /Users/9dots/.npm/js-analyse/0.2.0/package/package.json not in flight; writing
+69 verbose afterAdd /Users/9dots/.npm/js-analyse/0.2.0/package/package.json written
+70 verbose stack TypeError: Cannot read property 'localeCompare' of undefined
+70 verbose stack     at installOrder (/usr/local/lib/node_modules/npm/lib/install/deps.js:241:32)
+70 verbose stack     at Array.sort (native)
+70 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:240:27
+70 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+70 verbose stack     at resolveWithExistingModule (/usr/local/lib/node_modules/npm/lib/install/deps.js:377:3)
+70 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:347:5
+70 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+70 verbose stack     at Array.forEach (native)
+70 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+70 verbose stack     at Array.forEach (native)
+71 verbose cwd /Users/9dots/Repositories/get-coding
+72 error Darwin 14.5.0
+73 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "js-analyse"
+74 error node v5.0.0
+75 error npm  v3.3.6
+76 error Cannot read property 'localeCompare' of undefined
+77 error If you need help, you may report this error at:
+77 error     <https://github.com/npm/npm/issues>
+78 verbose exit [ 1, true ]

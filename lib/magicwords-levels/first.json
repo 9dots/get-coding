@@ -152,25 +152,6 @@
         "mission":"When the wizard says a word, all gates with that word will open or close. Have the wizard say the magic words in the right order to get all the gates open.",
         "tools": "You can call any function that appears on a gate- like \`foo()\`, \`goo()\`, etc- but make sure to add parentheses \`()\`.",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way.",
-        "quiz": [
-          {
-          "image": "squirrel2-quiz2-image",
-          "questionId": "1a2b",
-          "text": "Which code below will make the squirrel get the acorn?",
-          "a": "up();\n\ngetAcorn();",
-          "b": "move();\n\ngetAcorn();",
-          "c": "getAcorn();\n\nup();",
-          "d": "getAcorn();\n\nmove();"
-          },
-          {
-            "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?",
-            "a": "open-gate()",
-            "b": "openGate()",
-            "c": "open_gate()",
-            "d": "open gate()"
-          }
-        ]
       },
       {
         "level": 6,

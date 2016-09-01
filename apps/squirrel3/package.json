@@ -1,7 +1,7 @@
 {
   "name": "squirrel3",
-  "title": "Passing Parameters",
-  "description": "Pass a number parameter in a function call.",
+  "title": "Passing Arguments: Squirrel Climber",
+  "description": "Pass a number argument in a function call.",
   "author": "Ryan Baber",
   "database": "1a4"
 }

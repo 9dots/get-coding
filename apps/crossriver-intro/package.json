@@ -1,7 +1,7 @@
 {
   "name": "crossriver-intro",
-  "title": "River Crossing",
+  "title": "Passing Arguments: River Crossing",
   "description": "Solve a classice logic problem by calling functions.",
-  "author": "Ryan Baber", 
+  "author": "Ryan Baber",
   "database": "1a7"
 }

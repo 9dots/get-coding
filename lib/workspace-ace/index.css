@@ -24,24 +24,25 @@
 #workspace-ace .toolbox {
   background-color:#E7F5F8;
   width: 20%;
-  font-family: 'Monaco'
+  font-family: 'Monaco';
 }
 
-#workspace-ace .toolbox .tool{
+#workspace-ace .toolbox .tool {
   position: relative;
   width: 100%;
   text-align: left;
   height: 50px;
+  padding-left: 10px;
 }
 
-#workspace-ace .toolbox .tool .badge{
+#workspace-ace .toolbox .tool .badge {
   border-radius: 4px;
   width: 24px;
   background-color: #ccc;
   text-align: center;
 }
 
-#workspace-ace .toolbox .tool:hover{
+#workspace-ace .toolbox .tool.clickable:hover{
   background-color: rgba(158,158,158,0.2);
 }
 

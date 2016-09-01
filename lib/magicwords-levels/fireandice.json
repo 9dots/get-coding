@@ -7,29 +7,29 @@
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["goo"],
             "position": "down"
           }
-        ], 
+        ],
         "workspace": {
           "codeSpace": "foo()\ncast('')\ngoo()"
-        }, 
+        },
         "directions": {
           "dialogText": "We've written some code to get you through this level. Add \`fire\` between the \`''\` in \`cast('')\` then run the code."
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
-      
-      }, 
+
+      },
       {
         "level": 2,
         "obstacles": [
@@ -42,23 +42,23 @@
             "type": "gate",
             "words": ["goo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
           }
-        ], 
+        ],
         "workspace": {
           "codeSpace": "cast('')\ngoo()\ncast('')"
-        }, 
+        },
         "directions": {
           "dialogText": "This time, fill in \`fire\` and \`ice\` into each \`cast('')\` to pass this level."
         },
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
-      }, 
+      },
       {
         "level": 3,
         "obstacles": [
@@ -71,25 +71,25 @@
             "type": "obstacle",
             "words": ["fire"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["ice"], 
+            "type":"obstacle",
+            "words": ["ice"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
+        },
         "directions": {
           "dialogText": "Now you're on your own! Say magic words to open gates and cast spells to destroy the obstacles and help the wizard escape the dungeon."
         },
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -105,56 +105,24 @@
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
-        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right.",
-        "quiz": [
-          {
-              "questionId": "1a1a",
-              "text": "Which one of the following choices would call a \`spell\` function?", 
-              "a": "\`spell()\`", 
-              "b": "\`spell[]\`", 
-              "c": "\`spell\`", 
-              "d": "\`spell{}\`"
-          }, {
-            "image": "squirrel2-quiz-image",
-              "questionId": "1a2b",
-              "text": "Which code below will make the squirrel get the acorn?", 
-              "a": "move();\n\ngetAcorn();", 
-              "b": "down();\n\ngetAcorn();", 
-              "c": "getAcorn();\n\ndown();", 
-              "d": "getAcorn();\n\nmove();"
-          }, {
-            "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?", 
-            "a": "castSpell()", 
-            "b": "cast_spell()",
-            "c": "cast-spell()", 
-            "d": "cast  spell()"
-          }, {
-            "questionId": "1a4a", 
-            "text": "In \`move(6);\`, which part is the parameter?", 
-            "a": "()", 
-            "b": "6",
-            "c": "move", 
-            "d": ";"
-          }
-        ]
+        "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
       {
         "level": 5,
@@ -168,27 +136,27 @@
             "type": "obstacle",
             "words": ["fire"],
             "position": "down"
-          }, 
+          },
           {
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["foo", "goo", "loo"], 
+            "type":"gate",
+            "words": ["foo", "goo", "loo"],
             "position": "up"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -204,27 +172,27 @@
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo", "loo"],
             "position": "up"
-          }, 
+          },
           {
-            "type":"gate", 
-            "words": ["loo"], 
+            "type":"gate",
+            "words": ["loo"],
             "position": "down"
           },
           {
-            "type":"obstacle", 
-            "words": ["ice"], 
+            "type":"obstacle",
+            "words": ["ice"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -240,27 +208,27 @@
             "type": "obstacle",
             "words": ["fire"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["boo", "goo"],
             "position": "down"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["boo", "foo", "goo"], 
+            "type":"gate",
+            "words": ["boo", "foo", "goo"],
             "position": "up"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -276,32 +244,32 @@
             "type": "obstacle",
             "words": ["fire"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["ice"], 
+            "type":"obstacle",
+            "words": ["ice"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["foo"], 
+            "type":"gate",
+            "words": ["foo"],
             "position": "down"
           },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -317,32 +285,32 @@
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo", "goo"],
             "position": "up"
-          }, 
+          },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["goo", "loo"], 
+            "type":"gate",
+            "words": ["goo", "loo"],
             "position": "up"
           },
           {
-            "type":"obstacle", 
-            "words": ["ice"], 
+            "type":"obstacle",
+            "words": ["ice"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -358,32 +326,32 @@
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
-            "type":"gate", 
-            "words": ["goo"], 
+            "type":"gate",
+            "words": ["goo"],
             "position": "down"
           },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["boo", "foo", "goo"], 
+            "type":"gate",
+            "words": ["boo", "foo", "goo"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -399,32 +367,32 @@
             "type": "gate",
             "words": ["boo"],
             "position": "down"
-          }, 
+          },
           {
             "type": "gate",
             "words": ["foo"],
             "position": "down"
-          }, 
+          },
           {
-            "type":"gate", 
-            "words": ["goo"], 
+            "type":"gate",
+            "words": ["goo"],
             "position": "down"
           },
           {
-            "type":"gate", 
-            "words": ["boo", "foo", "goo"], 
+            "type":"gate",
+            "words": ["boo", "foo", "goo"],
             "position": "down"
           },
           {
-            "type":"obstacle", 
-            "words": ["ice"], 
+            "type":"obstacle",
+            "words": ["ice"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       },
@@ -440,32 +408,32 @@
             "type": "gate",
             "words": ["boo", "foo", "loo"],
             "position": "up"
-          }, 
+          },
           {
             "type": "obstacle",
             "words": ["ice"],
             "position": "down"
-          }, 
+          },
           {
-            "type":"gate", 
-            "words": ["foo", "goo", "loo"], 
+            "type":"gate",
+            "words": ["foo", "goo", "loo"],
             "position": "up"
           },
           {
-            "type":"gate", 
-            "words": ["boo", "foo", "goo"], 
+            "type":"gate",
+            "words": ["boo", "foo", "goo"],
             "position": "down"
           },
           {
-            "type":"obstacle", 
-            "words": ["fire"], 
+            "type":"obstacle",
+            "words": ["fire"],
             "position": "down"
           }
         ],
         "workspace": {
           "codeSpace": ""
-        }, 
-        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.", 
+        },
+        "mission":"Say the magic words to open all the gates and cast spells to destroy the obstacles. \`cast('fire')\` melts ice obstacles and \`cast('ice')\` freezes fire obstacles.",
         "tools": "\`foo()\`, \`goo()\`\n\n\`cast('ice')\`, \`cast('fire')\`",
         "tips": "Try one gate at a time. Type the function in the code panel and press the step forward button. Then add another line of code and test it in the same way. Once the gates are open, destroy the fire and ice obstacles in order from left to right."
       }

@@ -21,36 +21,41 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": false
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": false
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": false
+        },
+        {
+          "name": "up",
+          "template": "up()",
+          "clickable": false
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": false
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Now let's climb the tree! Use the new function \`up()\` along with \`move()\`, \`right()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch."
 	  },
 	  "mission": "Use the new function \`up()\` along with \`move()\`, \`right()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch.",
       "tools": "\`move()\`- move forward one square   \`left()\`- face left\n\n\`getAcorn()\`- pick up acorn \`right()\`- face right",
-      "tips": "First, type \`move();\` as many times as needed to get the squirrel next to the acorn. Then type \`right();\` to turn toward the acorn. Then use \`move();\` and \`getAcorn()\` to get the acorn.",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "up",
-          "template": "up()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "First, type \`move();\` as many times as needed to get the squirrel next to the acorn. Then type \`right();\` to turn toward the acorn. Then use \`move();\` and \`getAcorn()\` to get the acorn."
 	},
 	{
 	  "level": 2,
@@ -73,36 +78,41 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": false
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": false
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": false
+        },
+        {
+          "name": "up",
+          "template": "up()",
+          "clickable": false
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": false
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"The squirrel can also climb the SIDE of the tree. Use \`up()\` along with \`move()\` and \`getAcorn()\` to climb the side of the tree and get the acorn!"
 	  },
 	  "mission": "Use the new function \`up()\` along with \`move()\`, and \`getAcorn()\` to climb the tree and get the acorn on the branch.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
-      "tips": "After \`up();\`, type \`move();\` until the squirrel reaches the acorn. Then use \`getAcorn();\` to get the acorn.",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "up",
-          "template": "up()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "After \`up();\`, type \`move();\` until the squirrel reaches the acorn. Then use \`getAcorn();\` to get the acorn."
 	},
 	{
 	  "level": 3,
@@ -125,40 +135,41 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": false
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": false
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": false
+        },
+        {
+          "name": "up",
+          "template": "up()",
+          "clickable": false
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": false
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"There's just one more new function! Use \`down()\`, along with \`move()\` and \`getAcorn()\` to get the squirrel to the acorn below."
 	  },
 	  "mission": "Use the \`down()\` function, along with the others you've learned, to get the squirrel down to the acorn below.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
-      "tips": "First, type \`left();\` to change directions. Then use \`move();\` to get to the tree. Type \`down();\` to change directions, then use \`move();\` and \`getAcorn();\` to get the acorn.",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "up",
-          "template": "up()"
-        },
-        {
-          "name": "down",
-          "template": "down()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "First, type \`left();\` to change directions. Then use \`move();\` to get to the tree. Type \`down();\` to change directions, then use \`move();\` and \`getAcorn();\` to get the acorn."
 	},
 	{
 	  "level": 4,
@@ -181,40 +192,41 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": false
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": false
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": false
+        },
+        {
+          "name": "up",
+          "template": "up()",
+          "clickable": false
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": false
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Let's make it a little harder! This time, use your functions to get TWO acorns."
 	  },
 	  "mission": "Use the functions you've learned (\`right()\`, \`left()\`, \`up()\`, \`down()\`, \`move()\`, \`getAcorn()\`) to get both acorns.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
-      "tips": "The squirrel can move up the middle of the tree or along either side, but it can only move on top of branches.",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "up",
-          "template": "up()"
-        },
-        {
-          "name": "down",
-          "template": "down()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "The squirrel can move up the middle of the tree or along either side, but it can only move on top of branches."
 	},
 	{
 	  "level": 5,
@@ -237,40 +249,41 @@
 	  	"canMove": true
 	  },
 	  "workspace": {
-	  	"codeSpace": ""
+	  	"codeSpace": "",
+      "visibleApi": [
+        {
+          "name": "move",
+          "template": "move()",
+          "clickable": false
+        },
+        {
+          "name": "right",
+          "template": "right()",
+          "clickable": false
+        },
+        {
+          "name": "left",
+          "template": "left()",
+          "clickable": false
+        },
+        {
+          "name": "up",
+          "template": "up()",
+          "clickable": false
+        },
+        {
+          "name": "getAcorn",
+          "template": "getAcorn()",
+          "clickable": false
+        }
+      ]
 	  },
 	  "directions": {
 			"dialogText":"Last level! Use the functions you've learned to get both acorns!"
 	  },
 	  "mission": "Use the functions you've learned (\`right()\`, \`left()\`, \`up()\`, \`down()\`, \`move()\`, \`getAcorn()\`) to get both acorns.",
       "tools": "\`up()\`- face up while on or next to tree \`left()\`- face left\n\n\`down()\`- face down while on or next to tree  \`right()\`- face right \n\n\`move()\`- move forward one square \`getAcorn()\`- pick up acorn",
-      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on.",
-      "visisbleApi": [
-        {
-          "name": "move",
-          "template": "move()"
-        },
-        {
-          "name": "right",
-          "template": "right()"
-        },
-        {
-          "name": "left",
-          "template": "left()"
-        },
-        {
-          "name": "up",
-          "template": "up()"
-        },
-        {
-          "name": "down",
-          "template": "down()"
-        },
-        {
-          "name": "getAcorn",
-          "template": "getAcorn()"
-        }
-      ]
+      "tips": "Use the step button above to run one line of code at a time. Each time your write a line, run that line, then add another, test it, and so on."
 	}
   ]
 }
