@@ -34,6 +34,12 @@ marked p {
   margin: 0 auto 0 auto;
 }
 
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .dialog-screen {
   position: absolute;
   width: 100%;

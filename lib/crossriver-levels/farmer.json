@@ -7,17 +7,17 @@
 	  		"forceCaptain":"farmer"
 	  	},
 	  	"bg": [],
-		"fg": 
+		"fg":
 		 	[
 		 		{
 		 			"type":"grain"
 		 		},
-  			{ 
+  			{
 		 			"type":"chicken",
 		 			"rules":{
 		 				"prey":"grain"
 		 			}
-	 			}, 
+	 			},
 		 		{
 		 			"type":"fox",
 		 			"rules": {
@@ -51,17 +51,17 @@
 	  		"forceCaptain":"farmer"
 	  	},
 			"bg": [],
-		  "fg": 
+		  "fg":
 		 	[
 		 		{
 		 			"type":"grain"
 		 		},
-  			{ 
+  			{
 		 			"type":"chicken",
 		 			"rules":{
 		 				"prey":"grain"
 		 			}
-	 			}, 
+	 			},
 		 		{
 		 			"type":"fox",
 		 			"rules": {
@@ -74,7 +74,7 @@
 		 	],
 		},
 	 "conditionLog": {
-	 		"background": 
+	 		"background":
 	 		[
 	 			{"type":"chicken"},
 	 		],
@@ -95,19 +95,19 @@
 	  		"position":"background",
 	  		"forceCaptain":"farmer"
 	  	},
-			"bg": 
+			"bg":
 		 	[
 		 		{
 		 			"type":"chicken",
 		 			"rules":{
 		 				"prey":"grain"
-		 			}		 		
+		 			}
 		 		},
 				{
 					"type":"farmer"
 				}
 		 	],
-		 "fg": 
+		 "fg":
 			[
 				{
 					"type":"grain",
@@ -121,7 +121,7 @@
 		 	],
 	  },
   	"conditionLog": {
-	 		"background": 
+	 		"background":
 	 		[
 	 			{"type":"chicken"},
 	 			{"type":"grain"},
@@ -135,39 +135,7 @@
 	  },
 	  "mission": "This time, cross the river, pick up the \`'grain'\`, cross the river again, and drop off the \`'grain'\`.",
 	  "tools": " \`crossRiver()\` - Use the boat to cross to the other side of the river.\n\n\`dropOff()\` - Drop off any items that are in the boat.\n\n\`pickUp('item')\` - Pick up the specified item.",
-	  "tips":"Type \`crossRiver()\`, \`pickUp('grain')\`, \`crossRiver()\` again, and finally  \`dropOff('grain')\`.",
-	  "quiz": [
-          {
-              "questionId": "1a1a",
-              "text": "Which one of the following choices would call a \`putDown\` function?", 
-              "a": "\`putDown[]\`", 
-              "b": "\`putDown{}\`", 
-              "c": "\`putDown()\`", 
-              "d": "\`putDown\`"
-          }, {
-            "image": "squirrel2-quiz2-image",
-              "questionId": "1a2b",
-              "text": "Which code below will make the squirrel get the acorn?", 
-              "a": "up()\n\ngetAcorn()", 
-              "b": "getAcorn()\n\nup()", 
-              "c": "move()\n\nup()", 
-              "d": "move()\n\ngetAcorn()"
-          }, {
-            "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?", 
-            "a": "pickUp()", 
-            "b": "pick-up()",
-            "c": "pick_up()", 
-            "d": "pick  up()"
-          }, {
-            "questionId": "1a4a", 
-            "text": "In \`jump(2);\`, which part is the parameter?", 
-            "a": "jump", 
-            "b": "()",
-            "c": "2", 
-            "d": ";"
-          }
-        ]
+	  "tips":"Type \`crossRiver()\`, \`pickUp('grain')\`, \`crossRiver()\` again, and finally  \`dropOff('grain')\`."
 	},
 	{
 	  "stage": {
@@ -176,14 +144,14 @@
 	  		"position":"background",
 	  		"forceCaptain":"farmer"
 	  	},
-		 "bg": 
+		 "bg":
 		 [
-		 	{ 
+		 	{
 		 		"type":"chicken",
 		 		"rules":{
 		 			"prey":"grain"
 		 		}
-	 		}, 
+	 		},
 		 	{
 		 		"type":"grain"
 		 	},
@@ -191,7 +159,7 @@
 		 		"type":"farmer"
 		 	}
 		 ],
-		 "fg": 
+		 "fg":
 		 [
 		 	{
 		 		"type":"fox",
@@ -202,7 +170,7 @@
 		 ],
 	  },
 	 	"conditionLog": {
-	 		"background": 
+	 		"background":
 	 		[
 	 			{"type":"grain"},
 	 			{"type":"fox"}
@@ -224,11 +192,11 @@
 	  		"position":"background",
 	  		"forceCaptain":"farmer"
 	  	},
-		  "bg": 
+		  "bg":
 		 [
-		 	{ 
+		 	{
 		 		"type":"grain"
-	 		}, 
+	 		},
 		 	{
 		 		"type":"fox",
 		 		"rules": {
@@ -239,7 +207,7 @@
 		 		"type":"farmer"
 		 	}
 		 ],
-		 		 "fg": 
+		 		 "fg":
 		 [
 		 	{
 		 		"type":"chicken",
@@ -270,17 +238,17 @@
 	  		"forceCaptain":"farmer"
 	  	},
 		  "bg": [],
-		  "fg": 
+		  "fg":
 		 	[
 		 		{
 		 			"type":"grain"
 		 		},
-  			{ 
+  			{
 		 			"type":"chicken",
 		 			"rules":{
 		 				"prey":"grain"
 		 			}
-	 			}, 
+	 			},
 		 		{
 		 			"type":"fox",
 		 			"rules": {

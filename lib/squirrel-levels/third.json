@@ -28,7 +28,7 @@
 	  	"loc": 2
 	  },
 	  "directions": {
-			"dialogText":"Use the NEW function \`move(number)\` along with \`getAcorn()\` to direct the squirrel to get the acorn with only TWO LINES of code!"
+			"dialogText":"Use the function \`move(number)\` along with \`getAcorn()\` to direct the squirrel to get the acorn with only TWO LINES of code!"
 	  },
 	  "mission": "By calling the functions \`move(number)\` and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
@@ -100,24 +100,7 @@
 	  },
 	  "mission": "By calling the functions \`move(number)\`, \`up()\`, and \`getAcorn()\` in the code panel above, direct the squirrel to get the acorn.",
       "tools": "\`up()\`- face up\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
-      "tips": "Type \`move(3)\`, then \`up()\`, then \`move(2)\`, and finally \`getAcorn()\`. Run your code. Pay attention to spelling, punctuation and capitalization!",
-      "quiz": [
-          {
-            "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?",
-            "a": "get_acorn()",
-            "b": "get acorn()",
-            "c": "getAcorn()",
-            "d": "get-acorn()"
-          }, {
-          	"questionId": "1a4a",
-          	"text": "In \`move(3);\`, which part is the parameter?",
-          	"a": "move",
-          	"b": "()",
-          	"c": "3",
-          	"d": ";"
-          }
-        ]
+      "tips": "Type \`move(3)\`, then \`up()\`, then \`move(2)\`, and finally \`getAcorn()\`. Run your code. Pay attention to spelling, punctuation and capitalization!"
 	},
 	{
 	  "level": 4,

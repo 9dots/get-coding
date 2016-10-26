@@ -1,11 +1,3 @@
 <div class='workspace-ace' layout='row'>
-  <div ng-show='api' class='toolbox'>
-    <div ng-repeat='(key, value) in api'>
-      <button ng-class="{clickable: value.clickable}" layout='row' layout-align='start center' class='tool' ng-click='value.clickable && addCode(value.template)'>
-        <div flex='1'>{{value.name}}</div>
-        <div ng-show='value.allowed' class='badge'>{{value.allowed - apiCalls[value.name] >= 0 ? value.allowed - apiCalls[value.name] : 0}}</div>
-      </button>
-    </div>
-  </div>
   <div flex='1' id='ace-editor'></div>
 </div>

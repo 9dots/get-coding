@@ -1,217 +1,185 @@
 {
   "levels": [
 	{
-	  "level": 1, 
+	  "level": 1,
 	  "background": "background1",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*0"],
 	  	"branch": ["41","42", "43", "44", "45"],
 	  	"acorns": ["34"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 270, 
+	  	"rotation": 270,
 	  	"facing": "onTree",
-	  	"axis": "ver", 
-	  	"squareOn": "60", 
-	  	"ahead": "50", 
+	  	"axis": "ver",
+	  	"squareOn": "60",
+	  	"ahead": "50",
 	  	"behind": "70",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
 	  	"codeSpace":"move(3)\nright\nmove(4)\ngetAcorn()"
-	  }, 
+	  },
 	  "directions": {
 			"dialogText":"In this activity, we will practice debugging. Find the mistakes in the code panel then fix them to get the squirrel to the acorn."
-	  }, 
+	  },
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	},
 	{
-	  "level": 2, 
+	  "level": 2,
 	  "background": "background2",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": ["6*"], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": ["6*"],
 	  	"tree": ["04", "14", "24", "34", "44", "54"],
 	  	"branch": ["21", "22", "23", "35"],
 	  	"acorns": ["25"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 0, 
+	  	"rotation": 0,
 	  	"facing": "right",
-	  	"axis": "hor", 
-	  	"squareOn": "51", 
-	  	"ahead": "52", 
+	  	"axis": "hor",
+	  	"squareOn": "51",
+	  	"ahead": "52",
 	  	"behind": "50",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
 	  	"codeSpace":"move()\nup()\nmove()\nright()\nmove()\ngetAcorn()"
-	  },  
+	  },
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	},
 	{
-	  "level": 3, 
+	  "level": 3,
 	  "background": "background3",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*0"],
 	  	"branch": ["11", "12", "13", "14", "15", "51", "52", "53", "54"],
 	  	"acorns": ["01", "03", "05"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 180, 
+	  	"rotation": 180,
 	  	"facing": "left",
-	  	"axis": "hor", 
-	  	"squareOn": "44", 
-	  	"ahead": "43", 
+	  	"axis": "hor",
+	  	"squareOn": "44",
+	  	"ahead": "43",
 	  	"behind": "45",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
 	  	"codeSpace":"move(4)\nup()\nmove(4)\nright()\nmove()\ngetacorn()\nmove(2)\ngetacorn()\nmove(2)\ngetacorn()"
-	  },  
+	  },
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	},
 	{
-	  "level": 4, 
+	  "level": 4,
 	  "background": "background4",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*3"],
 	  	"branch": ["64", "41", "42", "14", "15", "16"],
 	  	"acorns": ["32", "54"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 180, 
+	  	"rotation": 180,
 	  	"facing": "left",
-	  	"axis": "hor", 
-	  	"squareOn": "06", 
-	  	"ahead": "05", 
+	  	"axis": "hor",
+	  	"squareOn": "06",
+	  	"ahead": "05",
 	  	"behind": "07",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-		"codeSpace":"move(4)\nmove(3)\ngetAcorn()\nright()\nmove(4)\ngetAcorn()"	  
-	  },  
+		"codeSpace":"move(4)\nmove(3)\ngetAcorn()\nright()\nmove(4)\ngetAcorn()"
+	  },
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	},
 	{
-	  "level": 5, 
+	  "level": 5,
 	  "background": "background5",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*0", "*6"],
 	  	"branch": ["62", "63", "64", "65", "45", "31", "11", "12", "13", "14", "15"],
 	  	"acorns": ["52"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 270, 
+	  	"rotation": 270,
 	  	"facing": "onTree",
-	  	"axis": "ver", 
-	  	"squareOn": "60", 
-	  	"ahead": "50", 
+	  	"axis": "ver",
+	  	"squareOn": "60",
+	  	"ahead": "50",
 	  	"behind": "70",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-		"codeSpace":"up(6)\nright()\nmove(6)\ndown()\nmove(5)\nleft(4)\ngetacorn()"	  },  
+		"codeSpace":"up(6)\nright()\nmove(6)\ndown()\nmove(5)\nleft(4)\ngetacorn()"	  },
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
-      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc.",
-       "quiz": [
-          {
-              "questionId": "1a1a",
-              "text": "Which one of the following choices would call a \`fly\` function?", 
-              "a": "\`fly{}\`", 
-              "b": "\`fly()\`", 
-              "c": "\`fly\`", 
-              "d": "\`fly[]\`"
-          }, {
-            "image": "squirrel2-quiz-image",
-              "questionId": "1a2b",
-              "text": "Which code below will make the squirrel get the acorn?", 
-              "a": "move()\n\ndown()", 
-              "b": "down()\n\ngetAcorn()", 
-              "c": "move()\n\ngetAcorn()", 
-              "d": "getAcorn()\n\nmove()"
-          }, {
-            "questionId": "1a3a",
-            "text": "Which of the following could NOT be a function name?", 
-            "a": "get acorn()", 
-            "b": "get-acorn()",
-            "c": "getAcorn()", 
-            "d": "get_acorn()"
-          }, {
-            "questionId": "1a4a", 
-            "text": "In \`jump(3);\`, which part is the parameter?", 
-            "a": "jump", 
-            "b": "3",
-            "c": "()", 
-            "d": ";"
-          }
-        ]
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
+      "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	},
 	{
-	  "level": 6, 
+	  "level": 6,
 	  "background": "background6",
 	  "field": {
-	  	"rows": 7, 
-	  	"cols": 7, 
-	  	"ground": [], 
+	  	"rows": 7,
+	  	"cols": 7,
+	  	"ground": [],
 	  	"tree": ["*0", "*2", "*4", "*6"],
 	  	"branch": ["11", "31", "51", "23", "43", "63", "15", "35", "55"],
 	  	"acorns": ["01", "21", "41", "13", "33", "53", "05", "25", "45"]
-	  }, 
+	  },
 	  "squirrel": {
-	  	"rotation": 270, 
+	  	"rotation": 270,
 	  	"facing": "left",
-	  	"axis": "ver", 
-	  	"squareOn": "61", 
-	  	"ahead": "51", 
+	  	"axis": "ver",
+	  	"squareOn": "61",
+	  	"ahead": "51",
 	  	"behind": "71",
-	  	"canMove": true  
-	  }, 
+	  	"canMove": true
+	  },
 	  "powers": {
 	  	"moveNumber": true
 	   },
 	  "workspace": {
-	  	"codeSpace":"move()\ngetAcorn()\nup(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(3)\ngetAcorn()\nmove(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(2)\nup\nmove()\ngetAcorn()\nmove(2)\ngetacorn()\nmove(2)\ngetAcorn()"	
-	  	},  
+	  	"codeSpace":"move()\ngetAcorn()\nup(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(3)\ngetAcorn()\nmove(2)\ngetAcorn()\nmove(2)\ngetacorn()\nright\nmove(2)\nup\nmove()\ngetAcorn()\nmove(2)\ngetacorn()\nmove(2)\ngetAcorn()"
+	  	},
 	  "mission": "Debug the code: Find all the mistakes in the code panel and fix them to get the squirrel to the acorn.",
-      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn", 
+      "tools": "\`right()\`- face right\n\n\`left()\`- face left\n\n\`up()\`- face up\n\n\`down()\`- face down\n\n\`move(number)\`- move forward that number of squares\n\n\`getAcorn()\`- pick up acorn",
       "tips": "Look for misspellings, missing \`()\`, missing or incorrect parameters, uncapitalized words etc."
 	}
   ]

@@ -135,20 +135,6 @@ module
         appObject['strings1'],
         appObject['strings2']
       ]
-    },
-    {
-      name: 'Unit 3',
-      subtitle: 'Students learn how to create their own functions in JavaScript to solve problems more effectively.',
-      open: 'closed',
-      apps: [
-        appObject['squirrel4'],
-        appObject['create-functions'],
-        appObject['squirrel-btn1'],
-        appObject['frogjump-btns'],
-        appObject['incrementor'],
-        appObject['counter'],
-        appObject['magic-words-buttons']
-      ]
     }
   ]
 
